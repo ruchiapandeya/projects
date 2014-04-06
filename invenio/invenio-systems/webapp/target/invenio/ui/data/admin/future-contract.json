@@ -1,0 +1,34 @@
+{
+	"info": {
+			"id":"future-contract",
+			"name":"future-contract",
+			"display-text":"FUTURE CONTRACTS",
+			"service-path":"/future-contract",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"invenio_product","label":"Invenio Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"fut_id","label":"Futures","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"first_trading_day","label":"First Trading Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"last_trading_day","label":"Last Trading Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"first_notice_day","label":"First Notice Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"first_delivery_day","label":"First Delivery Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"last_delivery_day","label":"Last Delivery Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"future_settlement_reference_price","label":"Future Settlement Ref Price","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"invenio_product":"","fut_id":"","first_trading_day":"","last_trading_day":"","first_notice_day":"","first_delivery_day":"","last_delivery_day":"","future_settlement_reference_price":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"invenio_product",
+					"service-path":"/invenio-product",
+		 			"id-field":"id",
+		 			"display-field":"invenio-product-name"
+				}
+			]
+		}
+}

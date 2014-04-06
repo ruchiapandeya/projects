@@ -1,0 +1,77 @@
+{
+	"info": {
+			"id":"exchange-master",
+			"name":"exchange-master",
+			"display-text":"EXCHANGE MASTER",
+			"service-path":"/exchange-master",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"exchange","label":"Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"product","label":"Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures","label":"Future","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options","label":"Option","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"execution-type","label":"Execution Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"exchange-callsign","label":"Exchange Callsign","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"actual-exchange-fees","label":"Actual Exchange Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"actual-exchange-clearing-fees","label":"Actual Exchange Clearing Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"actual-nfa-fees","label":"Actual NFS Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"actual-exchange-currency","label":"Actual Exchange Currency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"published-exchange-fees","label":"Published Exchange Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"published-exchange-clearing-fees","label":"Published Exchange Clearing Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"published-nfa-fees","label":"Published NFA Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"published-exchange-currency","label":"Published Exchange Currency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"published-nfa-fees","label":"Published NFA Fees","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"bache","label":"BACHE","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"bache-currency","label":"BACHE Currency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"bache-spcl","label":"BCHE Spcl","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"bache-spcl-currency","label":"BACHE Spcl Currency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"rj-obrien","label":"RJ OBRIEN","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"rj-obrien-curreny","label":"RJ OBRIEN Currency","datatype":"text","bar":true,"editable":true,"values":null},
+				{"name":"phillip-futures","label":"PHILLIP FUTURES","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"phillip-futures-currency","label":"PHILLIP FUTURES CURRENCY","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"start-date","label":"Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"end-date","label":"End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"comment","label":"Comment","datatype":"int","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"exchange":"","product":"","futures":"","options":"","execution-type":"","exchange-callsign":"","actual-exchange-fees":"","actual-exchange-clearing-fees":"","actual-nfa-fees":"","actual-exchange-currency":"","published-exchange-fees":"","published-exchange-clearing-fees":"","published-nfa-fees":"","published-exchange-currency":"","bache":"","bache-currency":"","bache-spcl":"","bache-spcl-currency":"","rj-obrien":"","rj-obrien-currency":"","phillip-futures":"","phillip-futures-currency":"","start-date":"",	"end-date":"","comment":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"exchange",
+					"service-path":"/exchange",
+		 			"id-field":"id",
+		 			"display-field":"exchange-name"
+				}, {
+					"name":"product",
+					"service-path":"/product",
+		 			"id-field":"id",
+		 			"display-field":"id"
+				}, {
+					"name":"futures",
+					"service-path":"/future-contract",
+		 			"id-field":"id",
+		 			"display-field":"fut_id"
+				}, {
+					"name":"options",
+					"service-path":"/option-contract",
+		 			"id-field":"id",
+		 			"display-field":"opt_id"
+				}, {
+					"name":"exchange-callsign",
+					"service-path":"/brokerage-callsign",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}, {
+					"name":"execution-type",
+					"service-path":"/execution-type",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}
+			]
+		}
+}

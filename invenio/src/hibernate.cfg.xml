@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/invenio</property>
+        <property name="hibernate.connection.username">invenio</property>
+        <property name="hibernate.connection.password">invenio</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping class="com.invenio.domain.FutDump" />
+        <mapping class="com.invenio.domain.VolSurface" />
+        <mapping class="com.invenio.domain.Instrument" />
+        <mapping class="com.invenio.domain.MUsDump" />
+        <mapping class="com.invenio.domain.OptDump" />
+        <mapping class="com.invenio.domain.VolDump" />
+        <mapping class="com.invenio.domain.City" />
+        <mapping class="com.invenio.domain.Country" />
+        <mapping class="com.invenio.domain.State" />
+        <mapping class="com.invenio.domain.InvenioUser" />
+        <mapping class="com.invenio.domain.InvenioUserSession" />
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"extrapolation-technique",
+			"name":"extrapolation-technique",
+			"display-text":"EXTRAPOLATION TECHNIQUES",
+			"service-path":"/extrapolation-technique",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"description","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","description":""}
+			}
+		}
+}

@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"access",
+			"name":"access",
+			"display-text":"ACCESS",
+			"service-path":"/access",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Access Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"description","label":"Access Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","description":""}
+			}
+		}
+}

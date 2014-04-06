@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://cxf.apache.org/jaxrs
+	http://cxf.apache.org/schemas/jaxrs.xsd">
+
+	<!-- do not use import statements if CXFServlet init parameters link to 
+		this beans.xml -->
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+
+	<jaxrs:server id="customerService" address="/userService">
+		<jaxrs:serviceBeans>
+			<ref bean="customerBean" />
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
+	<bean id="customerBean" class="com.invenio.logic.UserProfileLogic" />
+	
+	<jaxrs:server id="authService" address="/authService">
+		<jaxrs:serviceBeans>
+			<ref bean="authBean" />
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
+	<bean id="authBean" class="com.invenio.logic.AuthLogic" />
+	
+	<jaxrs:server id="dumpService" address="/dumpService">
+		<jaxrs:serviceBeans>
+			<ref bean="dumpBean" />
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
+	<bean id="dumpBean" class="com.invenio.logic.DumpLogic" />
+	
+	<jaxrs:server id="adminService" address="/adminService">
+		<jaxrs:serviceBeans>
+			<ref bean="adminBean" />
+		</jaxrs:serviceBeans>
+	</jaxrs:server>
+	<bean id="adminBean" class="com.invenio.logic.AdminLogic" />
+  
+</beans>

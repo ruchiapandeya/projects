@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+.about-us {margin-top: 2%;}
+.what-hwf {position: relative;top: 0px;width: 85%;margin: 3% 5% 0% 5%;line-height: 30px;
+	       padding-bottom: 20px;color: white;overflow: inherit;border-radius: 5px;padding: 20px;
+}
+.sub-heading cite {height: 10%;padding: 0px 0px 10px 0px;color: #00b7ea;float: left;}
+
+.what-hwf em {position: relative;font-size: 15px;padding: 20px 30px 20px 30px;margin: -20px 0px 40px 0px;color:#999999;float: left;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 8px 6px -6px grey;
+	   -moz-box-shadow: 0 8px 6px -6px grey;
+	        box-shadow: 0 8px 6px -6px grey;
+}
+.sub-heading {}
+
+.para p {position: relative;height: 100px;color: black;font-size: 15px;margin: 8px;padding: 10px;overflow: inherit;border-radius: 5px;
+	float: left;background-color: #F8F8F8;
+	-moz-box-shadow: inset 0 0 70px #A8A8A8;
+	-webkit-box-shadow: inset 0 0 70px #A8A8A8;
+	box-shadow: inset 0 0 70px #A8A8A8;
+	
+}
+.what-hwf p {text-align:justify; color:#999999; font-size:14px;}
+.surround {
+		background: #ffffff;
+		padding: 0px;
+		border: 5px solid #bdbdbd;
+	}
+	#box4 {
+		width: 320px;
+		box-shadow: rgba(0,0,0,0.3) 0 0 4px;
+		background: #ffffff;
+		padding: 10px;
+		float: right;
+		margin-top:10px;
+	}
+	#box4:hover {
+		width: 320px;
+		box-shadow: rgba(0,0,0,0.3) 0 0 4px;
+		background: #f1f5f5;
+		padding: 10px;
+		float: right;
+		margin-top:10px;
+	}
+	#box5 {
+		width: 320px;
+		box-shadow: rgba(0,0,0,0.3) 0 0 4px;
+		background: #ffffff;
+		padding: 10px;
+		float: left;
+		margin-top:10px;
+	}
+	#box5:hover {
+		width: 320px;
+		box-shadow: rgba(0,0,0,0.3) 0 0 4px;
+		background: #f1f5f5;
+		padding: 10px;
+		float: left;
+		margin-top:10px;
+	}
+	#name
+	{	width:180px; float:right; font-size:14px;
+		margin-top:-96px; margin-right:20px; color:#00b7ea; 
+		font:Arial, Helvetica, sans-serif; font-style:normal;}
+	#role
+	{	width:180px; float:right; font-size:11px; padding-top:6px;
+		margin-top:-76px; margin-right:20px; color:#999999; 
+		font:Arial, Helvetica, sans-serif; font-style:normal;
+		line-height:15px;}
+	#role a
+	{font-size:11px; color:#999999;width:180px; float:right;}
+	#role a:hover
+	{font-size:11px; color:#00b7ea;width:180px; float:right;}

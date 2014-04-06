@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"xtraders-exchange",
+			"name":"xtraders-exchange",
+			"display-text":"Xtrader Exchange Code",
+			"service-path":"/xtraders-exchange",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"xtraders-exchange-name","label":"Exchange Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"xtraders-exchange-desc","label":"Exchange Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"xtraders-exchange-name":"","xtraders-exchange-desc":""}
+			}
+		}
+}

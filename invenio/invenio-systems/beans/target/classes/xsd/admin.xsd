@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.invenio.com/schema/beans/admin"
+	targetNamespace="http://www.invenio.com/schema/beans/admin"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	jaxb:version="2.1" xmlns:annox="http://annox.dev.java.net"
+	jaxb:extensionBindingPrefixes="annox"
+	xmlns:sd="http://annox.dev.java.net/org.springframework.data.annotation"
+	xmlns:core="http://www.invenio.com/schema/beans/core">
+
+    <xsd:import namespace="http://www.invenio.com/schema/beans/core" schemaLocation="core.xsd" />
+
+	<xsd:complexType name="option_contract">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-name" type="xsd:string" />
+					<xsd:element name="option-id1" type="option_static_data" />
+					<xsd:element name="option-id2" type="option_static_data" />
+					<xsd:element name="sub-product1" type="invenio-product" />
+					<xsd:element name="sub-product2" type="invenio-product" />
+					<xsd:element name="strike" type="xsd:decimal" />
+					<xsd:element name="derivative-type" type="derivative-type" />
+					<xsd:element name="vol-override" type="core:char" />
+					<xsd:element name="vol-override-val" type="xsd:string" />
+					<xsd:element name="correl-override" type="core:char" />
+					<xsd:element name="correl-override-val" type="xsd:string" />
+					<xsd:element name="barrier1" type="xsd:string" />
+					<xsd:element name="barrier2" type="xsd:string" />
+					<xsd:element name="barrier1-obs-start-date" type="xsd:dateTime" />
+					<xsd:element name="barrier1-obs-end-date" type="xsd:dateTime" />
+					<xsd:element name="barrier2-obs-start-date" type="xsd:dateTime" />
+					<xsd:element name="barrier2-obs-end-date" type="xsd:dateTime" />
+					<xsd:element name="rebate" type="xsd:decimal" />
+					<xsd:element name="quanto-type" type="quanto-type" />
+					<xsd:element name="averaging-frequency" type="averaging-frequency" />
+					<xsd:element name="averaging-start-date" type="xsd:dateTime" />
+					<xsd:element name="averaging-end-date" type="xsd:dateTime" />
+					<xsd:element name="average-till-now" type="xsd:string" />
+					<xsd:element name="accumulation-start-date" type="xsd:dateTime" />
+					<xsd:element name="accumulation-end-date" type="xsd:dateTime" />
+					<xsd:element name="accumulation-frequency" type="accumulation-frequency" />
+					<xsd:element name="accumulation-till-now" type="xsd:string" />
+					<xsd:element name="maturity-date" type="xsd:dateTime" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="option_static_data">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id" type="xsd:string" />
+					<xsd:element name="first-trading-day" type="core:date-time" />
+					<xsd:element name="last-trading-day" type="core:date-time" />
+					<xsd:element name="fut-ref-at-expiry" type="xsd:string" />
+					<xsd:element name="fut-id" type="future_contract" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	
+	<xsd:complexType name="future_contract">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="invenio_product" type="invenio-product" />
+					<xsd:element name="fut_id" type="xsd:string" />
+					<xsd:element name="first_trading_day" type="core:date-time" />
+					<xsd:element name="last_trading_day" type="core:date-time" />
+					<xsd:element name="first_notice_day" type="core:date-time" />
+					<xsd:element name="first_delivery_day" type="core:date-time" />
+					<xsd:element name="last_delivery_day" type="core:date-time" />
+					<xsd:element name="future_settlement_reference_price" type="xsd:decimal" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+		
+	<xsd:complexType name="future_prices">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="fut_id" type="future_contract" />
+					<xsd:element name="future_date" type="core:date-time" />
+					<xsd:element name="price" type="xsd:decimal" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+		
+
+	<xsd:complexType name="portfolio">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="invenio_product"
+						type="invenio-product" />
+					<xsd:element name="portfolio_name"
+						type="xsd:string" />
+					<xsd:element name="sub_portfolio" type="sub-portfolio"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="inv_vol_param">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="invenio_product" type="invenio-product" />
+					<xsd:element name="opt" type="xsd:string" />
+					<xsd:element name="surface_type" type="vol-surface" />
+					<xsd:element name="ladder_metadate_source" type="xsd:string" />
+					<xsd:element name="expiration_date" type="xsd:decimal" />
+					<xsd:element name="starting_strike_exch" type="xsd:decimal" />
+					<xsd:element name="strike_jump_exch" type="xsd:decimal" />
+					<xsd:element name="ending_strike_exch" type="xsd:decimal" />
+					<xsd:element name="strike_jump_inv" type="xsd:decimal" />
+					<xsd:element name="ending_strike_inv" type="xsd:decimal" />
+					<xsd:element name="intrapolation_technique" type="xsd:decimal" />
+					<xsd:element name="extrapolation_technique" type="xsd:decimal" />
+					<xsd:element name="atm1_p1" type="xsd:string" />
+					<xsd:element name="atm1_p2" type="xsd:string" />
+					<xsd:element name="atm1_p3" type="xsd:string" />
+					<xsd:element name="atm1_p4" type="xsd:string" />
+					<xsd:element name="atm1_p5" type="xsd:string" />
+					<xsd:element name="atm2_p1" type="xsd:string" />
+					<xsd:element name="atm2_p2" type="xsd:string" />
+					<xsd:element name="atm2_p3" type="xsd:string" />
+					<xsd:element name="atm2_p4" type="xsd:string" />
+					<xsd:element name="atm2_p5" type="xsd:string" />
+					<xsd:element name="atm2_p6" type="xsd:string" />
+					<xsd:element name="atm2_p7" type="xsd:string" />
+					<xsd:element name="vol_path_p1" type="xsd:string" />
+					<xsd:element name="vol_path_p2" type="xsd:string" />
+					<xsd:element name="vol_path_p3" type="xsd:string" />
+					<xsd:element name="vol_path_p4" type="xsd:string" />
+					<xsd:element name="vol_path_p5" type="xsd:string" />
+					<xsd:element name="vol_path_p6" type="xsd:string" />
+					<xsd:element name="vol_path_p7" type="xsd:string" />
+					<xsd:element name="vol_path_p8" type="xsd:string" />
+					<xsd:element name="vol_path_p9" type="xsd:string" />
+					<xsd:element name="vol_path_p10" type="xsd:string" />
+					<xsd:element name="vol_path_p11" type="xsd:string" />
+					<xsd:element name="vol_path_p12" type="xsd:string" />
+					<xsd:element name="misc1_p1" type="xsd:string" />
+					<xsd:element name="misc1_p2" type="xsd:string" />
+					<xsd:element name="misc1_p3" type="xsd:string" />
+					<xsd:element name="misc1_p4" type="xsd:string" />
+					<xsd:element name="misc1_p5" type="xsd:string" />
+					<xsd:element name="misc1_p6" type="xsd:string" />
+					<xsd:element name="misc1_p7" type="xsd:string" />
+					<xsd:element name="misc1_p8" type="xsd:string" />
+					<xsd:element name="misc1_p9" type="xsd:string" />
+					<xsd:element name="misc1_p10" type="xsd:string" />
+					<xsd:element name="misc1_p11" type="xsd:string" />
+					<xsd:element name="misc1_p12" type="xsd:string" />
+					<xsd:element name="misc2_p1" type="xsd:string" />
+					<xsd:element name="misc2_p2" type="xsd:string" />
+					<xsd:element name="misc2_p3" type="xsd:string" />
+					<xsd:element name="misc2_p4" type="xsd:string" />
+					<xsd:element name="misc2_p5" type="xsd:string" />
+					<xsd:element name="misc2_p6" type="xsd:string" />
+					<xsd:element name="misc2_p7" type="xsd:string" />
+					<xsd:element name="misc2_p8" type="xsd:string" />
+					<xsd:element name="misc2_p9" type="xsd:string" />
+					<xsd:element name="misc2_p10" type="xsd:string" />
+					<xsd:element name="misc2_p11" type="xsd:string" />
+					<xsd:element name="misc2_p12" type="xsd:string" />
+					<xsd:element name="misc3_p1" type="xsd:string" />
+					<xsd:element name="misc3_p2" type="xsd:string" />
+					<xsd:element name="misc3_p3" type="xsd:string" />
+					<xsd:element name="misc3_p4" type="xsd:string" />
+					<xsd:element name="misc3_p5" type="xsd:string" />
+					<xsd:element name="misc3_p6" type="xsd:string" />
+					<xsd:element name="misc3_p7" type="xsd:string" />
+					<xsd:element name="misc3_p8" type="xsd:string" />
+					<xsd:element name="misc3_p9" type="xsd:string" />
+					<xsd:element name="misc3_p10" type="xsd:string" />
+					<xsd:element name="misc3_p11" type="xsd:string" />
+					<xsd:element name="misc3_p12" type="xsd:string" />
+					<xsd:element name="misc4_p1" type="xsd:string" />
+					<xsd:element name="misc4_p2" type="xsd:string" />
+					<xsd:element name="misc4_p3" type="xsd:string" />
+					<xsd:element name="misc4_p4" type="xsd:string" />
+					<xsd:element name="misc4_p5" type="xsd:string" />
+					<xsd:element name="misc4_p6" type="xsd:string" />
+					<xsd:element name="misc4_p7" type="xsd:string" />
+					<xsd:element name="misc4_p8" type="xsd:string" />
+					<xsd:element name="misc4_p9" type="xsd:string" />
+					<xsd:element name="misc4_p10" type="xsd:string" />
+					<xsd:element name="misc4_p11" type="xsd:string" />
+					<xsd:element name="misc4_p12" type="xsd:string" />
+					<xsd:element name="misc5_p1" type="xsd:string" />
+					<xsd:element name="misc5_p2" type="xsd:string" />
+					<xsd:element name="misc5_p3" type="xsd:string" />
+					<xsd:element name="misc5_p4" type="xsd:string" />
+					<xsd:element name="misc5_p5" type="xsd:string" />
+					<xsd:element name="misc5_p6" type="xsd:string" />
+					<xsd:element name="misc5_p7" type="xsd:string" />
+					<xsd:element name="misc5_p8" type="xsd:string" />
+					<xsd:element name="misc5_p9" type="xsd:string" />
+					<xsd:element name="misc5_p10" type="xsd:string" />
+					<xsd:element name="misc5_p11" type="xsd:string" />
+					<xsd:element name="misc5_p12" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="instrument">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string"/>
+					<xsd:element name="instrument-code" type="xsd:string" />
+					<xsd:element name="portfolio" type="xsd:string" />
+					<xsd:element name="portfolio-a" type="xsd:string" />
+					<xsd:element name="maturity" type="xsd:string" />
+					<xsd:element name="start-value" type="xsd:decimal" />
+					<xsd:element name="end-value" type="xsd:decimal" />
+					<xsd:element name="multiple" type="xsd:decimal" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="vol-dump">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="vol-surface" type="vol-surface" />
+					<xsd:element name="product" type="xsd:string" />
+					<xsd:element name="start" type="xsd:decimal" />
+					<xsd:element name="step" type="xsd:decimal" />
+					<xsd:element name="extrapolate" type="xsd:string" />
+					<xsd:element name="multiple" type="xsd:decimal" />
+					<xsd:element name="code" type="xsd:string" />
+					<xsd:element name="future-ref" type="xsd:string" />
+					<xsd:element name="options-ref" type="xsd:string" />
+					<xsd:element name="expiry-date" type="core:date-time" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="vol-surface">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="type" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+
+	</xsd:complexType>
+	
+	<xsd:complexType name="product">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="exchange" type="exchange" />
+					<xsd:element name="invenio-product" type="invenio-product" />
+					<xsd:element name="bloomberg-product" type="bloomberg-product" />
+					<xsd:element name="reuters-product" type="reuters-product" />
+					<xsd:element name="xtraders-exchange" type="xtraders-exchange" />
+					<xsd:element name="rjo-exchange" type="rjo-exchange" />
+					<xsd:element name="murex-exchange" type="murex-exchange" />
+					<xsd:element name="options-unl-contr" type="options-unl-contr" />
+					<xsd:element name="futures-unl-contr" type="futures-unl-contr" />
+					<xsd:element name="options-xtrader" type="options-xtrader" />
+					<xsd:element name="futures-xtrader" type="futures-xtrader" />
+					<xsd:element name="options-rjo" type="options-rjo" />
+					<xsd:element name="futures-rjo" type="futures-rjo" />
+					<xsd:element name="dollar-conversion" type="xsd:double" />
+					<xsd:element name="price-unit-quote" type="xsd:integer" />
+					<xsd:element name="currency-quote" type="xsd:string" />
+					<xsd:element name="qty-unit-quote" type="xsd:string" />
+					<xsd:element name="lots-to-mt" type="xsd:double" />
+					<xsd:element name="exchange-exercise-type" type="exchange-exercise-type" />
+					<xsd:element name="atm-convention-for-expiry" type="atm-convention-for-expiry" />
+					<xsd:element name="cash-physical-settlement" type="cash-physical-settlement" />
+					<xsd:element name="contract-month-fut-f" type="core:char" />
+					<xsd:element name="contract-month-fut-g" type="core:char" />
+					<xsd:element name="contract-month-fut-h" type="core:char" />
+					<xsd:element name="contract-month-fut-j" type="core:char" />
+					<xsd:element name="contract-month-fut-k" type="core:char" />
+					<xsd:element name="contract-month-fut-m" type="core:char" />
+					<xsd:element name="contract-month-fut-n" type="core:char" />
+					<xsd:element name="contract-month-fut-q" type="core:char" />
+					<xsd:element name="contract-month-fut-u" type="core:char" />
+					<xsd:element name="contract-month-fut-v" type="core:char" />
+					<xsd:element name="contract-month-fut-x" type="core:char" />
+					<xsd:element name="contract-month-fut-z" type="core:char" />
+					<xsd:element name="contract-month-opt-f" type="core:char" />
+					<xsd:element name="contract-month-opt-g" type="core:char" />
+					<xsd:element name="contract-month-opt-h" type="core:char" />
+					<xsd:element name="contract-month-opt-j" type="core:char" />
+					<xsd:element name="contract-month-opt-k" type="core:char" />
+					<xsd:element name="contract-month-opt-m" type="core:char" />
+					<xsd:element name="contract-month-opt-n" type="core:char" />
+					<xsd:element name="contract-month-opt-q" type="core:char" />
+					<xsd:element name="contract-month-opt-u" type="core:char" />
+					<xsd:element name="contract-month-opt-v" type="core:char" />
+					<xsd:element name="contract-month-opt-x" type="core:char" />
+					<xsd:element name="contract-month-opt-z" type="core:char" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="exchange-exercise-type">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="exchange-exercise-type-name" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="atm-convention-for-expiry">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="atm-convention-for-expiry-name" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="cash-physical-settlement">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="cash-physical-settlement-name" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="exchange">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="exchange-name" type="xsd:string" />
+					<xsd:element name="exchange-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="invenio-product">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="invenio-product-name" type="xsd:string" />
+					<xsd:element name="invenio-product-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="bloomberg-product">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="bloomberg-product-name" type="xsd:string" />
+					<xsd:element name="bloomberg-product-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="reuters-product">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="reuters-product-name" type="xsd:string" />
+					<xsd:element name="reuters-product-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="xtraders-exchange">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="xtraders-exchange-name" type="xsd:string" />
+					<xsd:element name="xtraders-exchange-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="rjo-exchange">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="rjo-exchange-name" type="xsd:string" />
+					<xsd:element name="rjo-exchange-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="murex-exchange">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="murex-exchange-name" type="xsd:string" />
+					<xsd:element name="murex-exchange-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="options-unl-contr">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="options-name" type="xsd:string" />
+					<xsd:element name="options-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="futures-unl-contr">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="futures-name" type="xsd:string" />
+					<xsd:element name="futures-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="options-xtrader">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="options-name" type="xsd:string" />
+					<xsd:element name="options-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="futures-xtrader">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="futures-name" type="xsd:string" />
+					<xsd:element name="futures-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="options-rjo">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="options-name" type="xsd:string" />
+					<xsd:element name="options-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="futures-rjo">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="futures-name" type="xsd:string" />
+					<xsd:element name="futures-desc" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="frequency">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="frequency-type" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="accumulation-frequency">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="frequency-type" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="averaging-frequency">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="frequency-type" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="quanto-type">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="quanto-type" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="derivative-type">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="derivativetype" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="action-type">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="action-type" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="deal-ticket">
+		<xsd:complexContent>
+			<xsd:extension base="core:versioned-entity-base">
+				<xsd:sequence>
+					<xsd:element name="trade-id" type="xsd:integer"/>
+					<xsd:element name="parent-trade-id" type="xsd:integer" />
+					<xsd:element name="product" type="product"/>
+					<xsd:element name="derivative-type" type="derivative-type"/>
+					<xsd:element name="action-type" type="action-type"/>
+					<xsd:element name="quanto-type" type="quanto-type" />
+					<xsd:element name="averaging-frequency" type="averaging-frequency"/>
+					<xsd:element name="accumulation-frequency" type="accumulation-frequency"/>
+					<xsd:element name="strike" type="xsd:decimal" />
+					<xsd:element name="original-lots" type="xsd:decimal" />
+					<xsd:element name="original-premium" type="xsd:decimal" />
+					<xsd:element name="vol-override" type="core:char" />
+					<xsd:element name="correl-override" type="core:char" />
+					
+					<xsd:element name="vol-override-value" type="xsd:decimal" />
+					<xsd:element name="correl-override-value" type="xsd:decimal" />
+					<xsd:element name="ref-futures-price" type="xsd:decimal" />
+					<xsd:element name="barrier1" type="xsd:decimal" />
+					<xsd:element name="barrier2" type="xsd:decimal" />
+					<xsd:element name="active-lots" type="xsd:decimal" />
+					<xsd:element name="exercised-lots" type="xsd:decimal" />
+					<xsd:element name="abandoned-lots" type="xsd:decimal" />
+					
+					<xsd:element name="got-assigned-lots" type="xsd:decimal" />
+					<xsd:element name="average-till-now" type="xsd:decimal" />
+					<xsd:element name="accumulation-till-now" type="xsd:decimal" />
+					<xsd:element name="rebate" type="xsd:decimal" />
+					<xsd:element name="portfolio" type="xsd:string" />
+					<xsd:element name="sub-portfolio" type="xsd:string" />
+					<xsd:element name="strategy-name" type="xsd:string" />
+					<xsd:element name="sub-product1" type="xsd:string" />
+					<xsd:element name="sub-product2" type="xsd:string" />
+ 					<xsd:element name="channel" type="xsd:string" />
+					<xsd:element name="reconed-completed-by" type="xsd:string" />
+					<xsd:element name="created-by" type="xsd:string" />
+					<xsd:element name="brokerage-comment" type="xsd:string" />
+					<xsd:element name="brokerage-rate" type="xsd:string" />
+					<xsd:element name="special-rate" type="xsd:string" />
+					<xsd:element name="special-rate-number" type="xsd:int" />
+					<xsd:element name="clearing-broker" type="xsd:string" />
+					<xsd:element name="execution-broker" type="xsd:string" />
+					<xsd:element name="counterparty-entity" type="xsd:string" />
+					<xsd:element name="counterparty-bu" type="xsd:string" />
+					<xsd:element name="counterparty-parent" type="xsd:string" />
+					<xsd:element name="reconed-with-clearer" type="core:char" />
+					<xsd:element name="brokerage-paid" type="core:char" />
+					<xsd:element name="brokerage-accrued" type="xsd:decimal" />
+					<xsd:element name="expiry-processed" type="core:char" />
+					<xsd:element name="barrier1obs-start" type="core:date-time" />
+					<xsd:element name="barrier2obs-start" type="core:date-time" />
+					<xsd:element name="barrier1obs-end-date" type="core:date-time" />
+					<xsd:element name="barrier2obs-end-date" type="core:date-time" />
+					<xsd:element name="averaging-start-date" type="core:date-time" />
+					<xsd:element name="averaging-end-date" type="core:date-time" />
+					<xsd:element name="accumulation-start-date" type="core:date-time" />
+					<xsd:element name="accumulation-end-date" type="core:date-time" />
+					<xsd:element name="excel-date-time" type="core:date-time" />
+					<xsd:element name="date-time" type="core:date-time" />
+					<xsd:element name="system-date" type="core:date-time" />					
+					<xsd:element name="modified-time" type="core:date-time" />
+					<xsd:element name="recon-date" type="core:date-time" />
+					<xsd:element name="recon-time-stamp" type="core:date-time" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="execution-broker">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="clearing-broker">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="execution-type">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="access">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="intrapolation-technique">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="extrapolation-technique">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="vol-surface-greeks">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="brokerage-callsign">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="exchange-callsign">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="brokerage-master">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="exchange" type="exchange" />
+					<xsd:element name="portfolio" type="portfolio" />
+					<xsd:element name="product" type="product" />
+					<xsd:element name="execution-broker"
+						type="execution-broker" />
+					<xsd:element name="clearing-broker"
+						type="clearing-broker" />
+					<xsd:element name="curreny" type="xsd:string"></xsd:element>
+					<xsd:element name="futures"
+						type="future_contract">
+					</xsd:element>
+					<xsd:element name="options"
+						type="option_contract">
+					</xsd:element>
+					<xsd:element name="special-trade" type="xsd:string"></xsd:element>
+					<xsd:element name="rate" type="xsd:double"></xsd:element>
+					<xsd:element name="payment-mode" type="xsd:string"></xsd:element>
+					<xsd:element name="gua" type="core:char"></xsd:element>
+					<xsd:element name="brokerage-callsign" type="brokerage-callsign"></xsd:element>
+					<xsd:element name="exchange-brokerage-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="invoice-brokerage-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="start-date" type="xsd:date"></xsd:element>
+					<xsd:element name="end-date" type="xsd:date"></xsd:element>
+					<xsd:element name="comment" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="exchange-master">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="exchange" type="exchange" />
+					<xsd:element name="product" type="product" />
+					<xsd:element name="futures"
+						type="future_contract">
+					</xsd:element>
+					<xsd:element name="options"
+						type="option_contract">
+					</xsd:element>
+					<xsd:element name="execution-type" type="execution-type"></xsd:element>
+					<xsd:element name="exchange-callsign" type="exchange-callsign"></xsd:element>
+					<xsd:element name="actual-exchange-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="actual-exchange-clearing-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="actual-nfa-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="actual-exchange-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="published-exchange-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="published-exchange-clearing-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="published-nfa-fees" type="xsd:double"></xsd:element>
+					<xsd:element name="published-exchange-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="bache" type="xsd:double"></xsd:element>
+					<xsd:element name="bache-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="bache-spcl" type="xsd:double"></xsd:element>
+					<xsd:element name="bache-spcl-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="rj-obrien" type="xsd:double"></xsd:element>
+					<xsd:element name="rj-obrien-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="phillip-futures" type="xsd:double"></xsd:element>
+					<xsd:element name="phillip-futures-currency" type="xsd:string"></xsd:element>
+					<xsd:element name="start-date" type="xsd:date"></xsd:element>
+					<xsd:element name="end-date" type="xsd:date"></xsd:element>
+					<xsd:element name="comment" type="xsd:string"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+		
+	<xsd:complexType name="settlement_volatility_surface">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id" type="option_static_data" />
+					<xsd:element name="strike" type="xsd:decimal" />
+					<xsd:element name="volatility" type="xsd:decimal" />
+					<xsd:element name="dates" type="core:date-time" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="settlement_correlation_surface">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id1" type="option_static_data" />
+					<xsd:element name="option-id2" type="option_static_data" />
+					<xsd:element name="strike" type="xsd:decimal" />
+					<xsd:element name="correlation" type="xsd:decimal" />
+					<xsd:element name="dates" type="core:date-time" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="invenio_book_correlation_surface">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="sub-portfolio-id" type="sub-portfolio"></xsd:element>
+					<xsd:element name="option-id1" type="option_static_data" />
+					<xsd:element name="option-id2" type="option_static_data" />
+					<xsd:element name="strike" type="xsd:decimal" />
+					<xsd:element name="correlation" type="xsd:decimal" />
+					<xsd:element name="dates" type="core:date-time" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	
+	<xsd:complexType name="sub-portfolio">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="description" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="option-price">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="bbg-settlement-price"
+						type="xsd:double">
+					</xsd:element>
+					<xsd:element name="exchange-settlement-price" type="xsd:double"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="bbg-ovdv-moneynesswise">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id" type="option_static_data" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="a80"
+						type="xsd:double" nillable="true">
+					</xsd:element>
+					<xsd:element name="a90" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a95" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a975" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a100" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a1025" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a105" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a110" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a120" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a150" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a200" type="xsd:double" nillable="true"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="bbg-ovdv-deltawise">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id" type="option_static_data" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="a5dp" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a10dp" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a15dp" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a25dp" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a35dp" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a50d" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a35dc" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a25dc" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a15dc" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a10dc" type="xsd:double" nillable="true"></xsd:element>
+					<xsd:element name="a5dc" type="xsd:double" nillable="true"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="inv-book-vol-type-sel">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="sub-portfolio"
+						type="sub-portfolio" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="option-id" type="option_static_data"></xsd:element>
+					<xsd:element name="vol-surface-type" type="vol-surface"></xsd:element>
+					<xsd:element name="intrapolation-technique" type="intrapolation-technique"></xsd:element>
+					<xsd:element name="extrapolation-technique" type="extrapolation-technique"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="inv-book-vol-type-fixed">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id"
+						type="option_static_data" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="sub-portfolio" type="sub-portfolio"></xsd:element>
+					<xsd:element name="strike" type="xsd:int" nillable="false"></xsd:element>
+					<xsd:element name="volatility" type="xsd:int" nillable="false"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="inv-book-vol-type-floating">
+		<xsd:complexContent>
+			<xsd:extension base="core:pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="option-id"
+						type="option_static_data" />
+					<xsd:element name="date" type="core:date-time" />
+					<xsd:element name="sub-portfolio"
+						type="sub-portfolio">
+					</xsd:element>
+					<xsd:element name="atmf3p-putskew" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf3p-atm" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf3p-callskew" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf5p-p1" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf5p-p2" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf5p-p3" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf5p-p4" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf5p-p5" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p1" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p2" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p3" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p4" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p5" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p6" type="xsd:double"></xsd:element>
+					<xsd:element name="atmf7p-p7" type="xsd:double"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+</xsd:schema>

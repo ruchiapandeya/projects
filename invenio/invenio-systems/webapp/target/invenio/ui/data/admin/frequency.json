@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"frequency",
+			"name":"frequency",
+			"display-text":"FREQUENCY",
+			"service-path":"/frequency",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"frequency-type","label":"Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"frequency-type":""}
+			}
+		}
+}

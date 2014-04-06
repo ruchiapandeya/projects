@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"cash-physical-settlement",
+			"name":"cash-physical-settlement",
+			"display-text":"CASH PHYSICAL SETTLEMENT",
+			"service-path":"/cash-physical-settlement",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"cash-physical-settlement-name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"cash-physical-settlement-name":""}
+			}
+		}
+}

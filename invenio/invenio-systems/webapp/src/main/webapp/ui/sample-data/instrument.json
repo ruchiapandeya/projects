@@ -1,0 +1,14 @@
+{"metadata":[
+	{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"code","label":"Code","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"portfolio","label":"Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"portfolio-a","label":"Portfolio-A","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"maturity","label":"Matrurity","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"start-value","label":"Start Value","datatype":"decimal","bar":true,"editable":true,"values":null},
+	{"name":"end-value","label":"End Value","datatype":"decimal","bar":true,"editable":true,"values":null},
+	{"name":"multiple","label":"Multiple","datatype":"string","bar":true,"editable":true,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"name":"AG-BO-1","code":"AG-BO-CBT","portfolio":"AG-BO-CBT","portfolio-a":"AG-BO-CBT","maturity":"AG-BO-CBT","start-value":1.0,"end-value":2.0,"multiple":7.0}},
+]}

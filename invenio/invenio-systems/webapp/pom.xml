@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.invenio</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+	<artifactId>webapp</artifactId>
+	<packaging>war</packaging>
+	<properties>
+		<!-- Redefine for deeper modules -->
+		<invenio.repodir>${basedir}/../../${invenio.repo}</invenio.repodir>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.invenio</groupId>
+			<artifactId>rest-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>${final.war.name}</finalName>
+	</build>
+</project>

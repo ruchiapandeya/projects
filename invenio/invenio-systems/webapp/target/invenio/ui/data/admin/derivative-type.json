@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"derivative-type",
+			"name":"derivative-type",
+			"display-text":"DERIVATIVE TYPES",
+			"service-path":"/derivative-type",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"derivativetype","label":"Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"derivativetype":""}
+			}
+		}
+}

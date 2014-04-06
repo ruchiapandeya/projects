@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"invenio-product",
+			"name":"invenio-product",
+			"display-text":"INVENIO PRODUCT",
+			"service-path":"/invenio-product",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"invenio-product-name","label":"Product Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"invenio-product-desc","label":"Product Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"invenio-product-name":"","invenio-product-desc":""}
+			}
+		}
+}

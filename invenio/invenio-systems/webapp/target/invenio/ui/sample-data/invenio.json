@@ -1,0 +1,38 @@
+{"metadata":[
+	{"name":"name","label":"NAME","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"description","label":"DESCRIPTION","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"exchange","label":"EXCHANGE","datatype":"string","bar":true,"editable":true,"values":
+		{
+			"Europe":{"be":"Belgium","fr":"France","uk":"Great-Britain","nl":"Nederland"},
+			"America":{"br":"Brazil","ca":"Canada","us":"USA"},
+			"Africa":{"ng":"Nigeria","za":"South-Africa","zw":"Zimbabwe"}}
+		},
+	{"name":"symbol","label":"SYMBOL","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"active","label":"ACTIVE","datatype":"boolean","bar":true,"editable":true,"values":null},
+	{"name":"date","label":"DATE ACTIVE","datatype":"date","bar":true,"editable":true,"values":null},
+	{"name":"action","label":"","datatype":"html","bar":true,"editable":false,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"name":"AG-BO-1","description":"AG-BO-CBT","exchange":"ca","symbol":"ABC","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"2","values":{"name":"AG-BO-2","description":"AG-BO-CBT","exchange":"fr","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"3","values":{"name":"AG-BO-3","description":"AG-BO-CBT","exchange":"za","symbol":"XYZ","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"4","values":{"name":"AG-BO-4","description":"AG-BO-CBT","exchange":"zw","symbol":"BCA","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"5","values":{"name":"AG-BO-5","description":"AG-BO-CBT","exchange":"ng","symbol":"XYZ","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"6","values":{"name":"AG-BO-6","description":"AG-BO-CBT","exchange":"be","symbol":"ABC","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"7","values":{"name":"AG-BO-7","description":"AG-BO-CBT","exchange":"za","symbol":"XYZ","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"8","values":{"name":"AG-BO-8","description":"AG-BO-CBT","exchange":"ca","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"9","values":{"name":"AG-BO-9","description":"AG-BO-CBT","exchange":"fr","symbol":"XYZ","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"10","values":{"name":"AG-BO-10","description":"AG-BO-CBT","exchange":"ca","symbol":"XYZ","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"11","values":{"name":"AG-BO-11","description":"AG-BO-CBT","exchange":"fr","symbol":"XYZ","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"12","values":{"name":"AG-BO-12","description":"AG-BO-CBT","exchange":"ca","symbol":"ABC","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"13","values":{"name":"AG-BO-13","description":"AG-BO-CBT","exchange":"fr","symbol":"XYZ","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"14","values":{"name":"AG-BO-14","description":"AG-BO-CBT","exchange":"ca","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"15","values":{"name":"AG-BO-15","description":"AG-BO-CBT","exchange":"fr","symbol":"XYZ","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"16","values":{"name":"AG-BO-16","description":"AG-BO-CBT","exchange":"ca","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"17","values":{"name":"AG-BO-17","description":"AG-BO-CBT","exchange":"fr","symbol":"XYZ","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"18","values":{"name":"AG-BO-18","description":"AG-BO-CBT","exchange":"zg","symbol":"ABC","active":"0","date":"17\/04\/2012","action":""}},
+	{"id":"19","values":{"name":"AG-BO-19","description":"AG-BO-CBT","exchange":"za","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"20","values":{"name":"AG-BO-20","description":"AG-BO-CBT","exchange":"ng","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+	{"id":"21","values":{"name":"AG-BO-21","description":"AG-BO-CBT","exchange":"ca","symbol":"BCA","active":"1","date":"17\/04\/2012","action":""}},
+]}

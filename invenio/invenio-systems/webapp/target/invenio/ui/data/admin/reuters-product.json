@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"reuters-product",
+			"name":"reuters-product",
+			"display-text":"Reuters Products Code",
+			"service-path":"/reuters-product",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"reuters-product-name","label":"Product Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"reuters-product-desc","label":"Product Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"reuters-product-name":"","reuters-product-desc":""}
+			}
+		}
+}

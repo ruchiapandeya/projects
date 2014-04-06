@@ -1,0 +1,56 @@
+{
+	"info": {
+			"id":"inv-book-vol-type-sel",
+			"name":"inv-book-vol-type-sel",
+			"display-text":"Invenio Book-Vol Surface - Selection",
+			"service-path":"/inv-book-vol-type-sel",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"sub-portfolio","label":"Sub Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"vol-surface-type","label":"Volume Surface Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"intrapolation-technique","label":"Intrapolation Technique","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"extrapolation-technique","label":"Extrapolation Technique","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"sub-portfolio":"","option-id":"","date":"","vol-surface-type":"","intrapolation-technique":"","extrapolation-technique":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"sub-portfolio",
+					"service-path":"/sub-portfolio",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				},
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				},
+				{
+					"name":"vol-surface-type",
+					"service-path":"/vol-surface",
+		 			"id-field":"id",
+		 			"display-field":"type"
+				},
+				{
+					"name":"intrapolation-technique",
+					"service-path":"/intrapolation-technique",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				},
+				{
+					"name":"extrapolation-technique",
+					"service-path":"/extrapolation-technique",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}
+			]
+		}
+}

@@ -1,0 +1,28 @@
+{
+	"info": {
+			"id":"vol-surface",
+			"name":"vol-surface",
+			"display-text":"VOLATILITY SURFACE",
+			"service-path":"/access",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"type","label":"Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"vol-dump","label":"Volatility Dumps","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"type":"","vol-dump":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"vol-dump",
+					"service-path":"/vol-dump",
+		 			"id-field":"id",
+		 			"display-field":"product"
+				}
+			]
+		}
+}

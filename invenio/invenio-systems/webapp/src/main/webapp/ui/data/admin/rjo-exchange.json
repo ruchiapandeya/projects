@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"rjo-exchange",
+			"name":"rjo-exchange",
+			"display-text":"RJO Exchange Code",
+			"service-path":"/rjo-exchange",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"rjo-exchange-name","label":"Exchange Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"rjo-exchange-desc","label":"Exchange Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"rjo-exchange-name":"","rjo-exchange-desc":""}
+			}
+		}
+}

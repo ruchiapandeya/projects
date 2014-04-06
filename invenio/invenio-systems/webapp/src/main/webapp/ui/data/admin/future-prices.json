@@ -1,0 +1,29 @@
+{
+	"info": {
+			"id":"future-prices",
+			"name":"future-prices",
+			"display-text":"FUTURE PRICES",
+			"service-path":"/future-prices",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"fut_id","label":"Futures ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"future_date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"price","label":"Settlement Price","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"fut_id":"","future_date":"","price":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"fut_id",
+					"service-path":"/future-contract",
+		 			"id-field":"id",
+		 			"display-field":"fut_id"
+				}
+			]
+		}
+}

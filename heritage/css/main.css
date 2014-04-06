@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+body {  
+  background:url(../images/bg.gif);
+  color:#979797; 
+  font-size: 75%; 
+  line-height:1.5em; font-family:Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+/* ****************************** Header CSS************************************** */
+#headerHorizontal {background:url(../images/blackHeader.png);
+	height:80px;position:relative;}
+
+.logo 					{display:inline-block;width:200px; height:60px; position:absolute; }
+.logo img				{margin:0px 0px 0px 0px; }
+
+/* ************************************************************************************* */
+#homepageWrapper{ width:980px; margin-top:8%; auto; }
+#homepageWrapper h2{font-size: 14px; padding: 0px 0px 20px 0px; color: #666666; text-align: left;}
+/*GREEN*/
+ .home_calender{
+  height: 250px;
+  width: 920px;
+  background-color: #ffffff;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  border: 1px solid #e6e6e6;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+  box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+ }
+  .home_calenders{
+  height: 600px;
+  width: 920px;
+  background-color: #ffffff;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  border: 1px solid #e6e6e6;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+  box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+ }
+ .text_align{
+  width: 59%;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 22px;
+  text-align: justify;
+  }
+ .about_heritage{
+  width: 100%;
+  float: left;
+  text-align: left;
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 22px;
+  text-align: justify;
+  }
+ul.green_menu li a.current, ul.green li a:hover  {
+ 	color: #576d07;
+	background: url(../images/green.png) no-repeat top right;
+}
+
+ul.green_menu li a.current span, ul.green li a:hover span {
+	background: url(../images/green.png) no-repeat top left;
+}
+
+/*******************SEARCH BOX CSS****************/
+.form-wrapper {
+        width:980;
+		    
+        margin: 150px auto 50px auto;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+     
+    }
+
+    .form-wrapper input {
+        width: 51%;
+        height: 22px;
+        padding: 10px 5px;
+        font: bold 15px Georgia, "Times New Roman", Times, serif;
+        border: 2px solid #48b5f2;
+        background: #fff;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .form-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+   
+   
+  
+    .form-wrapper button {
+		overflow: visible;
+        position: relative;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 46px;
+        width: 110px;
+		margin-left:-0.5%;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background:  #48b5f2;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+	.ie8 .form-wrapper button {
+        font: bold 14px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    }
+     .form-wrapper button:hover{		
+        background: #3099d4;
+    }	 
+    
+ /*******************
+		------------------SOCIAL ICONS CSS------------------
+		***********************/
+		#headSocial{position:relative;}
+		#headSocial li{display:inline;}
+		#headSocial img{float:right;
+		margin-left:13px;}
+		#headSocial li a{
+		color: #ffffff;
+		float: right;
+		font-size:14px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 35px 10px 0px 8px;
+		text-decoration: none;}
+	  
+		#headSocial li a:hover{
+		color: #4eb6ef;
+		float: right;
+		font-size:14px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 35px 10px 0px 8px;}
+		
+		#headSocial .current{
+		color: #4eb6ef;
+		float: right;
+		font-size:14px;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 35px 10px 0px 8px;
+		}
+		
+		
+/******************* */ 
+
+  .grey-button ul{
+    margin: 0;
+    width: 930px;
+	
+  }
+
+  .grey-button li{
+    display: moz-inline-stack; 
+    display: inline-block; 
+    zoom: 1; 
+    *display: inline;    }  
+	  
+  /*Grey Button*/
+  .grey-button {
+  height:40px; width:120px;
+  color: #48b5f2 ;
+  text-shadow: 0px 1px 0px #fff;
+  border: 1px solid #e5e5e5;
+  border-bottom-color: #acacac;
+  background: #fafafa;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #fafafa), color-stop(1, #eee) );
+  background: -moz-linear-gradient( center top, #fafafa 20%, #eee 100% );
+  }
+  .grey-button:hover,
+  .grey-button.hover,
+  .grey-button.active {
+  background: #f7f7f7;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #f7f7f7), color-stop(1, #e2e2e2) );
+  background: -moz-linear-gradient( center top, #f7f7f7 20%, #e2e2e2 100% );
+  }
+  .grey-button:active,
+  .grey-button.active {
+  border-color: #d8d8d8;
+  }
+  
+  /*GLOBAL BUTTON STYLES*/
+  .blue-button, .grey-button{
+  font-size: 20px;
+  font-weight: 800;
+  display: inline-block;
+  margin: 10px;
+  padding: 28px 30px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) , inset 0 0 2px hsla(0,100%,100%,.3) , 0 1px 2px hsla(0, 0%, 0%, .29);
+  -moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) , inset 0 0 2px hsla(0,100%,100%,.3) , 0 1px 2px hsla(0, 0%, 0%, .29);
+  box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) , inset 0 0 2px hsla(0,100%,100%,.3) , 0 1px 2px hsla(0, 0%, 0%, .29);
+  }
+  .blue-button:active, .blue-button.active, .grey-button:active, .grey-button.active{
+  -webkit-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) , 0 1px 0 hsla(0, 100%, 100%, 1);
+  -moz-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) , 0 1px 0 hsla(0, 100%, 100%, 1);
+  box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) , 0 1px 0 hsla(0, 100%, 100%, 1); 
+  } 
+  .blue-button:hover, .grey-button:hover{
+  cursor: pointer;  
+  }
+  .blue-button.inactive, .grey-button.inactive{
+  border: 1px solid #d5d5d5;
+  border-bottom-color: #e6e2e2;
+  color: #aeaeae;
+  text-shadow: 0 1px 0 white;
+  background: #e8e8e8;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #f3f3f3), color-stop(1, #e6e6e6) );
+  background: -moz-linear-gradient( center top, #f3f3f3 20%, #e6e6e6 100% );
+  -webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) , inset 0 0 2px hsla(0,100%,100%,.1) , 0 1px 0 hsla(0, 100%, 100%, .7);
+  -moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) , inset 0 0 2px hsla(0,100%,100%,.1) , 0 1px 0 hsla(0, 100%, 100%, .7);
+  box-shadow: inset 0 1px 0 hsla(0,100%,100%,.5) , inset 0 0 2px hsla(0,100%,100%,.1) , 0 1px 0 hsla(0, 100%, 100%, .7);
+  }​
+  
+

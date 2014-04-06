@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"execution-type",
+			"name":"execution-type",
+			"display-text":"EXECUTION TYPES",
+			"service-path":"/execution-type",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"description","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","description":""}
+			}
+		}
+}

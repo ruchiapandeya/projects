@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"vol-surface",
+			"name":"vol-surface",
+			"display-text":"VOLATILITY SURFACE",
+			"service-path":"/vol-surface",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"type","label":"Surface Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"description","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"type":"","description":""}
+			}
+		}
+}

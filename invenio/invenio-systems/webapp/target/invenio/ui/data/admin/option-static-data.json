@@ -1,0 +1,31 @@
+{
+	"info": {
+			"id":"option-static-data",
+			"name":"option-static-data",
+			"display-text":"OPTIONS STATIC DATA",
+			"service-path":"/option-static-data",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"first-trading-day","label":"First Trading Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"last-trading-day","label":"Last Trading Day","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"fut-ref-at-expiry","label":"Futures Ref At Expiry","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"fut-id","label":"Futures ID","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"option-id":"","first-trading-day":"","last-trading-day":"","fut-ref-at-expiry":"","fut-id":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"fut-id",
+					"service-path":"/future-contract",
+		 			"id-field":"id",
+		 			"display-field":"fut_id"
+				}
+			]
+		}
+}

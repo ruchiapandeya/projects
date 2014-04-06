@@ -1,0 +1,215 @@
+<html>
+	<head>
+		<title>Tabbed Editable Forms</title>
+		<!-- include javascript and css files for jQuery, needed for the datepicker and autocomplete extensions -->
+		<script src="../extensions/jquery/jquery-1.6.4.min.js" ></script>
+		<script src="../extensions/jquery/jquery-ui-1.8.16.custom.min.js" ></script>
+		<link rel="stylesheet" href="../extensions/jquery/jquery-ui-1.8.16.custom.css" type="text/css" media="screen">
+		
+		<link rel="stylesheet" href="../css/form.css?v=2">
+		<link rel="stylesheet" type="text/css" href="../css/grid.css" media="screen"/>
+		<link rel="stylesheet" href="../css/form.css?v=2">
+		<link rel="stylesheet" href="../css/tabbed-style.css" type="text/css" media="screen" />
+		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]--> 
+        <style type="text/css">
+		.submit {
+			float:right;
+		}
+		fieldset {
+		margin:0 auto;
+		background: #F1F1F1;
+		border: 1px solid #D2D2D2;
+		width: 738px;
+		}
+		.elements {
+			padding:5px;
+		}
+		
+        .web_dialog_overlay
+        {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            opacity: .15;
+            filter: alpha(opacity=25);
+            -moz-opacity: .25;
+            z-index: 101;
+            display: none;
+        }
+        .web_dialog
+        {
+            display: none;
+            position: fixed;
+            top: 24%;
+            left: 40%;
+            margin-left: -190px;
+            margin-top: -100px;
+            background-color: #ffffff;
+            padding: 0px;
+            z-index: 102;
+            font-family: Verdana;
+            font-size: 10pt;
+        }
+        #btnClose{
+            color: #ffffff;
+            float: right;
+        }
+        </style>
+        <script type="text/javascript">
+
+            $(document).ready(function ()
+            {
+                $("#btnShowSimple").click(function (e)
+                {
+                    ShowDialog(false);
+                    e.preventDefault();
+                });
+    
+                $("#btnClose").click(function (e)
+                {
+                    HideDialog();
+                    e.preventDefault();
+                });
+    
+                $("#btnSubmit").click(function (e)
+                {
+                    var brand = $("#brands input:radio:checked").val();
+                    $("#output").html("<b>Your favorite mobile brand: </b>" + brand);
+                    HideDialog();
+                    e.preventDefault();
+                });
+            });
+    
+            function ShowDialog(modal)
+            {
+            	$("#overlay").show();
+                $("#dialog").fadeIn(300);
+    
+                if (modal)
+                {
+                    $("#overlay").unbind("click");
+                }
+                else
+                {
+                    $("#overlay").click(function (e)
+                    {
+                        HideDialog();
+                    });
+                }
+            }
+    
+            function HideDialog()
+            {
+                $("#overlay").hide();
+                $("#dialog").fadeOut(400);
+            }
+        </script>
+	</head>
+	<body onLoad="ShowDialog(true)">
+		<div id="overlay" class="web_dialog_overlay"></div>
+	
+		<div id="dialog" class="web_dialog">
+			<div id="tabbed_box" class="tabbed_box">
+				<div class="tabbed_area" id="tabbed_area">
+					<a href="#" id="btnClose">Close</a>
+					<ul class="form_buttons" style="float: right;">
+						<li><button class="action green" onClick="save()"><span class="label">Save</span></button></li>
+						<li><button class="action blue"><span class="label">Reset</span></button></li>
+						<li><button class="action red"><span class="label">Cancel</span></button></li>
+					</ul>
+					<div id="form-container-div">
+						<ul id="tabs" class="tabs">
+							<li><a href="#" title="trade-info" class="tab active">Trade
+									Info</a></li>
+							<li><a href="#" title="contract-info" class="tab">Contract
+							</a></li>
+							<li><a href="#" title="execution-info" class="tab">Execution
+									Info</a></li>
+						</ul>
+						<form id="deal-ticket" name="deal-ticket" class="signUp"></form>
+						<div id="trade-info" class="content" style="display: block;">
+							<fieldset>
+								<div class="elements">
+									<label for="trade-id" style="width: 10em; float: left;">Trade
+										ID</label><input type="text" id="trade-id" name="trade-id" size="32"
+										form="deal-ticket" class="input-text">
+								</div>
+								<div class="elements">
+									<label for="parent-trade-id" style="width: 10em; float: left;">Parent
+										Trade ID</label><input type="text" id="parent-trade-id"
+										name="parent-trade-id" size="32" form="deal-ticket"
+										class="input-text">
+								</div>
+								<div class="elements">
+									<label for="action-type" style="width: 10em; float: left;">Action</label><select
+										id="action-type" name="action-type" class="select"
+										form="deal-ticket"><option value="">-- Select</option>
+										<option value="1">buy_sell</option>
+										<option value="2">exercised</option>
+										<option value="3">abandoned</option>
+										<option value="4">got_assigned</option></select>
+								</div>
+								<div class="elements">
+									<label for="original-lots" style="width: 10em; float: left;">Original
+										Lots</label><input type="text" id="original-lots" name="original-lots"
+										size="32" form="deal-ticket" class="input-text">
+								</div>
+								<div class="elements">
+									<label for="active-lots" style="width: 10em; float: left;">Active
+										Lots</label><input type="text" id="brokerage-accrued"
+										name="brokerage-accrued" size="32" form="deal-ticket"
+										class="input-text">
+								</div>
+								<div class="elements">
+									<label for="brokerage-paid" style="width: 10em; float: left;">Brokerage
+										Paid</label><input type="radio" id="brokerage-paid"
+										name="brokerage-paid" class="radio" form="deal-ticket"
+										value="Y">Yes<input type="radio" id="brokerage-paid"
+										name="brokerage-paid" class="radio" form="deal-ticket"
+										value="N">No
+								</div>
+								<div class="elements">
+									<label for="reconed-with-clearer"
+										style="width: 10em; float: left;">Reconed with Clearer</label><input
+										type="radio" id="reconed-with-clearer"
+										name="reconed-with-clearer" class="radio" form="deal-ticket"
+										value="Y">Yes<input type="radio"
+										id="reconed-with-clearer" name="reconed-with-clearer"
+										class="radio" form="deal-ticket" value="N">No
+								</div>
+								<div class="elements">
+									<label for="reconed-completed-by"
+										style="width: 10em; float: left;">Reconed Completed By</label><input
+										type="text" id="reconed-completed-by"
+										name="reconed-completed-by" size="32" form="deal-ticket"
+										class="input-text">
+								</div>
+								<div class="elements">
+									<label for="recon-date" style="width: 10em; float: left;">Recon
+										Date</label><input type="text" id="recon-date" name="recon-date"
+										size="32" form="deal-ticket" class="input-text">
+								</div>
+								<div class="elements">
+									<label for="recon-time-stamp" style="width: 10em; float: left;">Recon
+										Time Stamp</label><input type="text" id="recon-time-stamp"
+										name="recon-time-stamp" size="32" form="deal-ticket"
+										class="input-text">
+								</div>
+							</fieldset>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

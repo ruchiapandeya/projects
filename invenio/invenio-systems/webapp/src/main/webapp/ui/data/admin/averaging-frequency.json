@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"averaging-frequency",
+			"name":"averaging-frequency",
+			"display-text":"AVERAGING FREQUENCY",
+			"service-path":"/averaging-frequency",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"frequency-type","label":"Frequency","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"frequency-type":""}
+			}
+		}
+}

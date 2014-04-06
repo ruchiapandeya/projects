@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"accumulation-frequency",
+			"name":"accumulation-frequency",
+			"display-text":"ACCUMULATION FREQUENCY",
+			"service-path":"/accumulation-frequency",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"frequency-type","label":"Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"frequency-type":""}
+			}
+		}
+}

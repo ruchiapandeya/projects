@@ -1,0 +1,79 @@
+{
+	"info": {
+			"id":"brokerage-master",
+			"name":"brokerage-master",
+			"display-text":"BROKERAGE MASTER",
+			"service-path":"/brokerage-master",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"exchange","label":"Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"portfolio","label":"Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"product","label":"Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"execution-broker","label":"Executing Broker","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"clearing-broker","label":"Clearing Broker","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures","label":"Future","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options","label":"Option","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"special-trade","label":"Special Trade","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"rate","label":"Rate","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"payment-mode","label":"Payment Mode","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"gua","label":"GUA","datatype":"char","bar":true,"editable":true,"values":null},
+				{"name":"brokerage-callsign","label":"Broker Callsign","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"exchange-brokerage-fees","label":"Exchange Brokerage Fees","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"invoice-brokerage-fees","label":"Invoice Brokerage Fees","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"currency","label":"Currency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"start-date","label":"Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"end-date","label":"End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"comment","label":"Comment","datatype":"int","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"exchange":"","portfolio":"","product":"","execution-broker":"","clearing-broker":"","futures":"","options":"","special-trade":"","rate":"","payment-mode":"","gua":"","brokerage-callsign":"","exchange-broker-fees":"","invoice-brokerage-fees":"","currency":"","start-date":"",	"end-date":"","comment":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"exchange",
+					"service-path":"/exchange",
+		 			"id-field":"id",
+		 			"display-field":"exchange-name"
+				}, {
+					"name":"portfolio",
+					"service-path":"/portfolio",
+		 			"id-field":"id",
+		 			"display-field":"portfolio_name"
+				}, {
+					"name":"product",
+					"service-path":"/product",
+		 			"id-field":"id",
+		 			"display-field":"id"
+				}, {
+					"name":"execution-broker",
+					"service-path":"/execution-broker",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}, {
+					"name":"clearing-broker",
+					"service-path":"/clearing-broker",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}, {
+					"name":"futures",
+					"service-path":"/future-contract",
+		 			"id-field":"id",
+		 			"display-field":"fut_id"
+				}, {
+					"name":"options",
+					"service-path":"/option-contract",
+		 			"id-field":"id",
+		 			"display-field":"opt_id"
+				}, {
+					"name":"brokerage-callsign",
+					"service-path":"/brokerage-callsign",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}
+			]
+		}
+}

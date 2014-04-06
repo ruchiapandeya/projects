@@ -1,0 +1,24 @@
+{
+	"info": {
+			"id":"instrument",
+			"name":"instrument",
+			"display-text":"INSTRUMENT",
+			"service-path":"/instrument",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"code","label":"Code","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"portfolio","label":"Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"portfolio-a","label":"Portfolio-A","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"maturity","label":"Matrurity","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"start-value","label":"Start Value","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"end-value","label":"End Value","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"multiple","label":"Multiple","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","code":"","portfolio":"","portfolio-a":"","maturity":"","start-value":"","end-value":"","multiple":""}
+			}
+		}
+}

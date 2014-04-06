@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"futures-xtrader",
+			"name":"futures-xtrader",
+			"display-text":"Futures Code - Xtrader",
+			"service-path":"/futures-xtrader",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"futures-name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures-desc","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"futures-name":"","futures-desc":""}
+			}
+		}
+}

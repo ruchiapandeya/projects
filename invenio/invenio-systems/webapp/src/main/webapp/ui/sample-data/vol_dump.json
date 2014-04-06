@@ -1,0 +1,18 @@
+{"metadata":[
+	{"name":"volSurfaceType","label":"VOl_SURFACE_TYPE","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"product","label":"PRODUCT","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"start","label":"START","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"step","label":"STEP","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"extrapolate","label":"EXTRAPOLATE","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"multiple","label":"MULTIPLE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"code","label":"CODE","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"futureRef","label":"FUTURE REF","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"optionsRef","label":"OPTIONS REF","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"expiryDate","label":"EXPIRY DATE","datatype":"date","bar":true,"editable":false,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"volSurfaceType":"AG-BO-1","product":"AG-BO-CBT","start":"100","step":"100","extrapolate":"Yes","multiple":"100","code":"AG-BO-CBT","futureRef":"AG-BO-CBT","optionsRef":"AG-BO-CBT","expiryDate":"17\/04\/2012"}},
+	{"id":"2","values":{"volSurfaceType":"AG-BO-2","product":"AG-BO-CBT","start":"200","step":"200","extrapolate":"Yes","multiple":"200","code":"AG-BO-CBT","futureRef":"AG-BO-CBT","optionsRef":"AG-BO-CBT","expiryDate":"17\/04\/2012"}},
+	{"id":"3","values":{"volSurfaceType":"AG-BO-3","product":"AG-BO-CBT","start":"700","step":"700","extrapolate":"Yes","multiple":"700","code":"AG-BO-CBT","futureRef":"AG-BO-CBT","optionsRef":"AG-BO-CBT","expiryDate":"17\/04\/2012"}},
+]}

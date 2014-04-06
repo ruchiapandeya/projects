@@ -1,0 +1,16 @@
+{"metadata":[
+	{"name":"instrument","label":"INSTRUMENT","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"bookValue","label":"BOOK VALUE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"netPos","label":"NET POS","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"futPrice","label":"FUT PRICE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"contract","label":"CONTRACT","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"futSettlement","label":"FUT SETTLEMENT","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"adaptedDelta","label":"ADAPTED DELTA","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"gammaSmt","label":"GAMMA SMT","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"theta","label":"THETA","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"vega","label":"VEGA","datatype":"decimal","bar":true,"editable":false,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"instrument":"AG-BO-1","bookValue":"100","netPos":"100","futPrice":"100","contract":"C","futSettlement":"100","adaptedDelta":"10","gammaSmt":"1","theta":"0.1","vega":"0.01"}},
+]}

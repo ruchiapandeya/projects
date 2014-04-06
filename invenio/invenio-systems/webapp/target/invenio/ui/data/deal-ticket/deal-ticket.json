@@ -1,0 +1,26 @@
+{
+	"info": {
+			"id":"deal-ticket",
+			"name":"deal-ticket",
+			"display-text":"DEAL TICKET",
+			"service-path":"/deal-ticket",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"trade-id","label":"Trade ID","datatype":"integer","bar":true,"editable":false,"values":null},
+				{"name":"parent-trade-id","label":"Parent Trade ID","datatype":"integer","bar":true,"editable":false,"values":null},
+				{"name":"vol-override","label":"Vol Override","datatype":"string","bar":true,"editable":false,"values":null},
+				{"name":"product","label":"Product","datatype":"string","bar":true,"editable":false,"values":null},
+				{"name":"quanto-type","label":"Quanto Type","datatype":"string","bar":true,"editable":false,"values":null},
+				{"name":"portfolio","label":"Portfolio","datatype":"string","bar":true,"editable":false,"values":null},
+				{"name":"accumulation-frequency","label":"Accumulation Frequency","datatype":"integer","bar":true,"editable":false,"values":null},
+				{"name":"sub-portfolio","label":"Sub Portfolio","datatype":"string","bar":true,"editable":false,"values":null},
+				{"name":"ref-futures-price","label":"Sub Futures Price","datatype":"decimal","bar":true,"editable":false,"values":null},
+				{"name":"action","label":"","datatype":"html","bar":true,"editable":false,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"trade-id":"","parent-trade-id":"","vol-override":"","product":"","portfolio":"","accumulation-frequency":"","sub-portfolio":"","quanto-type":"","ref-futures-price":"","action":""}
+			}
+		}
+}

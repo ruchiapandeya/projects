@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.invenio.com/schema/beans/core"
+	targetNamespace="http://www.invenio.com/schema/beans/core" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+	xmlns:annox="http://annox.dev.java.net" jaxb:extensionBindingPrefixes="annox"
+	xmlns:sd="http://annox.dev.java.net/org.springframework.data.annotation">
+
+	<xsd:complexType name="pk-entity-base" abstract="true">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="versioned-entity-base" abstract="true">
+		<xsd:complexContent>
+			<xsd:extension base="pk-entity-base">
+				<xsd:sequence>
+					<xsd:element name="version-ref" type="xsd:string" />
+					<xsd:element name="version-number" type="xsd:int" />
+					<xsd:element name="version-timestamp" type="date-time" />
+					<xsd:element name="version-by" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="version-info">
+		<xsd:complexContent>
+			<xsd:extension base="versioned-entity-base">
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:simpleType name="char">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="0"></xsd:minLength>
+			<xsd:maxLength value="1"></xsd:maxLength>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="date-time">
+		<xsd:annotation>
+			<xsd:appinfo>
+				<jaxb:class ref="java.util.Date" />
+			</xsd:appinfo>
+		</xsd:annotation>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter-request">
+		<xsd:sequence>
+			<xsd:element name="simple-hints" type="filter-element-simple"
+				minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="range-hints" type="filter-element-range"
+				minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="list-hints" type="filter-element-list"
+				minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="page" type="xsd:int" />
+			<xsd:element name="page-size" type="xsd:int" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter-element" abstract="true">
+		<xsd:sequence>
+			<xsd:element name="key" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter-element-simple">
+		<xsd:complexContent>
+			<xsd:extension base="filter-element">
+				<xsd:sequence>
+					<xsd:element name="value" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter-element-range">
+		<xsd:complexContent>
+			<xsd:extension base="filter-element">
+				<xsd:sequence>
+					<xsd:element name="from-value" type="xsd:string" />
+					<xsd:element name="to-value" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="filter-element-list">
+		<xsd:complexContent>
+			<xsd:extension base="filter-element">
+				<xsd:sequence>
+					<xsd:element name="values" type="xsd:string" minOccurs="0"
+						maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="deal-ticket-request">
+		<xsd:sequence>
+			<xsd:element name="simple-hints" type="filter-element-simple"
+				minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

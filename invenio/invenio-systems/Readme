@@ -1,0 +1,21 @@
+* beans - the rest-api POJO which was essentially VO. It is in form of XSD and this is web service standard.
+* dao - contains spring-data integration which spring provided repository.
+* services - the business logic goes here and also the converters. The dozer framework is used to automatically map the entity and VO. Any customization can be done with config "dozer-bean-mappings" where there is a difference in name/type.
+* rest-api - the controller layer with the api classes.
+* webapp - web container for binding beans and GUI related stuff.
+
+For Db:
+* Run: mvn verify -Pdb-setup. This will setup your local db and also insert seed-data and sample-data. The script first drops existing tables and recreates.
+* All DDL sql for create/delete are in setup/db folder. It is always executed in ascending order.
+* All seed data should go in setup/db/seed-data/, it will be inserted for all the profiles.
+* All test data should go in setup/db/test-data used for db.
+* Profiles are added to pom.xml, by default dev is enabled.
+* For the db properties, setup/env-profiles should be used. Specific config/logging for dev/prod/ci systems are added.
+
+To use everything:
+* install maven and thats it.
+* import invenio-systems as maven project and import all the submodules when shown.
+* either on command line or in eclipse, run mvn clean install at "invenio-systems". This will copy the properties file which contains your db and logging properties to webapp/src/main/resources/. Any changes should always be made in setup/env-profiles/dev/ and unless it is applicable for all, donot commit this. When you make changes to properties, make sure to run "mvn clean install". Temporarily you can modify webapp/src/main/resources/properties but its deleted on running mvn clean install.
+* add "webapp" to tomcat, change the path of the server if you want to call it something else.
+* start the server and your are ready, you can access the rest-apis at: http://localhost:8080/invenio/rest-api/intrument/findById/1
+* View all services deployed from the server at: http://localhost:8080/invenio/rest-api/application.wadl

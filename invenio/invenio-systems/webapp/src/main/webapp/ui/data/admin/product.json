@@ -1,0 +1,146 @@
+{
+	"info": {
+			"id":"product",
+			"name":"product",
+			"display-text":"Products Master",
+			"service-path":"/product",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"invenio-product","label":"Invenio Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"bloomberg-product","label":"Bloomberg Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"exchange","label":"Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"reuters-product","label":"Reuters Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"xtraders-exchange","label":"Xtraders Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"rjo-exchange","label":"Rjo Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"murex-exchange","label":"Murex Exchange","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-unl-contr","label":"Options Unl Contr","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures-unl-contr","label":"futures Unl Contr","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-xtrader","label":"Options Xtrader","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures-xtrader","label":"Futures Xtrader","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-rjo","label":"Options Rjo","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures-rjo","label":"Futures Rjo","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"exchange-exercise-type","label":"Exchange Exercise Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"atm-convention-for-expiry","label":"Atm Convention For Expiry","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"cash-physical-settlement","label":"Cash Physical Settlement","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"dollar-conversion","label":"Dollar Conversion","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"price-unit-quote","label":"Price Unit Quote","datatype":"int","bar":true,"editable":true,"values":null},
+				{"name":"currency-quote","label":"Currency Quote","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"qty-unit-quote","label":"Qty Unit Quote","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-f","label":"Contract Month Fut f","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-g","label":"Contract Month Fut g","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-h","label":"Contract Month Fut h","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-j","label":"Contract Month Fut j","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-k","label":"Contract Month Fut k","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-m","label":"Contract Month Fut m","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-n","label":"Contract Month Fut n","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-q","label":"Contract Month Fut q","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-u","label":"Contract Month Fut u","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-v","label":"Contract Month Fut v","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-x","label":"Contract Month Fut x","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-fut-z","label":"Contract Month Fut z","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-f","label":"Contract Month Opt f","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-g","label":"Contract Month Opt g","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-h","label":"Contract Month Opt h","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-j","label":"Contract Month Opt j","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-k","label":"Contract Month Opt k","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-m","label":"Contract Month Opt m","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-n","label":"Contract Month Opt n","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-q","label":"Contract Month Opt q","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-u","label":"Contract Month Opt u","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-v","label":"Contract Month Opt v","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-x","label":"Contract Month Opt x","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"contract-month-opt-z","label":"Contract Month Opt z","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"lots-to-mt","label":"Lots To Mt","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"invenio-product":"","bloomberg-product":"","exchange":"","reuters-product":"","xtraders-exchange":"","rjo-exchange":"","murex-exchange":"","options-unl-contr":"","futures-unl-contr":"","options-xtrader":"","futures-xtrader":"","options-rjo":"","futures-rjo":"","exchange-exercise-type":"","atm-convention-for-expiry":"","cash-physical-settlement":"",	"dollar-conversion":"","price-unit-quote":"","currency-quote":"","qty-unit-quote":"","contract-month-fut-f":"","contract-month-fut-g":"","contract-month-fut-h":"","contract-month-fut-j":"","contract-month-fut-k":"","contract-month-fut-m":"","contract-month-fut-n":"","contract-month-fut-q":"","contract-month-fut-u":"","contract-month-fut-v":"","contract-month-fut-x":"","contract-month-fut-z":"","contract-month-opt-f":"","contract-month-opt-g":"","contract-month-opt-h":"","contract-month-opt-j":"","contract-month-opt-k":"","contract-month-opt-m":"","contract-month-opt-n":"","contract-month-opt-q":"","contract-month-opt-u":"","contract-month-opt-v":"","contract-month-opt-x":"","contract-month-opt-z":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"invenio-product",
+					"service-path":"/invenio-product",
+		 			"id-field":"id",
+		 			"display-field":"invenio-product-name"
+				}, {
+					"name":"bloomberg-product",
+					"service-path":"/bloomberg-product",
+		 			"id-field":"id",
+		 			"display-field":"bloomberg-product-name"
+				}, {
+					"name":"reuters-product",
+					"service-path":"/reuters-product",
+		 			"id-field":"id",
+		 			"display-field":"reuters-product-name"
+				}, {
+					"name":"exchange",
+					"service-path":"/exchange",
+		 			"id-field":"id",
+		 			"display-field":"exchange-name"
+				}, {
+					"name":"rjo-exchange",
+					"service-path":"/rjo-exchange",
+		 			"id-field":"id",
+		 			"display-field":"rjo-exchange-name"
+				}, {
+					"name":"murex-exchange",
+					"service-path":"/murex-exchange",
+		 			"id-field":"id",
+		 			"display-field":"murex-exchange-name"
+				}, {
+					"name":"xtraders-exchange",
+					"service-path":"/xtraders-exchange",
+		 			"id-field":"id",
+		 			"display-field":"xtraders-exchange-name"
+				}, {
+					"name":"options-xtrader",
+					"service-path":"/options-xtrader",
+		 			"id-field":"id",
+		 			"display-field":"options-name"
+				}, {
+					"name":"futures-xtrader",
+					"service-path":"/futures-xtrader",
+		 			"id-field":"id",
+		 			"display-field":"futures-name"
+				}, {
+					"name":"options-rjo",
+					"service-path":"/options-rjo",
+		 			"id-field":"id",
+		 			"display-field":"options-name"
+				}, {
+					"name":"futures-rjo",
+					"service-path":"/futures-rjo",
+		 			"id-field":"id",
+		 			"display-field":"futures-name"
+				}, {
+					"name":"options-unl-contr",
+					"service-path":"/options-unl-contr",
+		 			"id-field":"id",
+		 			"display-field":"options-name"
+				}, {
+					"name":"futures-unl-contr",
+					"service-path":"/futures-unl-contr",
+		 			"id-field":"id",
+		 			"display-field":"futures-name"
+				}, {
+					"name":"exchange-exercise-type",
+					"service-path":"/exchange-exercise-type",
+		 			"id-field":"id",
+		 			"display-field":"exchange-exercise-type-name"
+				}, {
+					"name":"atm-convention-for-expiry",
+					"service-path":"/atm-convention-for-expiry",
+		 			"id-field":"id",
+		 			"display-field":"atm-convention-for-expiry-name"
+				}, {
+					"name":"cash-physical-settlement",
+					"service-path":"/cash-physical-settlement",
+		 			"id-field":"id",
+		 			"display-field":"cash-physical-settlement-name"
+				}
+			]
+		}
+}

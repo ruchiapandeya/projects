@@ -1,0 +1,37 @@
+{
+	"info": {
+			"id":"inv-book-vol-type-fixed",
+			"name":"inv-book-vol-type-fixed",
+			"display-text":"Invenio Book-Vol Surface - Fixed",
+			"service-path":"/inv-book-vol-type-fixed",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"sub-portfolio","label":"Sub Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"strike","label":"Strike","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"volatility","label":"Volatility","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"sub-portfolio":"","option-id":"","date":"","strike":"","volatility":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"sub-portfolio",
+					"service-path":"/sub-portfolio",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				},
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				}
+			]
+		}
+}

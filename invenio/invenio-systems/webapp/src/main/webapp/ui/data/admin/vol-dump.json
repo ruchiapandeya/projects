@@ -1,0 +1,26 @@
+{
+	"info": {
+			"id":"vol-dump",
+			"name":"vol_dump",
+			"display-text":"Volatility Dumps",
+			"service-path":"/vol-dump",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"vol-surface","label":"Volatility Surface","datatype":"vol-surface","bar":true,"editable":true,"values":null},
+				{"name":"product","label":"Product","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"start","label":"Start","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"step","label":"Step","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"extrapolate","label":"Extrapolate","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"multiple","label":"Multiple","decimal":"string","bar":true,"editable":true,"values":null},
+				{"name":"code","label":"Code","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"future-ref","label":"Future Ref","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-ref","label":"Options Ref","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"expiry-date","label":"Expiry Date","datatype":"date","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"vol-surface":"","product":"","start":"","step":"","extrapolate":"","multiple":"","code":"","future-ref":"","options-ref":"","expiry-date":""}
+			}
+		}
+}

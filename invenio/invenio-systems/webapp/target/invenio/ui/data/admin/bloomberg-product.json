@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"bloomberg-product",
+			"name":"bloomberg-product",
+			"display-text":"BLOOMBERG PRODUCT",
+			"service-path":"/bloomberg-product",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"bloomberg-product-name","label":"Product Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"bloomberg-product-desc","label":"Product Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"bloomberg-product-name":"","bloomberg-product-desc":""}
+			}
+		}
+}

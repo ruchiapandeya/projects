@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"murex-exchange",
+			"name":"murex-exchange",
+			"display-text":"Murex Exchange Code",
+			"service-path":"/murex-exchange",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"murex-exchange-name","label":"Exchange Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"murex-exchange-desc","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"murex-exchange-name":"","murex-exchange-desc":""}
+			}
+		}
+}

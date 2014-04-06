@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"atm-convention-for-expiry",
+			"name":"atm-convention-for-expiry",
+			"display-text":"ATM CONVENTION FOR EXPIRY",
+			"service-path":"/atm-convention-for-expiry",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"atm-convention-for-expiry-name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"atm-convention-for-expiry-name":""}
+			}
+		}
+}

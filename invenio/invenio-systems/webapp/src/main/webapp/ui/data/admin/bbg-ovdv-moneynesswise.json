@@ -1,0 +1,39 @@
+{
+	"info": {
+			"id":"bbg-ovdv-moneynesswise",
+			"name":"bbg-ovdv-moneynesswise",
+			"display-text":"BBG OVDV Moneynesswise",
+			"service-path":"/bbg-ovdv-moneynesswise",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"a80","label":"80","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a90","label":"90","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a95","label":"95","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a975","label":"97.5","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a100","label":"100","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a1025","label":"102.5","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a105","label":"105","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a110","label":"110","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a120","label":"120","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a150","label":"150","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"a200","label":"200","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"option-id":"","date":"","a80":"","a90":"","a95":"","a975":"","a100":"","a1025":"","a105":"","a110":"","a120":"","a150":"","a200":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				}
+			]
+		}
+}

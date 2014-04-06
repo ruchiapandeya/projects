@@ -1,0 +1,18 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+	
+	<persistence-unit name="mysqlUnit" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<!-- <class>com.invenio.dao.entity.admin.Instrument</class>
+		<class>com.invenio.dao.entity.admin.VolDump</class>
+		<class>com.invenio.dao.entity.admin.VolSurface</class>
+		<class>com.invenio.dao.entity.admin.DealTicket</class> -->
+		<properties>
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="validate" />
+			<property name="hibernate.ejb.naming_strategy" value="org.hibernate.cfg.ImprovedNamingStrategy" />
+		</properties>
+	</persistence-unit>
+</persistence>

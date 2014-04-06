@@ -1,0 +1,28 @@
+{"metadata":[
+	{"name":"instrument","label":"INSTRUMENT","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"activeLots","label":"ACTIVE LOTS","datatype":"integer","bar":true,"editable":true,"values":null},
+	{"name":"month","label":"MONTH","datatype":"integer","bar":true,"editable":true,"values":null},
+	{"name":"strike","label":"STRIKE","datatype":"decimal","bar":true,"editable":true,"values":null},
+	{"name":"cp","label":"CP","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"prem","label":"PREM","datatype":"decimal","bar":true,"editable":true,"values":null},
+	{"name":"origLots","label":"ORIG LOTS","decimal":"integer","bar":true,"editable":true,"values":null},
+	{"name":"portfolio","label":"PORTFOLIO","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"multiple","label":"MULTIPLE","datatype":"decimal","bar":true,"editable":true,"values":null},
+	{"name":"lotsForPivot","label":"LOTS FOR PIVOT","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"counterparty","label":"COUNTER PARTY","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"duplicated","label":"DUPLICATED","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"internal","label":"INTERNAL","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"trn","label":"TRN","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"trnDate","label":"TRN DATE","datatype":"date","bar":true,"editable":false,"values":null},
+	{"name":"buySell","label":"BUY/SELL","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"initialQty","label":"INITIAL QTY","datatype":"integer","bar":true,"editable":true,"values":null},
+	{"name":"contractMaturity","label":"CONTRACT MATURITY","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"callPut","label":"CALL PUT","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"stlPrm","label":"STL PRM","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"counterpartLabel","label":"COUNTERPART LABEL","datatype":"string","bar":true,"editable":true,"values":null},
+	{"name":"liveQty","label":"LIVE QTY","datatype":"integer","bar":true,"editable":true,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"instrument":"INS-1","activeLots":"200","month":"1","strike":"1.1","cp":"0.1","prem":"1.0","origLots":"1.2","portfolio":"P-1","multiple":"2.0","lotsForPivot":"3.0", "counterparty":"CPT","duplicated":"Y","internal":"N","trn":"XYZ","trnDate":"01\/01\/2020","buySell":"BUY","initialQty":"10","contractMaturity":"TOTAL","callPut":"MNO","stlPrm":"5.5","counterpartLabel":"ABC","liveQty":"900"}}
+]}

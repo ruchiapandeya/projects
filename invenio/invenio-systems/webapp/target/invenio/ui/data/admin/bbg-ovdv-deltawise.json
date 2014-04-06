@@ -1,0 +1,39 @@
+{
+	"info": {
+			"id":"bbg-ovdv-deltawise",
+			"name":"bbg-ovdv-deltawise",
+			"display-text":"BBG OVDV Deltawise",
+			"service-path":"/bbg-ovdv-deltawise",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"a5dp","label":"5DP","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a10dp","label":"10DP","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a15dp","label":"15DP","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a25dp","label":"25DP","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a35dp","label":"35DP","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a50d","label":"50D","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a35dc","label":"35DC","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a25dc","label":"25DC","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a15dc","label":"15DC","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a10dc","label":"10DC","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"a5dc","label":"5DC","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"option-id":"","date":"","a5dp":"","a10dp":"","a15dp":"","a25dp":"","a35dp":"","a50d":"","a35dc":"","a25dc":"","a15dc":"","a10dc":"","a5dc":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				}
+			]
+		}
+}

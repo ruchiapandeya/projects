@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"vol-surface-greeks",
+			"name":"vol-surface-greeks",
+			"display-text":"VOLATILITY SURFACE GREEKS",
+			"service-path":"/vol-surface-greeks",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"description","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","description":""}
+			}
+		}
+}

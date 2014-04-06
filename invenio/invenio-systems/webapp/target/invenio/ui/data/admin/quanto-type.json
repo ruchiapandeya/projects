@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"quanto-type",
+			"name":"quanto-type",
+			"display-text":"QUANTO TYPE",
+			"service-path":"/quanto-type",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"quanto-type","label":"Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"quanto-type":""}
+			}
+		}
+}

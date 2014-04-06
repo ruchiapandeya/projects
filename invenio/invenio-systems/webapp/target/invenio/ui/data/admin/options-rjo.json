@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"options-rjo",
+			"name":"options-rjo",
+			"display-text":"Options Code - RJO",
+			"service-path":"/options-rjo",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"options-name","label":"Options Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-desc","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"options-name":"","options-desc":""}
+			}
+		}
+}

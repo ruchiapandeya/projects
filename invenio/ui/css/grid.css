@@ -1,0 +1,144 @@
+/*
+ * Copyright (c) 2011 Webismymind SPRL
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://editablegrid.net/license
+ */
+article, aside, footer, header, hgroup, main, nav, section {
+display: block;
+}
+body {
+	font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+	background-color:#ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+h1 { 
+	font-size: 15px;
+}
+
+h2 { 
+	font-size: 13px;
+}
+
+a { 
+	color: #548dc4;
+	text-decoration: none;
+}
+
+h1 a {
+	font-size: 12px;
+	float: right;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+.ok { 
+	background-color: #888; 
+	color: white; 
+	padding: 5px;
+	border: 1px solid #777;
+}
+
+input.invalid {
+	background: red;
+	color: #FDFDFD;
+}
+
+#message {
+	width: 100%;
+	margin-top: 20px;
+}
+
+table.dump_grid { 
+	border-collapse: collapse; 
+	border: 1px solid #CCB;
+	width: 100%;
+}
+
+table.dump_grid tr {
+	border-bottom: 1px solid #DDD;
+}
+
+table.dump_grid>tbody tr:hover {
+	background-color: #888888;
+	color: white;
+}
+
+table.dump_grid>tbody tr:hover a {
+	color: white;
+}
+
+table.dump_grid th {
+	background: #E5E5E5;
+	border: 1px solid #D5D5D5;
+	color: #555;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	white-space: nowrap; 
+}
+
+table.dump_grid td {
+	padding: 5px;
+	border: 1px solid #E0E0E0;
+}
+
+#edition {
+	padding-top: 5px;
+	width: 600px;
+	border: 0px;	
+}
+
+#paginator {
+	font-family:  Helvetica, Arial, sans-serif;
+  	margin: 10px 0;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#paginator a { color:  #0078cc; text-decoration: none; font-size: 12px; }           
+#paginator a:hover { color: #000; }
+#paginator a:active { color: #777; }
+#paginator a:focus { outline: 1px; }
+
+#filter { 
+	width: 250px;
+	margin-bottom: 10px; 
+}
+
+section{
+	width: 950px;
+	margin: 30px auto;
+	margin-bottom: 130px;
+}
+
+#barchartcontent {
+	float: left;
+	width: 650px;
+	height: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#piechartcontent {
+	width: 300px;
+	height: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#pagecontrol {
+	padding-bottom: 5px;
+	float: right;
+}

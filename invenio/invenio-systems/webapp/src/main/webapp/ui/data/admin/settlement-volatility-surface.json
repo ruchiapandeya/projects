@@ -1,0 +1,30 @@
+{
+	"info": {
+			"id":"settlement-volatility-surface",
+			"name":"settlement-volatility-surface",
+			"display-text":"SETTLEMENT VOLATILITY SURFACE",
+			"service-path":"/settlement-volatility-surface",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"dates","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"strike","label":"Strike","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"volatility","label":"Volatility","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"option-id":"","dates":"","strike":"","volatility":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				}
+			]
+		}
+}

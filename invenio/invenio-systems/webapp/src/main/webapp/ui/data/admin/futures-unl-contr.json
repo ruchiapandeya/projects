@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"futures-unl-contr",
+			"name":"futures-unl-contr",
+			"display-text":"Futures Underlying Contract",
+			"service-path":"/futures-unl-contr",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"futures-name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"futures-desc","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"futures-name":"","futures-desc":""}
+			}
+		}
+}

@@ -1,0 +1,571 @@
+{
+	"layout":[{"tab": {
+			"id":"trade-info",
+			"label":"Trade Info",
+			"editable":true,
+			"fields": [
+				{
+				 "id":"trade-id",
+				 "name":"trade-id",
+				 "editable":false,
+				 "visible":true,
+				 "label":"Trade ID",
+				 "type":"number"
+				},
+				{
+				 "id":"parent-trade-id",
+				 "name":"parent-trade-id",
+				 "editable":false,
+				 "visible":true,
+				 "label":"Parent Trade ID",
+				 "type":"number"
+				},
+				{
+				 "id":"action-type",
+				 "name":"action-type",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Action",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/action",
+				 			"id-field":"id",
+				 			"display-field":"action-type"	
+				 		}
+				},
+				{
+				 "id":"original-lots",
+				 "name":"original-lots",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Original Lots",
+				 "type":"decimal"
+				},
+				{
+				 "id":"active-lots",
+				 "name":"active-lots",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Active Lots",
+				 "type":"decimal"
+				},
+				{
+				 "id":"exercised-lots",
+				 "name":"exercised-lots",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Exercised Lots",
+				 "type":"decimal"
+				},
+				{
+				 "id":"abandoned-lots",
+				 "name":"abandoned-lots",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Abandoned Lots",
+				 "type":"decimal"
+				},
+				{
+				 "id":"got-assigned-lots",
+				 "name":"got-assigned-lots",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Got Assigned Lots",
+				 "type":"decimal"
+				},
+				{
+				 "id":"original-premium",
+				 "name":"original-premium",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Original Premium",
+				 "type":"decimal"
+				},
+				{
+				 "id":"excel-date-time",
+				 "name":"excel-date-time",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Excel Date Time",
+				 "type":"date"
+				},
+				{
+				 "id":"system-date",
+				 "name":"system-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Created Date Time",
+				 "type":"date"
+				},
+				{
+				 "id":"modified-time",
+				 "name":"modified-time",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Modified Date Time",
+				 "type":"date"
+				},
+				{
+				 "id":"vol-override",
+				 "name":"vol-override",
+				 "editable":true,
+				 "visible": true,
+				 "label":"Vol Override",
+				 "type": "radio",
+				 "option": [
+				 			{
+				 				"value":"Y",
+				 				"display-text":"Yes"
+				 			},
+				 			{
+				 				"value":"N",
+				 				"display-text":"No"
+				 			}	
+				 			]
+				},
+				{
+				 "id":"vol-override-value",
+				 "name":"vol-override-value",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Vol Override Value",
+				 "type":"decimal"
+				},
+				{
+				 "id":"correl-override",
+				 "name":"correl-override",
+				 "editable":true,
+				 "visible": true,
+				 "label":"Correl Override",
+				 "type": "radio",
+				 "option": [
+				 			{
+				 				"value":"Y",
+				 				"display-text":"Yes"
+				 			},
+				 			{
+				 				"value":"N",
+				 				"display-text":"No"
+				 			}	
+				 			]
+				},
+				{
+				 "id":"correl-override-value",
+				 "name":"correl-override-value",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Correl Override Value",
+				 "type":"decimal"
+				},
+				{
+				 "id":"portfolio",
+				 "name":"portfolio",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Portfolio",
+				 "type":"text"
+				},
+				{
+				 "id":"sub-portfolio",
+				 "name":"sub-portfolio",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Sub Portfolio",
+				 "type":"text"
+				},
+				{
+				 "id":"strategy-name",
+				 "name":"strategy-name",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Strategy Number/Name",
+				 "type":"text"
+				}
+			]
+			}
+		},
+		{"tab": {
+			"id":"contract-info",
+			"label":"Contract ",
+			"editable":true,
+			"fields": [
+				{
+				 "id":"product",
+				 "name":"product",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Product",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/product",
+				 			"id-field":"id",
+				 			"display-field":"id"	
+				 		}
+				},
+				{
+				 "id":"sub-product1",
+				 "name":"sub-product1",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Sub Product 1",
+				 "type":"text"
+				},
+				{
+				 "id":"sub-product2",
+				 "name":"sub-product2",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Sub Product 2",
+				 "type":"text"
+				},
+				{
+				 "id":"derivative-type",
+				 "name":"derivative-type",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Derivative Type",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/derivative-type",
+				 			"id-field":"id",
+				 			"display-field":"derivativetype"	
+				 		}
+				},
+				{
+				 "id":"strike",
+				 "name":"strike",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Strike",
+				 "type":"decimal"
+				},
+				{
+				 "id":"ref-futures-price",
+				 "name":"ref-futures-price",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Ref Futures Price",
+				 "type":"decimal"
+				},
+				{
+				 "id":"expiry-processed",
+				 "name":"expiry-processed",
+				 "editable":true,
+				 "visible": true,
+				 "label":"Expiry Processed",
+				 "type": "radio",
+				 "option": [
+				 			{
+				 				"value":"Y",
+				 				"display-text":"Yes"
+				 			},
+				 			{
+				 				"value":"N",
+				 				"display-text":"No"
+				 			}	
+				 			]
+				},
+				{
+				 "id":"averaging-frequency",
+				 "name":"averaging-frequency",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Averaging Frequency",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/averaging-frequency",
+				 			"id-field":"id",
+				 			"display-field":"frequency-type"	
+				 		}
+				},
+				{
+				 "id":"averaging-start-date",
+				 "name":"averaging-start-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Averaging Start Date",
+				 "type":"date"
+				},
+				{
+				 "id":"averaging-end-date",
+				 "name":"averaging-end-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Averaging End Date",
+				 "type":"date"
+				},
+				{
+				 "id":"average-till-now",
+				 "name":"average-till-now",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Average Till Now",
+				 "type":"text"
+				},
+				{
+				 "id":"barrier1",
+				 "name":"barrier1",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 1",
+				 "type":"text"
+				},
+				{
+				 "id":"barrier2",
+				 "name":"barrier2",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 2",
+				 "type":"text"
+				},
+				{
+				 "id":"barrier1obs-start",
+				 "name":"barrier1obs-start",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 1 Obs Start Date",
+				 "type":"date"
+				},
+				{
+				 "id":"barrier2obs-start",
+				 "name":"barrier2obs-start",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 2 Obs Start Date",
+				 "type":"date"
+				},
+				{
+				 "id":"barrier1obs-end-date",
+				 "name":"barrier1obs-end-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 1 Obs End Date",
+				 "type":"date"
+				},
+				{
+				 "id":"barrier2obs-end-date",
+				 "name":"barrier2obs-end-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Barrier 2 Obs End Date",
+				 "type":"date"
+				},
+				{
+				 "id":"rebate",
+				 "name":"rebate",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Rebate",
+				 "type":"text"
+				},
+				{
+				 "id":"quanto-type",
+				 "name":"quanto-type",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Quanto Type",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/quanto-type",
+				 			"id-field":"id",
+				 			"display-field":"quanto-type"	
+				 		}
+				},
+				{
+				 "id":"accumulation-frequency",
+				 "name":"accumulation-frequency",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Accumulation Frequency",
+				 "type":"select-one",
+				 "option-ref": {
+				 			"service-path":"/accumulation-frequency",
+				 			"id-field":"id",
+				 			"display-field":"frequency-type"	
+				 		}
+				},
+				{
+				 "id":"accumulation-start-date",
+				 "name":"accumulation-start-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Accumulation Start Date",
+				 "type":"date"
+				},
+				{
+				 "id":"accumulation-end-date",
+				 "name":"accumulation-end-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Accumulation End Date",
+				 "type":"date"
+				},
+				{
+				 "id":"accumulation-till-now",
+				 "name":"accumulation-till-now",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Accumulation Till Now",
+				 "type":"text"
+				}
+			]
+			}
+		},
+		{"tab": {
+			"id":"execution-info",
+			"label":"Execution Info",
+			"editable":true,
+			"fields": [
+				{
+				 "id":"counterparty-parent",
+				 "name":"counterparty-parent",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Counterparty Parent",
+				 "type":"text"
+				},
+				{
+				 "id":"counterparty-bu",
+				 "name":"counterparty-bu",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Counterparty BU",
+				 "type":"text"
+				},
+				{
+				 "id":"counterparty-entity",
+				 "name":"counterparty-entity",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Counterparty Entity",
+				 "type":"text"
+				},
+				{
+				 "id":"execution-broker",
+				 "name":"execution-broker",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Execution Broker",
+				 "type":"text"
+				},
+				{
+				 "id":"clearing-broker",
+				 "name":"clearing-broker",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Clearing Broker",
+				 "type":"text"
+				},
+				{
+				 "id":"channel",
+				 "name":"channel",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Channel",
+				 "type":"text"
+				},
+				{
+				 "id":"brokerage-rate",
+				 "name":"brokerage-rate",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Brokerage Rate",
+				 "type":"text"
+				},
+				{
+				 "id":"special-rate",
+				 "name":"special-rate",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Special Rate - Text",
+				 "type":"text"
+				},
+				{
+				 "id":"special-rate-number",
+				 "name":"special-rate-number",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Special Rate - Number",
+				 "type":"decimal"
+				},
+				{
+				 "id":"brokerage-comment",
+				 "name":"brokerage-comment",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Brokerage Comment",
+				 "type":"text"
+				},
+				{
+				 "id":"brokerage-accrued",
+				 "name":"brokerage-accrued",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Brokerage Accrued",
+				 "type":"decimal"
+				},
+				{
+				 "id":"brokerage-paid",
+				 "name":"brokerage-paid",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Brokerage Paid",
+				 "type": "radio",
+				 "option": [
+				 			{
+				 				"value":"Y",
+				 				"display-text":"Yes"
+				 			},
+				 			{
+				 				"value":"N",
+				 				"display-text":"No"
+				 			}	
+				 			]
+				},
+				{
+				 "id":"reconed-with-clearer",
+				 "name":"reconed-with-clearer",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Reconed with Clearer",
+				 "type": "radio",
+				 "option": [
+				 			{
+				 				"value":"Y",
+				 				"display-text":"Yes"
+				 			},
+				 			{
+				 				"value":"N",
+				 				"display-text":"No"
+				 			}	
+				 			]
+				},
+				{
+				 "id":"reconed-completed-by",
+				 "name":"reconed-completed-by",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Reconed Completed By",
+				 "type":"text"
+				},
+				{
+				 "id":"recon-date",
+				 "name":"recon-date",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Recon Date",
+				 "type":"date"
+				},
+				{
+				 "id":"recon-time-stamp",
+				 "name":"recon-time-stamp",
+				 "editable":true,
+				 "visible":true,
+				 "label":"Recon Time Stamp",
+				 "type":"date"
+				}
+			]
+			}
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"info": {
+			"id":"invenio-book-correlation-surface",
+			"name":"invenio-book-correlation-surface",
+			"display-text":"INVENIO BOOK-CORREL SURFACE - FIXED",
+			"service-path":"/invenio-book-correlation-surface",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"sub-portfolio-id","label":"Sub Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id1","label":"Option ID 1","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id2","label":"Option ID 2","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"dates","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"strike","label":"Strike","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"correlation","label":"Correlation","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"sub-portfolio-id":"","option-id1":"","option-id2":"","dates":"","strike":"","correlation":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"option-id1",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				},
+				{
+					"name":"option-id2",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				},
+				{
+					"name":"sub-portfolio-id",
+					"service-path":"/sub-portfolio",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}
+			]
+		}
+}

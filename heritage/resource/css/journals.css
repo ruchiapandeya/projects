@@ -1,0 +1,121 @@
+
+#content {
+	position: relative;
+	width: 100%;
+}
+/********************************
+ * generic als elements styling
+ ********************************/
+.als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+	
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	height:300px; width:210px;
+	padding:0px 6px 0px 6px;
+	
+}
+.als-item div{border:1px solid #CCCCCC; width:210; height:290px;; background:#f1f5f5; color:#999999;}
+.als-item div:hover{border:1px solid #999999; width:210; height:290px;; background:#f1f5f5; color:#999999;}
+.als-item img{border:2px solid #cccccc; margin:5px 0px 0px 6px;}
+.als-item img:hover{border:2px solid #999999; margin:5px 0px 0px 6px;}
+.als-item p{ margin:0px 5px 5px 7px; font-size:11px; line-height:12px;}
+ p.title{ color:#00b7ea;}
+ p.price{ color:#d55959; font-size:12px;}
+ p.btn{ border:none; float:right; margin-top:-15%; padding:0px 10px 0px 0px;}
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+
+/**************************
+ * specific als elements
+ * styling for #lista1
+ **************************/
+
+#lista1 {
+width:100%;
+margin-bottom:30px;
+
+}
+
+#lista1 .als-item {
+	margin: 0px 0px;
+	min-height: auto;
+}
+
+#lista1 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista1 .als-prev, #lista1 .als-next {
+	top:40%;
+	height:30px;
+	width:30px;	
+}
+
+#lista1 .als-prev {
+	left: 0%;
+}
+
+#lista1 .als-next {
+	right: 0%;
+}
+
+
+
+
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+
+a{color:white;}
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+.pika-thumbs li{width: 65px; height:90px;}
+.pikachoose{width:500px; position:relative;}
+#pikame{width: 100px;}
+.pika-thumbs {margin: 10px 0 0 17px; width:250px;position: absolute;top: 10px;right: 30px;}
+	.pika-thumbs li { margin: 5px 5px;}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+.jcarousel-skin-pika{position:absolute;top:20px;right:20px;}
+.jcarousel-skin-pika .jcarousel-container-vertical { width: 150px;height: 350px; overflow:hidden;}
+.jcarousel-skin-pika .jcarousel-clip-vertical { width:150px; height: 350px;}
+.jcarousel-skin-pika .jcarousel-item-vertical { margin-top: 10px;}
+.pika-thumbs{ padding: 0 16px; height: 90px; }
+.pika-stage, .pika-textnav {width: 300px;}
+	.pika-thumbs li{ width: 65px; height:90px; margin: 10px 0 0 0px; padding: 0; overflow: hidden;
+		float: left; list-style-type: none;padding: 3px; margin: 0 5px; background: #fafafa; border: 1px solid #e5e5e5; cursor: pointer;}
+	.pika-thumbs li .clip {position:relative;height:100%;  overflow: hidden;}
+	.pika-stage {position: relative; background: #fafafa; border: 1px solid #e5e5e5; padding: 10px 10px 40px 10px; height:350px;}
+.pika-stage img{height:100%;}
+.journals_details{width:48%; margin:20px 20px 20px 20px; float:right; margin-top:-40%; margin-right:2%;}
+#book_Title{font-size:16px; font-weight:bold; color:#00b7ea; font-style:normal; line-height:15px;}
+#published_Date{font-size:12px; font-weight:bold; color:#999999; font-style:normal; line-height:0;}
+#volume{font-size:12px; font-weight:bold; color:#999999; font-style:normal; line-height:0;}
+#book_Author{font-size:12px; font-weight:bold; color:#e58f0f; font-style:normal; line-height:0;}
+#book_Summary{font-size:12px; font-weight:normal; color:#999999; font-style:normal; line-height:18px; text-align:justify;}
+#price{font-size:12px; font-weight:bold; color:#999999; font-style:normal; line-height:0;}

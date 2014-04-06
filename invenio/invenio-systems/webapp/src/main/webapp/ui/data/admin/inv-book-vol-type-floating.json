@@ -1,0 +1,52 @@
+{
+	"info": {
+			"id":"inv-book-vol-type-floating",
+			"name":"inv-book-vol-type-floating",
+			"display-text":"Invenio Book-Vol Surface - Floating",
+			"service-path":"/inv-book-vol-type-floating",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"sub-portfolio","label":"Sub Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id","label":"Option ID","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"      Date        ","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"atmf3p_putskew","label":"ATMF3P_PUTSKEW","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf3p_atm","label":"ATMF3P_ATM","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf3p_callskew","label":"ATMF3P_CALLSKEW","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf5p_p1","label":"ATM5P_P1","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf5p_p2","label":"ATM5P_P2","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf5p_p3","label":"ATM5P_P3","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf5p_p4","label":"ATM5P_P4","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf5p_p5","label":"ATM5P_P5","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p1","label":"ATM7P_P1","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p2","label":"ATM7P_P2","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p3","label":"ATM7P_P3","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p4","label":"ATM7P_P4","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p5","label":"ATM7P_P5","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p6","label":"ATM7P_P6","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"atmf7p_p7","label":"ATM7P_P7","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"sub-portfolio":"","option-id":"","date":"","atmf3p_putskew":"","atmf3p_atm":"","atmf3p_callskew":""
+				,"atmf5p_p1":"","atmf5p_p2":"","atmf5p_p3":"","atmf5p_p4":"","atmf5p_p5":"","atmf7p_p1":"","atmf7p_p2":""
+				,"atmf7p_p3":"","atmf7p_p4":"","atmf7p_p5":"","atmf7p_p6":"","atmf7p_p7":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"sub-portfolio",
+					"service-path":"/sub-portfolio",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				},
+				{
+					"name":"option-id",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				}
+			]
+		}
+}

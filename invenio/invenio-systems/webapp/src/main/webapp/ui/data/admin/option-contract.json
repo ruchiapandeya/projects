@@ -1,0 +1,101 @@
+{
+	"info": {
+			"id":"option-contract",
+			"name":"option-contract",
+			"display-text":"OPTION CONTRACTS",
+			"service-path":"/option-contract",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"option-name","label":"Option Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id1","label":"Option ID 1","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"option-id2","label":"Option ID 2","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"sub-product1","label":"SubProduct 1","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"sub-product2","label":"SubProduct 2","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"strike","label":"Strike","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"derivative-type","label":"Derivative Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"vol-override","label":"Volume Override","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"vol-override-val","label":"Volume Override Value","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"correl-override","label":"Correlation Override","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"correl-override-val","label":"Correlation Override Val","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"barrier1","label":"Barrier 1","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"barrier2","label":"Barrier 2","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"barrier1obs-start-date","label":"Barrier 1 Obs Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"barrier1obs-end-date","label":"Barrier 1 Obs End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"barrier2obs-start-date","label":"Barrier 2 Obs Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"barrier2obs-end-date","label":"Barrier 2 Obs End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"rebate","label":"Rebate","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"quanto-type","label":"Quanto Type","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"averaging-frequency","label":"Averaging Frequency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"averaging-start-date","label":"Averaging Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"averaging-end-date","label":"Averaging End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"average-till-now","label":"Average Till Now","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"accumulation-frequency","label":"Accumulation Frequency","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"accumulation-start-date","label":"Accumulation Start Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"accumulation-end-date","label":"Accumulation End Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"accumulation-till-now","label":"Accumulation Till Npw","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"maturity-date","label":"Maturity Date","datatype":"date","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"option-name":"","option-id1":"","option-id2":"","sub-product1":"","sub-product2":"","strike":""
+				,"derivative-type":"","vol-override":"","vol-override-val":"","correl-override":"","correl-override-val":""
+				,"barrier1":"","barrier2":"","barrier1obs-start-date":"","barrier1obs-end-date":"","barrier2obs-start-date":""
+				,"barrier2obs-end-date":"","rebate":"","quanto-type":"","averaging-frequency":"","averaging-start-date":""
+				,"averaging-end-date":"","average-till-now":"","accumulation-start-date":"","accumulation-end-date":""
+				,"accumulation-frequency":"","accumulation-till-now":"","maturity-date":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"derivative-type",
+					"service-path":"/derivative-type",
+		 			"id-field":"id",
+		 			"display-field":"derivativetype"
+				},
+				{
+					"name":"quanto-type",
+					"service-path":"/quanto-type",
+		 			"id-field":"id",
+		 			"display-field":"quanto-type"
+				},
+				{
+					"name":"averaging-frequency",
+					"service-path":"/averaging-frequency",
+		 			"id-field":"id",
+		 			"display-field":"frequency-type"
+				},
+				{
+					"name":"accumulation-frequency",
+					"service-path":"/accumulation-frequency",
+		 			"id-field":"id",
+		 			"display-field":"frequency-type"
+				},
+				{
+					"name":"option-id1",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				},
+				{
+					"name":"option-id2",
+					"service-path":"/option-static-data",
+		 			"id-field":"id",
+		 			"display-field":"option-id"
+				},
+				{
+					"name":"sub-product1",
+					"service-path":"/invenio-product",
+		 			"id-field":"id",
+		 			"display-field":"invenio-product-name"
+				},
+				{
+					"name":"sub-product2",
+					"service-path":"/invenio-product",
+		 			"id-field":"id",
+		 			"display-field":"invenio-product-name"
+				}
+			]
+		}
+}

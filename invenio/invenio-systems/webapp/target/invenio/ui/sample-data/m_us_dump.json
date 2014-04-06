@@ -1,0 +1,17 @@
+{"metadata":[
+	{"name":"instrument","label":"INSTRUMENT","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"strikeCode","label":"STRIKE CODE","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"marketValue","label":"MARKET VALUE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"bookValue","label":"BOOK VALUE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"marketUs","label":"MARKET US","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"strikePrice","label":"STRIKE PRICE","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"strikeTotal","label":"STRIKE TOTAL","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"marketValCall","label":"MARKET VAL CALL","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"marketCalPut","label":"MARKET CAL PUT","datatype":"decimal","bar":true,"editable":false,"values":null},
+	{"name":"instrumentDisplay","label":"INSTRUMENT DISPLAY","datatype":"string","bar":true,"editable":false,"values":null},
+	{"name":"optionsExpiryDate","label":"OPTIONS EXPIRY DATE","datatype":"date","bar":true,"editable":false,"values":null}
+],
+
+"data":[
+	{"id":"1","values":{"instrument":"AG-BO-1","strikeCode":"AG-BO-CBT","marketValue":"10.1","bookValue":"10.2","marketUs":"10.4","strikePrice":"5","strikeTotal":"50","marketValCall":"7","marketCalPut":"5","instrumentDisplay":"INSTRUMENT","optionsExpiryDate":"17\/04\/2012"}}
+]}

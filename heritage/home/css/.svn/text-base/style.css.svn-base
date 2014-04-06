@@ -1,0 +1,54 @@
+/*----------------------------------------------------------------------------- 
+
+RAMA BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	07/27/11 
+author:		freshline
+email:     	support@version-four.com 
+website:   	http://www.version-four.com
+-----------------------------------------------------------------------------*/
+
+/***********************
+	-	BASICS 	-
+***********************/
+
+ol, ul { 
+    list-style: none; 
+}
+
+a{
+	text-decoration:none;
+}
+/* ****************************** Header CSS************************************** 
+#headerHorizontal {background:url(../images/blackHeader.png);
+	height:80px;position:relative;}*/
+
+.logo 					{display:inline-block;width:200px; height:60px; position:absolute; }
+.logo img				{margin:0px 0px 0px 0px; }
+
+/* ************************************************************************************* */
+
+
+
+.example-wrapper{
+	position:relative;
+	width:980px;
+	height:400px;
+	margin:auto;
+	margin-top:-15px;	
+}
+
+
+/****************************
+	-	BASIC DIVIDERS 	-
+*****************************/
+#small_divider {
+	margin-top:8px;
+}
+
+#big_divider {
+	margin-top:150px;
+}

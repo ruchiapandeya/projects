@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"action-type",
+			"name":"action-type",
+			"display-text":"ACTION TYPES",
+			"service-path":"/action",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"action-type","label":"Action Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"action-type":""}
+			}
+		}
+}

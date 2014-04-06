@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"options-unl-contr",
+			"name":"options-unl-contr",
+			"display-text":"Options Underlying Contract",
+			"service-path":"/options-unl-contr",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"options-name","label":"Underlying Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"options-desc","label":"Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"options-name":"","options-desc":""}
+			}
+		}
+}

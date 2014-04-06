@@ -1,0 +1,18 @@
+{
+	"info": {
+			"id":"exchange",
+			"name":"exchange",
+			"display-text":"EXCHANGE",
+			"service-path":"/exchange",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"exchange-name","label":"Exchange Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"exchange-desc","label":"Exchange Description","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"exchange-name":"","exchange-desc":""}
+			}
+		}
+}

@@ -1,0 +1,20 @@
+{
+	"info": {
+			"id":"option-price",
+			"name":"option-price",
+			"display-text":"Option Prices",
+			"service-path":"/option-price",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"name","label":"Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"date","label":"Date","datatype":"date","bar":true,"editable":true,"values":null},
+				{"name":"bbg-settlement-price","label":"BBG Settlement Price","datatype":"decimal","bar":true,"editable":true,"values":null},
+				{"name":"exchange-settlement-price","label":"Exchange Settlement Price","datatype":"decimal","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"name":"","date":"","bbg-settlement-price":"","exchange-settlement-price":""}
+			}
+		}
+}

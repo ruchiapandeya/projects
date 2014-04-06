@@ -1,0 +1,17 @@
+{
+	"info": {
+			"id":"exchange-exercise-type",
+			"name":"exchange-exercise-type",
+			"display-text":"EXCHANGE EXERCISE TYPES",
+			"service-path":"/exchange-exercise-type",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"exchange-exercise-type-name","label":"Type","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"exchange-exercise-type-name":""}
+			}
+		}
+}

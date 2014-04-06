@@ -1,0 +1,35 @@
+{
+	"info": {
+			"id":"portfolio",
+			"name":"portfolio",
+			"display-text":"PORTFOLIO",
+			"service-path":"/portfolio",
+			"sort-field":"id"
+		},
+		"grid-json":{
+			"metadata":[
+				{"name":"portfolio_name","label":"Portfolio Name","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"sub_portfolio","label":"Sub Portfolio","datatype":"string","bar":true,"editable":true,"values":null},
+				{"name":"invenio_product","label":"Invenio Product","datatype":"string","bar":true,"editable":true,"values":null}
+			],
+			"data":{
+				"id":"0","values":{"portfolio_name":"","sub_portfolio":"","invenio_product":""}
+			}
+		},
+		"refs":{
+			"fields":[
+				{
+					"name":"invenio_product",
+					"service-path":"/invenio-product",
+		 			"id-field":"id",
+		 			"display-field":"invenio-product-name"
+				},
+				{
+					"name":"sub_portfolio",
+					"service-path":"/sub-portfolio",
+		 			"id-field":"id",
+		 			"display-field":"name"
+				}
+			]
+		}
+}
