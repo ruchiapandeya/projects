@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--www.phpied.com/conditional-comments-block-downloads/-->
+<!--[if IE}><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome-1" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/960_24_col.css"/>
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="js/jquery-1.2.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Magic Glass</title>
+<style>
+header, section, article, footer, nav {display:block;}
+
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Header = {
+	// Let's write in JSON to make it more modular
+	addFade : function(selector){
+		$("<span class=\"fake-hover\"></span>").css("display", "none").prependTo($(selector)); 
+		// Safari dislikes hide() for some reason
+		$(selector+" a").bind("mouseenter",function(){
+			$(selector+" .fake-hover").fadeIn("slow");
+		});
+		$(selector+" a").bind("mouseleave",function(){
+			$(selector+" .fake-hover").fadeOut("slow");
+		});
+		
+	}
+};
+
+$(function(){
+	Header.addFade("#headerLogo");
+});
+
+
+//]]>
+</script>
+<script>
+		$(function(){
+			// Set starting slide to 1
+			var startSlide = 1;
+			// Get slide number if it exists
+			if (window.location.hash) {
+				startSlide = window.location.hash.replace('#','');
+			}
+			// Initialize Slides
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				generatePagination: true,
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				// Get the starting slide
+				start: startSlide,
+				animationComplete: function(current){
+					// Set the slide number as a hash
+					window.location.hash = '#' + current;
+				}
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header class="container_24">	
+		<h1  id="headerLogo"><a href="#">Awesome header</a></h1>
+        	<menu> 
+    			<ul id="headSocial">
+        			<li>
+            			<a href="#" id="facebook">
+                			<img src="images/icons/facebook.png" title="Facebook" />
+                		</a>
+            		</li>
+            		<li>
+            			<a href="#">
+                		<img src="images/icons/twitter.png" title="Twitter" />
+                		</a>
+            		</li>
+            		<li>
+            			<a href="#">
+                		<img src="images/icons/flicker.png" title="Flicker" />
+                		</a>
+            		</li>
+            		<li>
+            			<a href="#">
+                			<img src="images/icons/linkdin.png" title="Linkdin" />
+                		</a>
+            		</li>
+        		</ul>
+    		</menu>
+    </header>
+<div align="center">
+	<div>
+		<div id="banner"  class="Container_24">
+			<ul>
+        		<li>
+            		<img src="images/man.png"  height="275"/>
+            	</li>
+            	<li>
+					<div id="container">
+						<div id="slides">
+							<div class="slides_container">
+								<div class="slide" >
+									<img src="images/slide1.png" />
+										<p><a href="#" class="link">Check out the fourth slide &rsaquo;</a></p>
+								</div>
+								<!--<div class="slide">
+									<img src="images/slide2.png" />
+										<p><a href="#" class="link">Check out the fifth slide &rsaquo;</a></p>
+								</div>
+								<div class="slide">
+									<img src="images/slide3.png" />
+										<p><a href="#" class="link">Check out the first slide &rsaquo;</a></p>
+								</div>
+								<div class="slide">
+									<img src="images/slide4.png" />
+										<p><a href="#" class="link">Check out the sixth slide &rsaquo;</a></p>
+								</div>-->
+							</div>
+						</div>
+					</div>
+            	</li>
+        	</ul>
+		</div>	
+	</div>
+</div>
+
+</body>
+</html>

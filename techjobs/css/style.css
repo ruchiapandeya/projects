@@ -1,0 +1,774 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+a{ text-decoration:none; color:#663399;}
+a:hover { text-decoration:underline; color:#663399; }
+dt{padding:0px 0px 2px 0px; color:#663399;}
+
+/* Menu */
+.whats{margin-left:80%; margin-top:-13%; height:20px;}
+.ie7 .whats{margin-left:80%; margin-top:-20%; height:20px;}
+.ie7 #login_user{margin-top:0%;}
+.ie7 #password_align{ margin-top:-8%;}
+#menu {
+	float:;
+	width: 980px;
+	height: 30px;
+	background:url(../images/menu_final.png);
+	margin-top:5%;
+	margin-right:5%;
+
+}
+
+#menu ul {
+	margin: 0;
+	padding: 5px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+	
+	
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin-top:0px;
+	text-decoration: none;
+	background: url(../images/img05.gif) no-repeat right 50%;  
+	font: 11px;
+	color:#FFFFFF;
+}
+.ie7 #menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 0px 10px 0px 10px;
+	margin-top:0px;
+	text-decoration: none;
+	background: url(../images/img05.gif) no-repeat right 50%; 
+	font: 14px;
+	color:#FFFFFF;
+}
+#menu a:hover { text-decoration:none; background-color:#2586d7; padding:-3px; height:25px;}
+
+#menu .current_page_item a {
+	padding-left: -0px;
+	
+}
+
+#headers
+{
+ width:980px;
+ height:auto;
+ font: normal 12px verdana,arial;
+ line-height: 18px;
+ color:#000000;
+ }
+#top_bar
+{ width: 980px;
+  height: 20px;
+  background:url(../images/top_bar.png) repeat;
+  color: #000;
+  margin-top:-8px;
+  border:1px solid #CCCCCC;
+}
+.ie7 #top_bar
+{ width: 980px;
+  height: 20px;
+  background:url(../images/top_bar.png) repeat;
+  color: #000;
+  margin-top:-14px;
+  border:1px solid #CCCCCC;
+}
+#vertical_lines
+{ width: 976px;
+  height: 2px;
+  background:url(../images/vertical.png) repeat;
+  color: #000;
+  margin-left:2px;
+  margin-top:-3px;
+  
+}
+.ie7 #vertical_lines
+{ width: 976px;
+  height: 2px;
+  background:url(../images/vertical.png) repeat;
+  color: #000;
+  margin-top:-5.3%;
+  margin-right:1%;
+
+}
+#vertical_line
+{ width: 976px;
+  height: 2px;
+  background:url(../images/vertical.png) repeat;
+  color: #000;
+  margin-left:2px;
+  margin-top:-3px;
+  
+}
+.ie7 #vertical_line
+{ width: 976px;
+  height: 2px;
+  background:url(../images/vertical.png) repeat;
+  color: #000;
+  margin-top:-0.7%;
+  margin-right:1%;
+
+}
+.toptext_style
+{ font: normal 10px verdana,arial;
+  color:#000000;
+  line-height: 18px;
+  margin-top:-1px;
+  float:right;
+  padding:0px 3px;
+}
+#logo
+{
+ float:left;
+ margin-top:0%;
+ margin-left:10;
+}
+.ie7 #logo
+{
+ width:300px;
+ height:57px;
+ background-image:url(../images/logo.png);
+ float:left;
+ margin-top:0px;
+}
+
+#content
+{
+ width:980px;
+ height:auto;
+ font: normal 12px verdana,arial;
+ line-height: 18px;
+ color:#000000;
+}
+.ie7 #content
+{
+ width:980px;
+ height:auto;
+ font: normal 12px verdana,arial;
+ line-height: 18px;
+ color:#000000;
+
+}
+.ie8 #content
+{
+ width:980px;
+ height:auto;
+ font: normal 12px verdana,arial;
+ line-height: 18px;
+ color:#000000;
+ 
+}
+
+#box
+{
+width:99.5%;
+margin-top:-39px;
+float:left;
+margin-left:0.3%;
+
+}
+.ie7 #box
+{
+width:99.5%;
+height:0px;
+margin-top:-39px;
+float:left;
+margin-left:2px;
+
+}
+.ie8 #box
+{
+width:99.5%;
+margin-top:-39px;
+float:left;
+margin-left:2px;
+
+}
+#button
+{
+	margin-right:40px;
+	float:right;
+	margin-top:-10px;
+}
+.ie7 #button
+{
+	margin-right:40px;
+	float:right;
+	margin-top:-20px;
+}
+#form_box
+{
+	width:517px;
+	height:164px;
+	float:right;
+	font: normal 12px verdana,arial;
+	margin-top:-166px;
+	margin-right:3px;
+	border:1px solid #FF9900;
+	color:#01588d;
+}
+.ie7 #form_box
+{
+	width:517px;
+	height:164px;
+	float:right;
+	font: normal 12px verdana,arial;
+	margin-top:-166px;
+	margin-right:3px;
+	border:1px solid #FF9900;
+	color:#01588d;
+}
+.ie8 #form_box
+{
+	width:517px;
+	height:164px;
+	float:right;
+	font: normal 12px verdana,arial;
+	margin-top:-166px;
+	margin-right:3px;
+	border:1px solid #FF9900;
+	color:#01588d;
+}
+.keyword
+{
+	padding-right:20px;
+	
+	
+}
+.location
+{
+	margin-top:-1px;
+	
+}
+.experience{margin-left:5px;}
+.key_loc {
+	float: left;
+	width: 490px;
+	height: 80px;
+	margin: 0;
+	padding: 0px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+	margin-top:-10px;
+}
+.ie7 .key_loc {
+	float: left;
+	width: 490px;
+	height: 80px;
+	margin: 0;
+	padding: 0px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+	margin-top:10px;
+}
+.key_loc li
+{	
+	display: block;
+	float: left;
+}
+.key_loc p
+{
+	margin-bottom:1px;
+}
+.fun_exp {
+	float: left;
+	width: 490px;
+	height: 80px;
+	margin: 0;
+	padding: 0px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+	margin-top:-30px;
+}
+.fun_exp li
+{	
+	display: block;
+	float: left;
+}
+.fun_exp p
+{
+	margin-bottom:1px;
+}
+#job_list
+{
+width:593px;
+height:auto;
+border:1px solid #FFCCCC;
+margin-left:192px;
+margin-top:0px;
+padding-bottom:83px;
+}
+.ie7 #job_list
+{
+width:593px;
+height:auto;
+border:1px solid #FFCCCC;
+margin-left:192px;
+margin-top:0px;
+padding-bottom:83px;
+}
+
+#joblist
+{
+height:auto;
+width:250px;
+margin-left:-8.5%;
+padding:20px;
+}
+.ie7 #joblist
+{
+width:250px;
+margin-left:-3.5%;
+padding:20px;
+margin-top:-10px;
+
+}
+#job_list li{padding:5px;}
+ul{
+	list-style:none;}
+#joblist_location
+{
+width:250px;
+margin-left:-8%;
+padding:4%;
+}
+.ie7 #joblist_location
+{
+width:250px;
+margin-left:-2%;
+padding:20px;
+margin-top:-1.8%; 
+position:absolute;
+
+}
+#job_list_location li{padding:5px;}
+ul{
+	list-style:none;}
+
+
+/* -- top navigation start -- */
+#topNav{
+	width:593px; height:30px; margin-top:0px; 
+	background:url(../images/top_bar1.png) no-repeat 0 0 #FFFFFF; color:#000000;
+	float:right; margin-right:0px;}
+#topNav ul{
+	width:580px; margin:0 auto; }
+#topNav ul li{
+	float:left; margin:0 1px 0 0 ;}
+#topNav ul li a{
+	font:bold 12px/29px Arial, Helvetica, sans-serif; color:#595959;
+	background:url(../images/top_nav_btn_bg.gif) repeat-x 0 0 #FFFFFF;
+	padding:0 12px; display:block; text-decoration:none; margin:-4px 0 0 0;}
+#topNav ul li a:hover{
+	font:bold 12px/27px Arial, Helvetica, sans-serif; color:#337BA6;
+	background-color:#FFFFFF; background-image:none;
+	border-top:#DADADA 1px solid; border-right:#DADADA 1px solid; border-left:#DADADA 1px solid;
+	padding:0 11px; margin:-4px 0 0 0; display:block; text-decoration:none;}
+#topNav ul li a.hover{
+	font:bold 12px/27px Arial, Helvetica, sans-serif; color:#F50B04;
+	background-color:#FFFFFF; background-image:none;
+	border-top:#DADADA 1px solid; border-right:#DADADA 1px solid; border-left:#DADADA 1px solid;
+	padding:0 12px; margin:-4px 0 0 0; display:block; text-decoration:none;}
+/* -- top navigation end -- */
+
+#login_box
+{
+	float:right;
+	margin-top:5px;
+	height:160px;
+	width:162px;
+	border:1px solid #FFCCCC;
+	padding:5px 10px 5px 10px;
+	margin-right:3px;
+}
+.ie7 #login_box
+{
+	float:right;
+	margin-top:-902px;
+	height:160px;
+	width:162px;
+	border:1px solid #FFCCCC;
+	padding:5px 10px 5px 10px;
+	margin-left:200px;
+}
+#postresume_box
+{
+	float:right;
+	margin-top:181px;
+	height:150px;
+	width:162px;
+	border:1px solid #FFCCCC;
+	padding:15px 10px 5px 10px;
+	margin-right:-184px;
+	font-size:11px;
+}
+.ie7 #postresume_box
+{
+	float:right;
+	margin-top:-725px;
+	height:150px;
+	width:162px;
+	border:1px solid #FFCCCC;
+	padding:15px 10px 5px 10px;
+	margin-right:-384px;
+	font-size:11px;
+	margin-left:290px;
+}
+
+#topNav_left
+{
+	width:182px;
+	height:auto;
+	margin-top:5px;
+	border:1px solid #FFCCCC; 
+	float:left; 
+	margin-left:2px;
+}
+.ie7 #topNav_left
+{
+	width:182px;
+	height:auto;
+	margin-top:5px;
+	border:1px solid #FFCCCC; 
+	float:left; 
+	margin-left:2px;
+}
+.ie8 #topNav_left
+{
+	width:182px;
+	height:auto;
+	margin-top:5px;
+	border:1px solid #FFCCCC; 
+	float:left; 
+	margin-left:0px;
+}
+#topNav_right
+{
+	width:182px;
+	height:auto;
+	margin-top:357px;
+	border:1px solid #FFCCCC; 
+	float:right; 
+	margin-right:-185px;
+}
+.ie7 #topNav_right
+{
+	width:182px;
+	height:auto;
+	margin-top:-548px;
+	border:1px solid #FFCCCC;
+	margin-left:290px;
+	margin-right:-490px;
+}	
+#job_location{margin-left:260px; height:25px; margin-top:0px;}
+.ie7 #job_location{margin-left:290px; height:30px; margin-top:-5px;}
+#footer
+{ width: 100%;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #29425E url(../images/footer.png) repeat-x;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: underline;}
+#job_by_category{ width:60%; height:100px; border:1px solid #FFCCCC;}
+table
+{ margin: 5px 0 5px 0; margin-top:-1%; }
+
+table tr th, table tr td
+{ background:#314d6f;
+  color: #FFF;
+  padding: 5px 4px;
+  text-align: left;}
+  
+table tr td
+{ background: #F0EFE2;
+  color: #01588d;
+  border-top: 1px solid #FFF;}
+/*-------LOGIN STARTS HERE -------*/
+
+/* Login Container (default to float:right) */
+#loginContainer {
+    position:relative;
+    float:right;
+    font-size:12px;
+	padding-left:10%;
+}
+
+/* Login Button */
+#loginButton { 
+    display:inline-block;
+    float:right;
+    background:#d2e0ea url(../images/buttonbg.png) repeat-x; 
+    border:1px solid #899caa; 
+    border-radius:3px;
+    -moz-border-radius:3px;
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+}
+
+/* Login Button Text */
+#loginButton span {
+    color:#445058; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-shadow:1px 1px #fff; 
+    padding:7px 29px 9px 10px;
+    background:url(../images/loginArrow.png) no-repeat 53px 7px;
+    display:block
+}
+
+#loginButton:hover {
+    background:url(../images/buttonbgHover.png) repeat-x;
+}
+
+/* Login Box */
+#loginBox {
+    position:absolute;
+    top:34px;
+    right:0;
+    display:none;
+    z-index:29;
+}
+
+/* If the Login Button has been clicked */    
+#loginButton.active {
+    border-radius:3px 3px 0 0;
+}
+
+#loginButton.active span {
+    background-position:53px -76px;
+}
+
+/* A Line added to overlap the border */
+#loginButton.active em {
+    position:absolute;
+    width:100%;
+    height:1px;
+    background:#d2e0ea;
+    bottom:-1px;
+}
+
+/* Login Form */
+#loginForm {
+    width:248px; 
+    border:1px solid #899caa;
+    border-radius:3px 0 3px 3px;
+    -moz-border-radius:3px 0 3px 3px;
+    margin-top:-1px;
+    background:#d2e0ea;
+    padding:6px;
+}
+
+#loginForm fieldset {
+    margin:0 0 12px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+
+fieldset#body {
+    background:#fff;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    padding:10px 13px;
+    margin:0;
+}
+
+#loginForm #checkbox {
+    width:auto;
+    margin:1px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+
+#body label {
+    color:#3a454d;
+    margin:9px 0 0 0;
+    display:block;
+    float:left;
+}
+
+#loginForm #body fieldset label {
+    display:block;
+    float:none;
+    margin:0 0 6px 0;
+}
+
+/* Default Input */
+#loginForm input {
+    width:92%;
+    border:1px solid #899caa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    color:#3a454d;
+    font-weight:bold;
+    padding:8px 8px;
+    box-shadow:inset 0px 1px 3px #bbb;
+    -webkit-box-shadow:inset 0px 1px 3px #bbb;
+    -moz-box-shadow:inset 0px 1px 3px #bbb;
+    font-size:12px;
+}
+
+/* Sign In Button */
+#loginForm #login {
+    width:auto;
+    float:left;
+    background:#339cdf url(../images/loginbuttonbg.png) repeat-x;
+    color:#fff;
+    padding:7px 10px 8px 10px;
+    text-shadow:0px -1px #278db8;
+    border:1px solid #339cdf;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0 12px 0 0;
+    cursor:pointer;
+    *padding:7px 2px 8px 2px; /* IE7 Fix */
+}
+
+/* Forgot your password */
+#loginForm span {
+    text-align:center;
+    display:block;
+    padding:7px 0 4px 0;
+}
+
+#loginForm span a {
+    color:#3a454d;
+    text-shadow:1px 1px #fff;
+    font-size:12px;
+}
+
+input:focus {
+    outline:none;
+}
+
+.container {
+	width:960px; 
+	margin:0px auto; 
+	position:relative;
+	z-index:12;
+	}
+	
+/* Positions the contact form so it doesn't interfere with any other content, as well as a z-index above any other elements on the page */	
+#contactFormContainer {
+	position:absolute;
+	left:40%;
+	z-index:1;
+	
+	}
+	
+/* Hides the whole contact form until needed */	
+#contactForm {
+	height:289px;width:558px;
+	background:#014974; 
+	border:1px solid #929191;
+	padding:7px 12px; 
+	color:#fff;
+	display:none;
+	
+	}   
+
+/* Loading bar that will appear while the ajax magic is happening */
+.bar{
+	display:none; 
+	background:url(../images/ajax-loader.gif) no-repeat center; 
+	margin-top:100px; 
+	height:40px; width:230px;
+	}
+	
+/* Hides the confirmation message until needed */	
+#messageSent {display:none;}
+
+/* This hides the form validation alert messages until needed */
+#contactForm span { 
+	display:none; 
+	font-size:9px; 
+	line-height:10px; 
+	padding-left:6px; 
+	color:#f5c478;
+	}
+	
+/* Some styling for the contact button */
+#contactFormContainer .contact {
+	height:47px; width:211px;
+	background:url(../images/contact_me.png); 
+	position:absolute; 
+	left:368px; bottom:-44px; 
+	cursor:pointer;
+	}
+			
+/* Hides the darkening layer for the Modal effect. The z-index is necessary for layering purposes, and be sure to keep the positioning/height/width the same */	
+#backgroundPopup{
+	display:none; 
+	position:fixed; 
+	_position:absolute; 
+	height:100%; width:100%; 
+	top:0; left:0;
+	background:#000; 
+	z-index:11;
+	}  
+	
+/* Form styling from here on out. There is nothing in here that you HAVE to use to get this to work */	
+#contactForm textarea, #contactForm input {
+	width:180px; 
+	background:#6d6d6d url(../images/contact_input.png) repeat-x top; 
+	color:#fff; 
+	border:1px solid #8a8a8a; 
+	height:15px; 
+	line-height:14px; 
+	font-size:11px; 
+	padding:2px 2px 0px;
+	}
+#contactForm input {background-position:0px -20px;}
+#contactForm textarea {height:114px; font-family:Verdana, Geneva, sans-serif;}
+#contactForm .submit {
+	border:1px solid #aba8a8; 
+	background:#e5e5e5; 
+	text-transform:uppercase; 
+	color:#4d4d4d; 
+	font-weight:bold; 
+	padding:7px 16px 7px 14px; 
+	height:37px; width:124px; 
+	cursor:pointer; 
+	float:left; 
+	margin-top:196px;
+	}
+#contactForm .submit:active {background:#cacaca; }
+#contactForm label {padding-left:4px; font-weight:bold;}
+#contactForm p {padding-bottom:8px;}
+#contactForm .input_boxes {float:left; width:204px;}
+
+#dummycontent {padding-top:100px; height:900px; position:relative;}
+.bottomlink {position:absolute; bottom:0;}

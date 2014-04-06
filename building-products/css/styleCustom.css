@@ -1,0 +1,321 @@
+﻿/* Top header */
+.headMenu {color: #c94812;}
+.headSeperator {color: #d7d5d5;}
+
+/* Grid Box Setup*/
+input.editgridcolumn, div.editgridcolumn table
+{
+    width: 80%;    
+}
+
+/* MessageBox */
+.invisible
+{
+    display:none !important;
+}
+
+.messageBox 
+{
+    background-color:#F9F9F9;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold; 
+    min-height: 90px;
+    color: #2030FF;
+    margin: 10px;
+    padding: 5px;
+}
+
+div.messageBoxTitle
+{
+   margin: 10px 10px 10px 120px;
+   font-size: 1.2em;
+}
+
+div.messageBoxContents
+{
+    margin-left: 120px;   
+}
+
+.successBox
+{
+    background: url('../images/icons/msg_success.png') no-repeat scroll 15px 5px transparent;
+}
+
+.informationBox
+{
+    background: url('../images/icons/msg_information.png') no-repeat scroll 15px 5px transparent;    
+    color: #4876FF;
+}
+
+.warningBox
+{
+    background: url('../images/icons/msg_warning.png') no-repeat scroll 15px 5px transparent;    
+    color: #CDAD00;
+}
+
+.errorBox
+{
+    background: url('../images/icons/msg_error.png') no-repeat scroll 15px 5px transparent;
+    color: #ff0000;
+}
+
+/* Dynamic Loading */
+div.pageLoading{
+    display:none;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    background-color: #555555;    
+    /*set the div in the top-left corner of the screen*/
+    position:absolute;
+    top:0;
+    left:0;    
+    /*set the width and height to 100% of the screen*/
+    width:100%;
+    height:100%;
+    z-index:10000;
+  }
+
+div.pageLoading img
+{
+    display: block;
+    margin: auto;
+    margin-top:200px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.tabContent {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C5C5C5;
+    clear: both;
+    height: auto;
+    position: relative;
+    top: -4px;
+    padding: 10px;
+}
+
+div.displayBlock
+{
+    display: block;
+    margin: 3px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;    
+}
+
+h1.normal
+{
+    text-transform:none;
+}
+div.clear
+{
+    clear: both;
+    margin:0px;
+    padding:0px;
+}
+
+
+.block {display: block;}
+.blue {color: #3a5e92;}
+.bold {font-weight: bold;}
+.red {color: #cc0000;    }
+.newRow {clear: both;width: 100%;    }
+
+.col_5, .col_10, .col_15, .col_20, .col_25, .col_30, .col_33, .col_35, .col_40, .col_45, .col_47, .col_49, .col_50, .col_55, .col_60, .col_65, .col_70, .col_75, .col_80, .col_85, .col_85, .col_90, .col_95, .col_100 {
+	padding:0px; margin:0px;
+	float:left;
+	overflow:hidden;
+}
+.col_5 {width:5%;}
+.col_10 {width:10%;}
+.col_15 {width:15%;}
+.col_20 {width:20%;}
+.col_25 {width:25%;}
+.col_30 {width:30%;}
+.col_33 {width:33%}
+.col_35 {width:35%;}
+.col_40 {width:40%;}
+.col_45 {width:45%;}
+.col_47 {width:47%;}
+.col_49 {width:49%;}
+.col_50 {width:50%;}
+.col_55 {width:55%;}
+.col_60 {width:60%;}
+.col_65 {width:65%;}
+.col_70 {width:70%;}
+.col_75 {width:75%;}
+.col_80 {width:80%;}
+.col_85 {width:85%;}
+.col_90 {width:90%;}
+.col_95 {width:95%;}
+.col_97 {width:97%;}
+.col_100 { width:100%;clear:both;}
+
+.width_50,.width_100,.width_110, .width_120, .width_140, .width_150, .width_160, .width_200, .width_250, .width_300, .width_350, .width_400, .width_450, .width_500, .width_550, .width_600, .width_650, .width_700{
+	padding:0px; margin:0px;
+	float:left;
+	overflow:hidden;
+}
+.width_50 {width: 50px;}
+.width_100 {width:100px;}
+.width_110 {width:110px;}
+.width_120 {width:120px;}
+.width_140 {width:140px;}
+.width_150 {width:150px;}
+.width_160 {width:160px;}
+.width_200 {width:200px;}
+.width_250 {width:250px;}
+.width_300 {width:300px;}
+.width_350 {width:350px;}
+.width_400 {width:400px}
+.width_450 {width:450px;}
+.width_500 {width:500px;}
+.width_550 {width:550px;}
+.width_600 {width:600px;}
+.width_650 {width:650px;}
+.width_700 {width:700px;}
+
+.widthpure_150 {width:150px;}
+.widthpure_200 {width:200px;}
+
+.padding0 {padding: 0px !important; }
+.padding5 {padding: 5px !important; }
+.padding10 {padding: 10px !important;}
+.margin0 {margin:0px !important;}
+.margin5 {margin:5px !important;}
+.margin10 {margin:10px !important;}
+.margin20 {margin:20px !important;}
+
+.left {float:left !important;}
+.right {float:right !important; }
+.padding_right20 {padding-right: 20px !important;}
+
+/* Validation error message styles */
+
+.warningMessage
+{
+   background: url(../images/icons/error.png) no-repeat 0 0%;    
+   display: inline-block;    
+   display:-moz-inline-box;
+   height: 20px;
+   width: 20px;
+
+}
+
+#tooltip {
+    padding: 5px 10px;
+    background: #f8d8d9;
+    border: none;
+}
+
+.nestedborder
+{
+    border: 1px solid #C5C5C5;
+    padding: 5px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+/* Fieldset Style */
+fieldset
+{
+    border: 1px solid #A4ABB2;
+    border-radius: 4px 4px 4px 4px;
+    padding: 5px;
+}
+
+.border
+{
+    border: 1px solid #A4ABB2;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.required
+{
+    color: #ff0000;  
+    font-weight: bold;  
+    font-size: 1.2em;
+}
+
+/* Tag Style */
+.tagitem
+{
+    background: url(../images/icons/cross.png) no-repeat 0 0%;    
+    display: block;
+    margin: 10px;
+    margin-left: 4px;
+    padding-left : 20px;
+    float: left; 
+    cursor: pointer;  
+}
+
+.detailslink
+{
+    display: inline;
+    overflow: hidden;
+    padding: 2px 2px 2px 22px;
+    color: #C94812;  
+    font-size:1em;
+    font-weight:bold;  
+}
+
+.pdf_button {
+    background: url(../images/icons/pdf.gif)  no-repeat 0 0%;
+}
+.web_button {
+    background: url(../images/icons/web.png)  no-repeat 0 0%;
+}
+
+.orange {
+    color: #EE953D !important;
+}
+
+.col1, .col2, .col3 {
+float: left;
+width: 110px;
+margin: 0;
+padding: 0 5px 0 0;
+line-height: 200px;
+display: list-item;
+list-style-type: none;
+}
+
+div .min_height500
+{
+    min-height: 500px;
+}
+.noborder{border: none !important}
+
+.detailsblock{padding-top:10px;}
+.detailsblock .title{padding-bottom:5px; color:#C94812; font-size:1.1em; font-weight:bold;}
+.detailsinfo {padding: 5px 0 1px 6px; text-align: left; font-weight: bold;font-size:1em; }
+
+.headertext
+{
+    background: url("../images/profile_bar_blue.png") repeat scroll 0 0 transparent;
+    border: 1px solid #678CA7;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 3px 0 0;
+    padding: 5px 10px 6px;
+    font-weight: bold;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+
+.refinemenu
+{
+    padding: 10px 10px 50px 10px; 
+    border-bottom: 1px solid #ccc; 
+    width: 190px;
+    color: #666666; 
+    background: none repeat scroll 0 0 #ffffff; 
+    margin: -13px 0 5px 0px;
+}
+#leftmenu
+{
+    float: left;
+    width: 220px;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>quickSearch jQuery plug-in</title>
+		
+		<link rel="stylesheet" href="css/admin.css" type="text/css" media="all" title="" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.quicksearch.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				/*
+				Example 1
+				*/
+				$('input#id_search').quicksearch('table tbody tr');
+				
+				/*
+				Example 2 
+				*/
+				$('input#id_search2').quicksearch('table#table_example2 tbody tr', {
+					'delay': 300,
+					'selector': 'th',
+					'stripeRows': ['odd', 'even'],
+					'loader': 'span.loading',
+					'bind': 'keyup click',
+					'show': function () {
+						this.style.color = '';
+					},
+					'hide': function () {
+						this.style.color = '#ccc';
+					},
+					'prepareQuery': function (val) {
+						return new RegExp(val, "i");
+					},
+					'testQuery': function (query, txt, _row) {
+						return query.test(txt);
+					}
+				});
+				
+				/*
+				Example 3
+				*/
+				var qs = $('input#id_search_list').quicksearch('ul#list_example li');
+				
+				$.ajax({
+					'url': 'example.json',
+					'type': 'GET',
+					'dataType': 'json',
+					'success': function (data) {
+						for (i in data['list_items']) {
+							$('ul#list_example').append('<li>' + data['list_items'][i] + '</li>');
+						}
+						qs.cache();
+					}
+				});
+				
+				$('input#add_to_list').click(function () {
+					$('ul#list_example').append('<li>Added on click</li>');
+					qs.cache();
+				});
+				
+			});
+		</script>
+<style>
+#header {
+	width: 800px;
+	height: 81px;
+	margin: 0 auto;
+	margin-top:57px;
+	background:url(images/img04.png) no-repeat left top;
+	margin-left:70px;
+}
+.ie7 #header {
+	width: 800px;
+	height: 81px;
+	margin: 0 auto;
+	margin-top:57px;
+	background:url(images/img04.png) no-repeat left top;
+	margin-left:68px;
+}
+/* Menu */
+.ie7 #vertical_line{ background-color:#996699; width:auto; height:2px; margin-left:-170px; margin-top:-6px;}
+#menu {
+	float: left;
+	width: 800px;
+	height: 51px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 33px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 10px 20px 5px 20px;
+	margin-top:-36px;
+	text-decoration: none;
+	background: url(images/img05.gif) no-repeat right 50%; 
+	font: 14px;
+	color:#FFFFFF;
+}
+.ie7 #menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 10px 20px 5px 20px;
+	margin-top:-27px;
+	text-decoration: none;
+	background: url(images/img05.gif) no-repeat right 50%; 
+	font: 14px;
+	color:#FFFFFF;
+}
+#menu a:hover { text-decoration:none; background-image:url(images/navi_hover.png); padding:-3px; }
+
+#menu .current_page_item a {
+	padding-left: -0px;}
+.ie7 #advance_bar{margin-left:0px; margin-top:-3px; width:700px;}
+
+#logo
+{
+ width:300px;
+ height:60px;
+ background-image:url(images/logo.png);
+ float:left;
+ margin-left:-10px;
+ padding-bottom:10px;
+ margin-top:-62px;
+}
+.ie7 #logo
+{
+ width:300px;
+ height:57px;
+ background-image:url(images/logo.png);
+ float:left;
+ margin-top:-10px;
+}
+input{border:1px solid #9999FF; height:16px;}
+.ie7 input{border:1px solid #9999FF; height:18px;}
+select{border:1px solid #9999FF;}
+textarea{border:1px solid #9999FF;}
+#checkbox input{border:1px solid #ffffff;}
+#radio_button input{border:1px solid #ffffff;}
+dl {
+	font:normal 12px/15px Arial;
+    position: relative;
+    width: 350px;
+}
+dt {
+    clear: both;
+    float:left;
+    width: 130px;
+    padding: 4px 0 2px 100px;
+    text-align: left;
+}
+#displays
+{
+	margin-top:-34px;
+	margin-left:250px;
+	width:300px;
+	padding-top:7px;
+}
+.ie7 #displays
+{
+	margin-top:-20px;
+	margin-left:250px;
+}
+		</style>
+	</head>
+	<!--[if IE 7]><body class="ie7"><![endif]-->
+<body>
+<!-- Header starts from here -->
+<div id="headers">
+    <!-- Top Add. strats from here -->
+    <a href="#"><div id="logo" style="margin-left:60px;"></div></a>
+   
+    <!-- Top Add. ends here -->
+    
+    <!-- Navigation starts from here -->
+    <div id="header">
+	<div id="menu">
+		<ul>
+			
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="#">Job Seeker</a></li>
+			<li><a href="#">Employer</a></li>
+			<li><a href="#">Operation</a></li>
+			<li><a href="#">Banners</a></li>
+            <li><a href="#">Online Markiting</a></li>
+            <li><a href="#">General</a></li>
+            <li><a href="#" style="background-image:none;"></a></li>
+		</ul>
+        <div id="vertical_line" style="width:1350px; margin-left:-290px;"></div>
+	</div>
+	</div>
+</div>
+<!--header ends here-->
+
+  
+<h4 style="margin-top:-30px; float:right; margin-right:300px;"><a href="consultant_info.html"><img src="images/edit.png " border="none" style="margin-bottom:-10px;"> Edit</a></h4>
+
+<div style="width:701px; height:auto; border:5px solid #FFCCCC; margin-left:270px;"> 
+		<ul id="advance_bar" style="margin-left:0px; margin-top:-2px; ">
+			<li><font color="#FF6600" style="float:right; margin-right:300px;"><strong>Add New Record.</strong></font></li>
+        </ul><br /><br />
+ 
+     <form id="form5" style="margin-left:30px;"> 
+<br />
+
+		<p><strong>Source<font color="#FF9900"> :</font></strong><p id="displays">Internet</p></p>
+		<p><strong>Company Name<font color="#FF9900"> :</font></strong><p id="displays">Global Pvt. Ltd.</p></p>
+		<p><strong>Company / &nbsp;&nbsp;&nbsp;Consultant<font color="#FF9900"> :</font></strong><p id="displays">Company</p></p>
+		<p><strong>Address<font color="#FF9900"> :</font></strong><p id="displays">21/A, R.G Coplex, Sector-11, Rohini</p></p>
+		<p><strong>City<font color="#FF9900"> :</font></strong><p id="displays">Delhi</p></p>
+		<p><strong>Pin<font color="#FF9900"> :</font></strong><p id="displays">110085</p></p>
+		<p><strong>Contact Person<font color="#FF9900"> :</font></strong><p id="displays">MR. Rakesh Sinha</p></p>
+		<p><strong>Designation.<font color="#FF9900"> :</font></strong><p id="displays">Manager</p></p>
+		<p><strong>Official Email<font color="#FF9900"> :</font></strong><p id="displays">rakeshsinha@gmail.com</p></p>
+		<p><strong>Prsonal Email<font color="#FF9900"> :</font></strong><p id="displays">N/A</p></p>
+		<p><strong>Landline<font color="#FF9900"> :</font></strong><p id="displays">N/A</p></p>
+		<p><strong>Mobile<font color="#FF9900"> :</font></strong><p id="displays">9999293015</p></p>
+		<p><strong>Extension<font color="#FF9900"> :</font></strong><p id="displays">N/A</p></p>
+		<p><strong>Fax<font color="#FF9900"> :</font></strong><p id="displays">011-23766389</p></p>
+		<p><strong>Website<font color="#FF9900"> :</font></strong><p id="displays">N/A
+		<p><strong>Industry<font color="#FF9900"> :</font></strong><p id="displays">Insurance</p></p>
+		<p><strong>Functional Area<font color="#FF9900"> :</font></strong><p id="displays">Finance</p></p>
+		<p><strong>About Company<font color="#FF9900"> :</font></strong><p id="displays" style="width:400px; height:200px;">We are a reputed software development company; we have a very strong team of IT professionals. We provide comprehensive IT solutions and services, including mobile and PDA applications, website designing and development, ecommerce et. We provide comprehensive IT solutions and services, including mobile and PDA applications, website designing and development, ecommerce et</p></p>
+
+</form>
+
+</div>
+
+
+	    
+	</body>
+</html>

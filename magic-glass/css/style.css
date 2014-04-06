@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************
+------------------HTML5------------------
+***********************/
+section, header, footer, aside, article, nav{display:block;}
+/*******************
+------------------GENERAL CSS------------------
+***********************/
+body{background-image:url(../images/main_bg.jpg);}
+a{text-decoration:none; color:white;}
+a:hover{text-decoration:underline;}
+p{font-size:12px; line-height:18px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family:"Myriad Pro"; text-transform:uppercase; font-weight:normal;}
+ul{overflow:hidden;}
+li{margin-left:0; list-style:none;}
+.rounded{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-border-radius:5px;
+	}
+.Container_24{padding-left:5px; padding-right:5px; position:relative;}
+/*******************
+------------------LOGO CSS------------------
+***********************/
+#headerLogo {
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	width: 133px;
+	height: 150px;
+	position: relative;
+	background:url(../images/logo_mg.png) no-repeat;
+}
+#headerLogo a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 133px;
+	height: 150px;
+	display: block;
+	border: 0;
+	background: transparent;
+	overflow: hidden;
+}
+#headerLogo .fake-hover {
+	margin: 0;
+	padding: 0;
+	width: 133px;
+	height: 150px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/logo_mg.png) no-repeat 0 -179px;
+}
+
+/*******************
+------------------HEADER CSS------------------
+***********************/
+header{overflow:hidden; color:white;}
+	header h1{padding-top:20px;}
+		/*******************
+		------------------Nav CSS------------------
+		***********************/
+
+
+		header nav{overflow:hidden; float:left; margin-top:5px; height:58px; line-height:58px;}
+			
+		/*******************
+		------------------SOCIAL ICONS CSS------------------
+		***********************/
+		#headSocial{position:relative; margin-top:-8%;}
+		#headSocial li{display:inline;}
+		#headSocial img{float:right;
+		margin-left:13px;}
+		
+/*******************
+		------------------BANNER CSS------------------
+***********************/		
+		
+#banner-wrap{clear:both; background:url(../images/bannerBg.png); height:400px; width:1020px; }
+#banner li{float:left; display:inline;}
+
+
+				

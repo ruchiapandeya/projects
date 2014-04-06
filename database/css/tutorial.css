@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+*                   	{ margin:0; padding:0; outline:none; }
+body                	{ font-size:62.5%; font-family:Arial, Helvetica, sans-serif;
+                      	background: #c434d9 url(../images/body_bg.png) repeat-x;
+												margin-top:200px; margin-left:20px; }
+
+#contact_form					{ width:509px; margin:0 auto; height:379px; padding:10px 0px 0px 40px;
+														margin-top:-30px;
+												background: transparent url(../images/bg1.png);
+                        position:relative; }
+form fieldset					{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:1.2em;
+												margin:0px 0px 20px 0px; width:578px; position:relative;
+												border:0;display:block; padding: 0px 10px 8px; }
+form fieldset legend	{ border-width:1px; border-style:solid; border-color:#BBBB66; color:#3D7169;
+												font-weight:bold; font-variant:small-caps; font-size:140%; padding:4px 8px;
+												margin:0px 0px 10px 0px; position:relative; top: -12px; background:white; }
+label									{ font-size:90%; display:block; float:left; width:10em; text-align:right;
+												margin:.2em .2em 0 0; color:#9933CC; font-weight:bold;padding:8px 0px; }
+label.error           { font-weight:normal;color:red;text-align:left;width:140px; padding-left:25px;
+                        background: transparent url(../images/cancel.png) no-repeat scroll left; }
+input.text-input			{ margin:4px;padding:2px 0;color:#333; }
+
+label#name_label      { position:absolute; top:10; left:0; padding: }
+input#name            { position:absolute; top:10; left:110px; height:12px; padding-bottom:}
+
+
+label#email_label     { position:absolute; top:30px; left:0px; }
+input#email           { position:absolute; top:30px; left:110px; height:12px;}
+
+
+label#password_label     { position:absolute; top:60px; left:0px; }
+input#password           { position:absolute; top:60px; left:110px; height:12px;}
+
+label#repassword_label     { position:absolute; top:90px; left:0px; }
+input#repassword           { position:absolute; top:90px; left:110px; height:12px;}
+label#company_label			{ position:absolute; top:120px; left:0px; }
+input#company				{ position:absolute; top:120px; left:110px; height:12px;}
+label#city_label			{ position:absolute; top:153px; left:0px; }
+select#city				{ position:absolute; top:153px; left:115px; height:22px;}
+#country				{ position:absolute; top:160px; left:232px; height:22px; color:#9933CC; font-size:12px;}
+label#phone_label     { position:absolute; top:180px; left:0px; }
+input#phone          { position:absolute; top:180px; left:110px; height:12px;}
+
+input.button					{ position:absolute; top:225px; left:44%;  height:30px;  background-image:url(../images/login_admin.png);}
+                       
+
+
+#message							{ width:300px;margin:60px 0 0 100px; }
+#message h2						{ font-size:150%;color:white; }
+#message p						{ color:white;font-weight:bold;margin:6px 0px; }
+#checkmark						{ position:relative;top:-66px;left:-60px; }

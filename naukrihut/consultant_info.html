@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>quickSearch jQuery plug-in</title>
+		
+		<link rel="stylesheet" href="css/admin.css" type="text/css" media="all" title="" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.quicksearch.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				/*
+				Example 1
+				*/
+				$('input#id_search').quicksearch('table tbody tr');
+				
+				/*
+				Example 2 
+				*/
+				$('input#id_search2').quicksearch('table#table_example2 tbody tr', {
+					'delay': 300,
+					'selector': 'th',
+					'stripeRows': ['odd', 'even'],
+					'loader': 'span.loading',
+					'bind': 'keyup click',
+					'show': function () {
+						this.style.color = '';
+					},
+					'hide': function () {
+						this.style.color = '#ccc';
+					},
+					'prepareQuery': function (val) {
+						return new RegExp(val, "i");
+					},
+					'testQuery': function (query, txt, _row) {
+						return query.test(txt);
+					}
+				});
+				
+				/*
+				Example 3
+				*/
+				var qs = $('input#id_search_list').quicksearch('ul#list_example li');
+				
+				$.ajax({
+					'url': 'example.json',
+					'type': 'GET',
+					'dataType': 'json',
+					'success': function (data) {
+						for (i in data['list_items']) {
+							$('ul#list_example').append('<li>' + data['list_items'][i] + '</li>');
+						}
+						qs.cache();
+					}
+				});
+				
+				$('input#add_to_list').click(function () {
+					$('ul#list_example').append('<li>Added on click</li>');
+					qs.cache();
+				});
+				
+			});
+		</script>
+<style>
+#header {
+	width: 800px;
+	height: 81px;
+	margin: 0 auto;
+	margin-top:57px;
+	background:url(images/img04.png) no-repeat left top;
+	margin-left:70px;
+}
+.ie7 #header {
+	width: 800px;
+	height: 81px;
+	margin: 0 auto;
+	margin-top:57px;
+	background:url(images/img04.png) no-repeat left top;
+	margin-left:68px;
+}
+/* Menu */
+.ie7 #vertical_line{ background-color:#996699; width:auto; height:2px; margin-left:-170px; margin-top:-6px;}
+#menu {
+	float: left;
+	width: 800px;
+	height: 51px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 33px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 10px 20px 5px 20px;
+	margin-top:-36px;
+	text-decoration: none;
+	background: url(images/img05.gif) no-repeat right 50%; 
+	font: 14px;
+	color:#FFFFFF;
+}
+.ie7 #menu a {
+
+    height:25px;
+	display: block;
+	float: left;
+	padding: 10px 20px 5px 20px;
+	margin-top:-27px;
+	text-decoration: none;
+	background: url(images/img05.gif) no-repeat right 50%; 
+	font: 14px;
+	color:#FFFFFF;
+}
+#menu a:hover { text-decoration:none; background-image:url(images/navi_hover.png); padding:-3px; }
+
+#menu .current_page_item a {
+	padding-left: -0px;}
+.ie7 #advance_bar{margin-left:0px; margin-top:-3px; width:700px;}
+#advance_bar{margin-left:0px; margin-top:-3px; width:660px;}
+#logo
+{
+ width:300px;
+ height:60px;
+ background-image:url(images/logo.png);
+ float:left;
+ margin-left:-10px;
+ padding-bottom:10px;
+ margin-top:-62px;
+}
+.ie7 #logo
+{
+ width:300px;
+ height:57px;
+ background-image:url(images/logo.png);
+ float:left;
+ margin-top:-10px;
+}
+input{border:1px solid #9999FF; height:16px;}
+.ie7 input{border:1px solid #9999FF; height:18px;}
+select{border:1px solid #9999FF;}
+textarea{border:1px solid #9999FF;}
+#checkbox input{border:1px solid #ffffff;}
+#radio_button input{border:1px solid #ffffff;}
+dl {
+	font:normal 12px/15px Arial;
+    position: relative;
+    width: 350px;
+}
+dt {
+    clear: both;
+    float:left;
+    width: 130px;
+    padding: 4px 0 2px 100px;
+    text-align: left;
+}
+dd {
+    float: left;
+    width: 200px;
+    margin: 0 0 20px 280px;
+    padding-left: 6px;
+	margin-top:-24px;
+}
+.ie7 dd {
+    float: left;
+    width: 200px;
+    margin: 0 0 20px 140px;
+    padding-left: 6px;
+	margin-top:-24px;
+}
+
+/* The hint to Hide and Show */
+.hints {
+   	display: none;
+    position: absolute;
+    right: -400px;
+    width: 200px;
+    margin-top: -30px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    /* to fix IE6, I can't just declare a background-color,
+    I must do a bg image, too!  So I'm duplicating the pointer.gif
+    image, and positioning it so that it doesn't show up
+    within the box */
+    background: #ffc url(images/pointer.gif) no-repeat -10px 5px;
+}
+.ie7 .hints {
+   	display: none;
+    position: absolute;
+    right: -400px;
+    width: 200px;
+    margin-top: -10px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    /* to fix IE6, I can't just declare a background-color,
+    I must do a bg image, too!  So I'm duplicating the pointer.gif
+    image, and positioning it so that it doesn't show up
+    within the box */
+    background: #ffc url(images/pointer.gif) no-repeat -10px 5px;
+}
+
+/* The pointer image is hadded by using another span */
+.hints .hints-pointer {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url(images/pointer.gif) left top no-repeat;
+}
+		</style>
+	</head>
+	<!--[if IE 7]><body class="ie7"><![endif]-->
+<body>
+<!-- Header starts from here -->
+<div id="headers">
+    <!-- Top Add. strats from here -->
+    <a href="#"><div id="logo" style="margin-left:60px;"></div></a>
+   
+    <!-- Top Add. ends here -->
+    
+    <!-- Navigation starts from here -->
+    <div id="header">
+	<div id="menu">
+		<ul>
+			
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="#">Job Seeker</a></li>
+			<li><a href="#">Employer</a></li>
+			<li><a href="#">Operation</a></li>
+			<li><a href="#">Banners</a></li>
+            <li><a href="#">Online Markiting</a></li>
+            <li><a href="#">General</a></li>
+            <li><a href="#" style="background-image:none;"></a></li>
+		</ul>
+        <div id="vertical_line" style="width:1350px; margin-left:-290px;"></div>
+	</div>
+	</div>
+</div>
+<!--header ends here-->
+
+  
+<h4 style="margin-top:-30px; float:right; margin-right:300px;"><a href="#"><img src="images/edit.png " border="none" style="margin-bottom:-10px;"> Edit</a></h4>
+
+<div style="width:701px; height:1200px; border:5px solid #FFCCCC; margin-left:270px;"> 
+		<ul id="advance_bar" style="margin-left:0px; margin-top:-2px; ">
+			<li><font color="#FF6600" style="float:right; margin-right:300px;"><strong>Add New Record.</strong></font></li>
+        </ul><br /><br />
+ 
+     <form id="form5" style="margin-left:30px;"> 
+<br />
+<dl>
+	<dt>
+		<label for="firstname"><font color="#FF6600" style="font-size:15px">* </font>Source:</label>
+	</dt>
+	<dd>
+		<input
+			name="jobid"
+			id="jobid"
+			type="text"
+            size="30"
+             />
+	</dd>
+    <dt>
+		<label for="firstname"><font color="#FF6600" style="font-size:15px">* </font>Company Name:</label>
+	</dt>
+	<dd>
+		<input
+			name="jobid"
+			id="jobid"
+			type="text"
+            size="30"
+             />
+	</dd>
+	
+  
+    <dt>
+		<label for="email"><font color="#FF6600" style="font-size:15px">* </font>Company / &nbsp;&nbsp;&nbsp;Consultant:</label>
+	</dt>
+    <dd>
+			<dd id="radio_button">
+    		<input type="radio"
+            name="type" 
+            value="Company" 
+            checked="checked" />Company&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="type" value="Consultant" />Consultant
+    </dd>
+    </dd>
+   	<dt>
+		<label for="keySkills"><font color="#FF6600" style="font-size:15px">* </font>Address:</label>
+	</dt>
+    <dd>
+			<textarea name="skills" id="ValidField" cols="" rows="5" style="width:245px;"></textarea>
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>City:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Pin:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+            
+    </dd>
+ 	  <dt>
+		<label for="name"><font color="#FF6600" style="font-size:15px">* </font>Contact Person:</label>
+	</dt>
+    <dd id="list-box" style="width:280px;">
+    		
+  			<select id="" name=""  style="width:50px;">
+			<option value="Mr.">Mr. </option> 
+	    <option value="Accounting/Tax/Company Secretary/Audit">Ms.</option> 
+        <option value="Miss">Mrs</option> 
+		</select>
+       		<input style="width:195px;" type="text" name="tele_no" onKeyPress="return isNumberKey(event)"/>
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Designation.:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+           
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Official Email:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Prsonal Email:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Landline:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+            
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Mobile:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Extension:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Fax:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+             
+    </dd>
+    <dt>
+		<label for="contact"><font color="#FF6600" style="font-size:15px">* </font>Website:</label>
+	</dt>
+    <dd>
+    		<input
+			name="contactInfo"
+			id="contactInfo"
+			type="text"
+            size="30" />
+            
+    </dd>
+    
+	</dd>
+	
+     <dt><label for="industry"><font color="#FF6600" style="font-size:15px">* </font>Industry:</label></dt>
+	<dd id="list-box">
+		<select id="" name=""  style="width:250px;">
+        <option value="">Select Current Industry</option>
+		<option value="Accounting/Finance">Accounting/Finance</option> 
+	    <option value="Advertising/PR/Events">Advertising/PR/Events</option> 
+	    <option value="Agriculture/Dairy">Agriculture/Dairy</option> 
+	    <option value="Animation">Animation</option> 
+	    <option value="Architecture/Interior Designing">Architecture/Interior Designing</option> 
+	    <option value="Auto/Auto Ancillary">Auto/Auto Ancillary</option> 
+	    <option value="Aviation / Aerospace Firms">Aviation / Aerospace Firms</option> 
+	    <option value="Banking/Financial Services/Broking">Banking/Financial Services/Broking</option> 
+	    <option value="BPO/ITES">BPO/ITES</option> 
+	    <option value="Brewery / Distillery">Brewery / Distillery</option> 
+	    <option value="Ceramic /Sanitary Ware ">Ceramic /Sanitary Ware </option> 
+	    <option value="Chemicals/Petrochemicals/Plastics/ Rubber">Chemicals/Petrochemicals/Plastics/ Rubber</option> 
+	    <option value="Construction/ Engineering/ Cement/Metals">Construction/ Engineering/ Cement/Metals</option> 
+	    <option value="Consumer Durables">Consumer Durables</option> 
+	    <option value="Education/ Teaching/ Training">Education/ Teaching/ Training</option> 
+	    <option value="FMCG/Foods/ Beverage">FMCG/Foods/ Beverage</option> 
+	    <option value="Hotels/ Restaurants/ Airlines/Travel">Hotels/ Restaurants/ Airlines/Travel</option> 
+	    <option value="Industrial Products/Heavy Machinery">Industrial Products/Heavy Machinery</option> 
+	    <option value="Insurance">Insurance</option> 
+	    <option value="IT-Software/ Software Services">IT-Software/ Software Services</option> 
+	    <option value="Media/Dotcom/ Entertainment">Media/Dotcom/ Entertainment</option> 
+	    <option value="Medical/ Healthcare/ Hospital">Medical/ Healthcare/ Hospital</option> 
+	    <option value="Oil and Gas/ Power/ Infrastructure/ Energy">Oil and Gas/ Power/ Infrastructure/ Energy</option> 
+	    <option value="Recruitment">Recruitment</option> 
+	    <option value="Telecom/ISP">Telecom/ISP</option> 
+	    <option value="Water Treatment/ Waste Management">Water Treatment/ Waste Management</option> 
+	    </select>
+        	
+	</dd>
+    <dt><label for="functionalArea"><font color="#FF6600" style="font-size:15px">* </font>Functional Area:</label></dt>
+	<dd id="list-box">
+		<select id="" name=""  style="width:250px;">
+        <option value="">Select Functional Area</option>
+		<option value="Accounting/Tax/Company Secretary/Audit">Accounting/Tax/Company Secretary/Audit</option> 
+	    <option value="Administration">Administration</option> 
+	    <option value="Advertising, PR, Events">Advertising, PR, Events</option> 
+	    <option value="Anchoring/TV/Films/Production">Anchoring/TV/Films/Production</option> 
+	    <option value="Application Programming, Maintenance (IT)">Application Programming, Maintenance (IT)</option> 
+	    <option value="Architecture, Interior Design, Naval Arch">Architecture, Interior Design, Naval Arch</option> 
+	    <option value="Banking">Banking</option> 
+	    <option value="Client Server (IT)">Client Server (IT)</option> 
+	    <option value="Content, Journalists, Editors">Content, Journalists, Editors</option> 
+	    <option value="Corporate Planning, Consulting, Strategy">Corporate Planning, Consulting, Strategy</option> 
+	    <option value="DBA, (IT)">DBA, (IT)</option> 
+	    <option value="Doctors/Nurses/Medical Professional">Doctors/Nurses/Medical Professional</option> 
+	    <option value="E-Commerce, Internet Technologies (IT)">E-Commerce, Internet Technologies (IT)</option> 
+	    <option value="Embedded/EDA/VLSI/ASIC/Chip Design (IT)">Embedded/EDA/VLSI/ASIC/Chip Design (IT)</option> 
+	    <option value="Engineering Design, R&D">Engineering Design, R&D</option> 
+	    <option value="ERP, CRM (IT)">ERP, CRM (IT)</option> 
+	    <option value="Export, Import">Export, Import</option> 
+	    <option value="Fashion, Garments, Merchandising">Fashion, Garments, Merchandising</option> 
+	    <option value="Finance">Finance</option> 
+	    <option value="Financial Services / Stock Broking / Mutual Funds ">Financial Services / Stock Broking / Mutual Funds </option> 
+	    <option value="Freshers, Trainee Jobs">Freshers, Trainee Jobs</option> 
+	    <option value="Guards, Security Services">Guards, Security Services</option> 
+	    <option value="Healthcare, Medical, R&D, Bio Tech, Scientist">Healthcare, Medical, R&D, Bio Tech, Scientist</option> 
+	    <option value="Hotels, Restaurants">Hotels, Restaurants</option> 
+	    <option value="Human Resource">Human Resource</option> 
+	    <option value="Insurance">Insurance</option> 
+	    <option value="IT Software">IT Software</option> 
+	    <option value="IT-Support, Telecom, Hardware ">IT-Support, Telecom, Hardware </option> 
+	    <option value="ITES/BPO/KPO, Customer Service, Operations">ITES/BPO/KPO, Customer Service, Operations</option> 
+	    <option value="Legal">Legal</option> 
+	    <option value="Mainframe (IT)">Mainframe (IT)</option> 
+	    <option value="Marketing Management">Marketing Management</option> 
+	    <option value="Merchandising">Merchandising</option> 
+	    <option value="Middleware (IT)">Middleware (IT)</option> 
+	    <option value="Mobile (IT)">Mobile (IT)</option> 
+	    <option value="Network Administration, Security (IT)">Network Administration, Security (IT)</option> 
+	    <option value="Oil and Gas">Oil and Gas</option> 
+	    <option value="Overseas, International Jobs">Overseas, International Jobs</option> 
+	    <option value="Packaging">Packaging</option> 
+	    <option value="Pharma, Biotech">Pharma, Biotech</option> 
+	    <option value="Production, Maintenance, Quality">Production, Maintenance, Quality</option> 
+	    <option value="Purchase, Logistics, Supply Chain">Purchase, Logistics, Supply Chain</option> 
+	    <option value="QA & Testing (IT)">QA & Testing (IT)</option> 
+	    <option value="Retailing">Retailing</option> 
+	    <option value="Sales Management, Business Development">Sales Management, Business Development</option> 
+	    <option value="Secretary, Front Office, Data Entry">Secretary, Front Office, Data Entry</option> 
+	    <option value="Self Employed, Consultants, Businessman, Freelancers">Self Employed, Consultants, Businessman, Freelancers</option> 
+	    <option value="Site Engg., Project Management">Site Engg., Project Management</option> 
+	    <option value="System Programming (IT)">System Programming (IT)</option> 
+	    <option value="Systems, EDP, MIS (IT)">Systems, EDP, MIS (IT)</option> 
+	    <option value="Teaching, Education">Teaching, Education</option> 
+	    <option value="Telecom">Telecom</option> 
+	    <option value="Telecom Software">Telecom Software</option> 
+	    <option value="Ticketing/Reservation/Travel Agent/Airlines">Ticketing/Reservation/Travel Agent/Airlines</option> 
+	    <option value="Top Management- IT Jobs">Top Management- IT Jobs</option> 
+	    <option value="Top Management- Non IT Jobs">Top Management- Non IT Jobs</option> 
+	    <option value="Travel, Ticketing, Airlines">Travel, Ticketing, Airlines</option> 
+	    <option value="Web, Graphic Design, Visualiser">Web, Graphic Design, Visualiser</option> 
+	    </select>
+        	
+	</dd>
+    <dt>
+		<label for="headline"><font color="#FF6600" style="font-size:15px">* </font>About Company:</label>
+	</dt>
+    
+    <dd>
+    <textarea name="resume_written" cols="" rows="7" style="width:270px;"></textarea>
+    
+    </dd>
+    
+    </dd>
+    
+     <dt id="create_button" >
+	<a href="companyinfo_display.html"><img src="images/submit.png" id="button_search"  style="margin-left:344px; margin-top:-10px;" border="none"/></a>
+    </dt>
+</dl>
+</form>
+
+</div>
+
+
+	    
+	</body>
+</html>

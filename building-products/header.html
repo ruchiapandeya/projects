@@ -1,0 +1,173 @@
+<link rel="stylesheet" type="text/css" href="ext/jquery/ui/redmond/jquery-ui-1.8.6-osc.css" />
+
+<script type="text/javascript" src="ext/jquery/jquery-1.4.3.min.js"></script>	<!--  -->
+<script type="text/javascript" src="ext/jquery/jquery-ui-1.8.6.min.js"></script>
+<script type="text/javascript" src="ext/jquery/bxGallery/jquery.bxGallery.1.1.min.js"></script>
+<script type="text/javascript" src="ext/jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="ext/jquery/jquery.equalheights.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/menu.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="ext/jquery/fancybox/jquery.fancybox-1.3.4.css" />
+
+<script type="text/javascript" src="ext/js/jscript_xjquery.jqtransform.js"></script>
+<script type="text/javascript" src="ext/js/js.js"></script>
+<script type="text/javascript" src="ext/js/slider.js"></script>
+
+		
+<script type="text/javascript">
+
+$(function(){
+
+   $('.currencies form').jqTransform({imgPath:'jqtransformplugin/img/'});
+
+});
+
+</script>
+
+<style>
+body {  
+  
+  color:#979797; 
+  background-color:#deddd4;
+  background-repeat:none;
+  font-size: 75%; 
+  line-height:1.5em; font-family:Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+#dark{
+	background-color:#333;
+	border:1px solid #000;
+	padding:10px;
+	margin-top:20px;}
+	
+
+.button, .button:visited {
+	background: #222 url(overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer
+}
+ 
+ 	.socialmediaIcons						{margin-top:-1%;}
+	.ie8 .socialmediaIcons					{margin-top:-6%;}
+	.ie9 .socialmediaIcons					{margin-top:-6%;}
+	.button:hover							{ background-color: #111; color: #fff; }
+	.button:active							{ top: 0px; }
+
+	.button, .button:visited,
+	.medium.button, .medium.button:visited 		{ font-size: 11px; 
+												  font-weight: bold; 
+												  line-height: 1; 
+												  text-shadow: 0 -1px 1px rgba(0,0,0,0.25); 
+												  }
+												  
+	.large.button, .large.button:visited 			{ font-size: 12px; 
+													  padding: 9px 9px 10px; font-weight:bold; color:#fff;}
+													  
+	.super.button, .super.button:visited 			{ font-size: 34px; 
+													  padding: 8px 14px 9px; }
+	
+	
+	.green.button, .green.button:visited		{ background-color: #91bd09; color:#fff; font-weight:bold;}
+	.green.button:hover						    { background-color: #749a02; color:#fff; font-weight:bold;}
+ul li {
+	float: left;
+	display: inline; /*For ignore double margin in IE6*/
+	margin: 0 10px;
+}
+#orangeMenu			{ font-weight:bold; font-size:12px; height:30px;
+					    background-image:url(images/grey_menu.gif); margin-top:0%; padding:10px 4px 0px 4px;
+					  margin-bottom:5px;}
+#orangeMenu a       { padding:9px 9px 11px 9px;  color:#ffffff; text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3); border-right:1px solid #2c2c2a;}
+#orangeMenu  a:hover{ color:#ffffff; text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3); background-image:url(images/menu_bar.png); }
+#orangeMenu  a.current{ color:#ffffff; text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3); background-image:url(images/menu_bar.png); }
+#blueBar { padding:9px 0px 10px 40px;
+		  color:#ffffff; text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3); font-size:12px; 
+		  font-weight:bold; width:210px;"    
+    	 }
+ #searchMenu{ margin:0px; padding:0px; list-style:none; color:#fff; line-height:45px; display:inline-block;  z-index:1000; }
+      
+        #searchMenu > li { margin-top:-20px; cursor:pointer;  position:relative;}
+        /* main submenu */
+       
+        /* search */
+        .searchContainer div { background-color:#fff; display:inline; padding:5px;}
+        .searchContainer input[type="text"] {border:none;}
+        .searchContainer img { vertical-align:middle;} 
+		
+</style>
+<div class="row_1"> 
+    <div align="center">       
+		<div id="header" class="container_24"><!---->
+			<div id="topVertical">	
+				<div class="grid_12"> 
+					<a class="logo" href="homeNew.php">
+                    	<img src="images/logo_blue.png" alt="Building-Products" title=" Building-Products " /> 
+                    </a>    
+     			</div>   
+                <div class="header_links" style="margin-top:2%;"> 	
+                	<ul>
+                       
+                        <li><a href="registration.php">Log In </a></li>
+                      
+                        <li><a href="login.php">Registration </a></li>     
+                      
+                        <li style="margin-top:-1%;"><a class="large button green">Get Rated</a></li>
+                        
+                        <li class="socialmediaIcons">
+                            <a href="#"><img src="images/social_bookmarks/facebook_large.png" title="Facebook" style="height:35px;"/></a>
+                            <a href="#"><img src="images/social_bookmarks/twitter_large.png" title="Twitter" style="height:35px;"/></a>
+                        </li>    
+					</ul>
+                </div>
+        	</div>
+             
+		</div>
+        
+	</div>
+</div>
+
+<div class="wrapper_content"> 
+    <div id="orangeMenu">
+    		<a href="home.php" class="current">Home</a>
+        	<a href="product_listing.php">Products</a>
+            <a href="#">Manufacturers</a>
+            <a href="#">Suppliers</a>
+            <a href="#">Service Providers</a>
+            
+      <div id="searchMenu" >  
+            <li class="searchContainer">
+                <div style="margin-left:30px;">
+                <select name="" class="select chzn-select" id="searchprocesstype" style="font-weight:bold;" >
+
+                    <option value="Products" selected="selected">Products</option>
+
+                    <option value="Suppliers">Suppliers</option>
+
+                    <option value="Manufactures">Manufacturers</option>
+
+                    <option value="ServiceProviders">Service Providers</option>
+
+                </select>
+
+                <input type="text" id="searchField" style="font-weight:bold; width:310px;" placeholder="Search.." />
+                <img src="images/magnifier.png" alt="Search"  onclick="alert('You clicked on search button')"  /></div>
+                
+                
+            </li>
+            
+        </div> 
+      
+    </div>
+  

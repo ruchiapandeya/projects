@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----CSS RESET----*/
+/*http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/*/
+
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+
+}
+
+
+
+.container {
+	width: 900px;
+	margin: 0px auto;
+	
+}
+
+
+
+.clear{clear: both;}
+.floatleft{float: left;}
+.floatright{float: right;}
+
+
+body{ font: normal 10px verdana,arial;}
+
+
+
+h2{float: left; font-size: 1em; margin: 10px; text-decoration: underline;}
+.select{float: right;}
+
+label{float: left; font-size: 0.9em; padding: 3px 5px 10px 3px; width: 42%;}
+.ie9 #label{float: left; font-size: 0.9em; padding: 3px 5px 10px 6px; width: 42%;}
+.ie8 #label{float: left; font-size: 0.9em; padding: 3px 5px 10px 6px; width: 42%;}
+#counties input{float: left; padding: 3px 3 0 0;}
+
+.submit{height: 60px; float: right; width: 150px;}
+
+
+#container-map{float: left; padding:1px 8px 1px 5px; border:9px solid #ffffff; background:#FFFFFF;}
+#map-box{background-color:#FFFFFF;  margin:0px 0 10px 0; padding: 4px; width:100%;  }
+.ie7 #map-box{background-color:#FFFFFF;  margin:0px 0 10px 0; padding: 4px; width:70%; margin-left:41%;  }
+#areas{background: #ffffff; float: right; padding: 11px; width: 45%;}
+#regions{color: white; float: left; font-size: 1.2em; width: 190px;}
+#regions{-moz-user-select: none;} /*stops the text from hilighting in Mozilla when the user double clicks an area*/
+#regions li:hover{background-color: #046baa;}
+#regions li{border-bottom: solid 1px #046baa; line-height: 1.8em; padding: 0 5px; cursor: pointer;}
+#counties{ background-color:#FFFFFF; color:#663399;  min-height: 338px; line-height:15px; padding: 4px; width: 100%; margin-left:-18%;}
+.ie7 #counties{background-color:#FFFFFF; color: #663399; min-height: 338px; line-height:15px; padding: 4px; width: 100%; margin-left:-18%;}
+fieldset{clear: both; margin: 0 0 10px 0;}
+
+.tip, .select{font-size: 1em; padding: 10px 5px 10px 5px;}
+
+.selectall, .deselectall{cursor: pointer; text-decoration: underline;}
+
+/* Initially hide these elements. If the user doesn't have JavaScript enabled, they will simply not show, offering an alternative way to use the map.*/
+#st-c{display: none;}
+.select{display: none; text-align: center;}
+#regions{display: none;}

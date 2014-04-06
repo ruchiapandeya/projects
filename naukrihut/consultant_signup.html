@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Demo Contact Form - Submit Without Page Refresh using jQuery</title>
+<script src="js/jquery-1.2.3.pack.js"></script>
+<script src="js/tutorial.js"></script>
+<link href="css/tutorial.css" media="all" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<img src="images/logo_login.png"  style="margin-top:-150px; margin-left:330px;"/>
+<div id="contact_form"><br /><br />
+  <form name="contact" method="post" action="">
+    <fieldset>
+      <label for="email" id="name_label">Name<font color="#CC3300">*</font></label>
+      <input type="text" name="name" id="name" size="30" value="" class="text-input" />
+      <label for="email" id="email_label">Email<font color="#CC3300">*</font></label>
+      <input type="text" name="email" id="email" size="30" value="" class="text-input" />  
+      <label for="password" id="password_label">Password<font color="#CC3300">*</font></label>
+      <input type="password" name="password" id="password" size="30" value="" class="text-input" />
+      <label for="repassword" id="repassword_label">Re Password<font color="#CC3300">*</font></label>
+      <input type="password" name="repassword" id="repassword" size="30" value="" class="text-input" />
+      <label for="pjone" id="phone_label">Phone No.<font color="#CC3300">*</font></label>
+      <input type="text" name="phone" id="phone" size="30" value="" class="text-input" /> 
+      <label class="error" for="phone" id="password_error">This field is required.</label>
+      <input type="submit" name="submit" class="button" id="submit_btn" value="SignIn" />
+     
+    </fieldset>
+  </form>
+  <img src="images/girl.png"  style="margin-left:-280px; margin-top:-75px;" />
+</div>
+</body>
+</html>
