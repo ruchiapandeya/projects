@@ -7,9 +7,9 @@
     
     <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
     <title>Paper Crown - Home</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/font.css">
-<script type="text/javascript" src="jquery/location_popup.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<link rel="stylesheet" type="text/css" href="../css/font.css">
+<script type="text/javascript" src="../jquery/location_popup.js"></script>
 <script>
 			function openDialog() {
 				Avgrund.show( "#default-popup" );
@@ -202,19 +202,19 @@ button+button {
             <header>
                 <div id="sec">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="Paper Crown Logo"></a>
+                        <a href="index.html"><img src="../images/logo.png" alt="Paper Crown Logo"></a>
                     </div>
                    <div id="location">
                         <ul>
                             <li style="border-left: none;">
-                                <img src="images/location.png" alt="location symbol"> Location : <span class="current_location" id="location-display"></span>
+                                <img src="../images/location.png" alt="location symbol"> Location : <span class="current_location" id="location-display"></span>
                             </li>
                             <li class="avgrund-contents">
                                 
 			
 			
 
-			<a  href="#" onclick="javascript:openDialog();">Change Your Location </a> <img src="images/arrow.png" alt="arrow">
+			<a  href="#" onclick="javascript:openDialog();">Change Your Location </a> <img src="../images/arrow.png" alt="arrow">
                             </li>
                             <li style="border-right: none;">
                                 <a  href="#">Sign In</a> 
@@ -243,8 +243,8 @@ button+button {
                 </div>
 		<div class="mask"></div>
                 <aside id="default-popup" class="avgrund-popup">
-			<h2><img src="images/drop_pin.png" alt="location">Select Your Location</h2><br>
-                        <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="images/close.png" alt="Close"></a>
+			<h2><img src="../images/drop_pin.png" alt="location">Select Your Location</h2><br>
+                        <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>
 			<label>Location: </label>
                             <select id="location-select" name="states">
                                 <option value=""> -Select Your City- </option>
@@ -300,18 +300,18 @@ button+button {
                 </div>
             </div>
     
-<footer>
+			<footer>
                 <div id="footer_sec"><br>
                     <div class="box">
                         <ul>
                             <li>
-                                <img src="images/facebook.png" alt="Facebook"><a href="#">Facebook</a>
+                                <img src="../images/facebook.png" alt="Facebook"><a href="#">Facebook</a>
                             </li>
                             <li>
-                                <img src="images/twitter.png" alt="Twitter"><a href="#">Twitter</a>
+                                <img src="../images/twitter.png" alt="Twitter"><a href="#">Twitter</a>
                             </li>
                             <li>
-                                <img src="images/linkedin.png" alt="Linkedin"><a href="#">Linkedin</a>
+                                <img src="../images/linkedin.png" alt="Linkedin"><a href="#">Linkedin</a>
                             </li>
                             <li>
                                 <p style="color: #9f9e9e; font-size: 11px; margin-top: 0px;  ">PaperCrown.in   &nbsp; &copy; &nbsp;   2014  &nbsp;|&nbsp;  <a href="#">Privacy Policy</a> &nbsp;|&nbsp;

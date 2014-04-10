@@ -16,14 +16,22 @@ h3{
     padding-top: 15px; 
 }
 
-#search_filter{
+#search_filter_location{
     width: 16%;
     float: left;
     font-family: 'source_sans_proregular';
     font-size: 14px;
     color: #555555;
+    margin-top: -2%;
 }
-
+#search_filter_categories{
+    width: 16%;
+    float: left;
+    font-family: 'source_sans_proregular';
+    font-size: 14px;
+    color: #555555;
+    margin-top: -2%;
+}
 .number{
     color: #888888;
 }
@@ -68,17 +76,17 @@ lable{
     font-size: 12px; 
 }
 
-#search_result{
+.search_result{
     width: 80%;
     background-color: #f6f6f4;
     margin-left: 20%;
     color: #555555;
     margin-top: 20px;
 }
-#search_result p{
+.search_result p{
    margin: 20px;
 }
-#item_brief{
+.item_brief{
     width: 80%;
     background-color: #ffffff;
     border: 1px solid #f6f6f4;
@@ -86,10 +94,10 @@ lable{
     color: #555555;
     margin-top: 20px;
 }
-#item_brief p{
+.item_brief p{
    margin: 20px;
 }
-#book_description{
+.book_description{
     width: 80%;
     background-color: #ffffff;
     border: 1px solid #f6f6f4;
@@ -99,68 +107,69 @@ lable{
     padding-bottom: 40px;
     margin-bottom: 80px;
 }
-#book_description h4{
+.book_description h4{
     font-size: 14px;
     font-family: 'source_sans_probold';
     margin: 20px;  
 }
-#book_description p{
+.book_description p{
    margin: 20px 40px 10px 20px;
 }
-#book_image{
-    height: 180px;
+.book_image{
+    height: 200px;
     width: 18.6%;
     border: 1px solid #d6d6d6;
     float: left;
     margin: 20px;
 }
-#book_details{
+.book_details{
     width: 55%;
     margin-left: 22%;
     font-family: 'source_sans_proregular';
     font-size: 14px;
     color: #555555;
 }
-#book_details .title{
+.book_details .title{
     font-size: 15px;
     font-family: 'source_sans_probold';
     color: #555555;
     padding-top: 30px;
 }
-#book_details p{
+.book_details p{
     line-height: 2px;
     color: #555555;
 }
-#book_details .posted_date{
+.book_details .posted_date{
     float: right;
     margin-right: -34%;
     font-size: 12px;
     margin-top: -3%;
 }
-#book_info{
+.book_info{
     width: 20%;
     float: right;
     margin-top:0%;
 }
-#book_info .price{
+.book_info .price{
     font-size: 18px;
     margin-left: 0.1%;
     font-family: 'source_sans_probold';
     color: #555555;
 }
-#contact_seller{
+.contact_seller{
     width: 120px;
     height: 24px;
     border:1px solid #dbdcd9;
+    margin-top: 10%;
     background-image: url('../images/contact_seller.png');
 }
-#contact_seller:hover{
+.contact_seller:hover{
     width: 120px;
     height: 24px;
     border:1px solid #dbdcd9;
     background-image: url('../images/contact_seller_hover.png');
 }
-#seller_details{
+.seller_details{
     display: none;
     width: 170px;
     padding: 15px 15px 0px 15px;
@@ -169,7 +178,7 @@ lable{
     margin-left: -52.5%;
     margin-top: -1%;
 }
-#seller_details p{
+.seller_details p{
     width: 170px;
     font-size: 11px;
     margin-left: -2%;
@@ -200,6 +209,47 @@ lable{
     text-decoration: underline;
     padding-left: 6px;
 }
+.author{
+    height: 28px;
+    width: 200px;
+    border: 1px solid #e5e6e3;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.email{
+    height: 28px;
+    width: 200px;
+    border: 1px solid #e5e6e3;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.shop{
+    height: 28px;
+    width: 500px;
+    border: 1px solid #e5e6e3;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.language{
+    width: 130px;
+    height: 25px;
+    background: #ffffff;
+    border: 1px solid #e5e6e3;
+  
+}
+.price{
+    height: 28px;
+    width: 130px;
+   
+    padding-left: 4px;
+    font-size: 12px;
+}
+.book_summary{
+    border: 1px solid #e5e6e3;
+    padding-left: 14px;
+    font-size: 12px;
+}
+
 /* Form submit button */
 .button {
 overflow: visible;
@@ -222,7 +272,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 overflow: visible;
 position: relative;
 border: 0;
-padding: 0px 0px 0px 20px;
+padding: 0px 0px 0px 0px;
 cursor: pointer;
 height: 30px;
 width: 70px;
@@ -268,10 +318,21 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     border: 0;
     padding: 0;
 }
+
 #states{
     width: 200px;
     height: 25px;
     background: #ffffff;
     border: 1px solid #e5e6e3;
   
+}
+#sort_by{
+    width: 120px;
+    height: 25px;
+    background: #ffffff;
+    border: 1px solid #e5e6e3;
+    float: right;
+    margin-top: -0.4%;
+    color: #809634;
+    font-size: 12px;
 }

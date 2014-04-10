@@ -68,6 +68,7 @@
 	}
 	function hide() {
 		deactivate();
+		afterClose();
 	}
 
 	return {
