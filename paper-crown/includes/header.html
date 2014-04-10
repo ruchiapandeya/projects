@@ -1,0 +1,63 @@
+<header>
+                <div id="sec">
+                    <div class="logo">
+                        <a href="index.html"><img src="../images/logo.png" alt="Paper Crown Logo"></a>
+                    </div>
+                   <div id="location">
+                        <ul>
+                            <li style="border-left: none;">
+                                <img src="../images/location.png" alt="location symbol"> Location : <span class="current_location" id="location-display"></span>
+                            </li>
+                            <li class="avgrund-contents">
+                                
+			
+			
+
+			<a  href="#" onclick="javascript:openDialog();">Change Your Location </a> <img src="../images/arrow.png" alt="arrow">
+                            </li>
+                            <li style="border-right: none;">
+                                <a  href="#">Sign In</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="Selected" style="border-left: none;">
+                                <a href="#">How It Works</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="search_result.html">Advanced Search</a>
+                            </li>
+                            <li style="border-right: none;">
+                                <a href="#">Sell Books</a>
+                            </li>
+                        </ul>
+		    </nav>
+                </div>
+		<div class="mask"></div>
+                <aside id="default-popup" class="avgrund-popup">
+			<h2><img src="../images/drop_pin.png" alt="location">Select Your Location</h2><br>
+                        <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>
+			<label>Location: </label>
+                            <select id="location-select" name="states">
+                                <option value=""> -Select Your City- </option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Allahabad">Allahabad</option>
+                                <option value="Business">Business</option>
+                                <option value="ComputerScience">Computer Science</option>
+                                <option value="Economics">Economics</option>
+                            </select>
+                            <p>Or</p>
+                        <label>Enter Your Zipcode : </label>
+                                <input type="text" name="search" class="search" placeholder=""><br>
+                                    <button onclick="javascript:closeDialog();">Submit</button>
+                                    
+		</aside>
+		
+            </header>
