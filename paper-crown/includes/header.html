@@ -10,11 +10,7 @@
                                 <img src="../images/location.png" alt="location symbol"> Location : <span class="current_location" id="location-display"></span>
                             </li>
                             <li class="avgrund-contents">
-                                
-			
-			
-
-			<a  href="#" onclick="javascript:openDialog();">Change Your Location </a> <img src="../images/arrow.png" alt="arrow">
+                        <a  href="#" onclick="javascript:showLocationPopUp();">Change Your Location </a> <img src="../images/arrow.png" alt="arrow">
                             </li>
                             <li style="border-right: none;">
                                 <a  href="#">Sign In</a> 
@@ -41,7 +37,7 @@
                         </ul>
 		    </nav>
                 </div>
-		<!--<div class="mask"></div>-->
+		<div id="mask" class="mask" style="display: none"></div>
                 <aside id="default-popup" class="avgrund-popup">
 			<h2><img src="../images/drop_pin.png" alt="location">Select Your Location</h2><br>
                         <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>

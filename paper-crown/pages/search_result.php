@@ -13,9 +13,20 @@
             div.style.display = "block";
         }
     }
+    
+    function initNavigation() {
+        var type = '<?php echo $_GET['type'] ?>';
+        if (type == "categories") {
+            document.getElementById("search_filter_location").style.display = "none";
+            document.getElementById("search_filter_categories").style.display = "block";
+        } else {
+            document.getElementById("search_filter_location").style.display = "block";
+            document.getElementById("search_filter_categories").style.display = "none";
+        }
+    }
 </script>
 </head>
-<body>
+<body onLoad="initNavigation()">
     <section>
             <?php include '../includes/header.html'; ?>
             <div id="container">
@@ -42,7 +53,7 @@
                         <p><a href="#">Waiter Savitch <span class="number">(1)</span></a></p>
                         <p><a href="#">Kathy Sierra <span class="number">(1)</span></a></p>
                 </div>
-                <!--<div id="search_filter_categories">
+                <div id="search_filter_categories" style="display: none">
                     <h3>CATEGORIES</h3>
                    
                         <p><a href="#">Arts and Humanities <span class="number">(15)</span></a></p>
@@ -65,7 +76,7 @@
                         <p><a href="#">Science <span class="number">(1)</span></a></p>
                         <p><a href="#">Sports <span class="number">(1)</span></a></p>
                         <p><a href="#">Others <span class="number">(1)</span></a></p>
-                </div>-->
+                </div>
                 <div id="advanced_search">
                     <form action="#" method="post">
                         <ul class="search_field">

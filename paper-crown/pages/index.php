@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
     <?php include '../includes/commons.html'; ?>
-<script>
-			function init() {
-					openDialog();
-			}
-</script>
+    <script>
+	function search(type) {
+	    var url="search_result.php";
+	    if (type == "categories") {
+		url = url + "?type=categories";
+	    }
+	    navigateToUrl(url);
+	}
+	
+	function navigateToUrl(url) {
+	    location.href = url;
+	}
+    </script>
 </head>
 <body onLoad="init()">
     <section>
@@ -22,7 +30,7 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. 
                         Quisque erat metus facilisis non feu aliquam hendrerit quam.<br><br>
-                        <input class="button white" type="button" value="Search Books">
+                        <input class="button white" type="button" value="Search Books" onclick="search()">
                     </p>
                 </div>
                 <div class="box">
@@ -33,7 +41,7 @@
                         <a href="#">Biographies & Autobiographies</a><br>
                         <a href="#">Business & Management</a><br>
                         <a href="#">Children</a><br><br>
-                        <input class="button white" type="button" value="See More">
+                        <input class="button white" type="button" value="See More" onClick="search('categories')">
                     </p>
                 </div>
                 <div class="box" style="margin-right:0px;">
@@ -42,7 +50,7 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. 
                         Quisque erat metus facilisis non feu aliquam hendrerit quam. <br><br>
-                        <input class="button white" type="button" value="Sell Books">
+                        <input class="button white" type="button" value="Sell Books" onClick="navigateToUrl('sell_your_book.php')">
                     </p>
                     
                 </div>

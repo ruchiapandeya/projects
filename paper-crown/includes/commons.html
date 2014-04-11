@@ -193,9 +193,11 @@ button+button {
 </style>
 <script>
 			function afterClose() {
+						document.getElementById("mask").style.display="none";
 						document.getElementById("location-display").innerHTML = document.getElementById("location-select").value;
 			}
-			function init() {
+			function showLocationPopUp() {
+					document.getElementById("mask").style.display="block";
 					openDialog();
 			}
 </script>
