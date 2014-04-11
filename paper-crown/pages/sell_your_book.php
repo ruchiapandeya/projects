@@ -82,6 +82,10 @@
 #post_book{
     background-color: #f6f6f4;
     padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+#my_post{
+    margin-bottom: 100px;
 }
 #post_book form{
     margin-top: 40px;
@@ -108,6 +112,7 @@ border-color: gray;
     background-color: #f6f6f4;
     color: #555555;
     margin-top: 20px;
+    
 }
 .my_book_post p{
    margin: 20px;
@@ -191,10 +196,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
         } else {
             statusLabel.value = "Activate";
             image.setAttribute("src", "../images/deactivate.png");
-            image.setAttribute("alt", "DEACTIVED");
-            imageLabel.innerHTML = "DEACTIVED";
+            image.setAttribute("alt", "DEACTIVATED");
+            imageLabel.innerHTML = "DEACTIVATED";
         }
     }
+    function navigateToUrl(url) {
+	    location.href = url;
+	}
 </script>
 </head>
 <body>
@@ -351,7 +359,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                             <p>Contact No : 9918887672</p>
                             <p>Posted Date : 02/02/2014</p>
                             <p>Price : <span style="color: #809634;">2500rs</span></p>
-                            <input class="button white" type="button" value="Read More">
+                            <input class="button white" type="button" value="Read More" onClick="navigateToUrl('post_brief.php')">
                         </div>
                     </div>
                     <div class="my_book_post">

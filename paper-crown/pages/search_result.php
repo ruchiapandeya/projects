@@ -24,6 +24,9 @@
             document.getElementById("search_filter_categories").style.display = "none";
         }
     }
+    function navigateToUrl(url) {
+	    location.href = url;
+	}
 </script>
 </head>
 <body onLoad="initNavigation()">
@@ -157,7 +160,7 @@
                         <p>Shop Address : 1154, Sai Chowk,Pitampura, Delhi - 110081</p>
                         <p>Contact No : 9918887672</p>
                         <p style="font-family: 'source_sans_probold'; font-size: 16px;">Price : <span style="color: #809634;">2300rs</span></p>
-                        <input class="button white" type="button" value="Read More">
+                        <input class="button white" type="button" value="Read More" onClick="navigateToUrl('item_brief.php')">
                         <p class="posted_date"> Posted Date : 02/02/2014</p>
                         
                     </div>
