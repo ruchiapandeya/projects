@@ -1,4 +1,20 @@
 <!doctype html>
+<?php
+    $tempImageName = substr(md5(rand()), 0, 7);
+    $upload_file_name = dirname( dirname(__FILE__) ) . "/images_uploaded_books/" . $tempImageName;
+    $isSuccess = move_uploaded_file($_FILES["book_image"]["tmp_name"], "$upload_file_name");
+    $bookImageLocation = "../images_uploaded_books/" . $tempImageName;
+    if(!isSuccess) {
+        $upload_file_name = "../images/back.png";
+    }
+    function getPostData($key, $defaultValue) {
+        $value = $_POST[$key];
+        if($value == "") {
+            $value = $defaultValue;
+        }
+        return $value;
+    }
+?>
 <html lang="en">
 <head>
     <?php include '../includes/commons.html'; ?>
@@ -52,51 +68,40 @@
                 <div id="back">
                     <p><img src="../images/back.png" alt="Back Image"><a href="sell_your_book.php">Back To My Post</a></p>
                 </div><br><br>
-                
                 <div class="item_brief">
                     <div class="book_image">
-                        <img src="../images/book_image_1.png" alt="Book Image">
+                        <img src="<?php echo $bookImageLocation; ?>" style="height: 200px; width: 146px" alt="Book Image">
                     </div>
                     <div class="book_info">
                         <div class="seller_details" style="display: block; margin-left: -36%; margin-top: 6%; background-color: #fdfdfb;">
-                            <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                            <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                            <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email only</span></p>
+                            <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" ><?php echo getPostData("book_contactEmail", "4rs-ps-123@contact.papercrown.in"); ?></span></a></p>
                             <p>Webmail Links : <br>
                             <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
                             <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
                             <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                             <p>Copy and paste into your email : <br>
-                            <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
+                            <span style="font-family:'source_sans_proregular'"><?php echo getPostData("book_contactEmail", "4rs-ps-123@contact.papercrown.in"); ?></span>
                             </p>
                         </div>
                     </div>
                     <div class="book_details" style="margin-top: -3%;">
-                        <p class="title">The Complete Reference - Java2 </p>
-                        <p>Author :  <span style="color: #809634;">Herbert</span></p>
-                        <p>Language : English</p>
-                        <p>Condition : New</p>
-                        <p>Locality : Pitampura</p>
-                        <p>Sell by : Shiv Book Store (Book Seller)</p>
-                        <p>Shop Address : 1154, Sai Chowk,Pitampura, Delhi - 110081</p>
-                        <p>Contact No : 9918887672</p>
-                        <p style="font-size: 18px; font-family: source_sans_probold; color: #555555; margin-top: 30px;">Price : <span style="color: #809634;">2300rs</span></p>
+                        <p class="title"><?php echo getPostData("book_title", "The Complete Reference - Java2"); ?> </p>
+                        <p>Category : <?php echo getPostData("book_category", "Computer Science"); ?></p>
+                        <p>Author :  <span style="color: #809634;"><?php echo getPostData("book_author", "Herbert"); ?></span></p>
+                        <p>Language : <?php echo getPostData("book_language", "English"); ?></p>
+                        <p>Condition : <?php echo getPostData("book_condition", "New"); ?></p>
+                        <p>Locality : <?php echo getPostData("book_locality", "Pitampura"); ?></p>
+                        <p>Sell by : <?php echo getPostData("book_shopName", "Shiv Book Store (Book Seller)"); ?></p>
+                        <p>Shop Address : <?php echo getPostData("book_shopAddress", "1154, Sai Chowk,Pitampura, Delhi - 110081"); ?></p>
+                        <p>Contact No : <?php echo getPostData("book_contactNumber", "9918887672"); ?></p>
+                        <p style="font-size: 18px; font-family: source_sans_probold; color: #555555; margin-top: 30px;">Price : <span style="color: #809634;"><?php echo getPostData("book_cost", "2300"); ?></span></p>
                     </div>
                 </div>
                 <div class="book_description">
-                    <h4>More Details About :- The Complete Reference - Java2</h4>
+                    <h4>More Details About :- <?php echo getPostData("book_title", "The Complete Reference - Java2"); ?></h4>
                     <p>
-                        Java is a widely used language in the computer industry. Its importance and influence is strongly felt as it's still the first and best choice when it comes to
-                        writing programs for developing web-based applications. It's used not only across PCs and laptops, but also in smartphones. Android programming, for instance,
-                        uses Java.
-                    </p>
-                    <p>
-                        This edition of Java: The Complete Reference comes about as a result of the language's dynamic nature. Java regularly undergoes change and upgradation, primarily
-                        for the purpose of keeping up with the new and ever-changing demands of the computing world. The release of this new edition reflects this dynamism.
-                    </p>
-                    <p>
-                        The book has a large intended audience, catering to the needs of both the inexperienced and professional programmers. The fundamental aspects of Java are covered
-                        in sufficient detail so that the beginner doesn't get lost in the subject matter. And at the same time, the professional is provided with a coverage of the more
-                        advanced features of Java.
+                        <?php echo getPostData("book_summary", "The Complete Reference - Java2"); ?>
                     </p>
                 </div>
             </div>

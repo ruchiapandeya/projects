@@ -201,8 +201,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
         }
     }
     function navigateToUrl(url) {
-	    location.href = url;
-	}
+        location.href = url;
+    }
+    function postBook() {
+        document.getElementById("form").submit();
+    }
 </script>
 </head>
 <body>
@@ -215,7 +218,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
 			<li><a href='#my_post'>My Post</a></li>
                </ul>
 		<div id='post_book'>
-                    <form action="#" method="post">
+                    <form id="form" action="post_brief.php" method="post" enctype="multipart/form-data">
                         <table>
                             <tbody>
                                 <tr>
@@ -223,8 +226,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Are you a :</label>
                                     </td>
                                     <td>
-                                            <input type="radio" name="seller" value="male"> Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input type="radio" name="seller" value="female"> Individual
+                                            <input type="radio" id="book_seller" name="book_seller" value="Book Seller"> Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" id="book_seller" name="book_seller" value="Individual"> Individual
                                     </td>
                                 </tr>
                                 <tr>
@@ -232,15 +235,44 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Book Title :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="search" class="search" placeholder="">
+                                        <input type="text" id="book_title" name="book_title" class="search" placeholder="">
                                     </td>
+                                </tr>
+                                <tr>
+                                        <td>
+                                            <label>Category: </label>
+                                        </td>
+                                        <td>
+                                            <select class="category" id="book_category" name="book_category">
+                                                <option value="Arts&Humanities">Arts and Humanities</option>
+                                                <option value="Biographies&Autobiographies">Biographies & Autobiographies</option>
+                                                <option value="Business&Management">Business & Management</option>
+                                                <option value="Children">Children</option>
+                                                <option value="Comics&GraphicNovels">Comics & Graphic Novels</option>
+                                                <option value="CookingFood&Drink">Cooking, Food & Drink </option>
+                                                <option value="Computer&Internet">Computer and Internet</option>
+                                                <option value="CompetitiveExaminations">Competitive Examinations</option>
+                                                <option value="Engineering">Engineering</option>
+                                                <option value="History&Politics">History & Politics</option>
+                                                <option value="Humour">Humour</option>
+                                                <option value="Law">Law </option>
+                                                <option value="LanguageLearning">Language Learning</option>
+                                                <option value="Literature&Fiction">Literature & Fiction</option>
+                                                <option value="Mathematics&Science">Mathematics & Science</option>
+                                                <option value="Medical">Medical</option>
+                                                <option value="Philosophy">Philosophy</option>
+                                                <option value="Science">Science</option>
+                                                <option value="Sports">Sports</option>
+                                                <option value="Others">Others</option>
+                                            </select>
+                                        </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <label>Author :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="author" class="author" placeholder="">
+                                        <input type="text" id="book_author" name="book_author" class="author" placeholder="">
                                     </td>
                                 </tr>
                                 <tr>
@@ -248,7 +280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Language :</label>
                                     </td>
                                     <td>
-                                        <select class="language" name="states">
+                                        <select class="language" id="book_language" name="book_language">
                                             <option value="English">English</option>
                                             <option value="Hindi">Hindi</option>
                                         </select>
@@ -259,17 +291,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Condition :</label>
                                     </td>
                                     <td>
-                                        <input type ="checkbox" name="condition" value="New" checked>New
-                                        <input type ="checkbox" name="condition" value="Used">Used
-                                        <input type ="checkbox" name="condition" value="Free">Free
+                                        <input type ="checkbox" id="book_condition" name="book_condition" value="New" checked>New
+                                        <input type ="checkbox" id="book_condition" name="book_condition" value="Used">Used
+                                        <input type ="checkbox" id="book_condition" name="book_condition" value="Free">Free
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Price :</label>
+                                        <label>Cost :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="price" id="price" class="price">&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
+                                        <input type="text" id="book_cost" name="book_cost"  class="price">&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
                                     </td>
                                 </tr>
                                 <tr>
@@ -277,7 +309,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Book Summary :</label>
                                     </td>
                                     <td>
-                                         <textarea id="book_summary" class="book_summary" name="comments" cols="50" rows="6"></textarea>
+                                         <textarea id="book_summary" name="book_summary" class="book_summary" cols="50" rows="6"></textarea>
                                     </td>
                                 </tr>
                                 <tr>
@@ -285,7 +317,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Upload Book Image :</label>
                                     </td>
                                     <td>
-                                        <input type="file" id="uplaod" name="uplaod">
+                                        <input type="file" id="book_image" name="book_image">
                                     </td>
                                 </tr>
                                 <tr>
@@ -293,7 +325,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Email Id :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="email" class="email" placeholder="abc@gmail.com">
+                                        <input type="text" id="book_contactEmail" name="book_contactEmail" class="email" placeholder="abc@gmail.com">
                                     </td>
                                 </tr>
                                 <tr>
@@ -301,7 +333,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Shop Name :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="shopName" class="email" placeholder="">
+                                        <input type="text" id="book_shopName" name="book_shopName" class="email" placeholder="">
                                     </td>
                                 </tr>
                                 <tr>
@@ -309,7 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Shop Address :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="shopadd" class="shop" placeholder="">
+                                        <input type="text" id="book_shopAddress" name="book_shopAddress" class="shop" placeholder="">
                                     </td>
                                 </tr>
                                 <tr>
@@ -317,14 +349,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Contact No. :</label>
                                     </td>
                                     <td>
-                                        <input type="text" name="shopadd" class="email" placeholder="">
+                                        <input type="text" id="book_contactNumber" name="book_contactNumber" class="email" placeholder="">
                                     </td>
                                 </tr>    
                             </tbody>
                         </table>
                     </form>
                     <div style="margin-left: 28%; margin-bottom: 20px;">
-                        <input style="" class="buttons white" type="submit" value="Submit">
+                        <input style="" class="buttons white" type="submit" value="Submit" onClick="postBook()">
                         <input style="" class="buttons white" type="reset" value="Reset">
                     </div>
 			
