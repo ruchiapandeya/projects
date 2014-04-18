@@ -32,8 +32,8 @@
                     <img src="../images/search_books_icon.png" alt="Search Books Icon">
                     <h1>Search Books</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. 
-                        Quisque erat metus facilisis non feu aliquam hendrerit quam.<br><br>
+                        Search the book in your nearby locality. You can search by book title, category, author,
+			price-range etc.<br><br>
                         <input class="button white" type="button" value="Search Books" onclick="searchBooks()">
                     </p>
                 </div>
@@ -43,8 +43,7 @@
                     <p>
                         <a href="#">Arts and Humanities</a><br>
                         <a href="#">Biographies & Autobiographies</a><br>
-                        <a href="#">Business & Management</a><br>
-                        <a href="#">Children</a><br><br>
+                        <a href="#">Business & Management</a><br><br>
                         <input class="button white" type="button" value="See More" onClick="searchBooks('categories')">
                     </p>
                 </div>
@@ -52,8 +51,7 @@
                     <img src="../images/sell_books_icon.png" alt="Sell Books Icon">
                     <h1>Sell Books</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. 
-                        Quisque erat metus facilisis non feu aliquam hendrerit quam. <br><br>
+                        Advertise one or more books that you want to sell in 1-step process. View and manage the books you had posted? <br><br>
                         <input class="button white" type="button" value="Sell Books" onClick="navigateToUrl('sell_your_book.php')">
                     </p>
                     
