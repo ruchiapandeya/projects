@@ -1,4 +1,3 @@
-
 <header>
                 <div id="sec">
                     <div class="logo">
@@ -13,7 +12,7 @@
                         <a  href="#" onclick="javascript:showLocationPopUp();">Change Your Location </a> <img src="../images/arrow.png" alt="arrow">
                             </li>
                             <li style="border-right: none;">
-                                <a  href="#">Sign In</a> 
+                                <a  href="javascript: showSignIn()">Sign In</a> 
                             </li>
                         </ul>
                     </div>
@@ -26,7 +25,7 @@
                                 <a href="sell_your_book.php">Sell Books</a>
                             </li>
                             <li>
-                                <a href="">About</a>
+                                <a href="about.php">About</a>
                             </li>
                             <li>
                                 <a href="how_it_works.php">How It Works</a>
@@ -39,9 +38,10 @@
                 </div>
 		<div id="mask" class="mask" style="display: none"></div>
                 <aside id="default-popup" class="avgrund-popup">
-			<h2><img src="../images/drop_pin.png" alt="location">Select Your Location</h2><br>
-                        <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>
-			<label>Location: </label>
+			<div id="location-selector">
+                            <h2><img src="../images/drop_pin.png" alt="location">Select Your Location</h2><br>
+                            <a  href="#" style=" float: right; margin-top: -29%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>
+                            <label>Location: </label>
                             <select id="location-select" name="states">
                                 <option value=""> -Select Your City- </option>
                                 <option value="Allahabad">Allahabad</option>
@@ -52,10 +52,24 @@
                                 <option value="Lucknow">Lucknow</option>
                             </select>
                             <p>Or</p>
-                        <label>Enter Your Zipcode : </label>
-                                <input type="text" name="search" class="search" placeholder=""><br>
-                                    <button onclick="javascript:closeDialog();">Submit</button>
-                                    
+                            <label>Enter Your Zipcode : </label>
+                            <input type="text" name="search" class="search" placeholder=""><br>
+                            <button onclick="javascript:closeDialog();">Submit</button> 
+                        </div>
+                        <div id="social-app" style="display: none">
+                            <h2>Login With Google + /Facebook</h2><br>
+                             <div id="gSignInWrapper">
+                            <span class="label"></span>
+                            <div id="customBtn" class="customGPlusSignIn">
+                              <span class="icon"></span>
+                              <span class="buttonText">Google</span>
+                            </div>
+                            <div style="margin-top: 20px">
+                                <img src="../images/facebook_login.png" alt=facebook button">
+                            </div>
+                        </div>
+                            <a  href="#" style=" float: right; margin-top: -60%; margin-right: -11%;" onclick="javascript:closeDialog();"><img src="../images/close.png" alt="Close"></a>
+                        </div>
 		</aside>
 		
             </header>

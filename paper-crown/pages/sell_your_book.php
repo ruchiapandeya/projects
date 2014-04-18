@@ -3,11 +3,6 @@
 <head>
     <?php include '../includes/commons.html'; ?>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-<script>
-			function init() {
-					openDialog();
-			}
-</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>
         // Wait until the DOM has loaded before querying the document
@@ -208,14 +203,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
     }
 </script>
 </head>
-<body>
+<body onLoad="init()">
     <section>
             <?php include '../includes/header.html'; ?>
             
             <div id="container">
                <ul class='tabs'>
-			<li><a href='#post_book'>Post Book</a></li>
-			<li><a href='#my_post'>My Post</a></li>
+                    <li><a href='#my_post'>My Post</a></li>
+		    <li><a href='#post_book'>Post Book</a></li>
                </ul>
 		<div id='post_book'>
                     <form id="form" action="post_brief.php" method="post" enctype="multipart/form-data">
@@ -223,42 +218,42 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                             <tbody>
                                 <tr>
                                     <td>
-                                        <label>Are you a :</label>
+                                        <label>Are you a <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                            <input type="radio" id="book_seller" name="book_seller" value="Book Seller"> Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input type="radio" id="book_seller" name="book_seller" value="Individual"> Individual
+                                            <input type="radio" id="book_seller" name="book_seller" value="Book Seller"  required /> Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" id="book_seller" name="book_seller" value="Individual"  required /> Individual
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Book Title :</label>
+                                        <label>Book Title <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_title" name="book_title" class="search" placeholder="">
+                                        <input type="text" id="book_title" name="book_title" class="search" placeholder=""  required />
                                     </td>
                                 </tr>
                                 <tr>
                                         <td>
-                                            <label>Category: </label>
+                                            <label>Category <span style="color:#809634;">*</span></label>
                                         </td>
                                         <td>
-                                            <select class="category" id="book_category" name="book_category">
-                                                <option value="Arts&Humanities">Arts and Humanities</option>
-                                                <option value="Biographies&Autobiographies">Biographies & Autobiographies</option>
-                                                <option value="Business&Management">Business & Management</option>
+                                            <select class="category" id="book_category" name="book_category"  required />
+                                                <option value="Arts and Humanities">Arts and Humanities</option>
+                                                <option value="Biographies and Autobiographies">Biographies and Autobiographies</option>
+                                                <option value="Business and Management">Business and Management</option>
                                                 <option value="Children">Children</option>
-                                                <option value="Comics&GraphicNovels">Comics & Graphic Novels</option>
-                                                <option value="CookingFood&Drink">Cooking, Food & Drink </option>
-                                                <option value="Computer&Internet">Computer and Internet</option>
-                                                <option value="CompetitiveExaminations">Competitive Examinations</option>
+                                                <option value="Comics and GraphicNovels">Comics and Graphic Novels</option>
+                                                <option value="Cooking Food and Drink">Cooking, Food and Drink </option>
+                                                <option value="Computer and Internet">Computer and Internet</option>
+                                                <option value="Competitive Examinations">Competitive Examinations</option>
                                                 <option value="Engineering">Engineering</option>
-                                                <option value="History&Politics">History & Politics</option>
+                                                <option value="History and Politics">History and Politics</option>
                                                 <option value="Humour">Humour</option>
                                                 <option value="Law">Law </option>
-                                                <option value="LanguageLearning">Language Learning</option>
-                                                <option value="Literature&Fiction">Literature & Fiction</option>
-                                                <option value="Mathematics&Science">Mathematics & Science</option>
+                                                <option value="Language Learning">Language Learning</option>
+                                                <option value="Literature and Fiction">Literature and Fiction</option>
+                                                <option value="Mathematics and Science">Mathematics and Science</option>
                                                 <option value="Medical">Medical</option>
                                                 <option value="Philosophy">Philosophy</option>
                                                 <option value="Science">Science</option>
@@ -269,18 +264,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Author :</label>
+                                        <label>Author <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_author" name="book_author" class="author" placeholder="">
+                                        <input type="text" id="book_author" name="book_author" class="author" placeholder=""  required />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Language :</label>
+                                        <label>Language <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <select class="language" id="book_language" name="book_language">
+                                        <select class="language" id="book_language" name="book_language"  required />
                                             <option value="English">English</option>
                                             <option value="Hindi">Hindi</option>
                                         </select>
@@ -288,33 +283,33 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Condition :</label>
+                                        <label>Condition <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type ="checkbox" id="book_condition" name="book_condition" value="New" checked>New
-                                        <input type ="checkbox" id="book_condition" name="book_condition" value="Used">Used
-                                        <input type ="checkbox" id="book_condition" name="book_condition" value="Free">Free
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label>Cost :</label>
-                                    </td>
-                                    <td>
-                                        <input type="text" id="book_cost" name="book_cost"  class="price">&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
+                                        <input type ="radio" id="book_condition" name="book_condition" value="New" checked  required />New &nbsp;&nbsp;
+                                        <input type ="radio" id="book_condition" name="book_condition" value="Used">Used &nbsp;&nbsp;
+                                        <input type ="radio" id="book_condition" name="book_condition" value="Free">Free
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Book Summary :</label>
+                                        <label>Cost <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                         <textarea id="book_summary" name="book_summary" class="book_summary" cols="50" rows="6"></textarea>
+                                        <input type="text" id="book_cost" name="book_cost"  class="price"  required />&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Upload Book Image :</label>
+                                        <label>Book Summary <span style="color:#809634;">*</span></label>
+                                    </td>
+                                    <td>
+                                         <textarea id="book_summary" name="book_summary" class="book_summary" cols="50" rows="6"  required /></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Upload Book Image</label>
                                     </td>
                                     <td>
                                         <input type="file" id="book_image" name="book_image">
@@ -322,34 +317,34 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Email Id :</label>
+                                        <label>Email Id <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_contactEmail" name="book_contactEmail" class="email" placeholder="abc@gmail.com">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <label>Shop Name :</label>
-                                    </td>
-                                    <td>
-                                        <input type="text" id="book_shopName" name="book_shopName" class="email" placeholder="">
+                                        <input type="text" id="book_contactEmail" name="book_contactEmail" class="email" placeholder="abc@gmail.com"  required />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Shop Address :</label>
+                                        <label>Shop Name <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_shopAddress" name="book_shopAddress" class="shop" placeholder="">
+                                        <input type="text" id="book_shopName" name="book_shopName" class="email" placeholder=""  required />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label>Contact No. :</label>
+                                        <label>Shop Address <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_contactNumber" name="book_contactNumber" class="email" placeholder="">
+                                        <input type="text" id="book_shopAddress" name="book_shopAddress" class="shop" placeholder=""  required />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label>Contact No. <span style="color:#809634;">*</span></label>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="book_contactNumber" name="book_contactNumber" class="email" placeholder=""  required />
                                     </td>
                                 </tr>    
                             </tbody>
@@ -382,6 +377,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                         </div>
                         <div class="book_details" id="book_details_1">
                             <p class="title">The Complete Reference - Java2 </p>
+                            <p>Category : Computer Science</p>
                             <p>Author :  <span style="color: #809634;">Herbert</span></p>
                             <p>Language : English</p>
                             <p>Condition : New</p>
@@ -406,6 +402,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                         </div>
                         <div class="book_details">
                             <p class="title">Java - in 21 days </p>
+                            <p>Category : Computer Science</p>
                             <p>Author :  <span style="color: #809634;">Rogers Cadenhead</span></p>
                             <p>Language : English</p>
                             <p>Condition : New</p>
@@ -430,6 +427,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                         </div>
                         <div class="book_details">
                             <p class="title">The Complete Reference - Java2 </p>
+                            <p>Category : Computer Science</p>
                             <p>Author :  <span style="color: #809634;">Herbert</span></p>
                             <p>Language : English</p>
                             <p>Condition : New</p>

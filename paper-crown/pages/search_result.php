@@ -27,9 +27,14 @@
     function navigateToUrl(url) {
 	    location.href = url;
 	}
+        
+    function initPage(args) {
+        init();
+        initNavigation();
+    }
 </script>
 </head>
-<body onLoad="initNavigation()">
+<body onLoad="initPage()">
     <section>
             <?php include '../includes/header.html'; ?>
             <div id="container">
@@ -85,13 +90,13 @@
                         <ul class="search_field">
                             <li>
                                 <label>Search : </label>
-                                <input type="text" name="search" class="search" placeholder="Book Title/ Author name">
+                                <input type="text" name="search" class="search" placeholder="Book Title/ Author name" value="<?php echo $_GET['search'] ?>">
                             </li>
                              <li>
                                 <label>Condition : </label>
-                                    <input type ="checkbox" name="condition" value="New" checked>New
-                                    <input type ="checkbox" name="condition" value="Used">Used
-                                    <input type ="checkbox" name="condition" value="Free">Free
+                                    <input type ="radio" name="condition" value="New" checked>New &nbsp;&nbsp;
+                                    <input type ="radio" name="condition" value="Used">Used &nbsp;&nbsp;
+                                    <input type ="radio" name="condition" value="Free">Free &nbsp;&nbsp;
                             </li>
                              <li>
                                 <label>Locality : </label>
@@ -139,11 +144,11 @@
                         <div id="seller_details_div_1" style="display:none">
                             <div class="seller_details">
                                 <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                                <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                                <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
                                 <p>Webmail Links : <br>
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                                <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                                 <p>Copy and paste into your email : <br>
                                 <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
                                 </p>
@@ -152,6 +157,7 @@
                     </div>
                     <div class="book_details">
                         <p class="title">The Complete Reference - Java2 </p>
+                        <p>Category : Computer and Internet</p>
                         <p>Author :  <span style="color: #809634;">Herbert</span></p>
                         <p>Language : English</p>
                         <p>Condition : New</p>
@@ -174,11 +180,11 @@
                         <div id="seller_details_div_2" style="display:none">
                             <div class="seller_details">
                                 <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                                <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                                <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
                                 <p>Webmail Links : <br>
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                                <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                                 <p>Copy and paste into your email : <br>
                                 <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
                                 </p>
@@ -187,6 +193,7 @@
                     </div>
                     <div class="book_details">
                         <p class="title">Java - in 21 days</p>
+                        <p>Category : Computer and Internet</p>
                         <p>Author :  <span style="color: #809634;">Rogers Cadenhead</span></p>
                         <p>Language : English</p>
                         <p>Condition : New</p>
@@ -195,7 +202,7 @@
                         <p>Shop Address : 1154, Sai Chowk,Pitampura, Delhi - 110081</p>
                         <p>Contact No : 9918887672</p>
                         <p style="font-family: 'source_sans_probold'; font-size: 16px;">Price : <span style="color: #809634;">2300rs</span></p>
-                        <input class="button white" type="button" value="Read More">
+                        <input class="button white" type="button" value="Read More" onClick="navigateToUrl('item_brief.php')">
                         <p class="posted_date"> Posted Date : 02/02/2014</p>    
                     </div>
                 </div>
@@ -208,11 +215,11 @@
                         <div id="seller_details_div_3" style="display:none">
                             <div class="seller_details">
                                 <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                                <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                                <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
                                 <p>Webmail Links : <br>
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                                <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                                 <p>Copy and paste into your email : <br>
                                 <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
                                 </p>
@@ -221,6 +228,7 @@
                     </div>
                     <div class="book_details">
                         <p class="title">The Complete Reference - Java2 </p>
+                        <p>Category : Computer and Internet</p>
                         <p>Author :  <span style="color: #809634;">Herbert</span></p>
                         <p>Language : English</p>
                         <p>Condition : New</p>
@@ -229,7 +237,7 @@
                         <p>Shop Address : 1154, Sai Chowk,Pitampura, Delhi - 110081</p>
                         <p>Contact No : 9918887672</p>
                         <p style="font-family: 'source_sans_probold'; font-size: 16px;">Price : <span style="color: #809634;">2300rs</span></p>
-                        <input class="button white" type="button" value="Read More">
+                        <input class="button white" type="button" value="Read More" onClick="navigateToUrl('item_brief.php')">
                         <p class="posted_date"> Posted Date : 02/02/2014</p>    
                     </div>
                 </div>
@@ -242,11 +250,11 @@
                         <div id="seller_details_div_4" style="display:none">
                             <div class="seller_details">
                                 <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                                <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                                <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
                                 <p>Webmail Links : <br>
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                                <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                                <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                                 <p>Copy and paste into your email : <br>
                                 <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
                                 </p>
@@ -255,6 +263,7 @@
                     </div>
                     <div class="book_details">
                         <p class="title">The Complete Reference - Java2 </p>
+                        <p>Category : Computer and Internet</p>
                         <p>Author :  <span style="color: #809634;">Herbert</span></p>
                         <p>Language : English</p>
                         <p>Condition : New</p>
@@ -263,7 +272,7 @@
                         <p>Shop Address : 1154, Sai Chowk,Pitampura, Delhi - 110081</p>
                         <p>Contact No : 9918887672</p>
                         <p style="font-family: 'source_sans_probold'; font-size: 16px;">Price : <span style="color: #809634;">2300rs</span></p>
-                        <input class="button white" type="button" value="Read More">
+                        <input class="button white" type="button" value="Read More" onClick="navigateToUrl('item_brief.php')">
                         <p class="posted_date"> Posted Date : 02/02/2014</p>    
                     </div>
                 </div>

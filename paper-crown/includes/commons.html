@@ -3,24 +3,90 @@
     <meta name="keywords" content="">
     
     <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
-    <title>Paper Crown - Home</title>
-<link rel="stylesheet" type="text/css" href="../css/main.css">
-<link rel="stylesheet" type="text/css" href="../css/font.css">
-<script type="text/javascript" src="../jquery/location_popup.js"></script>
+    <title>Paper Crown</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/font.css">
+    <script type="text/javascript" src="../jquery/location_popup.js"></script>
 <script>
-			function openDialog() {
-				Avgrund.show( "#default-popup" );
-			}
-			
-			function closeDialog() {
-				Avgrund.hide();
-			}	
+function openDialog() {
+	Avgrund.show( "#default-popup" );
+}
+
+function closeDialog() {
+	Avgrund.hide();
+}	
 </script>
+<!-- Place this asynchronous JavaScript just before your </body> tag -->
+  <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script');
+    po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/client:plusone.js?onload=render';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(po, s);
+  })();
+
+  function render() {
+    gapi.signin.render('customBtn', {
+      //'callback': 'signinCallback',
+      'clientid': '861311967519-6mtdcst8gm5k7o2fd15dt69ru0i393m3.apps.googleusercontent.com',
+      'cookiepolicy': 'single_host_origin',
+      'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+      'scope': 'https://www.googleapis.com/auth/plus.login'
+    });
+  }
+  </script>
+  <script type="text/javascript">
+  // Specify the language code prior to loading the JavaScript API
+  window.___gcfg = {
+    lang: 'en'
+  };
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/client:plusone.js?onload=onLoadCallback';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+  
+  <style type="text/css">
+    #customBtn {
+      display: inline-block;
+      background: #dd4b39;
+      color: white;
+      width: 165px;
+      border-radius: 5px;
+      white-space: nowrap;
+    }
+    #customBtn:hover {
+      background: #e74b37;
+      cursor: hand;
+    }
+    span.label {
+      font-weight: bold;
+    }
+    span.icon {
+      background: url('https://google-developers.appspot.com/+/images/branding/btn_red_32.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 35px;
+      height: 35px;
+      border-right: #bb3f30 1px solid;
+    }
+    span.buttonText {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 35px;
+      padding-right: 35px;
+      font-size: 14px;
+      font-weight: bold;
+      /* Use the Roboto font that is loaded in the <head> */
+      font-family: 'Roboto',arial,sans-serif;
+    }
+  </style>
 <style>
                    
-
-
-
 .avgrund-contents {
     position: relative;
     padding: 20px;
@@ -190,14 +256,37 @@ button:active {
 button+button {
     margin-left: 0px;
 }
+
 </style>
 <script>
 			function afterClose() {
+						locality = document.getElementById("location-select").value;
+						if (locality != "") {
+									document.getElementById("location-display").innerHTML = locality;
+									localStorage.setItem('locality', locality);	
+						}
 						document.getElementById("mask").style.display="none";
-						document.getElementById("location-display").innerHTML = document.getElementById("location-select").value;
+						
 			}
 			function showLocationPopUp() {
+					document.getElementById("location-selector").style.display = "block";
+					document.getElementById("social-app").style.display = "none";
 					document.getElementById("mask").style.display="block";
 					openDialog();
+			}
+			function showSignIn() {
+					document.getElementById("mask").style.display="block";
+					document.getElementById("location-selector").style.display = "none";
+					document.getElementById("social-app").style.display = "block";
+					openDialog();
+			}
+			function init() {
+				var locality = localStorage.getItem('locality');
+				if(locality == "" || locality == null) {
+						showLocationPopUp();
+				} else {
+					document.getElementById("location-display").innerHTML = locality;
+					localStorage.setItem('locality', locality);
+				}
 			}
 </script>

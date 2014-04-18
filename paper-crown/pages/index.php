@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="en">
+<?php
+    session_start();
+?>
+
 <head>
     <?php include '../includes/commons.html'; ?>
     <script>
-	function search(type) {
+	function searchBooks(type) {
 	    var url="search_result.php";
 	    if (type == "categories") {
 		url = url + "?type=categories";
@@ -20,17 +24,17 @@
     <section>
             <?php include '../includes/header.html'; ?>
             <div id="container">
-                <!--<form action="#" method="post" class="search-wrapper cf">
+                <form action="search_result.php" method="GET" class="search-wrapper cf">
                         <input type="text" name="search" id="search" placeholder="Book Title/ Author Name">
                              <button type="submit">Search Books</button>
-                </form>--><br><br>
+                <br><br>
                 <div class="box">
                     <img src="../images/search_books_icon.png" alt="Search Books Icon">
                     <h1>Search Books</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. 
                         Quisque erat metus facilisis non feu aliquam hendrerit quam.<br><br>
-                        <input class="button white" type="button" value="Search Books" onclick="search()">
+                        <input class="button white" type="button" value="Search Books" onclick="searchBooks()">
                     </p>
                 </div>
                 <div class="box">
@@ -41,7 +45,7 @@
                         <a href="#">Biographies & Autobiographies</a><br>
                         <a href="#">Business & Management</a><br>
                         <a href="#">Children</a><br><br>
-                        <input class="button white" type="button" value="See More" onClick="search('categories')">
+                        <input class="button white" type="button" value="See More" onClick="searchBooks('categories')">
                     </p>
                 </div>
                 <div class="box" style="margin-right:0px;">

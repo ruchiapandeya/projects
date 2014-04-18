@@ -4,12 +4,9 @@
     <?php include '../includes/commons.html'; ?>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script>
-    function init() {
-	openDialog();
-    }
 </script>
 </head>
-<body>
+<body onLoad="init()">
     <section>
             <?php include '../includes/header.html'; ?>
             
@@ -60,18 +57,19 @@
                     <div class="book_info">
                         <div class="seller_details" style="display: block; margin-left: -36%; margin-top: 6%; background-color: #fdfdfb;">
                             <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email Only</span></p>
-                            <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
-                            <p>Webmail Links : <br>
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
-                            <p>Copy and paste into your email : <br>
-                            <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
-                            </p>
+                                <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information"><span style="color:#809634; font-family:'source_sans_proregular'" >4rs-ps-123@contact.papercrown.in</span></a></p>
+                                <p>Webmail Links : <br>
+                                <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                                <p>Copy and paste into your email : <br>
+                                <span style="font-family:'source_sans_proregular'">4rs-ps-123@contact.papercrown.in</span>
+                                </p>
                         </div>
                     </div>
                     <div class="book_details" style="margin-top: -3%;">
                         <p class="title">The Complete Reference - Java2 </p>
+                        <p>Category : Computer and Internet</p>
                         <p>Author :  <span style="color: #809634;">Herbert</span></p>
                         <p>Language : English</p>
                         <p>Condition : New</p>

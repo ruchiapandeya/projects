@@ -4,8 +4,8 @@
     $upload_file_name = dirname( dirname(__FILE__) ) . "/images_uploaded_books/" . $tempImageName;
     $isSuccess = move_uploaded_file($_FILES["book_image"]["tmp_name"], "$upload_file_name");
     $bookImageLocation = "../images_uploaded_books/" . $tempImageName;
-    if(!isSuccess) {
-        $upload_file_name = "../images/back.png";
+    if(count($_FILES) == 0) {
+        $bookImageLocation = "../images/book_image_1.png";
     }
     function getPostData($key, $defaultValue) {
         $value = $_POST[$key];
@@ -20,12 +20,9 @@
     <?php include '../includes/commons.html'; ?>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script>
-    function init() {
-	openDialog();
-    }
 </script>
 </head>
-<body>
+<body onLoad="init()">
     <section>
             <?php include '../includes/header.html'; ?>
             
@@ -53,7 +50,7 @@
                         <p><a href="#">Waiter Savitch <span class="number">(1)</span></a></p>
                         <p><a href="#">Kathy Sierra <span class="number">(1)</span></a></p>
                 </div>
-                <div id="search_main">
+                <!--<div id="search_main">
                     <form action="#" method="post">
                         <ul class="search_field">
                             <li>
@@ -63,7 +60,7 @@
                             </li>
                         </ul>
                     </form>
-                </div>
+                </div>-->
                 
                 <div id="back">
                     <p><img src="../images/back.png" alt="Back Image"><a href="sell_your_book.php">Back To My Post</a></p>
@@ -75,11 +72,12 @@
                     <div class="book_info">
                         <div class="seller_details" style="display: block; margin-left: -36%; margin-top: 6%; background-color: #fdfdfb;">
                             <p>Prefered Contact Method : <br><span style="font-family:'source_sans_proregular'">email only</span></p>
-                            <p>Reply by email : <br><a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" ><?php echo getPostData("book_contactEmail", "4rs-ps-123@contact.papercrown.in"); ?></span></a></p>
+                            <p>Reply by email : <br><a href="mailto:ruchipandeya@gmail.com?Subject=Request%20Information">
+                                <span style="color:#809634; font-family:'source_sans_proregular'" ><?php echo getPostData("book_contactEmail", "4rs-ps-123@contact.papercrown.in"); ?></span></a></p>
                             <p>Webmail Links : <br>
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
-                            <a href="#"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
+                            <a href="http://www.gmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Gmail,</span></a> &nbsp;
+                                <a href="http://www.yahoomail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Yahoo,</span></a>&nbsp;
+                                <a href="http://www.hotmail.com"  target="_blank"><span style="color:#809634; font-family:'source_sans_proregular'" >Hotmail</span></a></p>
                             <p>Copy and paste into your email : <br>
                             <span style="font-family:'source_sans_proregular'"><?php echo getPostData("book_contactEmail", "4rs-ps-123@contact.papercrown.in"); ?></span>
                             </p>
@@ -95,13 +93,15 @@
                         <p>Sell by : <?php echo getPostData("book_shopName", "Shiv Book Store (Book Seller)"); ?></p>
                         <p>Shop Address : <?php echo getPostData("book_shopAddress", "1154, Sai Chowk,Pitampura, Delhi - 110081"); ?></p>
                         <p>Contact No : <?php echo getPostData("book_contactNumber", "9918887672"); ?></p>
-                        <p style="font-size: 18px; font-family: source_sans_probold; color: #555555; margin-top: 30px;">Price : <span style="color: #809634;"><?php echo getPostData("book_cost", "2300"); ?></span></p>
+                        <p style="font-size: 18px; font-family: source_sans_probold; color: #555555; margin-top: 30px;">Price : <span style="color: #809634;"><?php echo getPostData("book_cost", "2300"); ?> Rs.</span> </p>
                     </div>
                 </div>
                 <div class="book_description">
                     <h4>More Details About :- <?php echo getPostData("book_title", "The Complete Reference - Java2"); ?></h4>
                     <p>
-                        <?php echo getPostData("book_summary", "The Complete Reference - Java2"); ?>
+                        <?php echo getPostData("book_summary", "Java is a widely used language in the computer industry. Its importance and influence is strongly felt as it's still the first and best choice when it comes to writing programs for developing web-based applications. It's used not only across PCs and laptops, but also in smartphones. Android programming, for instance, uses Java.<br><br>
+                                               This edition of Java: The Complete Reference comes about as a result of the language's dynamic nature. Java regularly undergoes change and upgradation, primarily for the purpose of keeping up with the new and ever-changing demands of the computing world. The release of this new edition reflects this dynamism.<br><br>
+                                                The book has a large intended audience, catering to the needs of both the inexperienced and professional programmers. The fundamental aspects of Java are covered in sufficient detail so that the beginner doesn't get lost in the subject matter. And at the same time, the professional is provided with a coverage of the more advanced features of Java."); ?>
                     </p>
                 </div>
             </div>

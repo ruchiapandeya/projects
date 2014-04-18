@@ -51,6 +51,7 @@ header{
 #sec{
     width: 980px;
     margin: 0px auto;
+    height: 100%;
 
 }
 .logo{
@@ -132,7 +133,7 @@ nav a{
     list-style: none;
     float: left;
     margin-right: 12px;
-    margin-top: 54px;
+    margin-top: 50px;
     margin-bottom: 100px;
     background-color: #eff0ed;
     border: 1px solid #e0e0df;
@@ -165,8 +166,9 @@ nav a{
 }
 #search{
     height: 36px;
-    width: 64.6%;
-    margin: 70px 0px 0px 0px;
+    width: 75%;
+    margin-left:  11%;
+    margin-top: 8%;
     border: 2px solid #e5e6e3;
     font-size: 14px;
     padding-left: 10px;
@@ -231,6 +233,7 @@ footer{
     width: 100%;
     clear: both;
     position: relative;
+    display: block;
     bottom: 0;
     left: 0 ;
     background: url('../images/footer_bg.png');
@@ -274,7 +277,7 @@ padding: 0;
 cursor: pointer;
 height: 40px;
 width: 132px;
-margin-left: -14%;
+margin-left: -13.8%;
 font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
 color: white;
 text-transform: uppercase;
@@ -284,12 +287,12 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
    
 .search-wrapper button:hover{     
-    background: #94b659;
+    background: #81a445;
 }   
    
 .search-wrapper button:active,
 .search-wrapper button:focus{   
-    background: #94b659;
+    background: #81a445;
     outline: 0;   
 }
  
@@ -304,7 +307,7 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 }
  
 .search-wrapper button:hover:before{
-    border-right-color: #94b659;
+    border-right-color: #81a445;
 }
  
 .search-wrapper button:focus:before,

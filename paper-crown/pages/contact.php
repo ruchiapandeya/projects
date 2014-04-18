@@ -4,9 +4,6 @@
     <?php include '../includes/commons.html'; ?>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script>
-    function init() {
-	openDialog();
-    }
 </script>
 <style>
     input, textarea { 
@@ -63,7 +60,7 @@ input:focus, textarea:focus {
     }
 </style>
 </head>
-<body>
+<body onLoad="init()">
     <section>
             <?php include '../includes/header.html'; ?>
             
