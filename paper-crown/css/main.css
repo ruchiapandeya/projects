@@ -75,6 +75,12 @@ nav a{
     font-weight: bold;
     color: #ffffff;
 }
+nav a:hover{
+    font-size: 16px;
+    font-weight: bold;
+    color: #91b456;
+}
+
 #location{
     margin-left: 2%;
     float: right;

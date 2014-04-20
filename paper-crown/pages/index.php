@@ -54,8 +54,8 @@
                         Advertise one or more books that you want to sell in 1-step process. View and manage the books you had posted? <br><br>
                         <input class="button white" type="button" value="Sell Books" onClick="navigateToUrl('sell_your_book.php')">
                     </p>
-                    
                 </div>
+		</form>
             </div>
     <?php include '../includes/footer.html'; ?>
     </section>

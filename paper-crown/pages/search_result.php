@@ -105,21 +105,21 @@
                              <li>
                                 <label>Category: </label>
                                     <select id="states" name="states">
-                                        <option value="Arts&Humanities">Arts and Humanities</option>
-                                        <option value="Biographies&Autobiographies">Biographies & Autobiographies</option>
-                                        <option value="Business&Management">Business & Management</option>
+                                        <option value="Arts and Humanities">Arts and Humanities</option>
+                                        <option value="Biographies and Autobiographies">Biographies & Autobiographies</option>
+                                        <option value="Business and Management">Business & Management</option>
                                         <option value="Children">Children</option>
-                                        <option value="Comics&GraphicNovels">Comics & Graphic Novels</option>
-                                        <option value="CookingFood&Drink">Cooking, Food & Drink </option>
-                                        <option value="Computer&Internet">Computer and Internet</option>
-                                        <option value="CompetitiveExaminations">Competitive Examinations</option>
+                                        <option value="Comics and GraphicNovels">Comics & Graphic Novels</option>
+                                        <option value="Cooking Food and Drink">Cooking, Food & Drink </option>
+                                        <option value="Computer and Internet">Computer and Internet</option>
+                                        <option value="Competitive Examinations">Competitive Examinations</option>
                                         <option value="Engineering">Engineering</option>
-                                        <option value="History&Politics">History & Politics</option>
+                                        <option value="History and Politics">History & Politics</option>
                                         <option value="Humour">Humour</option>
                                         <option value="Law">Law </option>
-                                        <option value="LanguageLearning">Language Learning</option>
-                                        <option value="Literature&Fiction">Literature & Fiction</option>
-                                        <option value="Mathematics&Science">Mathematics & Science</option>
+                                        <option value="Language Learning">Language Learning</option>
+                                        <option value="Literature and Fiction">Literature & Fiction</option>
+                                        <option value="Mathematics and Science">Mathematics & Science</option>
                                         <option value="Medical">Medical</option>
                                         <option value="Philosophy">Philosophy</option>
                                         <option value="Science">Science</option>

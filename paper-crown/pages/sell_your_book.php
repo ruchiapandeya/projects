@@ -221,8 +221,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Are you a <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                            <input type="radio" id="book_seller" name="book_seller" value="Book Seller"  required /> Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                            <input type="radio" id="book_seller" name="book_seller" value="Individual"  required /> Individual
+                                            <input type="radio" id="book_seller" name="book_seller" value="Book Seller"  required > Book Seller &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="radio" id="book_seller1" name="book_seller" value="Individual"  required > Individual
                                     </td>
                                 </tr>
                                 <tr>
@@ -230,7 +230,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Book Title <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_title" name="book_title" class="search" placeholder=""  required />
+                                        <input type="text" id="book_title" name="book_title" class="search" placeholder=""  required >
                                     </td>
                                 </tr>
                                 <tr>
@@ -238,7 +238,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                             <label>Category <span style="color:#809634;">*</span></label>
                                         </td>
                                         <td>
-                                            <select class="category" id="book_category" name="book_category"  required />
+                                            <select class="category" id="book_category" name="book_category"  required >
+                                                <option value="">-Select Category-</option>
                                                 <option value="Arts and Humanities">Arts and Humanities</option>
                                                 <option value="Biographies and Autobiographies">Biographies and Autobiographies</option>
                                                 <option value="Business and Management">Business and Management</option>
@@ -267,7 +268,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Author <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_author" name="book_author" class="author" placeholder=""  required />
+                                        <input type="text" id="book_author" name="book_author" class="author" placeholder=""  required >
                                     </td>
                                 </tr>
                                 <tr>
@@ -275,7 +276,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Language <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <select class="language" id="book_language" name="book_language"  required />
+                                        <select class="language" id="book_language" name="book_language"  required >
+                                            <option value="">Select Language</option>
                                             <option value="English">English</option>
                                             <option value="Hindi">Hindi</option>
                                         </select>
@@ -286,9 +288,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Condition <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type ="radio" id="book_condition" name="book_condition" value="New" checked  required />New &nbsp;&nbsp;
-                                        <input type ="radio" id="book_condition" name="book_condition" value="Used">Used &nbsp;&nbsp;
-                                        <input type ="radio" id="book_condition" name="book_condition" value="Free">Free
+                                        <input type ="radio" id="book_condition" name="book_condition" value="New" checked  required >New &nbsp;&nbsp;
+                                        <input type ="radio" id="book_condition1" name="book_condition" value="Used">Used &nbsp;&nbsp;
+                                        <input type ="radio" id="book_condition2" name="book_condition" value="Free">Free
                                     </td>
                                 </tr>
                                 <tr>
@@ -296,7 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Cost <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_cost" name="book_cost"  class="price"  required />&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
+                                        <input type="text" id="book_cost" name="book_cost"  class="price"  required >&nbsp; &nbsp;<img src="../images/rupees.png" alt="rupees">
                                     </td>
                                 </tr>
                                 <tr>
@@ -304,7 +306,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Book Summary <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                         <textarea id="book_summary" name="book_summary" class="book_summary" cols="50" rows="6"  required /></textarea>
+                                         <textarea id="book_summary" name="book_summary" class="book_summary" cols="50" rows="6"  required ></textarea>
                                     </td>
                                 </tr>
                                 <tr>
@@ -320,7 +322,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Email Id <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_contactEmail" name="book_contactEmail" class="email" placeholder="abc@gmail.com"  required />
+                                        <input type="text" id="book_contactEmail" name="book_contactEmail" class="email" placeholder="abc@gmail.com"  required >
                                     </td>
                                 </tr>
                                 <tr>
@@ -328,7 +330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Shop Name <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_shopName" name="book_shopName" class="email" placeholder=""  required />
+                                        <input type="text" id="book_shopName" name="book_shopName" class="email" placeholder=""  required >
                                     </td>
                                 </tr>
                                 <tr>
@@ -336,7 +338,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Shop Address <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_shopAddress" name="book_shopAddress" class="shop" placeholder=""  required />
+                                        <input type="text" id="book_shopAddress" name="book_shopAddress" class="shop" placeholder=""  required >
                                     </td>
                                 </tr>
                                 <tr>
@@ -344,7 +346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                                         <label>Contact No. <span style="color:#809634;">*</span></label>
                                     </td>
                                     <td>
-                                        <input type="text" id="book_contactNumber" name="book_contactNumber" class="email" placeholder=""  required />
+                                        <input type="text" id="book_contactNumber" name="book_contactNumber" class="email" placeholder=""  required >
                                     </td>
                                 </tr>    
                             </tbody>
@@ -370,7 +372,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                             <img src="../images/book_image_1.png" alt="Book Image">
                         </div>
                         <div class="action_buttons">
-                            <p style="margin-left: -11%;"><img id="book_details_status_img_1" src="../images/active.png" alt="Active"><span id="book_details_status_img_label_1">ACTIVE</p>
+                            <p style="margin-left: -11%;"><img id="book_details_status_img_1" src="../images/active.png" alt="Active"><span id="book_details_status_img_label_1">ACTIVE</span></p>
                             <input id="book_details_status_label_1" class="button white" type="button" value="Deactivate" onClick="toggleStatus(1)"><br>
                             <input class="button white" type="button" value="Delete"><br>
                             <input class="button white" type="button" value="Edit">
@@ -395,7 +397,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                             <img src="../images/book_image_2.png" alt="Book Image">
                         </div>
                         <div class="action_buttons">
-                            <p style="margin-left: -11%;"><img id="book_details_status_img_2" src="../images/active.png" alt="Active"><span id="book_details_status_img_label_2">ACTIVE</p>
+                            <p style="margin-left: -11%;"><img id="book_details_status_img_2" src="../images/active.png" alt="Active"><span id="book_details_status_img_label_2">ACTIVE</span></p>
                             <input id="book_details_status_label_2" class="button white" type="button" value="Deactivate" onClick="toggleStatus(2)"><br>
                             <input class="button white" type="button" value="Delete"><br>
                             <input class="button white" type="button" value="Edit">
@@ -420,7 +422,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#accc74', endC
                             <img src="../images/book_image_3.png" alt="Book Image">
                         </div>
                         <div class="action_buttons">
-                            <p style="margin-left: -11%;"><img id="book_details_status_img_3" src="../images/deactivate.png" alt="Deactivated"><span id="book_details_status_img_label_3">DEACTIVATED</p>
+                            <p style="margin-left: -11%;"><img id="book_details_status_img_3" src="../images/deactivate.png" alt="Deactivated"><span id="book_details_status_img_label_3">DEACTIVATED</span></p>
                             <input id="book_details_status_label_3" class="button white" type="button" value="Activate" onClick="toggleStatus(3)"><br>
                             <input class="button white" type="button" value="Delete"><br>
                             <input class="button white" type="button" value="Edit">
