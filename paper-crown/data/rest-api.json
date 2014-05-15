@@ -1,0 +1,48 @@
+{
+	"metadata": {
+		"id" : "metadata",
+		"path" : "/metadata",
+		"apis" : {
+			"category" : {
+				"path" : "/type/category",
+				"method" : "get"
+			},
+			"sub-category" : {
+				"path" : "/type/sub_category",
+				"method" : "get"
+			}
+		}
+	},
+	"types": {
+		"id" : "types",
+		"path" : "/types",
+		"apis" : {
+			"item-status" : {
+				"path" : "/item-status",
+				"method" : "get"
+			},
+			"item-condition" : {
+				"path" : "/item-condition",
+				"method" : "get"
+			}
+		}
+	},
+	"books": {
+		"id" : "books",
+		"path" : "/books",
+		"apis" : {
+			"save" : {
+				"path" : "/save",
+				"method" : "post"
+			},
+			"search" : {
+				"path" : "/search",
+				"method" : "post"
+			},
+			"ref" : {
+				"path" : "/ref",
+				"method" : "get"
+			}
+		}
+	}
+}

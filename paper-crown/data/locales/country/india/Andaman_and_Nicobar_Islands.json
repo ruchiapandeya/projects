@@ -1,0 +1,9 @@
+{
+  "ID" : "36",
+  "Name" : "Andaman and Nicobar Islands",
+  "Type" : "Union Territory",
+  "cities" : [ {
+    "city" : "Port Blair*",
+    "localities" : [ ]
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "ID" : "28",
+  "Name" : "Chandigarh",
+  "Type" : "Union Territory",
+  "cities" : [ {
+    "city" : "Chandigarh*",
+    "localities" : [ ]
+  } ]
+}

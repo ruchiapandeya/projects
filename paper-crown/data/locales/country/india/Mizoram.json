@@ -1,0 +1,822 @@
+{
+  "ID" : "13",
+  "Name" : "Mizoram",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Aizawl",
+    "localities" : [ {
+      "Locality" : "Aizawl",
+      "Zipcode" : "796001"
+    }, {
+      "Locality" : "Dawrpui",
+      "Zipcode" : "796001"
+    }, {
+      "Locality" : "Mizoram University",
+      "Zipcode" : "796004"
+    }, {
+      "Locality" : "Bungkawn",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "College Veng",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Hualngohmun",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Kelsih",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Khawchhete",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Kulikawn",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Maubawk",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Missionvengthlang",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Muallungthu",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Mualmawi",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Mualpui",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "N.Lungleng",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Republic Veng",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "S hlimen",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Sabualkawn",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Thakthingbazar",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Thingdawlmelriat",
+      "Zipcode" : "796005"
+    }, {
+      "Locality" : "Armed Veng",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Bethlehem",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Bukpui",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Chandmary",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Electric Veng",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Lungmuat",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "N.Chaltlang",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "N.Hlimen",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Nisapui",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Ramthar",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Serkhan",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Thingthelh",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Tuithiang",
+      "Zipcode" : "796007"
+    }, {
+      "Locality" : "Chawlhhmun",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Dinthar",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Govt. Complex",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Luangmual",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Rangvamual",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Sakawrtuichhun",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Tanhril",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Vaivakawn",
+      "Zipcode" : "796009"
+    }, {
+      "Locality" : "Chaltlang",
+      "Zipcode" : "796012"
+    }, {
+      "Locality" : "Ramhlun",
+      "Zipcode" : "796012"
+    }, {
+      "Locality" : "Bawngkawn",
+      "Zipcode" : "796014"
+    }, {
+      "Locality" : "Lungdai",
+      "Zipcode" : "796014"
+    }, {
+      "Locality" : "Muthi",
+      "Zipcode" : "796014"
+    }, {
+      "Locality" : "Selesih",
+      "Zipcode" : "796014"
+    }, {
+      "Locality" : "Zanlawn",
+      "Zipcode" : "796014"
+    }, {
+      "Locality" : "Tlangnuam",
+      "Zipcode" : "796015"
+    }, {
+      "Locality" : "Cti Sesawng",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Kepran",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Khanpui",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Khawruhlian",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Phaileng 'E'",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Sawleng",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Sesawng",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Zemabawk",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Zuangtui",
+      "Zipcode" : "796017"
+    }, {
+      "Locality" : "Durtlang",
+      "Zipcode" : "796025"
+    }, {
+      "Locality" : "Sihphir",
+      "Zipcode" : "796036"
+    }, {
+      "Locality" : "Tuirial H.E.P",
+      "Zipcode" : "796101"
+    }, {
+      "Locality" : "Darlawn",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Khawpuar",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Lungsum",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Mauchar",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "N.Serzawl",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "N.Tinghmun",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "New Vervek",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Palsang",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Ratu",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Sailutar",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Sakawrdai",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Thingsat",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Vaitin",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Vervek",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Zohmun",
+      "Zipcode" : "796111"
+    }, {
+      "Locality" : "Baktawng",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Chhingchhip",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Hmuntha",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Hualtu",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Khawbel",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Khumtung",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Seling",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Thentlang",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Thingsulthliah",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Tlungvel",
+      "Zipcode" : "796161"
+    }, {
+      "Locality" : "Aibawk",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Hmuifang",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Lamchhip",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Maubuang",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Phulpui",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Sailam",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Samlukhai",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Sateek",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Sumsuih",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Tachhip",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Thiak",
+      "Zipcode" : "796190"
+    }, {
+      "Locality" : "Sialsuk",
+      "Zipcode" : "796230"
+    }, {
+      "Locality" : "Aiduzawl",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Buhban",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Changzawl",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Daido",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Keifang",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Khawlian",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Luangpawn",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Lungpher 'N'",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Maite",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Mualpheng",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "N.E.Bualpui",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "N.Khawlek",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Pawlrang",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Phuaibuang",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Phullen",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Ruallung",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Saichal",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Saitual",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Sihfa",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Suangpuilawn",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Tualbung",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Vanbawng",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Zawngin",
+      "Zipcode" : "796261"
+    }, {
+      "Locality" : "Lengpui Airport",
+      "Zipcode" : "796410"
+    }, {
+      "Locality" : "Lengpui",
+      "Zipcode" : "796410"
+    }, {
+      "Locality" : "Ptc Lungverh",
+      "Zipcode" : "796410"
+    }, {
+      "Locality" : "Hriphaw",
+      "Zipcode" : "796471"
+    }, {
+      "Locality" : "Lushaicherra",
+      "Zipcode" : "796471"
+    }, {
+      "Locality" : "Zamuang",
+      "Zipcode" : "796471"
+    }, {
+      "Locality" : "Zawlnuam",
+      "Zipcode" : "796471"
+    } ]
+  }, {
+    "city" : "Champhai",
+    "localities" : [ {
+      "Locality" : "Hrianghmun",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Kawlbem",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Khawkawn",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Lamzawl",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Mimbung",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Ne Khawdungsei",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Ngopa",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Selam",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Teikhang",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Vaikhawtlang",
+      "Zipcode" : "796290"
+    }, {
+      "Locality" : "Chalrang",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Chawngtlai",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Chhawrtui",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Dulte",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Kawlkulh",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Khawhai",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Khawzawl",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Lungtan",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "N.Chalrang",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Neihdawn",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Puilo",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Riangtlei",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Rullam",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Tualpui",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Tualte",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Vanchengpui",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Vangtlang",
+      "Zipcode" : "796310"
+    }, {
+      "Locality" : "Bungzung",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Dungtlang",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Farkawn",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Khuangthing",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Leithum",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Muallung",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "S.Khawbung",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Samthang",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Sazep",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Vangchhia",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Vanzau",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Vaphai",
+      "Zipcode" : "796320"
+    }, {
+      "Locality" : "Bethel",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Champhai",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Chhawkhlei",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Hmunhmeltha",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Hnahlan",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Hruaikawn",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Kelkang",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Khawnuam",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Khuangleng",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Khuangphah",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Leisenzo",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Lungphunlian",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Maulkawi",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Murlen",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "N.Khawbung",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Ngur",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Ruantlang",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Sesih",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Tlangsam",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Tualcheng",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Vapar",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Vengthlang",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Zote 'e'",
+      "Zipcode" : "796321"
+    }, {
+      "Locality" : "Biate",
+      "Zipcode" : "796370"
+    }, {
+      "Locality" : "Mualcheng",
+      "Zipcode" : "796370"
+    } ]
+  }, {
+    "city" : "Lunglei",
+    "localities" : [ {
+      "Locality" : "Aithur",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Chawngtui",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Cherhlun",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Darzo",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Hnahthial",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Leite",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Lungleng 's'",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Muallianpui",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Pangzawl",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Rawpui",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "S.Vanlaiphai",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Tarpho",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Thiltlang",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Tuipui 'D'",
+      "Zipcode" : "796571"
+    }, {
+      "Locality" : "Bualpui H",
+      "Zipcode" : "796581"
+    }, {
+      "Locality" : "Thingsai",
+      "Zipcode" : "796581"
+    }, {
+      "Locality" : "Haulawng",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Hnahchang",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Mualthuam 'N'",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Pukpui",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Ramlaitui",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Serkawn",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Zotlang",
+      "Zipcode" : "796691"
+    }, {
+      "Locality" : "Bualte",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Buarpui",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Chandmary",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Changpui",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Hauruang",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Hrangchalkawn",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Kikawn",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Lungchem",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Lunglawn",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Lunglei",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Mualcheng 'S'",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Ralvawng",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Sazaikawn",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Sertlangpui",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Tawipui 'N'",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Tawipui 'S'",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Theiriat",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Thenhlum",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Thingfal",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Thualthu",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Thuampui",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Vaisam",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Vanhne",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Zobawk",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Zohnuai",
+      "Zipcode" : "796701"
+    }, {
+      "Locality" : "Bunghmun",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Darngawn 'W'",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Kawnpui 'W'",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Laisawral",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Sachan",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Sesawm",
+      "Zipcode" : "796710"
+    }, {
+      "Locality" : "Belthei",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Lungrang 'S'",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Lungsen",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Phairuangkai",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Putlungasih",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Rangte",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Rualalung",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Tuichawng",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Zawlpui",
+      "Zipcode" : "796730"
+    }, {
+      "Locality" : "Demagiri",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Diblibagh",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Kajoisury",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Nunsury",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Puankhai",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "S.Chawilung",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Tiperaghat",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Tuikawi",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Zodin",
+      "Zipcode" : "796751"
+    }, {
+      "Locality" : "Ajasora",
+      "Zipcode" : "796770"
+    }, {
+      "Locality" : "Borapansury",
+      "Zipcode" : "796770"
+    }, {
+      "Locality" : "Chawngte",
+      "Zipcode" : "796770"
+    }, {
+      "Locality" : "Jarulsury",
+      "Zipcode" : "796770"
+    }, {
+      "Locality" : "Sumsilui",
+      "Zipcode" : "796770"
+    } ]
+  } ]
+}

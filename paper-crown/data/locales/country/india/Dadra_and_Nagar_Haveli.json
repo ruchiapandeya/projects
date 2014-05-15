@@ -1,0 +1,162 @@
+{
+  "ID" : "21",
+  "Name" : "Dadra and Nagar Haveli",
+  "Type" : "National Capital Territory",
+  "cities" : [ {
+    "city" : "Amli",
+    "localities" : [ {
+      "Locality" : "Mamlig",
+      "Zipcode" : "173222"
+    }, {
+      "Locality" : "Jamli",
+      "Zipcode" : "174011"
+    }, {
+      "Locality" : "Amlikaur",
+      "Zipcode" : "210128"
+    }, {
+      "Locality" : "Bara Bazar Shamli",
+      "Zipcode" : "247776"
+    }, {
+      "Locality" : "Ganna Samiti Shamli",
+      "Zipcode" : "247776"
+    }, {
+      "Locality" : "Shamli Mandi",
+      "Zipcode" : "247776"
+    }, {
+      "Locality" : "Shamli",
+      "Zipcode" : "247776"
+    }, {
+      "Locality" : "Shamli Sugar Mills",
+      "Zipcode" : "247776"
+    }, {
+      "Locality" : "Ramlilaground",
+      "Zipcode" : "250002"
+    }, {
+      "Locality" : "Shamli Road",
+      "Zipcode" : "251002"
+    }, {
+      "Locality" : "Tamli",
+      "Zipcode" : "262523"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "304023"
+    }, {
+      "Locality" : "Samliya",
+      "Zipcode" : "305921"
+    }, {
+      "Locality" : "Dhamli",
+      "Zipcode" : "306501"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "311025"
+    }, {
+      "Locality" : "Amli Kalan",
+      "Zipcode" : "311404"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "311801"
+    }, {
+      "Locality" : "Khamlighat",
+      "Zipcode" : "313331"
+    }, {
+      "Locality" : "Amlia",
+      "Zipcode" : "313701"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "323022"
+    }, {
+      "Locality" : "Aamli",
+      "Zipcode" : "325001"
+    }, {
+      "Locality" : "Samliyapura",
+      "Zipcode" : "328025"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "343027"
+    }, {
+      "Locality" : "Tamliyar",
+      "Zipcode" : "344502"
+    }, {
+      "Locality" : "Kamli",
+      "Zipcode" : "384140"
+    }, {
+      "Locality" : "Kamliwada",
+      "Zipcode" : "384265"
+    }, {
+      "Locality" : "Asamli",
+      "Zipcode" : "387530"
+    }, {
+      "Locality" : "Samli",
+      "Zipcode" : "389001"
+    }, {
+      "Locality" : "Jamli",
+      "Zipcode" : "391152"
+    }, {
+      "Locality" : "Chokhiamli",
+      "Zipcode" : "394380"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "396125"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "396125"
+    }, {
+      "Locality" : "Amli",
+      "Zipcode" : "396230"
+    }, {
+      "Locality" : "Amli Kasba",
+      "Zipcode" : "396445"
+    }, {
+      "Locality" : "Mudgad Ramling",
+      "Zipcode" : "413607"
+    }, {
+      "Locality" : "Jamli",
+      "Zipcode" : "444717"
+    }, {
+      "Locality" : "Jamli",
+      "Zipcode" : "453441"
+    }, {
+      "Locality" : "Namli",
+      "Zipcode" : "457222"
+    }, {
+      "Locality" : "Jamli",
+      "Zipcode" : "457775"
+    }, {
+      "Locality" : "Ramli",
+      "Zipcode" : "460551"
+    }, {
+      "Locality" : "Pamli",
+      "Zipcode" : "461668"
+    }, {
+      "Locality" : "Aamliyahat",
+      "Zipcode" : "465674"
+    }, {
+      "Locality" : "Ramli",
+      "Zipcode" : "480880"
+    }, {
+      "Locality" : "Amlipadar",
+      "Zipcode" : "493890"
+    }, {
+      "Locality" : "Amlidih",
+      "Zipcode" : "495691"
+    }, {
+      "Locality" : "Amlipali",
+      "Zipcode" : "496551"
+    }, {
+      "Locality" : "Namli",
+      "Zipcode" : "503301"
+    }, {
+      "Locality" : "Tamlipara",
+      "Zipcode" : "712103"
+    }, {
+      "Locality" : "Samlick-marchak",
+      "Zipcode" : "737135"
+    }, {
+      "Locality" : "Amlighat",
+      "Zipcode" : "782410"
+    }, {
+      "Locality" : "Amlighat",
+      "Zipcode" : "799143"
+    } ]
+  } ]
+}

@@ -1,0 +1,228 @@
+{
+  "ID" : "35",
+  "Name" : "Jammu & Kashmir",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Katra",
+    "localities" : [ {
+      "Locality" : "Katra Karam Singh",
+      "Zipcode" : "143006"
+    }, {
+      "Locality" : "Katra Sher Singh",
+      "Zipcode" : "143006"
+    }, {
+      "Locality" : "Sango Katrala",
+      "Zipcode" : "144211"
+    }, {
+      "Locality" : "Katrain",
+      "Zipcode" : "175129"
+    }, {
+      "Locality" : "Katra (Udhampur)",
+      "Zipcode" : "182301"
+    }, {
+      "Locality" : "Katrasoo",
+      "Zipcode" : "192232"
+    }, {
+      "Locality" : "Airwa Katra",
+      "Zipcode" : "206252"
+    }, {
+      "Locality" : "Katrauli Patti",
+      "Zipcode" : "209724"
+    }, {
+      "Locality" : "Katrawal",
+      "Zipcode" : "210120"
+    }, {
+      "Locality" : "Katra (Allahabad)",
+      "Zipcode" : "211002"
+    }, {
+      "Locality" : "Katrauli",
+      "Zipcode" : "212303"
+    }, {
+      "Locality" : "Katrauli",
+      "Zipcode" : "212402"
+    }, {
+      "Locality" : "Katra Kasimpur",
+      "Zipcode" : "212652"
+    }, {
+      "Locality" : "Rani Bhawani Katra",
+      "Zipcode" : "221001"
+    }, {
+      "Locality" : "Katra Bazar",
+      "Zipcode" : "221309"
+    }, {
+      "Locality" : "Katra Bazar (Varanasi)",
+      "Zipcode" : "221401"
+    }, {
+      "Locality" : "Rampur Katra",
+      "Zipcode" : "225206"
+    }, {
+      "Locality" : "Ranikatra",
+      "Zipcode" : "225415"
+    }, {
+      "Locality" : "Lonikatra",
+      "Zipcode" : "226020"
+    }, {
+      "Locality" : "Loni Katra",
+      "Zipcode" : "227131"
+    }, {
+      "Locality" : "Katra",
+      "Zipcode" : "229204"
+    }, {
+      "Locality" : "Katra Medniganj",
+      "Zipcode" : "230131"
+    }, {
+      "Locality" : "Katra Gulab Singh",
+      "Zipcode" : "230402"
+    }, {
+      "Locality" : "Miranpur Katra",
+      "Zipcode" : "242301"
+    }, {
+      "Locality" : "Aonla Katra",
+      "Zipcode" : "243301"
+    }, {
+      "Locality" : "Katra Sadatganj",
+      "Zipcode" : "243641"
+    }, {
+      "Locality" : "Katra Bazar (Pilibhit)",
+      "Zipcode" : "262201"
+    }, {
+      "Locality" : "Katra Shankar Nagar",
+      "Zipcode" : "271201"
+    }, {
+      "Locality" : "Katra Bazar (Gonda)",
+      "Zipcode" : "271503"
+    }, {
+      "Locality" : "Katra Bahadurpur",
+      "Zipcode" : "271802"
+    }, {
+      "Locality" : "Katraniaghat",
+      "Zipcode" : "271830"
+    }, {
+      "Locality" : "Katrari",
+      "Zipcode" : "274001"
+    }, {
+      "Locality" : "Jarua Katra",
+      "Zipcode" : "283102"
+    }, {
+      "Locality" : "Moti Katra",
+      "Zipcode" : "284203"
+    }, {
+      "Locality" : "Katra Bazar Lalitpur",
+      "Zipcode" : "284403"
+    }, {
+      "Locality" : "Katrathal",
+      "Zipcode" : "332024"
+    }, {
+      "Locality" : "Dakatra",
+      "Zipcode" : "343025"
+    }, {
+      "Locality" : "Katra",
+      "Zipcode" : "384240"
+    }, {
+      "Locality" : "Katra (Samal)",
+      "Zipcode" : "384265"
+    }, {
+      "Locality" : "Katraj",
+      "Zipcode" : "411046"
+    }, {
+      "Locality" : "Katrad",
+      "Zipcode" : "413704"
+    }, {
+      "Locality" : "Venkatraopetta",
+      "Zipcode" : "442705"
+    }, {
+      "Locality" : "Katra",
+      "Zipcode" : "481661"
+    }, {
+      "Locality" : "Katra Belkheda",
+      "Zipcode" : "483113"
+    }, {
+      "Locality" : "Mauhari Katra",
+      "Zipcode" : "485775"
+    }, {
+      "Locality" : "Katra (Rewa)",
+      "Zipcode" : "486117"
+    }, {
+      "Locality" : "Venkatraopet",
+      "Zipcode" : "504215"
+    }, {
+      "Locality" : "Venkatrapur",
+      "Zipcode" : "505301"
+    }, {
+      "Locality" : "Vempalli Venkatraopet",
+      "Zipcode" : "505331"
+    }, {
+      "Locality" : "Katrapalli",
+      "Zipcode" : "505480"
+    }, {
+      "Locality" : "Venkatramapuram",
+      "Zipcode" : "508206"
+    }, {
+      "Locality" : "Katrapadu",
+      "Zipcode" : "522017"
+    }, {
+      "Locality" : "Katrapadu",
+      "Zipcode" : "522235"
+    }, {
+      "Locality" : "Katragunta",
+      "Zipcode" : "523246"
+    }, {
+      "Locality" : "Katrayapadu",
+      "Zipcode" : "524240"
+    }, {
+      "Locality" : "Katravulapalli",
+      "Zipcode" : "533437"
+    }, {
+      "Locality" : "Venkatramannagudem",
+      "Zipcode" : "534101"
+    }, {
+      "Locality" : "Venkatrayapuram",
+      "Zipcode" : "534215"
+    }, {
+      "Locality" : "Venkatramapuram",
+      "Zipcode" : "534324"
+    }, {
+      "Locality" : "Katral",
+      "Zipcode" : "591303"
+    }, {
+      "Locality" : "Katrambakkam",
+      "Zipcode" : "605109"
+    }, {
+      "Locality" : "Katrambakkam",
+      "Zipcode" : "632501"
+    }, {
+      "Locality" : "Katranka",
+      "Zipcode" : "721454"
+    }, {
+      "Locality" : "Katra Chandan Pur",
+      "Zipcode" : "757032"
+    }, {
+      "Locality" : "Katrabeda",
+      "Zipcode" : "758029"
+    }, {
+      "Locality" : "Katra",
+      "Zipcode" : "770002"
+    }, {
+      "Locality" : "Katra Bazar (Patna)",
+      "Zipcode" : "800008"
+    }, {
+      "Locality" : "Katra Kala",
+      "Zipcode" : "821109"
+    }, {
+      "Locality" : "Katra",
+      "Zipcode" : "824232"
+    }, {
+      "Locality" : "Katrasgarh",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Katras Bazar",
+      "Zipcode" : "828114"
+    }, {
+      "Locality" : "Katra (Muzaffarpur)",
+      "Zipcode" : "843321"
+    }, {
+      "Locality" : "Katraul",
+      "Zipcode" : "847302"
+    } ]
+  } ]
+}

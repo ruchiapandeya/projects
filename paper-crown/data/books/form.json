@@ -1,0 +1,191 @@
+{
+    "id": "book-form",
+    "name": "book-form",
+    "method": "post",
+    "action": "",
+    "sections": [
+        {
+            "name": "Book Details",
+            "items": [
+                {
+                    "row-1": [
+                        {
+                            "id": "category_info",
+                            "title": "Category",
+                            "type": "select",
+                            "builder-function": "buildCategoryElement",
+                            "attributes": {
+                                "name": "category_info",
+                                "data-placeholder": "Subject",
+                                "style": "width: 200px;",
+                                "class": "chzn-select",
+                                "tabindex": 1
+                            }
+                        },
+                        {
+                            "id": "language",
+                            "title": "Language",
+                            "type": "select",
+                            "builder-function": "buildLanguagesElement",
+                            "attributes": {
+                                "name": "language",
+                                "data-placeholder": "Language",
+                                "style": "width: 160px;",
+                                "class": "chzn-select",
+                                "tabindex": 2
+                            }
+                        },
+                        {
+                            "id": "condition",
+                            "title": "Book Condition",
+                            "type": "select",
+                            "builder-function": "buildConditionElement",
+                            "attributes": {
+                                "name": "condition",
+                                "data-placeholder": "Book Condition",
+                                "style": "width: 160px;",
+                                "class": "chzn-select",
+                                "tabindex": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "row-2": [
+                        {
+                            "id": "name",
+                            "title": "Name of book",
+                            "type": "text",
+                            "attributes": {
+                                "name": "name",
+                                "placeholder": "Name of book",
+                                "style": "width: 300px;",
+                                "class": "txtinput",
+                                "tabindex": 4
+                            }
+                        },
+                        {
+                            "id": "expected-price",
+                            "title": "Expected Price (INR)",
+                            "type": "text",
+                            "attributes": {
+                                "name": "expected-price",
+                                "placeholder": "Expected Price (INR)",
+                                "style": "width: 110px;",
+                                "class": "txtinput",
+                                "tabindex": 5
+                            }
+                        },
+                        {
+                            "id": "market-price",
+                            "title": "Market Price (INR)",
+                            "type": "text",
+                            "attributes": {
+                                "name": "market-price",
+                                "placeholder": "Market Price (INR)",
+                                "style": "width: 110px;",
+                                "class": "txtinput",
+                                "tabindex": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "row-3": [
+                        {
+                            "id": "description",
+                            "title": "Description",
+                            "type": "textarea",
+                            "attributes": {
+                                "name": "description",
+                                "placeholder": "Description",
+                                "style": "width: 400px;height: 100px;",
+                                "class": "txtarea",
+                                "tabindex": 7
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Contact Details",
+            "items": [
+                {
+                    "row-1": [
+                        {
+                            "id": "locality",
+                            "title": "Locality",
+                            "type": "select",
+                            "builder-function": "buildLocalityElement",
+                            "attributes": {
+                                "name": "locality",
+                                "data-placeholder": "Locality",
+                                "style": "width: 300px;",
+                                "class": "chzn-select",
+                                "tabindex": 8
+                            }
+                        },
+                        {
+                            "id": "share-contact-number",
+                            "title": "Share Contact Number",
+                            "type": "checkbox",
+                            "attributes": {
+                                "name": "share-contact-number",
+                                "placeholder": "Share Contact Number",
+                                "tabindex": 9
+                            }
+                        },
+                        {
+                            "id": "share-email",
+                            "title": "Share Email",
+                            "type": "checkbox",
+                            "attributes": {
+                                "name": "share-email",
+                                "placeholder": "Share Email",
+                                "tabindex": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "row-2": [
+                        {
+                            "id": "address",
+                            "title": "Address",
+                            "type": "textarea",
+                            "attributes": {
+                                "name": "address",
+                                "placeholder": "Address",
+                                "style": "width: 400px;height: 100px;",
+                                "class": "txtarea",
+                                "tabindex": 11
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Others",
+            "items": [
+                {
+                    "row-1": [
+                        {
+                            "id": "tags",
+                            "title": "Tags (comma separated values)",
+                            "type": "text",
+                            "attributes": {
+                                "name": "tags",
+                                "placeholder": "Tags (comma separated values)",
+                                "style": "width: 200px;",
+                                "class": "txtinput",
+                                "tabindex": 12
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

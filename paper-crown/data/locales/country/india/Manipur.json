@@ -1,0 +1,33 @@
+{
+  "ID" : "32",
+  "Name" : "Manipur",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Imphal*",
+    "localities" : [ ]
+  }, {
+    "city" : "Kakching",
+    "localities" : [ {
+      "Locality" : "Kameng Kakching",
+      "Zipcode" : "795010"
+    }, {
+      "Locality" : "Kakching Khunou",
+      "Zipcode" : "795103"
+    }, {
+      "Locality" : "Kakching",
+      "Zipcode" : "795103"
+    } ]
+  }, {
+    "city" : "Lilong",
+    "localities" : [ {
+      "Locality" : "Lilong",
+      "Zipcode" : "795130"
+    } ]
+  }, {
+    "city" : "Mayang Imphal",
+    "localities" : [ {
+      "Locality" : "Mayang Imphal",
+      "Zipcode" : "795132"
+    } ]
+  } ]
+}

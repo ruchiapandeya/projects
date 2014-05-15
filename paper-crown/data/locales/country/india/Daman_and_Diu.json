@@ -1,0 +1,9 @@
+{
+  "ID" : "29",
+  "Name" : "Daman and Diu",
+  "Type" : "Union Territory",
+  "cities" : [ {
+    "city" : "Daman and Diu",
+    "localities" : [ ]
+  } ]
+}

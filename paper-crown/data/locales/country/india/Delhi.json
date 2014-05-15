@@ -1,0 +1,1818 @@
+{
+  "ID" : "27",
+  "Name" : "Delhi",
+  "Type" : "Union Territory",
+  "cities" : [ {
+    "city" : "Asola",
+    "localities" : [ {
+      "Locality" : "Ghasola",
+      "Zipcode" : "127306"
+    }, {
+      "Locality" : "Basolan",
+      "Zipcode" : "134102"
+    }, {
+      "Locality" : "Kasolar",
+      "Zipcode" : "209715"
+    }, {
+      "Locality" : "Basola",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Asola",
+      "Zipcode" : "431402"
+    }, {
+      "Locality" : "Sawangi Asola",
+      "Zipcode" : "441108"
+    }, {
+      "Locality" : "Kasola",
+      "Zipcode" : "444403"
+    }, {
+      "Locality" : "Asola KD",
+      "Zipcode" : "444404"
+    }, {
+      "Locality" : "Asola",
+      "Zipcode" : "445001"
+    }, {
+      "Locality" : "Mhasola",
+      "Zipcode" : "445105"
+    }, {
+      "Locality" : "Kasola",
+      "Zipcode" : "445204"
+    }, {
+      "Locality" : "Uthamasolapuram",
+      "Zipcode" : "636010"
+    }, {
+      "Locality" : "Barasolapur",
+      "Zipcode" : "805101"
+    } ]
+  }, {
+    "city" : "Bhajanpura",
+    "localities" : [ ]
+  }, {
+    "city" : "Delhi",
+    "localities" : [ {
+      "Locality" : "Baroda House",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Bengali Market",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Bhagat Singh Market",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Connaught Place",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Constitution House",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Election Commission",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Janpath",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Krishi Bhawan",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Lady Harding Medical College",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "New Delhi G.P.O.",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "North Avenue",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Parliament House",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Patiala House",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Pragati Maidan Camp",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Pragati Maidan",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Rail Bhawan",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Sansad Marg",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Sansadiya Soudh",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Secretariat North",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Shastri Bhawan",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "Supreme Court",
+      "Zipcode" : "110001"
+    }, {
+      "Locality" : "A.G.C.R.",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Ajmeri Gate Extn.",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Darya Ganj",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Gandhi Smarak Nidhi",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "I.P.Estate",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Indraprastha",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Minto Road",
+      "Zipcode" : "110002"
+    }, {
+      "Locality" : "Aliganj (South Delhi)",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "C G O Complex",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Delhi High Court",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Golf Links",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Kasturba Nagar (South Delhi)",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Lodi Road",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Pandara Road",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Pragati Vihar",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Safdarjung Air Port",
+      "Zipcode" : "110003"
+    }, {
+      "Locality" : "Rashtrapati Bhawan",
+      "Zipcode" : "110004"
+    }, {
+      "Locality" : "Anand Parbat Indl. Area",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Anand Parbat",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Bank Street (Central Delhi)",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Desh Bandhu Gupta Road",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Guru Gobind Singh Marg",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Karol Bagh",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Master Prithvi Nath Marg",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Sat Nagar",
+      "Zipcode" : "110005"
+    }, {
+      "Locality" : "Baratooti",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Chandni Chowk",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Chawri Bazar",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Dareeba",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Delhi G.P.O.",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Delhi Sadar Bazar",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Hauz Qazi",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "Jama Masjid",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "S.T. Road",
+      "Zipcode" : "110006"
+    }, {
+      "Locality" : "C.C.I.",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Delhi University",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Gulabi Bagh",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Jawahar Nagar (North Delhi)",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Kamla Nagar (North Delhi)",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Malka Ganj",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Padam Nagar (North Delhi)",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "R.C.A.O.",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Rana Pratap Bagh",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Roop Nagar",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Roshan Ara Road",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Shakti Nagar (North Delhi)",
+      "Zipcode" : "110007"
+    }, {
+      "Locality" : "Dada Ghosh Bhawan",
+      "Zipcode" : "110008"
+    }, {
+      "Locality" : "Patel Nagar East",
+      "Zipcode" : "110008"
+    }, {
+      "Locality" : "Patel Nagar (Central Delhi)",
+      "Zipcode" : "110008"
+    }, {
+      "Locality" : "Patel Nagar South",
+      "Zipcode" : "110008"
+    }, {
+      "Locality" : "Patel Nagar West",
+      "Zipcode" : "110008"
+    }, {
+      "Locality" : "Dr.Mukerjee Nagar",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "G.T.B.Nagar",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "Gujranwala Colony",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "H.S.Sangh",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "Model Town II",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "Model Town III",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "Nirankari Colony",
+      "Zipcode" : "110009"
+    }, {
+      "Locality" : "505 A B Workshop",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "A F Palam",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Aps Colony",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Bazar Road",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "C.V.D.",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "COD (South West Delhi)",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Delhi Cantt",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Dhaula Kuan",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Kirby Place",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Pinto Park",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "R R Hospital",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Signal Enclave",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Station Road (South West Delhi)",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Subroto Park",
+      "Zipcode" : "110010"
+    }, {
+      "Locality" : "Nirman Bhawan",
+      "Zipcode" : "110011"
+    }, {
+      "Locality" : "South Avenue",
+      "Zipcode" : "110011"
+    }, {
+      "Locality" : "Udyog Bhawan",
+      "Zipcode" : "110011"
+    }, {
+      "Locality" : "I.A.R.I.",
+      "Zipcode" : "110012"
+    }, {
+      "Locality" : "Inderpuri",
+      "Zipcode" : "110012"
+    }, {
+      "Locality" : "National Physical Laboratory",
+      "Zipcode" : "110012"
+    }, {
+      "Locality" : "Dargah Sharif",
+      "Zipcode" : "110013"
+    }, {
+      "Locality" : "Hazrat Nizamuddin",
+      "Zipcode" : "110013"
+    }, {
+      "Locality" : "Hari Nagar Ashram",
+      "Zipcode" : "110014"
+    }, {
+      "Locality" : "Jeevan Nagar",
+      "Zipcode" : "110014"
+    }, {
+      "Locality" : "Jungpura",
+      "Zipcode" : "110014"
+    }, {
+      "Locality" : "Pratap Market",
+      "Zipcode" : "110014"
+    }, {
+      "Locality" : "Delhi Industrial Area",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "ESI",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "Karam Pura",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "L. M. Nagar Indl. Area",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "Mansarover Garden",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "N.I.Area",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "Ramesh Nagar",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "Zakhira",
+      "Zipcode" : "110015"
+    }, {
+      "Locality" : "Green Park Market",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "Hauz Khas Market",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "Hauz Khas",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "IT Hauz Khas",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "NIE Campus",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "Technology Bhawan",
+      "Zipcode" : "110016"
+    }, {
+      "Locality" : "Distt. Court Complex  Saket",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "MMTC/STC Colony",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Malviya Nagar (South Delhi)",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Panchsheel Enclave",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Pushp Vihar",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Saket (South Delhi)",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Sarvodya Enclave",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "South Malviya Nagar",
+      "Zipcode" : "110017"
+    }, {
+      "Locality" : "Ashok Nagar (West Delhi)",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Chand Nagar",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Chaukhandi",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Fateh Nagar",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Khyala Phase -  I",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Khyala Phase - II",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "M.B.S. Nagar",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Mahabir Nagar",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Tilak Nagar East",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Tilak Nagar (West Delhi)",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Vikas Puri",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Vishnu Garden",
+      "Zipcode" : "110018"
+    }, {
+      "Locality" : "Alaknanda",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Ali",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Chittranjan Park",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Kalkaji",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Lal Kuan",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Nehru Place",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Tehkhand",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "Tugalkabad",
+      "Zipcode" : "110019"
+    }, {
+      "Locality" : "C R R I (South Delhi)",
+      "Zipcode" : "110020"
+    }, {
+      "Locality" : "F F C Okhla",
+      "Zipcode" : "110020"
+    }, {
+      "Locality" : "Okhla Industrial Area Phase-i",
+      "Zipcode" : "110020"
+    }, {
+      "Locality" : "Okhla Industrial Estate",
+      "Zipcode" : "110020"
+    }, {
+      "Locality" : "Anand Niketan",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "Chanakya Puri",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "Malcha Marg",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "Moti Bagh",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "Nanak Pura",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "South Delhi Campus",
+      "Zipcode" : "110021"
+    }, {
+      "Locality" : "R K Puram Sect-1",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect-12",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect-3",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect-4",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect-5",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect-8",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sect7",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "R K Puram Sector - 6 Postal SB",
+      "Zipcode" : "110022"
+    }, {
+      "Locality" : "Kidwai Nagar East",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Kidwai Nagar West",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Laxmi Bai Nagar",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Nauroji Nagar",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Netaji Nagar (South West Delhi)",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Sarojini Nagar",
+      "Zipcode" : "110023"
+    }, {
+      "Locality" : "Amar Colony",
+      "Zipcode" : "110024"
+    }, {
+      "Locality" : "Defence Colony (South Delhi)",
+      "Zipcode" : "110024"
+    }, {
+      "Locality" : "Krishna Market",
+      "Zipcode" : "110024"
+    }, {
+      "Locality" : "Lajpat Nagar (South Delhi)",
+      "Zipcode" : "110024"
+    }, {
+      "Locality" : "Abul Fazal Enclave-I",
+      "Zipcode" : "110025"
+    }, {
+      "Locality" : "Jamia Nagar",
+      "Zipcode" : "110025"
+    }, {
+      "Locality" : "New Friends Colony",
+      "Zipcode" : "110025"
+    }, {
+      "Locality" : "Sukhdev Vihar",
+      "Zipcode" : "110025"
+    }, {
+      "Locality" : "Zakir Nagar",
+      "Zipcode" : "110025"
+    }, {
+      "Locality" : "Ashoka Park Extn.",
+      "Zipcode" : "110026"
+    }, {
+      "Locality" : "Punjabi Bagh",
+      "Zipcode" : "110026"
+    }, {
+      "Locality" : "Punjabi Bagh Sec - III",
+      "Zipcode" : "110026"
+    }, {
+      "Locality" : "Shivaji Park (West Delhi)",
+      "Zipcode" : "110026"
+    }, {
+      "Locality" : "Janta Market",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Rajouri Garden J-6",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Rajouri Market",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Subhash Nagar (West Delhi)",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Subhash Nagar West",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Tagore Garden",
+      "Zipcode" : "110027"
+    }, {
+      "Locality" : "Kair",
+      "Zipcode" : "110028"
+    }, {
+      "Locality" : "Khaira",
+      "Zipcode" : "110028"
+    }, {
+      "Locality" : "Naraina Industrial Estate",
+      "Zipcode" : "110028"
+    }, {
+      "Locality" : "Naraina Village",
+      "Zipcode" : "110028"
+    }, {
+      "Locality" : "Ansari Nagar",
+      "Zipcode" : "110029"
+    }, {
+      "Locality" : "Nauroji Nagar",
+      "Zipcode" : "110029"
+    }, {
+      "Locality" : "Safdarjung Enclave",
+      "Zipcode" : "110029"
+    }, {
+      "Locality" : "Gadaipur",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "Ghitorni",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "Lado Sarai",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "Mehrauli",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "Paryavaran Complex",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "T B Hospital",
+      "Zipcode" : "110030"
+    }, {
+      "Locality" : "Gandhi Nagar Bazar",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Gandhi Nagar (East Delhi)",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Geeta Colony",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Kailash Nagar",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Raghubar Pura",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Rajgarh Colony",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Shastri Nagar (East Delhi)",
+      "Zipcode" : "110031"
+    }, {
+      "Locality" : "Babarpur (North East Delhi)",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Balbir Nagar",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Bhola Nath Nagar",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Distt. Court (KKD)",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Goverdhan Bihari Colony",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Loni Road",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Man Sarovar Park",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Rohtash Nagar",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Shahdara Mandi",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Shahdara",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Shivaji Park (East Delhi)",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Telewara",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Vishwas Nagar",
+      "Zipcode" : "110032"
+    }, {
+      "Locality" : "Adrash Nagar",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "Bhalaswa",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "Jahangir Puri A Block",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "Jahangir Puri D Block",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "Jahangir Puri H Block",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "N.S.Mandi",
+      "Zipcode" : "110033"
+    }, {
+      "Locality" : "Anandvas Shakurpur",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Maurya Enclave",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Rani Bagh",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Saraswati Vihar",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Shakur Pur I  Block",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Shakurbasti Rs",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Sri Nagar Colony",
+      "Zipcode" : "110034"
+    }, {
+      "Locality" : "Ganeshpura",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Keshav Puram (North West Delhi)",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Onkar Nagar",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Power House",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Rampura",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Sarai Rohilla",
+      "Zipcode" : "110035"
+    }, {
+      "Locality" : "Alipur",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Bakhtawar Pur",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Bakoli",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Hiranki",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Kadipur",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Khampur",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Mukhmelpur",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Nangal Poona",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Palla",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Tajpur Kalan",
+      "Zipcode" : "110036"
+    }, {
+      "Locality" : "Gurgaon Road",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "IGI Airport",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "Kapashera",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "Mahipalpur",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "Nangal Dewat",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "Palam Airport",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "Samalkha",
+      "Zipcode" : "110037"
+    }, {
+      "Locality" : "A F Rajokari",
+      "Zipcode" : "110038"
+    }, {
+      "Locality" : "Rajokari",
+      "Zipcode" : "110038"
+    }, {
+      "Locality" : "Auchandi",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Auchandi",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Barwala",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Bawana",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Ghoga",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Hareveli",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Jat Khore",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Katewara",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Nangal Thakran",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Pooth Khurd",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Qutabagarh",
+      "Zipcode" : "110039"
+    }, {
+      "Locality" : "Bankner",
+      "Zipcode" : "110040"
+    }, {
+      "Locality" : "Bhorgarh",
+      "Zipcode" : "110040"
+    }, {
+      "Locality" : "Lampur",
+      "Zipcode" : "110040"
+    }, {
+      "Locality" : "Narela",
+      "Zipcode" : "110040"
+    }, {
+      "Locality" : "Singhu",
+      "Zipcode" : "110040"
+    }, {
+      "Locality" : "Bakkarwala",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Hirankudna",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Mundka",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Nangloi - II",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Nangloi - III",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Nangloi",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Nilothi",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Ranhola",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Tikri Kalan",
+      "Zipcode" : "110041"
+    }, {
+      "Locality" : "Badli (North West Delhi)",
+      "Zipcode" : "110042"
+    }, {
+      "Locality" : "Delhi Engg. College",
+      "Zipcode" : "110042"
+    }, {
+      "Locality" : "Pehlad Pur",
+      "Zipcode" : "110042"
+    }, {
+      "Locality" : "Samai Pur",
+      "Zipcode" : "110042"
+    }, {
+      "Locality" : "Siraspur",
+      "Zipcode" : "110042"
+    }, {
+      "Locality" : "Baprola",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "D C Nangli Sakravati",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Daulatpur",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Dichaun Kalan",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Dindarpur",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Jhatikara",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Mitraon",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Najafgarh",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Pandwala Kalan",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Papravat",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Rewla Khanpur",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Surehra",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "Tilangpur Kotla",
+      "Zipcode" : "110043"
+    }, {
+      "Locality" : "BTPS (South Delhi)",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Badarpur (South Delhi)",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Jaitpur",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Jaitpur (South Delhi)",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Molarband",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Pul Pahladpur",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Tugalkabad Railway Colony",
+      "Zipcode" : "110044"
+    }, {
+      "Locality" : "Dabri",
+      "Zipcode" : "110045"
+    }, {
+      "Locality" : "Indira Park",
+      "Zipcode" : "110045"
+    }, {
+      "Locality" : "Nasirpur",
+      "Zipcode" : "110045"
+    }, {
+      "Locality" : "Palam Village",
+      "Zipcode" : "110045"
+    }, {
+      "Locality" : "Nangal Raya",
+      "Zipcode" : "110046"
+    }, {
+      "Locality" : "Sagarpur",
+      "Zipcode" : "110046"
+    }, {
+      "Locality" : "Arjungarh",
+      "Zipcode" : "110047"
+    }, {
+      "Locality" : "Aya Nagar",
+      "Zipcode" : "110047"
+    }, {
+      "Locality" : "Jaunapur",
+      "Zipcode" : "110047"
+    }, {
+      "Locality" : "Mandi",
+      "Zipcode" : "110047"
+    }, {
+      "Locality" : "Greater Kailash",
+      "Zipcode" : "110048"
+    }, {
+      "Locality" : "Kailash Colony",
+      "Zipcode" : "110048"
+    }, {
+      "Locality" : "Masjid Moth",
+      "Zipcode" : "110048"
+    }, {
+      "Locality" : "Andrewsganj",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "Gautam Nagar",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "Gulmohar Park",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "New Delhi South Ext-II",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "Sadiq Nagar",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "Sahpurjat",
+      "Zipcode" : "110049"
+    }, {
+      "Locality" : "Azad Nagar (East Delhi)",
+      "Zipcode" : "110051"
+    }, {
+      "Locality" : "Govind Pura",
+      "Zipcode" : "110051"
+    }, {
+      "Locality" : "Krishna Nagar",
+      "Zipcode" : "110051"
+    }, {
+      "Locality" : "Ram Nagar (East Delhi)",
+      "Zipcode" : "110051"
+    }, {
+      "Locality" : "Ashok Vihar",
+      "Zipcode" : "110052"
+    }, {
+      "Locality" : "Nimri",
+      "Zipcode" : "110052"
+    }, {
+      "Locality" : "Satyawati Nagar",
+      "Zipcode" : "110052"
+    }, {
+      "Locality" : "Shastri Nagar (North West Delhi)",
+      "Zipcode" : "110052"
+    }, {
+      "Locality" : "Wazir Pur III",
+      "Zipcode" : "110052"
+    }, {
+      "Locality" : "Bhajan Pura",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Brahampuri",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Ghonda",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Jafrabad (East Delhi)",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Jagjit Nagar",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Maujpur",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "New Usmanpur",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Seelampur",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Yamuna Vihar",
+      "Zipcode" : "110053"
+    }, {
+      "Locality" : "Civil Lines (North Delhi)",
+      "Zipcode" : "110054"
+    }, {
+      "Locality" : "District Courts (North Delhi)",
+      "Zipcode" : "110054"
+    }, {
+      "Locality" : "Patrachar Vidyalay",
+      "Zipcode" : "110054"
+    }, {
+      "Locality" : "Timarpur",
+      "Zipcode" : "110054"
+    }, {
+      "Locality" : "A.K.Market",
+      "Zipcode" : "110055"
+    }, {
+      "Locality" : "Multani Dhanda",
+      "Zipcode" : "110055"
+    }, {
+      "Locality" : "Pahar Ganj",
+      "Zipcode" : "110055"
+    }, {
+      "Locality" : "Swami Ram Tirth Nagar",
+      "Zipcode" : "110055"
+    }, {
+      "Locality" : "Shakur Basti Depot",
+      "Zipcode" : "110056"
+    }, {
+      "Locality" : "Vasant Vihar-1",
+      "Zipcode" : "110057"
+    }, {
+      "Locality" : "Vasant Vihar-2",
+      "Zipcode" : "110057"
+    }, {
+      "Locality" : "D.E.S.U. Colony",
+      "Zipcode" : "110058"
+    }, {
+      "Locality" : "Jail Road (West Delhi)",
+      "Zipcode" : "110058"
+    }, {
+      "Locality" : "Janakpuri A-3",
+      "Zipcode" : "110058"
+    }, {
+      "Locality" : "Janakpuri B-1",
+      "Zipcode" : "110058"
+    }, {
+      "Locality" : "Janakpuri C-4",
+      "Zipcode" : "110058"
+    }, {
+      "Locality" : "D. K. Mohan Garden",
+      "Zipcode" : "110059"
+    }, {
+      "Locality" : "Hastal Village",
+      "Zipcode" : "110059"
+    }, {
+      "Locality" : "Jeevan Park",
+      "Zipcode" : "110059"
+    }, {
+      "Locality" : "Matiala",
+      "Zipcode" : "110059"
+    }, {
+      "Locality" : "Uttam Nagar",
+      "Zipcode" : "110059"
+    }, {
+      "Locality" : "Rajender Nagar",
+      "Zipcode" : "110060"
+    }, {
+      "Locality" : "Bijwasan",
+      "Zipcode" : "110061"
+    }, {
+      "Locality" : "Shahbad Mohammadpur",
+      "Zipcode" : "110061"
+    }, {
+      "Locality" : "Air Force Station Tugalkabad",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "BSF Camp Tigri",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Dakshinpuri Phase-I",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Dakshinpuri Phase-II",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Dakshinpuri Phase-III",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Deoli",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Dr. Ambedkar Nagar (South Delhi)",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Hamdard Nagar",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Khanpur (South Delhi)",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Pushpa Bhawan",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Sangam Vihar",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Talimabad",
+      "Zipcode" : "110062"
+    }, {
+      "Locality" : "Jawala Heri",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Madipur Slum Quarter",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Madipur Village",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Paschim Vihar B Block",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Paschim Vihar",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Peeragarhi",
+      "Zipcode" : "110063"
+    }, {
+      "Locality" : "Hari Nagar BE Block",
+      "Zipcode" : "110064"
+    }, {
+      "Locality" : "Hari Nagar Dadb Block",
+      "Zipcode" : "110064"
+    }, {
+      "Locality" : "Hari Nagar (West Delhi)",
+      "Zipcode" : "110064"
+    }, {
+      "Locality" : "Maya Puri",
+      "Zipcode" : "110064"
+    }, {
+      "Locality" : "Mayapuri Shopping Centre",
+      "Zipcode" : "110064"
+    }, {
+      "Locality" : "East Of Kailash Phase-I",
+      "Zipcode" : "110065"
+    }, {
+      "Locality" : "East Of Kailash",
+      "Zipcode" : "110065"
+    }, {
+      "Locality" : "Nehru Nagar (South Delhi)",
+      "Zipcode" : "110065"
+    }, {
+      "Locality" : "Sant Nagar (South Delhi)",
+      "Zipcode" : "110065"
+    }, {
+      "Locality" : "Sriniwaspuri",
+      "Zipcode" : "110065"
+    }, {
+      "Locality" : "R K Puram (Main)",
+      "Zipcode" : "110066"
+    }, {
+      "Locality" : "R K Puram West",
+      "Zipcode" : "110066"
+    }, {
+      "Locality" : "J.N.U.",
+      "Zipcode" : "110067"
+    }, {
+      "Locality" : "JNU New Campus",
+      "Zipcode" : "110067"
+    }, {
+      "Locality" : "Munirka",
+      "Zipcode" : "110067"
+    }, {
+      "Locality" : "Ignou",
+      "Zipcode" : "110068"
+    }, {
+      "Locality" : "Maidan Garhi",
+      "Zipcode" : "110068"
+    }, {
+      "Locality" : "Neb Sarai",
+      "Zipcode" : "110068"
+    }, {
+      "Locality" : "Union Public Service Commission",
+      "Zipcode" : "110069"
+    }, {
+      "Locality" : "Masood Pur",
+      "Zipcode" : "110070"
+    }, {
+      "Locality" : "Vasant Kunj Pkt-A",
+      "Zipcode" : "110070"
+    }, {
+      "Locality" : "Vasant Kunj",
+      "Zipcode" : "110070"
+    }, {
+      "Locality" : "Badusarai",
+      "Zipcode" : "110071"
+    }, {
+      "Locality" : "Chhawla",
+      "Zipcode" : "110071"
+    }, {
+      "Locality" : "D C Goyla",
+      "Zipcode" : "110071"
+    }, {
+      "Locality" : "Kangan Heri",
+      "Zipcode" : "110071"
+    }, {
+      "Locality" : "CRPF Jharoda Kalan",
+      "Zipcode" : "110072"
+    }, {
+      "Locality" : "Jharoda Kalan",
+      "Zipcode" : "110072"
+    }, {
+      "Locality" : "Dhansa",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Galib Pur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Ghuman Hera",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Issapur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Jafarpur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Khera Dabur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Malik Pur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Mundela Kalan",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Quazipur",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Raota",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "Ujwa",
+      "Zipcode" : "110073"
+    }, {
+      "Locality" : "C.S.K.M. School",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Chandanhoola",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Chattarpur",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Dera",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Fatehpur Beri",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Sardar Patel School",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Satbari",
+      "Zipcode" : "110074"
+    }, {
+      "Locality" : "Amberhai",
+      "Zipcode" : "110075"
+    }, {
+      "Locality" : "Dwarka Sec-6",
+      "Zipcode" : "110075"
+    }, {
+      "Locality" : "Madanpur Khadar",
+      "Zipcode" : "110076"
+    }, {
+      "Locality" : "Sarita Vihar",
+      "Zipcode" : "110076"
+    }, {
+      "Locality" : "Bagdola",
+      "Zipcode" : "110077"
+    }, {
+      "Locality" : "Barthal",
+      "Zipcode" : "110077"
+    }, {
+      "Locality" : "Dhulsiras",
+      "Zipcode" : "110077"
+    }, {
+      "Locality" : "Palam Extn (Harijan Basti)",
+      "Zipcode" : "110077"
+    }, {
+      "Locality" : "Raj Nagar - II",
+      "Zipcode" : "110077"
+    }, {
+      "Locality" : "Distt. Court Complex  Dwarka",
+      "Zipcode" : "110078"
+    }, {
+      "Locality" : "Kakrola",
+      "Zipcode" : "110078"
+    }, {
+      "Locality" : "Kakrola",
+      "Zipcode" : "110078"
+    }, {
+      "Locality" : "N.S.I.T. Dwarka",
+      "Zipcode" : "110078"
+    }, {
+      "Locality" : "Chand Pur",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Gheora",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Jaunti",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Kanjhawla",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Karala",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Lad Pur",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Majra Dabas",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Mubarak Pur Dabas",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Nizampur",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Punjab Khor",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Rani Khera",
+      "Zipcode" : "110081"
+    }, {
+      "Locality" : "Holambi Kalan",
+      "Zipcode" : "110082"
+    }, {
+      "Locality" : "Khera Kalan",
+      "Zipcode" : "110082"
+    }, {
+      "Locality" : "Khera Khurd",
+      "Zipcode" : "110082"
+    }, {
+      "Locality" : "Naya Bans",
+      "Zipcode" : "110082"
+    }, {
+      "Locality" : "Mangolpuri A Block",
+      "Zipcode" : "110083"
+    }, {
+      "Locality" : "Mangolpuri I  Block",
+      "Zipcode" : "110083"
+    }, {
+      "Locality" : "Mangolpuri N Block",
+      "Zipcode" : "110083"
+    }, {
+      "Locality" : "Mangolpuri S Block",
+      "Zipcode" : "110083"
+    }, {
+      "Locality" : "Burari",
+      "Zipcode" : "110084"
+    }, {
+      "Locality" : "Jharoda Majraa",
+      "Zipcode" : "110084"
+    }, {
+      "Locality" : "Avantika",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Prashant Vihar",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Rithala",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Rohini Courts",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Rohini Sector 5",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Rohini Sector-7",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Rohini sec-11",
+      "Zipcode" : "110085"
+    }, {
+      "Locality" : "Begumpur",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Budh Vihar",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Pooth Kalan",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Pooth Kalan Resettlement",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Sultanpuri B Block",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Sultanpuri C Block",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Sultanpuri F Block",
+      "Zipcode" : "110086"
+    }, {
+      "Locality" : "Jwala Puri",
+      "Zipcode" : "110087"
+    }, {
+      "Locality" : "Sunder Vihar",
+      "Zipcode" : "110087"
+    }, {
+      "Locality" : "Haiderpur",
+      "Zipcode" : "110088"
+    }, {
+      "Locality" : "Shalamar",
+      "Zipcode" : "110088"
+    }, {
+      "Locality" : "Shalimar Bagh (North West Delhi)",
+      "Zipcode" : "110088"
+    }, {
+      "Locality" : "Rohini Sector 15",
+      "Zipcode" : "110089"
+    }, {
+      "Locality" : "Chilla",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Himmatpuri",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Kalyanpuri",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Kalyanvas",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Mayur Vihar Ph-I",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Patparganj",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Trilok Puri",
+      "Zipcode" : "110091"
+    }, {
+      "Locality" : "Anand Vihar",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "IP Extension",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Laxmi Nagar (East Delhi)",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Mandawali Fazalpur",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Nirman Vihar",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Shakarpur",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Surajmal Vihar",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Yozna Vihar",
+      "Zipcode" : "110092"
+    }, {
+      "Locality" : "Harsh Vihar",
+      "Zipcode" : "110093"
+    }, {
+      "Locality" : "Loni Road Housing Complex",
+      "Zipcode" : "110093"
+    }, {
+      "Locality" : "Mandoli Saboli",
+      "Zipcode" : "110093"
+    }, {
+      "Locality" : "Nand Nagri &quot A&quot ",
+      "Zipcode" : "110093"
+    }, {
+      "Locality" : "Nand Nagri &quot C&quot ",
+      "Zipcode" : "110093"
+    }, {
+      "Locality" : "Dayalpur",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Gokal Puri",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Johripur",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Karawal Nagar",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Khazuri Khas",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Sabhapur",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Shaheed Bhagat Singh Colony",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Sonia Vihar",
+      "Zipcode" : "110094"
+    }, {
+      "Locality" : "Dilshad Garden",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "G.T.B. Hospital",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "Jhilmil",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "Jhilmil Tahirpur",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "New Seemapuri",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "Old Seemapuri",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "V.K. Nagar",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "Vivek Vihar",
+      "Zipcode" : "110095"
+    }, {
+      "Locality" : "Ghazipur",
+      "Zipcode" : "110096"
+    }, {
+      "Locality" : "Mayur Vihar Ph-III",
+      "Zipcode" : "110096"
+    }, {
+      "Locality" : "Vasundhra Enclave",
+      "Zipcode" : "110096"
+    }, {
+      "Locality" : "Prime Minister Of India",
+      "Zipcode" : "110101"
+    }, {
+      "Locality" : "Palika Kendra  NDMC Bldg.",
+      "Zipcode" : "110102"
+    }, {
+      "Locality" : "Times of India  BSZ marg",
+      "Zipcode" : "110103"
+    }, {
+      "Locality" : "ICAI  IP Estate",
+      "Zipcode" : "110104"
+    }, {
+      "Locality" : "Sena Bhawan",
+      "Zipcode" : "110105"
+    }, {
+      "Locality" : "Vayu Bhawan",
+      "Zipcode" : "110106"
+    }, {
+      "Locality" : "Udyog Bhawan",
+      "Zipcode" : "110107"
+    }, {
+      "Locality" : "Nirman Bhawan",
+      "Zipcode" : "110108"
+    }, {
+      "Locality" : "Central Revenue Bldg",
+      "Zipcode" : "110109"
+    }, {
+      "Locality" : "Vikas Bhawan",
+      "Zipcode" : "110110"
+    }, {
+      "Locality" : "Police Head Quarters",
+      "Zipcode" : "110112"
+    }, {
+      "Locality" : "Delhi Secretariate",
+      "Zipcode" : "110113"
+    }, {
+      "Locality" : "Krishi  Bhawan",
+      "Zipcode" : "110114"
+    }, {
+      "Locality" : "Shastri Bhawan",
+      "Zipcode" : "110115"
+    }, {
+      "Locality" : "Dak Bhawan",
+      "Zipcode" : "110116"
+    }, {
+      "Locality" : "Sanchar Bhawan",
+      "Zipcode" : "110117"
+    }, {
+      "Locality" : "Rail Bhawan",
+      "Zipcode" : "110118"
+    }, {
+      "Locality" : "Sharam Shakti Bhawan",
+      "Zipcode" : "110119"
+    }, {
+      "Locality" : "INS. INS Bhawan  Rafi Marg",
+      "Zipcode" : "110120"
+    }, {
+      "Locality" : "H.T.Media Hindustan Times House  18-20 K.G.Marg",
+      "Zipcode" : "110121"
+    }, {
+      "Locality" : "K.Ganga Dharan Advocates  Chamber No.528  Patiala House court",
+      "Zipcode" : "110122"
+    }, {
+      "Locality" : "CAG B.S.Z. Marg",
+      "Zipcode" : "110124"
+    }, {
+      "Locality" : "Rajindra Place",
+      "Zipcode" : "110125"
+    }, {
+      "Locality" : "CBSE Preet Vihar",
+      "Zipcode" : "110301"
+    }, {
+      "Locality" : "DSSSB",
+      "Zipcode" : "110302"
+    }, {
+      "Locality" : "Distt. Courts Tis Hazari",
+      "Zipcode" : "110401"
+    }, {
+      "Locality" : "DAP Bldg",
+      "Zipcode" : "110402"
+    }, {
+      "Locality" : "Guru Govind Singh  I.P.University  K.Gate",
+      "Zipcode" : "110403"
+    }, {
+      "Locality" : "Agri India C-74 OIE Phase-I",
+      "Zipcode" : "110501"
+    }, {
+      "Locality" : "AIMA-All India Management Association Institutional Area Lodhi Road",
+      "Zipcode" : "110502"
+    }, {
+      "Locality" : "Delhi High Courts",
+      "Zipcode" : "110503"
+    }, {
+      "Locality" : "SSC  CGO Complex",
+      "Zipcode" : "110504"
+    }, {
+      "Locality" : "Council ICSE Board Pragari House 47-48 nehru Place",
+      "Zipcode" : "110505"
+    }, {
+      "Locality" : "MTNL  Nehru Place",
+      "Zipcode" : "110506"
+    }, {
+      "Locality" : "B.S.E.S. Nehru Place",
+      "Zipcode" : "110507"
+    }, {
+      "Locality" : "Registrar of Companies  IFCI Tower 61 Nehru Place",
+      "Zipcode" : "110508"
+    }, {
+      "Locality" : "RPF/EPF  Skylark bldg  60  Nehru Place",
+      "Zipcode" : "110509"
+    }, {
+      "Locality" : "Ministry of Environment &amp  forest  B  Block Priyavaran Bhawan  CGO complex",
+      "Zipcode" : "110510"
+    }, {
+      "Locality" : "Lok Nayak Bhawan",
+      "Zipcode" : "110511"
+    }, {
+      "Locality" : "Pragati Vihar Hostal",
+      "Zipcode" : "110512"
+    }, {
+      "Locality" : "Registrar IIT New Delhi",
+      "Zipcode" : "110601"
+    }, {
+      "Locality" : "Kendriya Vidyalaya Sangthan 18 Qutab Institutional Area",
+      "Zipcode" : "110602"
+    }, {
+      "Locality" : "Central Social Welfare Board B-32 Qutab Institutional Area",
+      "Zipcode" : "110603"
+    }, {
+      "Locality" : "East Block  R.K.Puram  ND",
+      "Zipcode" : "110604"
+    }, {
+      "Locality" : "West block  R.K.Puram",
+      "Zipcode" : "110605"
+    }, {
+      "Locality" : "Sewa Bhawan",
+      "Zipcode" : "110606"
+    }, {
+      "Locality" : "Bikaji-cama place",
+      "Zipcode" : "110607"
+    }, {
+      "Locality" : "All India Institute of Medical Science (AIIMS)",
+      "Zipcode" : "110608"
+    }, {
+      "Locality" : "Helpage India C-14 Qutab Institutional Area",
+      "Zipcode" : "110609"
+    }, {
+      "Locality" : "Registrar of Newspaper of India  R.K.Puram",
+      "Zipcode" : "110610"
+    }, {
+      "Locality" : "IGNOU New Delhi",
+      "Zipcode" : "110611"
+    }, {
+      "Locality" : "Delhi Road",
+      "Zipcode" : "131001"
+    }, {
+      "Locality" : "Delhi Gate (Aligarh)",
+      "Zipcode" : "202001"
+    }, {
+      "Locality" : "Delhi Gate Alwar",
+      "Zipcode" : "301001"
+    }, {
+      "Locality" : "Delhi Gate (Ahmedabad)",
+      "Zipcode" : "380004"
+    }, {
+      "Locality" : "Palanpur Delhigate",
+      "Zipcode" : "385001"
+    }, {
+      "Locality" : "Delhi",
+      "Zipcode" : "486111"
+    }, {
+      "Locality" : "Delhi",
+      "Zipcode" : "486111"
+    } ]
+  }, {
+    "city" : "New Delhi*",
+    "localities" : [ ]
+  } ]
+}

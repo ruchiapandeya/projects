@@ -1,0 +1,9 @@
+{
+  "ID" : "31",
+  "Name" : "Sikkim",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Gangtok*",
+    "localities" : [ ]
+  } ]
+}

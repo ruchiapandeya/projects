@@ -1,0 +1,6815 @@
+{
+  "ID" : "20",
+  "Name" : "Jharkhand",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Amlabad",
+    "localities" : [ {
+      "Locality" : "Kamlabad Badauli",
+      "Zipcode" : "227202"
+    }, {
+      "Locality" : "Amlabad Colliery",
+      "Zipcode" : "828302"
+    } ]
+  }, {
+    "city" : "Ara"
+  }, {
+    "city" : "Barughutu",
+    "localities" : [ ]
+  }, {
+    "city" : "Bokaro Steel City",
+    "localities" : [ {
+      "Locality" : "Bokaro Steel City",
+      "Zipcode" : "827001"
+    } ]
+  }, {
+    "city" : "Chaibasa",
+    "localities" : [ {
+      "Locality" : "Chaibasa",
+      "Zipcode" : "833201"
+    }, {
+      "Locality" : "Tata College Chaibasa",
+      "Zipcode" : "833201"
+    } ]
+  }, {
+    "city" : "Chakradharpur",
+    "localities" : [ {
+      "Locality" : "Raichakradharpur",
+      "Zipcode" : "752014"
+    }, {
+      "Locality" : "Chakradharpur",
+      "Zipcode" : "757077"
+    }, {
+      "Locality" : "Chakradharpur",
+      "Zipcode" : "758028"
+    }, {
+      "Locality" : "Chakradharpur Bazar",
+      "Zipcode" : "833102"
+    }, {
+      "Locality" : "Chakradharpur Colony",
+      "Zipcode" : "833102"
+    }, {
+      "Locality" : "Chakradharpur",
+      "Zipcode" : "833102"
+    } ]
+  }, {
+    "city" : "Chandil",
+    "localities" : [ {
+      "Locality" : "Chandilarog",
+      "Zipcode" : "176312"
+    }, {
+      "Locality" : "Chandil Waniyam",
+      "Zipcode" : "193401"
+    }, {
+      "Locality" : "Chandilora",
+      "Zipcode" : "193402"
+    }, {
+      "Locality" : "Chandili",
+      "Zipcode" : "764058"
+    }, {
+      "Locality" : "Chandil",
+      "Zipcode" : "832401"
+    } ]
+  }, {
+    "city" : "Chandrapura",
+    "localities" : [ {
+      "Locality" : "Chandrapura",
+      "Zipcode" : "206127"
+    }, {
+      "Locality" : "Chandrapura",
+      "Zipcode" : "458118"
+    }, {
+      "Locality" : "Ramachandrapuram He",
+      "Zipcode" : "502032"
+    }, {
+      "Locality" : "Ramchandrapuram",
+      "Zipcode" : "505528"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "506221"
+    }, {
+      "Locality" : "Hemachandrapuram",
+      "Zipcode" : "507101"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "507133"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "507160"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "507211"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "508222"
+    }, {
+      "Locality" : "Kagitaramachandrapuram",
+      "Zipcode" : "508234"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "518135"
+    }, {
+      "Locality" : "Ramachandrapuram(Divi)",
+      "Zipcode" : "521121"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "521227"
+    }, {
+      "Locality" : "Harischandrapuram",
+      "Zipcode" : "522020"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "523247"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "523329"
+    }, {
+      "Locality" : "Ramachandrapuram Agraharam",
+      "Zipcode" : "532148"
+    }, {
+      "Locality" : "Harischandrapuram",
+      "Zipcode" : "532430"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "533255"
+    }, {
+      "Locality" : "Ramachandrapuram Old Town",
+      "Zipcode" : "533255"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "533287"
+    }, {
+      "Locality" : "Peraramachandrapuram",
+      "Zipcode" : "533342"
+    }, {
+      "Locality" : "Kotaramachandrapuram",
+      "Zipcode" : "534311"
+    }, {
+      "Locality" : "Ramachandrapuram (Bangalore)",
+      "Zipcode" : "560021"
+    }, {
+      "Locality" : "Ramachandrapura",
+      "Zipcode" : "572201"
+    }, {
+      "Locality" : "Harischandrapuram",
+      "Zipcode" : "610206"
+    }, {
+      "Locality" : "Ramachandrapuram (Pudukkottai)",
+      "Zipcode" : "622505"
+    }, {
+      "Locality" : "S.Ramachandrapuram",
+      "Zipcode" : "626126"
+    }, {
+      "Locality" : "P.Ramachandrapuram",
+      "Zipcode" : "626137"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "628907"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "628907"
+    }, {
+      "Locality" : "Harichandrapuram",
+      "Zipcode" : "631210"
+    }, {
+      "Locality" : "Chandrapuram",
+      "Zipcode" : "635651"
+    }, {
+      "Locality" : "Chandrapuram",
+      "Zipcode" : "641669"
+    }, {
+      "Locality" : "Ramachandrapuram",
+      "Zipcode" : "642120"
+    }, {
+      "Locality" : "Chandrapuram",
+      "Zipcode" : "678624"
+    }, {
+      "Locality" : "Chandrapura",
+      "Zipcode" : "828403"
+    }, {
+      "Locality" : "Ushri Chandrapura",
+      "Zipcode" : "841424"
+    } ]
+  }, {
+    "city" : "Chatra",
+    "localities" : [ {
+      "Locality" : "Chatral",
+      "Zipcode" : "185111"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "385320"
+    }, {
+      "Locality" : "Chatrai",
+      "Zipcode" : "521214"
+    }, {
+      "Locality" : "Chatragadda",
+      "Zipcode" : "522265"
+    }, {
+      "Locality" : "Chatragaddapadu",
+      "Zipcode" : "522647"
+    }, {
+      "Locality" : "Venkatainachatra",
+      "Zipcode" : "571127"
+    }, {
+      "Locality" : "Tirumalasagara Chatra",
+      "Zipcode" : "571434"
+    }, {
+      "Locality" : "Puduchatram",
+      "Zipcode" : "600124"
+    }, {
+      "Locality" : "Pattunoolchatram",
+      "Zipcode" : "602105"
+    }, {
+      "Locality" : "Sunguvarchatram",
+      "Zipcode" : "602106"
+    }, {
+      "Locality" : "Puduchatram",
+      "Zipcode" : "608501"
+    }, {
+      "Locality" : "Anaikaranchatram",
+      "Zipcode" : "609102"
+    }, {
+      "Locality" : "Anaikaranchatram South",
+      "Zipcode" : "609102"
+    }, {
+      "Locality" : "Puduchatram",
+      "Zipcode" : "613105"
+    }, {
+      "Locality" : "Chettichatram",
+      "Zipcode" : "614403"
+    }, {
+      "Locality" : "Ammanichatram",
+      "Zipcode" : "614612"
+    }, {
+      "Locality" : "Sethubavachatram",
+      "Zipcode" : "614802"
+    }, {
+      "Locality" : "Ammachatram",
+      "Zipcode" : "622504"
+    }, {
+      "Locality" : "Chatrapatti (Dindigul)",
+      "Zipcode" : "624614"
+    }, {
+      "Locality" : "Oddanchatram North",
+      "Zipcode" : "624619"
+    }, {
+      "Locality" : "Oddanchatram",
+      "Zipcode" : "624619"
+    }, {
+      "Locality" : "Old Oddanchatram",
+      "Zipcode" : "624619"
+    }, {
+      "Locality" : "Puduchatram",
+      "Zipcode" : "624619"
+    }, {
+      "Locality" : "Reddiarchatram",
+      "Zipcode" : "624622"
+    }, {
+      "Locality" : "Chatrapatti",
+      "Zipcode" : "625014"
+    }, {
+      "Locality" : "Chatravellalapatti",
+      "Zipcode" : "625503"
+    }, {
+      "Locality" : "Chatrareddiapatti",
+      "Zipcode" : "626001"
+    }, {
+      "Locality" : "Chatrapatti (Virudhunagar)",
+      "Zipcode" : "626102"
+    }, {
+      "Locality" : "Chatrapuliyankulam",
+      "Zipcode" : "626106"
+    }, {
+      "Locality" : "V.M.Chatram",
+      "Zipcode" : "627011"
+    }, {
+      "Locality" : "Chatrapatti",
+      "Zipcode" : "627719"
+    }, {
+      "Locality" : "Pavoorchatram",
+      "Zipcode" : "627808"
+    }, {
+      "Locality" : "Panavadalichatram",
+      "Zipcode" : "627953"
+    }, {
+      "Locality" : "Kanakammachatram",
+      "Zipcode" : "631204"
+    }, {
+      "Locality" : "Balchettychatram",
+      "Zipcode" : "631551"
+    }, {
+      "Locality" : "Arunagirichatram",
+      "Zipcode" : "632301"
+    }, {
+      "Locality" : "Puduchatram",
+      "Zipcode" : "637018"
+    }, {
+      "Locality" : "Veerappanchatram",
+      "Zipcode" : "638004"
+    }, {
+      "Locality" : "Punnamchatram",
+      "Zipcode" : "639136"
+    }, {
+      "Locality" : "Chatra (Hooghly)",
+      "Zipcode" : "712204"
+    }, {
+      "Locality" : "Mriga Chatra",
+      "Zipcode" : "712602"
+    }, {
+      "Locality" : "Chatra (Birbhum)",
+      "Zipcode" : "731238"
+    }, {
+      "Locality" : "Bangchatra",
+      "Zipcode" : "736101"
+    }, {
+      "Locality" : "Brahmottar Chatra",
+      "Zipcode" : "736167"
+    }, {
+      "Locality" : "Baradhaperchatra",
+      "Zipcode" : "736172"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "742302"
+    }, {
+      "Locality" : "Dakshin Chatra",
+      "Zipcode" : "743247"
+    }, {
+      "Locality" : "Chatra Maldari",
+      "Zipcode" : "743337"
+    }, {
+      "Locality" : "Chatrachakada",
+      "Zipcode" : "754289"
+    }, {
+      "Locality" : "Chatra (Jagatsinghapur)",
+      "Zipcode" : "754294"
+    }, {
+      "Locality" : "Badchatra",
+      "Zipcode" : "757086"
+    }, {
+      "Locality" : "Chatrapur Bazar",
+      "Zipcode" : "761020"
+    }, {
+      "Locality" : "Chatrapur",
+      "Zipcode" : "761020"
+    }, {
+      "Locality" : "Panichatra",
+      "Zipcode" : "765029"
+    }, {
+      "Locality" : "Chatrapur",
+      "Zipcode" : "766027"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Bagra",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Chopey",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Delho",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Dunduwa",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Edla",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Jabra",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Lawalong",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Piri",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Shila",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Shivrajpur",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Simaria",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Tutilawa",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Bahera",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Chattibariatu",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Dhangada",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Kasiadih",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Khadaiya",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Manatu",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Pachra",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Peto",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Raham",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Salga",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Saradhu",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Tandwa (Chatra)",
+      "Zipcode" : "825321"
+    }, {
+      "Locality" : "Aurugerua",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Baluri",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Baraini",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Chatra Bazar",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Chatra (Chatra)",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Ghanghari",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Haphuwa",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Jajlo",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Kamta",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Kanhachatti",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Kolhaiya",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Kuba",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Laralutudag",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Mktama",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Nawadih Panari",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Pandepura",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Pandeypura",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Tapej",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Tatra",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Tulbul",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Unta",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Bihiasarhachiya",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Dantar",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Hiring",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Hunterganj",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Jori",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Kedlikala",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Kobna",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Kurkheta",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Pindra",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Sahi",
+      "Zipcode" : "825403"
+    }, {
+      "Locality" : "Bichkila",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Chandrikala",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Chatti Anatpur",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Gerua",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Jogiara",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Kaura",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Kunda",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Kunda",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Narayanpur",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Pratappur (Chatra)",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Yadavnagar",
+      "Zipcode" : "825404"
+    }, {
+      "Locality" : "Bargaon",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Barisakhi",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Berhna",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Daihar",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Dhauthawa",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Dwaritelaiya",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Gangpur",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Gidhour",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Itkhori",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Karni",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Loram",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Mandhania",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Mayapur",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Mayurhand",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Navadih Damol",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Parsauni",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Pathalgada",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Pathra",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Peltol",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Pitiz",
+      "Zipcode" : "825408"
+    }, {
+      "Locality" : "Bachra",
+      "Zipcode" : "829201"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "841213"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "847223"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "847228"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "852115"
+    } ]
+  }, {
+    "city" : "Chirkunda",
+    "localities" : [ {
+      "Locality" : "Chirkunda",
+      "Zipcode" : "828202"
+    } ]
+  }, {
+    "city" : "Churi",
+    "localities" : [ {
+      "Locality" : "Sheikhpura Manchuri",
+      "Zipcode" : "132036"
+    }, {
+      "Locality" : "Fatehgarh Churian",
+      "Zipcode" : "143602"
+    }, {
+      "Locality" : "Churiwala Dhanna",
+      "Zipcode" : "152122"
+    }, {
+      "Locality" : "Churi",
+      "Zipcode" : "176311"
+    }, {
+      "Locality" : "Churiyala",
+      "Zipcode" : "201201"
+    }, {
+      "Locality" : "Churiyani",
+      "Zipcode" : "212601"
+    }, {
+      "Locality" : "Churigarh",
+      "Zipcode" : "263136"
+    }, {
+      "Locality" : "Churia",
+      "Zipcode" : "274502"
+    }, {
+      "Locality" : "Churiyari",
+      "Zipcode" : "283110"
+    }, {
+      "Locality" : "Churiawas",
+      "Zipcode" : "303505"
+    }, {
+      "Locality" : "Churi Miyon",
+      "Zipcode" : "332401"
+    }, {
+      "Locality" : "Churina",
+      "Zipcode" : "333515"
+    }, {
+      "Locality" : "Churiajitgarh",
+      "Zipcode" : "333701"
+    }, {
+      "Locality" : "Parchuri",
+      "Zipcode" : "415637"
+    }, {
+      "Locality" : "Parchuri",
+      "Zipcode" : "415719"
+    }, {
+      "Locality" : "Vinchuri-dalvi",
+      "Zipcode" : "422502"
+    }, {
+      "Locality" : "Churiyari",
+      "Zipcode" : "471525"
+    }, {
+      "Locality" : "Chakpanchuria",
+      "Zipcode" : "700059"
+    }, {
+      "Locality" : "Chinchuria",
+      "Zipcode" : "713378"
+    }, {
+      "Locality" : "Panchuria",
+      "Zipcode" : "721434"
+    }, {
+      "Locality" : "Anchuri Salboni",
+      "Zipcode" : "722102"
+    }, {
+      "Locality" : "Chinchuria",
+      "Zipcode" : "741126"
+    }, {
+      "Locality" : "Dharmatala Panchuria",
+      "Zipcode" : "743502"
+    }, {
+      "Locality" : "Chechuria",
+      "Zipcode" : "799210"
+    }, {
+      "Locality" : "Mechuria",
+      "Zipcode" : "799278"
+    }, {
+      "Locality" : "Churi",
+      "Zipcode" : "823002"
+    } ]
+  }, {
+    "city" : "Daltonganj",
+    "localities" : [ {
+      "Locality" : "Daltonganj Bazar",
+      "Zipcode" : "822101"
+    }, {
+      "Locality" : "Daltonganj",
+      "Zipcode" : "822101"
+    }, {
+      "Locality" : "Daltonganj Kutchary",
+      "Zipcode" : "822101"
+    }, {
+      "Locality" : "Daltonganj Collage",
+      "Zipcode" : "822102"
+    } ]
+  }, {
+    "city" : "Deoghar",
+    "localities" : [ {
+      "Locality" : "Deogharia",
+      "Zipcode" : "785630"
+    }, {
+      "Locality" : "Deogharia",
+      "Zipcode" : "785696"
+    }, {
+      "Locality" : "B. MANDIR",
+      "Zipcode" : "814112"
+    }, {
+      "Locality" : "B.Deoghar",
+      "Zipcode" : "814112"
+    }, {
+      "Locality" : "Deoghar Court",
+      "Zipcode" : "814112"
+    }, {
+      "Locality" : "Bichgarha Kusumdih",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Deoghar College",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Kusmaha",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Rarhiya",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Rikhiya",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "T. Balasi",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Vidyapith",
+      "Zipcode" : "814113"
+    }, {
+      "Locality" : "Deosang B.T",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Gurukul Vidyapith",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Maladih",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Mathurapur",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Sakrigali",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Sangrampur Lorhiya",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Simra",
+      "Zipcode" : "814114"
+    }, {
+      "Locality" : "Hindipith",
+      "Zipcode" : "814115"
+    }, {
+      "Locality" : "Satsang",
+      "Zipcode" : "814116"
+    }, {
+      "Locality" : "Bargo",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Ghormara",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Jhallar",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Morney",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Simarjore",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "T Basdiha",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Jhaunsa-Garti",
+      "Zipcode" : "814122"
+    }, {
+      "Locality" : "Dabar Gram",
+      "Zipcode" : "814142"
+    }, {
+      "Locality" : "Jasidih",
+      "Zipcode" : "814142"
+    }, {
+      "Locality" : "A.K. Bad",
+      "Zipcode" : "814143"
+    }, {
+      "Locality" : "Baijukura",
+      "Zipcode" : "814143"
+    }, {
+      "Locality" : "Chanddih",
+      "Zipcode" : "814143"
+    }, {
+      "Locality" : "Kunda (Deoghar)",
+      "Zipcode" : "814143"
+    }, {
+      "Locality" : "Tapoban",
+      "Zipcode" : "814143"
+    }, {
+      "Locality" : "Asna",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Bansbutia",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Palojori",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Debipur",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Bamandiha",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Charak Mara",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Choudri Nawadih",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Gopibandh",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Jhagrahi",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Phulchuan",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Sabaijore",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Sarath",
+      "Zipcode" : "814149"
+    }, {
+      "Locality" : "Lakhoria",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Madhuban",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Magdiha",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Manigarhi",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Paharidih",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Pahariya",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Paway",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Purjori",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Rakti",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Sarwan",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Sonaraithari",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Tilakpur",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Baghmari",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Barkikharkhar",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Bhojpur",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Bhojpur",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Daluraidih",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Debipur",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Ghorlas",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "K. Banskola",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Koiridih",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Maniyarpur",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Punasi",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Ramudih",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Rohani",
+      "Zipcode" : "814152"
+    }, {
+      "Locality" : "Poraiyahat",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Chulhiya",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Dehijore",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Jamunia",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Jhillighat",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Kharagdiha",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Malhara",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Mohanpur Hat",
+      "Zipcode" : "814157"
+    }, {
+      "Locality" : "Banka",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Deopur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Kenman-kathi",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Madhopur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Madhopur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Bagjora",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Bamangama",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Bara Chapra",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Barawan",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Burhai",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Charpa",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Dhamni",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Haripur Kolwa",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Hussainabad",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Jagdishpur",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Karanjo",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Kasathi",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Kushmaha",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Madhupur Bazar",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Margomunda",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Ojhadih",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Patharda",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Pathrol",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Ramchandrapur",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Saptar",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Sirsa",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Upper Bahiyar",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Baramsoli",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Baratanr",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Baskupi",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Karogram",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Kukraha",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Madankatha",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Ranidih",
+      "Zipcode" : "815357"
+    }, {
+      "Locality" : "Siktiya",
+      "Zipcode" : "815357"
+    } ]
+  }, {
+    "city" : "Dhanbad",
+    "localities" : [ {
+      "Locality" : "Cmpf",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Cmrs",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "D.S.E.",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Dhanbad Bazar",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Dhanbad",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Dhanbad Hirapur",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Manaitand",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Naya Bazar Wasseypur",
+      "Zipcode" : "826001"
+    }, {
+      "Locality" : "Jagjivan Nagar",
+      "Zipcode" : "826003"
+    }, {
+      "Locality" : "Damodarpur",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "Indian School Of Mines",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "Kalyanpur",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "Murradih",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "Nagnagar",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "Yadavpur",
+      "Zipcode" : "826004"
+    }, {
+      "Locality" : "BCCl Township",
+      "Zipcode" : "826005"
+    }, {
+      "Locality" : "DRM  E.Rly  Dhanbad",
+      "Zipcode" : "826012"
+    }, {
+      "Locality" : "Sr. Supdt. of POs  Dhanbad",
+      "Zipcode" : "826013"
+    }, {
+      "Locality" : "Commissioner Coal mines Provident Fund Dhanbad",
+      "Zipcode" : "826014"
+    }, {
+      "Locality" : "CMRI Bartand Dhanbad",
+      "Zipcode" : "826015"
+    }, {
+      "Locality" : "DGMS  Hirapur  Dhanbad",
+      "Zipcode" : "826016"
+    }, {
+      "Locality" : "GM  BSNL  Hirapur Dhanbad",
+      "Zipcode" : "826017"
+    }, {
+      "Locality" : "A.C.C. Colony",
+      "Zipcode" : "826124"
+    }, {
+      "Locality" : "Bhaski",
+      "Zipcode" : "827302"
+    }, {
+      "Locality" : "Bansjora",
+      "Zipcode" : "828101"
+    }, {
+      "Locality" : "Kankanee",
+      "Zipcode" : "828101"
+    }, {
+      "Locality" : "Sendra",
+      "Zipcode" : "828101"
+    }, {
+      "Locality" : "Bhelatand",
+      "Zipcode" : "828103"
+    }, {
+      "Locality" : "Shramik Nagar",
+      "Zipcode" : "828104"
+    }, {
+      "Locality" : "Bhuli",
+      "Zipcode" : "828105"
+    }, {
+      "Locality" : "Bowakalan",
+      "Zipcode" : "828105"
+    }, {
+      "Locality" : "Bastacola",
+      "Zipcode" : "828106"
+    }, {
+      "Locality" : "Dhansar",
+      "Zipcode" : "828106"
+    }, {
+      "Locality" : "Domgarh",
+      "Zipcode" : "828107"
+    }, {
+      "Locality" : "Fri",
+      "Zipcode" : "828108"
+    }, {
+      "Locality" : "Bagsuma",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Bardohi",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Bhitia",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Charak",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Chipkia",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Dhoria Mahubani",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Fatehpur",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Fatehpur",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "G. Raghunathpur",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Gaukola",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Gortoppa",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Govindpur (Dhanbad)",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Jangalpur",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Jhiluwa",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Jhinaki",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "K.G.Ashram",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Katania Ojhadih",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Keska",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Latani",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Ludharia",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Maharajganj",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Maira Nawatand",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Maniadih",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Nagarkiary",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Pokharia",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Purnadih",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Sarkardih",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Sunderpahari",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Tundi",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Ukma",
+      "Zipcode" : "828109"
+    }, {
+      "Locality" : "Bagdigi",
+      "Zipcode" : "828110"
+    }, {
+      "Locality" : "Jealgora",
+      "Zipcode" : "828110"
+    }, {
+      "Locality" : "Amlapara Jharia",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Amtal",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Bhagabandh",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Bhagatdih",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Dobari",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Goplaichak",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Jharia Bazar",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Jharia Manbad",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Jharia",
+      "Zipcode" : "828111"
+    }, {
+      "Locality" : "Jamadoba",
+      "Zipcode" : "828112"
+    }, {
+      "Locality" : "Kalimela",
+      "Zipcode" : "828112"
+    }, {
+      "Locality" : "Angarpathra",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Bagdaha",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Birajpur",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Daludih",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Kankomath",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Katrasgarh",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Kharni",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Lakarka",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Panjania",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Rajganj",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Roam",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Tilaiya",
+      "Zipcode" : "828113"
+    }, {
+      "Locality" : "Katras Bazar",
+      "Zipcode" : "828114"
+    }, {
+      "Locality" : "Keshalpur",
+      "Zipcode" : "828114"
+    }, {
+      "Locality" : "Matari",
+      "Zipcode" : "828114"
+    }, {
+      "Locality" : "Pradhankhanta",
+      "Zipcode" : "828114"
+    }, {
+      "Locality" : "Khasjeena Gora",
+      "Zipcode" : "828115"
+    }, {
+      "Locality" : "Suranga",
+      "Zipcode" : "828115"
+    }, {
+      "Locality" : "Tisra",
+      "Zipcode" : "828115"
+    }, {
+      "Locality" : "Balihari",
+      "Zipcode" : "828116"
+    }, {
+      "Locality" : "Bara Putki",
+      "Zipcode" : "828116"
+    }, {
+      "Locality" : "Gonudih",
+      "Zipcode" : "828116"
+    }, {
+      "Locality" : "Kirkend",
+      "Zipcode" : "828116"
+    }, {
+      "Locality" : "Kusunda",
+      "Zipcode" : "828116"
+    }, {
+      "Locality" : "Burragarh",
+      "Zipcode" : "828117"
+    }, {
+      "Locality" : "Kustore",
+      "Zipcode" : "828117"
+    }, {
+      "Locality" : "Patherdih",
+      "Zipcode" : "828119"
+    }, {
+      "Locality" : "Motinagar (Dhanbad)",
+      "Zipcode" : "828120"
+    }, {
+      "Locality" : "Bhadrichak",
+      "Zipcode" : "828121"
+    }, {
+      "Locality" : "Chandore",
+      "Zipcode" : "828121"
+    }, {
+      "Locality" : "Sijua",
+      "Zipcode" : "828121"
+    }, {
+      "Locality" : "Saharpura",
+      "Zipcode" : "828122"
+    }, {
+      "Locality" : "Sindri",
+      "Zipcode" : "828122"
+    }, {
+      "Locality" : "S.I.T.",
+      "Zipcode" : "828123"
+    }, {
+      "Locality" : "Jhagrahi",
+      "Zipcode" : "828125"
+    }, {
+      "Locality" : "Sonardih",
+      "Zipcode" : "828125"
+    }, {
+      "Locality" : "Sudamdih",
+      "Zipcode" : "828126"
+    }, {
+      "Locality" : "Saraidhela",
+      "Zipcode" : "828127"
+    }, {
+      "Locality" : "Tundoo",
+      "Zipcode" : "828128"
+    }, {
+      "Locality" : "Karitand",
+      "Zipcode" : "828129"
+    }, {
+      "Locality" : "Lalpur",
+      "Zipcode" : "828129"
+    }, {
+      "Locality" : "Moonidih",
+      "Zipcode" : "828129"
+    }, {
+      "Locality" : "B.Polytechnic",
+      "Zipcode" : "828130"
+    }, {
+      "Locality" : "Kujama",
+      "Zipcode" : "828131"
+    }, {
+      "Locality" : "Lodna (Dhanbad)",
+      "Zipcode" : "828131"
+    }, {
+      "Locality" : "Patherdih Coal Washery",
+      "Zipcode" : "828132"
+    }, {
+      "Locality" : "Bhulan Bararee",
+      "Zipcode" : "828133"
+    }, {
+      "Locality" : "Chasnalla",
+      "Zipcode" : "828135"
+    }, {
+      "Locality" : "Ambona",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Ankduara",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Baghmara",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Baliapur",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Gharbar",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Moko",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Palani",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Palani",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Pargha",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Pindrahat",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Pradhan Khanta",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Salpatra",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Salukchapra",
+      "Zipcode" : "828201"
+    }, {
+      "Locality" : "Chanchpottery",
+      "Zipcode" : "828202"
+    }, {
+      "Locality" : "Chirkunda",
+      "Zipcode" : "828202"
+    }, {
+      "Locality" : "Dumarkunda",
+      "Zipcode" : "828202"
+    }, {
+      "Locality" : "Merrah",
+      "Zipcode" : "828202"
+    }, {
+      "Locality" : "Sarsapahari",
+      "Zipcode" : "828202"
+    }, {
+      "Locality" : "Kumardhubi",
+      "Zipcode" : "828203"
+    }, {
+      "Locality" : "Rajpura",
+      "Zipcode" : "828203"
+    }, {
+      "Locality" : "Silibari",
+      "Zipcode" : "828203"
+    }, {
+      "Locality" : "Benagoria",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Daldali",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Galfarbari",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Kesarkural",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Ledaharia",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Mugma",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Urma",
+      "Zipcode" : "828204"
+    }, {
+      "Locality" : "Barbendia",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Barwa",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Benagoria",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Birsinghpur",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Debiana",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Dumaria",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Kaliasole",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Madanpur",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Moradih",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Nirsa Chatti",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Pandra",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Pandra",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Poddardih",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Thaparnagar",
+      "Zipcode" : "828205"
+    }, {
+      "Locality" : "Panchet Dam",
+      "Zipcode" : "828206"
+    }, {
+      "Locality" : "Maithon Dam",
+      "Zipcode" : "828207"
+    }, {
+      "Locality" : "Bhaga",
+      "Zipcode" : "828301"
+    }, {
+      "Locality" : "Bhutgoria",
+      "Zipcode" : "828301"
+    }, {
+      "Locality" : "Horladih",
+      "Zipcode" : "828301"
+    }, {
+      "Locality" : "Bhowra",
+      "Zipcode" : "828302"
+    }, {
+      "Locality" : "Jogidih",
+      "Zipcode" : "828303"
+    }, {
+      "Locality" : "Mahal",
+      "Zipcode" : "828303"
+    }, {
+      "Locality" : "Malkera",
+      "Zipcode" : "828304"
+    }, {
+      "Locality" : "Rampur",
+      "Zipcode" : "828304"
+    }, {
+      "Locality" : "Mohuda",
+      "Zipcode" : "828305"
+    }, {
+      "Locality" : "Ramnagar Garh",
+      "Zipcode" : "828305"
+    }, {
+      "Locality" : "Baghmara Bazar",
+      "Zipcode" : "828306"
+    }, {
+      "Locality" : "Khario",
+      "Zipcode" : "828306"
+    }, {
+      "Locality" : "Nawagarh (Dhanbad)",
+      "Zipcode" : "828306"
+    }, {
+      "Locality" : "Pochari",
+      "Zipcode" : "828306"
+    }, {
+      "Locality" : "Ramakunda",
+      "Zipcode" : "828306"
+    }, {
+      "Locality" : "Khanoodih",
+      "Zipcode" : "828307"
+    }, {
+      "Locality" : "Nudkhurkee",
+      "Zipcode" : "828307"
+    }, {
+      "Locality" : "Bhatdih",
+      "Zipcode" : "828308"
+    }, {
+      "Locality" : "Jitpur",
+      "Zipcode" : "828309"
+    }, {
+      "Locality" : "Bhendra",
+      "Zipcode" : "828401"
+    }, {
+      "Locality" : "Ghunghusa",
+      "Zipcode" : "828401"
+    }, {
+      "Locality" : "Gomoh",
+      "Zipcode" : "828401"
+    }, {
+      "Locality" : "Hariharpur",
+      "Zipcode" : "828401"
+    }, {
+      "Locality" : "Brahmandiha",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Dumdumi",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Madaidih",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Sahubahiyar",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Singhdaha",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Singhdih",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Srirampur",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Tantri",
+      "Zipcode" : "828402"
+    }, {
+      "Locality" : "Topchanchi",
+      "Zipcode" : "828402"
+    } ]
+  }, {
+    "city" : "Dumka",
+    "localities" : [ {
+      "Locality" : "Dumka",
+      "Zipcode" : "389382"
+    }, {
+      "Locality" : "Nedumkandam",
+      "Zipcode" : "685553"
+    }, {
+      "Locality" : "Dumkal",
+      "Zipcode" : "742303"
+    }, {
+      "Locality" : "Dumkabazar",
+      "Zipcode" : "788815"
+    }, {
+      "Locality" : "Bandarjori",
+      "Zipcode" : "814101"
+    }, {
+      "Locality" : "Dumka Court",
+      "Zipcode" : "814101"
+    }, {
+      "Locality" : "Dumka",
+      "Zipcode" : "814101"
+    }, {
+      "Locality" : "S.P.College",
+      "Zipcode" : "814101"
+    }, {
+      "Locality" : "Amarapahari",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Bandarjora",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Bariranbahiyar",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Bhalsumar",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Bhaturia",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Chhoti Ranbahiyar",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Danro",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Ghaghri",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Kakni Pathria",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Khudimerkho",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Lakhanpur",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Mahubana",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Piprakarudih",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Ramgarah",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Sinduria",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Sushni",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Amgachi",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Astajora",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "B. Narganj",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Bara Sarwapani",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Dharampur",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Gopikandar",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Kadma",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Kalajhar",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Kathikund",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Kolha",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Masania",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Pusaldih",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Saldaha",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Sarsabad",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "T. Daldali",
+      "Zipcode" : "814103"
+    }, {
+      "Locality" : "Amlachatar",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Asanjore",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Bando Haripur",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Barapalasi",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Chaila Pathar",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Dudhani",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Goari",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Goasol",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Jama",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Kendhghatta",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Kolharia",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Kusumghatta",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Lattabar",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Lilatari",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Maharo",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Majhiandih",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Nakrapahari",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Nischintpur",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Nonihatwari",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Puranadumka",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "R.Masalia",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Sapchalla",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Shikarpur",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Shivpahar",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Teliachak",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Upparbahal",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Uppersitwa",
+      "Zipcode" : "814110"
+    }, {
+      "Locality" : "Bagjhopa",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Baratanr",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Basukinathdham",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Chamrabahiar",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Dhamnilata",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Haripur",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Laximipur",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Siktia",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Singhni",
+      "Zipcode" : "814118"
+    }, {
+      "Locality" : "Asansol",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Gamra",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Gando",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Gandrakhpur",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Ghasipur",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Gugisimal",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "K. Baskichowk",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Kathalia",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Kumrabad",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Kurwa",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Makrampur",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Morbhanga",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Pahrudih",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Pattabari",
+      "Zipcode" : "814119"
+    }, {
+      "Locality" : "Dumariahat",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Gadibahirkunda",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Hariharpur",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Kaladumaria",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Karma",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Lakhna",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Rajan Amar Kunda",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Sahara",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Satpahari",
+      "Zipcode" : "814120"
+    }, {
+      "Locality" : "Amba Jarowadih",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Banwara",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Beldaha",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Bishanpur",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Bishanpur",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Dudhani",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Jarmundi",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "P. Jaratikar",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Raikinari",
+      "Zipcode" : "814141"
+    }, {
+      "Locality" : "Bagnal",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Banskuli",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Bilkandi",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Brindabani",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Ghormala Hunja",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Jaitara",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Karikadar",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Manik Dih",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Massanjore",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Ranibahal",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Sadipur",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "Tarni",
+      "Zipcode" : "814144"
+    }, {
+      "Locality" : "B. Mahadeogarh",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Bhadwari",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Bouria",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Dhanbai",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Hasdiha",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Jamjori Birnia",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Kakania",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Kanjo",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Khutahari",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Khutan",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Kurumpahari",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Lakarbank",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Nonihat",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Patgora",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Petsar",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Seeltawatilar",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Sultanatikar",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Thakur Nahar",
+      "Zipcode" : "814145"
+    }, {
+      "Locality" : "Ajnaridudhani",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Baijnathpur",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Baragamharia",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Basaha",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Bhirabpur",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Bhutokoria",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Birajpur",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Chaglajore",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Chikania",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Dubrajpur",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Garapathar",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Garsara",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Golbandha",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Gundlidangal",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Jamua",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Jarwadi",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Karrasal",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Khairabani",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Kunjora",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Nachangaria",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Pargodih",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Pindari",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Sagarbanga",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Sarsa",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Sarsa",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "T.D.Dumaria",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Talghara",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Tarajora",
+      "Zipcode" : "814146"
+    }, {
+      "Locality" : "Amjora",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Jai Haripur",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Kumirdaha",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Patjore",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Pratappur",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Raghunathpur (Dumka)",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Rangalia",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Ranigram",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Sukjora",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Tangdaha",
+      "Zipcode" : "814148"
+    }, {
+      "Locality" : "Nanhidih",
+      "Zipcode" : "814150"
+    }, {
+      "Locality" : "Barkundi",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Chandubathan",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Chihutia",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Chilra",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Dhamni",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Dighi",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Gadijhopa",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Harokha Aswari",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Jokela",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Kendua",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Nawadih",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Raoundhya",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Samaymatha",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Saraiyahat",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Amra Nawadih",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Bhurkunda",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Chainpur Kairabani",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Dhogariya",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Guhiajori",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "K. Madhuwadih",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Karbindha",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Machkicha",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Pakiriya",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Rajbandh",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Siltha",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Simalduma",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Tharihat",
+      "Zipcode" : "814158"
+    }, {
+      "Locality" : "Babanbandhi",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Gumro",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "K. Bhoktadih",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Tasaria",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Ranga Masalia",
+      "Zipcode" : "814167"
+    }, {
+      "Locality" : "Banspahari",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Benagaria",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Catupara",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Daldali",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Kajladaha",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Maluti",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Manjhladih",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Pakdaha",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Pinargaria",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Sarasdangal",
+      "Zipcode" : "816103"
+    }, {
+      "Locality" : "Pakur RS",
+      "Zipcode" : "816107"
+    }, {
+      "Locality" : "Dhanbasa",
+      "Zipcode" : "816116"
+    }, {
+      "Locality" : "Simaljore",
+      "Zipcode" : "816116"
+    }, {
+      "Locality" : "Karipahari",
+      "Zipcode" : "816117"
+    }, {
+      "Locality" : "Karudih",
+      "Zipcode" : "816117"
+    }, {
+      "Locality" : "Asanbani",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Bankijore",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Barmasia",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Dhaka",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Kharu Kadma",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Kolhabadar",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Mohulpahari",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Mohulpahari",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "P.P. Kadma",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Pratappur",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "R.B. Palasi",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Saraidaha",
+      "Zipcode" : "816118"
+    }, {
+      "Locality" : "Shikaripara",
+      "Zipcode" : "816118"
+    } ]
+  }, {
+    "city" : "Garhwa",
+    "localities" : [ {
+      "Locality" : "Garhwali",
+      "Zipcode" : "126114"
+    }, {
+      "Locality" : "Garhwal",
+      "Zipcode" : "131302"
+    }, {
+      "Locality" : "Garhwana",
+      "Zipcode" : "206242"
+    }, {
+      "Locality" : "Garhwasi Tola",
+      "Zipcode" : "221001"
+    }, {
+      "Locality" : "Bhainswara Ghandiyal",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Bubakhal",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Bus Station Pauri",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Chandolarain",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Chardhar",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Chopra Mission",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Chopriun",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Dhandri Bichli",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Gadwagad",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Girgaon",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Jamnakhal",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Kandoliya",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Khandah",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Khandusain",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Kiwarsh",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Kyark",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Nisni",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Pauri",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Upper Bazar",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Uziyari",
+      "Zipcode" : "246001"
+    }, {
+      "Locality" : "Bedgaon",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Falda",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Kalzikhal",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Kimoli",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Pulyasu",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Tangroli",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Thair",
+      "Zipcode" : "246113"
+    }, {
+      "Locality" : "Amola",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Badun",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Bagodgaon",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Banchauri",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Bhrigukhal (A)",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Binak",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Chamkotkhal",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Devrana",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Heerakhal",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Khera",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Khera",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Kimsar",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Pokhri Malla Udaipur",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Sar",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Thangar",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Timlibari",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Yamkeshwar",
+      "Zipcode" : "246121"
+    }, {
+      "Locality" : "Bajwar",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Bharsar",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Buransi",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Chaplori",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Chaurikh",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Chipalghat (A)",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Chopra Kandarsyun",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Dungrikhal",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Goda",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Kalon",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Paithani",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Paral",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Patotee",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Pinakot",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Sainji",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Sankarsain",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Syoli Talli",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Tella",
+      "Zipcode" : "246123"
+    }, {
+      "Locality" : "Dadamandi",
+      "Zipcode" : "246124"
+    }, {
+      "Locality" : "Jameli",
+      "Zipcode" : "246124"
+    }, {
+      "Locality" : "Rajbat",
+      "Zipcode" : "246124"
+    }, {
+      "Locality" : "Dehalchauri",
+      "Zipcode" : "246125"
+    }, {
+      "Locality" : "Rampur Chatti",
+      "Zipcode" : "246125"
+    }, {
+      "Locality" : "Balli",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Dugadda",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Fatehpur",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Fatehpur",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Hanumanti",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Mathana Bichala",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Syalinga",
+      "Zipcode" : "246127"
+    }, {
+      "Locality" : "Bamoli",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Chelusain",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Diusa",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Dwarikhal",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Gumkhal",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Pulyasu",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Saurkhet",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Simlya",
+      "Zipcode" : "246128"
+    }, {
+      "Locality" : "Bandun",
+      "Zipcode" : "246129"
+    }, {
+      "Locality" : "Dudharkhal",
+      "Zipcode" : "246129"
+    }, {
+      "Locality" : "Gherwa",
+      "Zipcode" : "246129"
+    }, {
+      "Locality" : "Kandai",
+      "Zipcode" : "246129"
+    }, {
+      "Locality" : "Bageli",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Banani",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Bangali",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Bareth",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Chakisain (B)",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Chaunra",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Gadoli",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Kathiur",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Mailli",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Nauri",
+      "Zipcode" : "246130"
+    }, {
+      "Locality" : "Bachali",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Ekeshwar (A)",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Ira",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Raisoli",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Simar",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Srikotkhal",
+      "Zipcode" : "246131"
+    }, {
+      "Locality" : "Kalagarh",
+      "Zipcode" : "246142"
+    }, {
+      "Locality" : "Bawansi",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Birmoli",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Dabolikhal",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Devikhet",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Dhura Dhanai",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Gadsir",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Kandakanikhal",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Kandakhal",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Mandai",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Manjhyari",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Mohan Sankari",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Paranda",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Paukhal",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Simlana Malla",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Syalna",
+      "Zipcode" : "246144"
+    }, {
+      "Locality" : "Adwani",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Baherakhal",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Bhandalu",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Diusa",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Kanskhet",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Nahsain",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Tairi",
+      "Zipcode" : "246146"
+    }, {
+      "Locality" : "Bughani",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Chamrara",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Dewalgarh",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Jakh",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Khirshu",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Nawakhal",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Pokhri Chalansyun",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Singori Kathuli",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Thandhar",
+      "Zipcode" : "246147"
+    }, {
+      "Locality" : "Buransi",
+      "Zipcode" : "246148"
+    }, {
+      "Locality" : "Dhandkur",
+      "Zipcode" : "246148"
+    }, {
+      "Locality" : "Jhanjhar",
+      "Zipcode" : "246148"
+    }, {
+      "Locality" : "Kot (Pauri Garhwal)",
+      "Zipcode" : "246148"
+    }, {
+      "Locality" : "Masangaon",
+      "Zipcode" : "246148"
+    }, {
+      "Locality" : "Amsaur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "B.E.L.",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Balasaur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Devikhal",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Jhandichaur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kalalghati",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kishanpur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kishanpur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kotdwara",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kotdwara Railway Station",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kotridhang",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Kumbhichaur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Lokmanipur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Mawakot",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Nazibabad Road",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Nimbuchaur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Padampur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Padampur Sukhrao",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Shivrajpur",
+      "Zipcode" : "246149"
+    }, {
+      "Locality" : "Adhariyakhal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Anganisain",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Asankhet",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Bansi",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Bansi",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Chamethakhal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Chundai",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Dabri",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Derikhal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Dhabhakhal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Dhauntiyal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Kaligad",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Khanetha",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Kunjholi",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Lansdowne",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Mathali",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Sandhikhal",
+      "Zipcode" : "246155"
+    }, {
+      "Locality" : "Bangaon Malla",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Gaind",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Ghiri",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Gumain",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Karakot",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Lwali",
+      "Zipcode" : "246159"
+    }, {
+      "Locality" : "Bairhat Palla",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Bhundkhal",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Bilkot",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Biyasi",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Chamara",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Chamsain",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Kalinkakhal (Kaleth)",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Khadrasi",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Moxan Uniyal",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Nainidanda (B)",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Taria",
+      "Zipcode" : "246161"
+    }, {
+      "Locality" : "Baundar",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Chamnao",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Damadeval",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Devrajkhal",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Dharasu",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Gadigaon",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Gadigaon",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Irakhal",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Jagsiakhal",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Naugaonkhal",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Pinani",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Pipali",
+      "Zipcode" : "246162"
+    }, {
+      "Locality" : "Jhatkandi",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Kingorikhal",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Mawadhar",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Raurkhal",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Siron",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Soola",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Tharapdhar",
+      "Zipcode" : "246163"
+    }, {
+      "Locality" : "Bidoli",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Bishald",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Chair Malla",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Champeshwar",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Kalun",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Marora",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Nisni",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Pabau (B)",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Tal",
+      "Zipcode" : "246164"
+    }, {
+      "Locality" : "Molthi",
+      "Zipcode" : "246165"
+    }, {
+      "Locality" : "Paidul",
+      "Zipcode" : "246165"
+    }, {
+      "Locality" : "Sikukhal",
+      "Zipcode" : "246165"
+    }, {
+      "Locality" : "Uragi",
+      "Zipcode" : "246165"
+    }, {
+      "Locality" : "Bhimli Talli",
+      "Zipcode" : "246166"
+    }, {
+      "Locality" : "Kandara",
+      "Zipcode" : "246166"
+    }, {
+      "Locality" : "Nalai",
+      "Zipcode" : "246166"
+    }, {
+      "Locality" : "Pali",
+      "Zipcode" : "246166"
+    }, {
+      "Locality" : "Parsundakhal",
+      "Zipcode" : "246166"
+    }, {
+      "Locality" : "Amotha",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Bagyali",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Barsu",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Baunsal Talla",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Kulasu",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Mason",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Matiyalna",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Pang",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Patisain",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Ringwari",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Sakinda",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Santudhar",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Sarasu",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Sason",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Satpali",
+      "Zipcode" : "246167"
+    }, {
+      "Locality" : "Bagrigar",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Gawani",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Kolakhal",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Kunjkhal",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Pand",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Pokhra (A)",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Seriakhal",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Srikotkhal",
+      "Zipcode" : "246169"
+    }, {
+      "Locality" : "Banghat",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Bariyun",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Barkholu",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Dandatalla",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Kandakhal Kauriya",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Kharkoli",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Kherasain",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Kulhar",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Kurigaon",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Malethi",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Naini",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Pundergaon",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Rithakhal",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Sanglakoti",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Satpuli",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Thalda",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Tilkholi",
+      "Zipcode" : "246172"
+    }, {
+      "Locality" : "Amola",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Dhansi",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Garkot",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Gend",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Gweel",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Hathnoor",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Jhair",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Kandi",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Kathur Bara",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Kinsur",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Silogi",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Sumersain",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Utinda",
+      "Zipcode" : "246173"
+    }, {
+      "Locality" : "Dungripanth",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Jaletha",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Kaliyasaur",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Kamleshwar",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Langwalyun Bagar",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Masoor",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Srikot Ganganali",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Srinagar (Pauri Garhwal)",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Sumari",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Sweet",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Ufalda",
+      "Zipcode" : "246174"
+    }, {
+      "Locality" : "Barkot",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Diusi",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Garhkot",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Garkot",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Naithana",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Olna",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Pundori",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Thapla",
+      "Zipcode" : "246175"
+    }, {
+      "Locality" : "Agrora",
+      "Zipcode" : "246176"
+    }, {
+      "Locality" : "Chaurakhal",
+      "Zipcode" : "246176"
+    }, {
+      "Locality" : "Pipalpani",
+      "Zipcode" : "246176"
+    }, {
+      "Locality" : "Pokhrikhet",
+      "Zipcode" : "246176"
+    }, {
+      "Locality" : "Toli",
+      "Zipcode" : "246176"
+    }, {
+      "Locality" : "Chorkinda Talla",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Kadola",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Kasani",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Kota Mahadev",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Saindhar",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Vedikhal",
+      "Zipcode" : "246177"
+    }, {
+      "Locality" : "Badiyargaon",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Bunga Talla",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Chair Manjkhola",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Chaukuri",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Churani",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Dhamdhar",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Dwari",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Gadiyunpul",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Gairoli",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Gudendi",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Kilbokhal",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Naudanu",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Panikasain",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Rikhnikhal (A)",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Sulmorikhal",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Takolikhal",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Timalsain",
+      "Zipcode" : "246179"
+    }, {
+      "Locality" : "Jahrikhal (B)",
+      "Zipcode" : "246193"
+    }, {
+      "Locality" : "Mandoli Malli",
+      "Zipcode" : "246193"
+    }, {
+      "Locality" : "Dandapani",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "G.B. Pant Engg. College",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Jamlakhal",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Kamalpur",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Kholachauri",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Pisoli",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Salda",
+      "Zipcode" : "246194"
+    }, {
+      "Locality" : "Baijrao (A)",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Basola",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Bharnao",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Budhakot",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Chaukhal",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Dhaund",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Farsari",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Gadkharak Malla",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Garkot Chhacharao",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Jaspur",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Jiwai",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Jogimarhi",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Ufaraikhal",
+      "Zipcode" : "246275"
+    }, {
+      "Locality" : "Bara",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Baundar Khutinga",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Bhamraikhal",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Bhatwaron",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Bironkhal (A)",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Chandoli Malli",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Gween",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Jakhni Khatli",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Kamdai",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Kanda Talla",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Kanduli Bari",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Nakuri",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Naun",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Silli",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Sinduri",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Siroli",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Takulsari",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Talai Khatli",
+      "Zipcode" : "246276"
+    }, {
+      "Locality" : "Adhora Walla",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Andrauli",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Apola",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Ason",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Bhaun",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Devlad",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Dhumakot",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Digolikhal",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Jaraukhand",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Khutinda Malla",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Kinath Talla",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Kingorikhal",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Patotiya",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Pipali Iriakot",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Toliyun",
+      "Zipcode" : "246277"
+    }, {
+      "Locality" : "Bangar",
+      "Zipcode" : "246278"
+    }, {
+      "Locality" : "Lachhi",
+      "Zipcode" : "246278"
+    }, {
+      "Locality" : "Seramalla",
+      "Zipcode" : "246278"
+    }, {
+      "Locality" : "Syunsinagar",
+      "Zipcode" : "246278"
+    }, {
+      "Locality" : "Dungri (Pauri Garhwal)",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Gaulikhal",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Khirarikhal",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Manjhera Malla",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Parsoli",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Sald Mahadev",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Sankarpur",
+      "Zipcode" : "246279"
+    }, {
+      "Locality" : "Ainthi",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Bagwari",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Bhira",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Bungidhar",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Dadoli Talli",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Jainthi Dang",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Kafald",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Kaproli",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Kulyani",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Mason Chauthan",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Pokhri Choprakot",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Riksal",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Thalisain",
+      "Zipcode" : "246285"
+    }, {
+      "Locality" : "Baurari",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Gyansoo",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Kuttha",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Nelda",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "New Tehri Collectrate",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Pangerkhal",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Rajakhet",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Teehri Kutchery",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Tehri",
+      "Zipcode" : "249001"
+    }, {
+      "Locality" : "Anjanisain",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Garakot",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Gomukh",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Panchoor",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Paurikhal",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Raurdhar",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Toli",
+      "Zipcode" : "249121"
+    }, {
+      "Locality" : "Amni",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Bhainskot",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Darogi",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Hindolakhal",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Jamnikhal",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Kuddi",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Laloorikhal",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Mahad",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Palethi",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Pujargaon",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Sinwalidhar",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Tyuna",
+      "Zipcode" : "249122"
+    }, {
+      "Locality" : "Chheti",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Jakhnidhar",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Khandogi",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Patniyadevi",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Pipola",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Radhudhar",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Tipri",
+      "Zipcode" : "249123"
+    }, {
+      "Locality" : "Bhagirathipuram",
+      "Zipcode" : "249124"
+    }, {
+      "Locality" : "Chamiyala",
+      "Zipcode" : "249125"
+    }, {
+      "Locality" : "Bhallegaon",
+      "Zipcode" : "249126"
+    }, {
+      "Locality" : "Hinsriyakhal",
+      "Zipcode" : "249126"
+    }, {
+      "Locality" : "Souru",
+      "Zipcode" : "249126"
+    }, {
+      "Locality" : "Mori (Tehri Garhwal)",
+      "Zipcode" : "249128"
+    }, {
+      "Locality" : "Dharkot-udaikot",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "Jaakhchoura",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "Joulangi",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "Kafal Pani",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "Nail",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "V.K.Puram",
+      "Zipcode" : "249130"
+    }, {
+      "Locality" : "Aleru",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Bhladiana",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Chherabdhar",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Dharkot",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Kamand",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Kandikhal",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Madan Negi",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Okhla",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Pathiyana",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Ratnomalla",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Roulakot",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Siyansu",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Sour Uppu",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Thouldhar",
+      "Zipcode" : "249131"
+    }, {
+      "Locality" : "Bagiyal",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Chham",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Kaushal",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Lawani",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Maindkhal",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Sarot",
+      "Zipcode" : "249132"
+    }, {
+      "Locality" : "Dhalwala",
+      "Zipcode" : "249137"
+    }, {
+      "Locality" : "Munikireti",
+      "Zipcode" : "249137"
+    }, {
+      "Locality" : "Gadoli",
+      "Zipcode" : "249141"
+    }, {
+      "Locality" : "Gadoli",
+      "Zipcode" : "249141"
+    }, {
+      "Locality" : "Anandchowk",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Bahera",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Chamma",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Chopriyalgaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Hatwalgaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Jad Gaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Jamthiyal Gaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Kakhwari",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Kanatal",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Kotmaniyar",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Manjhgaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Nagdev Kudiyal Gaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Ragar Gaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Ringalgarh",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Saud",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Sour",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Uniyalgaon",
+      "Zipcode" : "249145"
+    }, {
+      "Locality" : "Amsari",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Chaka",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Gajja",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Jakholi",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Kathud",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Khaand",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Kothi",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Lawa",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Maroragaad",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Naicholi",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Palkot",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Pokhri",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Ranakot",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Sain",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Shantipur Sondi",
+      "Zipcode" : "249146"
+    }, {
+      "Locality" : "Akhori",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Bajiyalgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Beena",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Bhatgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Bhatgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Bhatwara",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Bhigun",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Binaykhal",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Chamiyala",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Chanji",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Dangi",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Dewath",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Dhopardhar",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Dhounikhal",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Falenda",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Ghansali",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Ghuttu",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Hadiyanakholi",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Jakhniyali",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Kafolgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Kandarsyun",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Kathoor",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Khawara",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Maighadhar",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Malgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Malyakot",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Muyalgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Odadhar",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Pangriyana",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Pokhar",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Purwalgaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Samangaon",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Sankri",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Siliyara",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Thati",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Tisriyara",
+      "Zipcode" : "249155"
+    }, {
+      "Locality" : "Badiyargarh",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Badon",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Chourikhal",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Daang",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Dangchoura",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Dharidhungsir",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Dharkot",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Dugadda",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Ghandiyaldhr",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Jakhand",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Jakhidagar",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Kafna",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Khola",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Kilkileshwar",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Kirtinagar",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Magron",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Maletha",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Manjkot",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Nyuli",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Poukhal",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Silkakhal",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Takoli",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Talli Ringoli",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Thati Dagar",
+      "Zipcode" : "249161"
+    }, {
+      "Locality" : "Bharkot",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Dhountri",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Kandiyalgaon",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Khalargaon",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Khambakhal",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Kotalgaon",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Lambgaon",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Majafgaon",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Mukhem",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Pratap Nagar",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Raika",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Raimer",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Rounad",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Rouniya",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Serabagwan",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Siree",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Thapla",
+      "Zipcode" : "249165"
+    }, {
+      "Locality" : "Agar",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Bagi",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Banali",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Berni",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Chamolgaon",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Duwadhar",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Dyuli",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Fakot",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Jajal",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Jardhargaon",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Nagni",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Narendra Nagar (Tehri Garhwal)",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Odada",
+      "Zipcode" : "249175"
+    }, {
+      "Locality" : "Bangar",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Bangsil",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Bhalkatal",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Bhawan",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Chulyani",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Dhanolti",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Dwargarh",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Khyarsi",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Kinsoo",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Parogi",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Sadav",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Sirs",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Suwakholi",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Thatyur",
+      "Zipcode" : "249180"
+    }, {
+      "Locality" : "Barkot",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Bhaatgaon",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Bhaneldi",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Chandreshwar",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Dalla Argrh",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Devtadhar",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Gadoliya",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Ghonti",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Gona",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Kireth",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Kothiyara",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Mandar",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Pilkhi",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Semandidhar",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Sounp",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Sunargaon",
+      "Zipcode" : "249181"
+    }, {
+      "Locality" : "Kotipav",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Maror",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Mogi",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Myanilaloor",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Pantwari",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Sendul",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Sigunisera",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Srikot",
+      "Zipcode" : "249186"
+    }, {
+      "Locality" : "Atali -byasi",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Bachhelikhal",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Bairaigaon",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Banskatal",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Bharpur",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Gulardogi",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Kakhoor",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Kaudiyala",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Kharsadi",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Kyara",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Manderigaon",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Manjiyari",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Mindath",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Mundala",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Naidogi",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Shivanand Nagar",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Shivpuri",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Silkani",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Tapoban",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Timli",
+      "Zipcode" : "249192"
+    }, {
+      "Locality" : "Gairi",
+      "Zipcode" : "249196"
+    }, {
+      "Locality" : "Nagrajadhar",
+      "Zipcode" : "249196"
+    }, {
+      "Locality" : "Badshahithaul",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Chamani",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Kyari",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Lamkot",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Nakot",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Ranichauri",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Sabli",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Sweer",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Tingri",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Tungoli",
+      "Zipcode" : "249199"
+    }, {
+      "Locality" : "Deoprayag Bazar",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Devprayag",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Dondal",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Ghindwara",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Jamri",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Kulasu",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Kundi",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Muchiyali",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Ranakot",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Silsu",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Sirala",
+      "Zipcode" : "249301"
+    }, {
+      "Locality" : "Laxmanjhula (B)",
+      "Zipcode" : "249302"
+    }, {
+      "Locality" : "Diuli",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Mala",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Maral",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Mohanchatti",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Nail",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Neelkanth Mahadev",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Swargashram",
+      "Zipcode" : "249304"
+    }, {
+      "Locality" : "Chila Colony",
+      "Zipcode" : "249306"
+    }, {
+      "Locality" : "Ganga Bhogpur",
+      "Zipcode" : "249306"
+    }, {
+      "Locality" : "Mauna Garhwa",
+      "Zipcode" : "274604"
+    }, {
+      "Locality" : "Garhwar",
+      "Zipcode" : "283114"
+    }, {
+      "Locality" : "Garhwai",
+      "Zipcode" : "284202"
+    }, {
+      "Locality" : "Garhwa Kala",
+      "Zipcode" : "485112"
+    }, {
+      "Locality" : "Garhwa",
+      "Zipcode" : "486117"
+    }, {
+      "Locality" : "Amrora",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Arangi",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Arsali",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Bhawnathpur",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Chapri",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Jhagra Khand",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Kaetar",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Kariwadih",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Kharaundhi",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Makri",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Pachadumar",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Parsodih",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Partikushwani",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Pipra",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Raji",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Torelawa",
+      "Zipcode" : "822112"
+    }, {
+      "Locality" : "Adar",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Adhar",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Anraj Nawdiha",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Ataula",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Balekhar",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Bardiha",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Belhara",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Chinia",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Dandai",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Deogana",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Doll",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Dumariya",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Garhwa",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Harigawan",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Hasandag",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Hoor",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Jarhi",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Kalyanpur",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Karuie",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Lagma",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Manjhiaon",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Meral",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Nawada",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Okhargara",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Poska",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Ranicheri",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Rankabuliya",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Ranpura",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Raro",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Soh",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Tildag",
+      "Zipcode" : "822114"
+    }, {
+      "Locality" : "Manjhigaon",
+      "Zipcode" : "822118"
+    }, {
+      "Locality" : "Bansa",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Belchampa",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Bhandar",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Bhikhahi",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Bisrampur",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Danda",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Dihariya",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Gari",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Gharatia",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Kadhwan",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Kajru Khurd",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Ketat Kala",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Kutmu",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Lalgarh",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Murma Kala",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Nawgarha",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Pandu",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Rajhara Rest",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Ratnag",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Rehala",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Sangrahekala",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Sigsigi",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Tisibar",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Tolera",
+      "Zipcode" : "822124"
+    }, {
+      "Locality" : "Bairiya",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Bandu",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Bargarh",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Godarmana",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Kanjia",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Karso",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Khajutia Barwadih",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Naw Bandaria",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Paraswar",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Ramkanda",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Ranka Raj",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Sowadih",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Sribishrampur",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Tamge Kala",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Udaipur",
+      "Zipcode" : "822125"
+    }, {
+      "Locality" : "Bana",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Banka",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Bhagodih",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Bulka",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Dwandkara",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Gamharia",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Ganiarikala",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Kocheya",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Latdag",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Mandwanima",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Pipri Kala",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Ramna (Garhwa)",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Rohila",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Silidag",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Sonehara",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Tatidiri",
+      "Zipcode" : "822128"
+    }, {
+      "Locality" : "Bhawnathpur TownShip",
+      "Zipcode" : "822129"
+    }, {
+      "Locality" : "Meral",
+      "Zipcode" : "822133"
+    }, {
+      "Locality" : "Bandu",
+      "Zipcode" : "829201"
+    }, {
+      "Locality" : "Garhwa",
+      "Zipcode" : "843334"
+    } ]
+  }, {
+    "city" : "Ghatshila",
+    "localities" : [ ]
+  }, {
+    "city" : "Giridih",
+    "localities" : [ {
+      "Locality" : "Giridih Bazar",
+      "Zipcode" : "815301"
+    }, {
+      "Locality" : "Giridih",
+      "Zipcode" : "815301"
+    }, {
+      "Locality" : "Giridih  Town",
+      "Zipcode" : "815302"
+    } ]
+  }, {
+    "city" : "Godda",
+    "localities" : [ {
+      "Locality" : "Godda Sighari",
+      "Zipcode" : "742161"
+    }, {
+      "Locality" : "Bahdurchak",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Beniadih",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Bhagmara",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Bhagya",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Boarijore",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Chapri",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Maniarkajral",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Mordiha",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Rangachak",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Thakurgangti",
+      "Zipcode" : "813208"
+    }, {
+      "Locality" : "Kairasol",
+      "Zipcode" : "814102"
+    }, {
+      "Locality" : "Amlo",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Baksara",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Basantpur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Chapri",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Deobandha",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Dubrajpur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Fasia",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Gandhigram",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Gangtaklan",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Ghatdumariya",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Ghatkusmani",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Godda College",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Godda",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Gumma",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Haripur Gorbana",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Hilaway",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Jaminipaharpur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Khatnai",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Korkaghat",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Kouribahiar",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Latauna",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Lohbandha",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Lukluki",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Makhni",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Malini",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Malrampur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Mohanpur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Motia",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Motiya Dumariya",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Nepura",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Pathra",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Ramla Dikwani",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Saidapur",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Sarba",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Simarda",
+      "Zipcode" : "814133"
+    }, {
+      "Locality" : "Bandanbar",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Barmasiya",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Bhadharia",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Ghat Kuruwa",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Kerwarbelsar",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Khariani",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Kusumghati",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Lahati",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Parspani",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Pathergama",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Pipra",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Raja Bhitaa",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "Tardiha",
+      "Zipcode" : "814147"
+    }, {
+      "Locality" : "M. Chikaniya",
+      "Zipcode" : "814151"
+    }, {
+      "Locality" : "Agiyamore",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Asarimadhuri",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Baghmara",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Bara Banghi",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Burhi Kura",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Chatra",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Dama",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Damruhat",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Danrey Katchery",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Debjore",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Deodawr",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Ghanghrabandh",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Hariyari",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Kairadih",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Kathaun",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Latta",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Mohani",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Nawdiha",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "P. Barmasiya",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Padampur",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Pasai",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Pindra Hat",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Raghunathpur Lathibari",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Salaiya",
+      "Zipcode" : "814153"
+    }, {
+      "Locality" : "Bhanjpur",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Bharta Chak",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Dharmodih",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Dighi",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Dighi",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Ghoothi",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Hanwara",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Kasba",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Koila",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Kushmahara",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Kushmil",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Logain",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Mahgama",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Mal Bhandaridih",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Mohanpur",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Naraini",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Naya Nagar",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Nunajore",
+      "Zipcode" : "814154"
+    }, {
+      "Locality" : "Azampakariya",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Basantrai",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Bisambharchak",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Biswaskhani",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "K. Parsa",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Kadma",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Kaitha",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Laxmipur Bhojichak",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Maheshtikri",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Mokalchak",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Parariya",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Parua",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Rupni",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Sahapur Beldiha",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Samri",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Sanour",
+      "Zipcode" : "814155"
+    }, {
+      "Locality" : "Bans Jori",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Chandanahat",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "China Dhab",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Ghatiyari",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Kurmichak",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Nunbatta",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Paharpur",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Sarouni Bazar",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Sunder Pahari",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Sundmara",
+      "Zipcode" : "814156"
+    }, {
+      "Locality" : "Adamdour",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Amour",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Amour",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Bajitpur",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Bajitpur",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Belbadda",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Dariapur",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Dewanchak",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Dighisiwanpur",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Doi",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Gorikitta",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Kasbadudhanichak",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Lakarmara",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Marpa",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Meharma",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Pratappur",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Surni",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Tularambhuska",
+      "Zipcode" : "814160"
+    }, {
+      "Locality" : "Banerchua",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Barasimra",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Gajanda",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Gorhia",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Kamaldouri",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Lalmatia Colliery",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Lohandia Bazar",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Madhurai",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Sarbhanga",
+      "Zipcode" : "814165"
+    }, {
+      "Locality" : "Dhamni",
+      "Zipcode" : "816102"
+    }, {
+      "Locality" : "Simlongcolliery",
+      "Zipcode" : "816102"
+    } ]
+  }, {
+    "city" : "Gomoh",
+    "localities" : [ {
+      "Locality" : "Gomoh",
+      "Zipcode" : "828401"
+    } ]
+  }, {
+    "city" : "Gumia",
+    "localities" : [ ]
+  }, {
+    "city" : "Gumla",
+    "localities" : [ {
+      "Locality" : "Gumlapur",
+      "Zipcode" : "505531"
+    }, {
+      "Locality" : "Amalia",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Asro",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Bharno",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Danekera",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Jamgain",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Jhikochatti",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Mahadeo Chegri",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Marasili",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Pabeya",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Turiamba",
+      "Zipcode" : "835203"
+    }, {
+      "Locality" : "Barwenagar",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Bindora",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Chainpur (Gumla)",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Dumarpath",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Harra",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Hesag",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Jamgain",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Janawal",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Jari",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Katkahi",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Kensir",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Kereng",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Kurumgarh",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Luru",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Putrungi",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Sikri",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Srinagar",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Tabela",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Tongo",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Tusgaon",
+      "Zipcode" : "835206"
+    }, {
+      "Locality" : "Armai",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Asani",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Baghima",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Dhedhouli",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Dumardih",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Gumla Bazar",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Gumla",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Kaliga",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Karomdi",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Karounda",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Kartick Oraon College",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Keshipara",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Khora",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Koleng",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Malai",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Marda",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Murkunda",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Parsa",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Patia",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Silam",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Taisera",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Telgaon",
+      "Zipcode" : "835207"
+    }, {
+      "Locality" : "Arangu",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Belagara",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Deoki",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Ghaghra",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Hutar",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Icha",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Kugaon",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Kugaon",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Nawadih",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Puto",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Sewsoreng",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Totambi",
+      "Zipcode" : "835208"
+    }, {
+      "Locality" : "Bargaon",
+      "Zipcode" : "835211"
+    }, {
+      "Locality" : "Bargaon",
+      "Zipcode" : "835211"
+    }, {
+      "Locality" : "Dumarpath",
+      "Zipcode" : "835212"
+    }, {
+      "Locality" : "Sona",
+      "Zipcode" : "835214"
+    }, {
+      "Locality" : "Bilingbira",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Kurum",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Lotwa",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Nathpur",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Obera Sundarpur",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Palkot",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Pojenga",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Sundaridih",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Tangaria",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Tapkara",
+      "Zipcode" : "835220"
+    }, {
+      "Locality" : "Kamdara",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Latra",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Pak R.S.",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Pimpi",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Pok R.S.",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Ramtolaya",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Salegutu",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Sarita",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Surhu",
+      "Zipcode" : "835227"
+    }, {
+      "Locality" : "Banaghutu",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Banai",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Basia",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Gangara",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Gara",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Haphu",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Konbirnawatoli",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Kumhari",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Longa",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Lungtu",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Mamarla",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Moreng",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Sukurda",
+      "Zipcode" : "835229"
+    }, {
+      "Locality" : "Bhagitoli",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Bhikhampur",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Bhikhampur",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Chiraiyan",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Dina",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Govindpur",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Hisri",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Khetli",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Lowabar",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Majhigaon",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Noadih",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Rajawal",
+      "Zipcode" : "835230"
+    }, {
+      "Locality" : "Adar",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Banari",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Bishunpur",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Harup",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Jamti",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Jarigutua",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Jori",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Kurag",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Marwa",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Marwai",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Ruki",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Salemnawatoli",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Sarango",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Sato",
+      "Zipcode" : "835231"
+    }, {
+      "Locality" : "Amgaon",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Binkera",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Kamta",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Karida",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Kondra",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Konkel",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Nawagarh (Gumla)",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Pulung",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Raidih",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Sursang",
+      "Zipcode" : "835232"
+    }, {
+      "Locality" : "Anjan",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Basua",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Eori",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Ghatgaon",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Gunia",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Kharka",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Kharka",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Kotam",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Nawadih",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Sakarpur Gamharia",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Toto",
+      "Zipcode" : "835233"
+    }, {
+      "Locality" : "Bhandra",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Sahijana",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Arko",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Bargaon",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Bargaon",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Bhurso",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Chharda",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Datia",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Jura",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Karanj",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Karkari",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Karomdajovasisai",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Murgu",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Nagar",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Nagpheni",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Olmunda",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Sakrauli",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Shiwnathpur",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Sisai (Gumla)",
+      "Zipcode" : "835324"
+    }, {
+      "Locality" : "Sogra",
+      "Zipcode" : "835324"
+    } ]
+  }, {
+    "city" : "Hazaribag",
+    "localities" : [ {
+      "Locality" : "Bara Bazar (Hazaribag)",
+      "Zipcode" : "825301"
+    }, {
+      "Locality" : "Boddam Bazar",
+      "Zipcode" : "825301"
+    }, {
+      "Locality" : "Distt. Board",
+      "Zipcode" : "825301"
+    }, {
+      "Locality" : "Hazaribagh",
+      "Zipcode" : "825301"
+    }, {
+      "Locality" : "Pethiatand",
+      "Zipcode" : "825301"
+    }, {
+      "Locality" : "Babhanbay",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "College More",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Hearanganj",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Jordag",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Kadma",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Lilanagar",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Morangi",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Nagrichurchu",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Nawada",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Nawada",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Rewali",
+      "Zipcode" : "825302"
+    }, {
+      "Locality" : "Chandwar",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Jagdishpur",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Korrah",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Oria",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Rolla",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Sitagarha",
+      "Zipcode" : "825303"
+    }, {
+      "Locality" : "Ambajit",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Badam",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Barkagaon",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Chepakala",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Garikala",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Gossaibalia",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Harli",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Hewai",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Kandaber",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Keredari",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Pandu",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Sanrh",
+      "Zipcode" : "825311"
+    }, {
+      "Locality" : "Banaso",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Bhelwara",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Bishungarh (Hazaribag)",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Govindpur Kala",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Hurlung",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Nawada",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Uchaghana",
+      "Zipcode" : "825312"
+    }, {
+      "Locality" : "Banahappa",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Bedam",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Daroo",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Harlipeto",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Jharpo",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Khambhwa",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Partanga",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Tatijharia",
+      "Zipcode" : "825313"
+    }, {
+      "Locality" : "Konardam",
+      "Zipcode" : "825315"
+    }, {
+      "Locality" : "BSF Meru",
+      "Zipcode" : "825317"
+    }, {
+      "Locality" : "Jagarnath Dham",
+      "Zipcode" : "825317"
+    }, {
+      "Locality" : "Bahimar",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Danr",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Katkamsandi",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Lupung",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Pabra",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Pabra",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Pelawal",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Reformatory School",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Sahpur",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Sultana",
+      "Zipcode" : "825319"
+    }, {
+      "Locality" : "Barkatha",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Barwan",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Belkapi",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Gangpacho",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Kapka",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Shiladih",
+      "Zipcode" : "825323"
+    }, {
+      "Locality" : "Charhi",
+      "Zipcode" : "825336"
+    }, {
+      "Locality" : "Jarwa",
+      "Zipcode" : "825336"
+    }, {
+      "Locality" : "Lohandi",
+      "Zipcode" : "825401"
+    }, {
+      "Locality" : "Bariath",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Bhusai",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Deokuli",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Dumraon",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Ichak",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Kariatpur",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Punai",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Ratanpur",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Tilra",
+      "Zipcode" : "825402"
+    }, {
+      "Locality" : "Barhi (Hazaribag)",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Deochanda",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Gouriakarma",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Jhurjhuri",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Kewal",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Nagarbarsot",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Padaria",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Rasoiyadhamna",
+      "Zipcode" : "825405"
+    }, {
+      "Locality" : "Basaria",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Bela",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Brindawan",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Chouparan",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Dadpur",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Lohandi",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Narchahi",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Pandeybara",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Rampur",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Rampur",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Selhara",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Singhrawan",
+      "Zipcode" : "825406"
+    }, {
+      "Locality" : "Dadighaghar",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Dantokhurd",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Jihu",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Kutipisi",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Manjhgawan",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Padma",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Saraiya",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Surajpura",
+      "Zipcode" : "825411"
+    }, {
+      "Locality" : "Hesalong",
+      "Zipcode" : "829101"
+    } ]
+  }, {
+    "city" : "Hussainabad",
+    "localities" : [ {
+      "Locality" : "Hussainabad Bhanwara",
+      "Zipcode" : "251309"
+    }, {
+      "Locality" : "Hussainabad",
+      "Zipcode" : "508212"
+    }, {
+      "Locality" : "Hussainabad",
+      "Zipcode" : "811105"
+    }, {
+      "Locality" : "Hussainabad",
+      "Zipcode" : "815353"
+    } ]
+  }, {
+    "city" : "Jamshedpur",
+    "localities" : [ {
+      "Locality" : "Jamshedpur",
+      "Zipcode" : "831001"
+    }, {
+      "Locality" : "CMO TMH Bistupur Jamshedpur",
+      "Zipcode" : "831030"
+    }, {
+      "Locality" : "TISCO  Central Mailing Section  Jamshedpur",
+      "Zipcode" : "831031"
+    }, {
+      "Locality" : "Voltas Pvt. Ltd. Diagonal Road  Bistupur  Jamshedpur",
+      "Zipcode" : "831032"
+    }, {
+      "Locality" : "Tata Pigment  Jugsalai  Jamshedpur",
+      "Zipcode" : "831033"
+    }, {
+      "Locality" : "Chairman Aidtyapur Industrial Area Development Auth",
+      "Zipcode" : "831034"
+    }, {
+      "Locality" : "Director XLRI  Circuit House Area  Jamshedpur",
+      "Zipcode" : "831035"
+    }, {
+      "Locality" : "Principal  Co-Operative College  Circuit House  Area",
+      "Zipcode" : "831036"
+    }, {
+      "Locality" : "Principal Women's college  Bistupur  Jamshedpur",
+      "Zipcode" : "831037"
+    }, {
+      "Locality" : "Narway Ram &amp  Company Ltd.  Bistupur  Jamshedpur",
+      "Zipcode" : "831038"
+    }, {
+      "Locality" : "National Metallurgical Laboratory  Jamshedpur",
+      "Zipcode" : "831039"
+    }, {
+      "Locality" : "Tube Division  Jamshedpur",
+      "Zipcode" : "831040"
+    } ]
+  }, {
+    "city" : "Jamtara",
+    "localities" : [ {
+      "Locality" : "Dhasania",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Fatehpur (Jamtara)",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "J.Khairbani",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Jamjori",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Kairabani",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "T.K.Gram",
+      "Zipcode" : "814166"
+    }, {
+      "Locality" : "Asanchua",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Bagdaha",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Bena",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Bewa",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Bindapathar",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Chalna Dhobna",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Chapuria",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Chirudih Bakudih",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Chitra",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Dakhin Bahal",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Dhandra",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Geria",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Guhiyazori",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Gundali Pahari",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Harirakha",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Jamtara Court",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Jamtara",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Kasitar",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Koiri Jamua",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Ladhna",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Manghladih",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Mejhia",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Mohana Bank",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Noni",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Pabia",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Palojori",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Panjania",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Pattajori Kajra",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Sonbad",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Tilaki",
+      "Zipcode" : "815351"
+    }, {
+      "Locality" : "Amdiha",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Amjora Koiridih",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Bagrudih",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Chainpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "D. Nayadih",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Dewalbari",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Gokula",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Kalajhariya",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Karmatar",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Kurta",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Kurwa",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Mohanpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Narayanpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Narayanpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Pathrodih",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Ranitanr",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Sabanpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Sinduri",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Sitalpur",
+      "Zipcode" : "815352"
+    }, {
+      "Locality" : "Chandra Dhipa",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Kelahi",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Kewatjali",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Mihijam",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Sahardal",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Tarrah",
+      "Zipcode" : "815354"
+    }, {
+      "Locality" : "Nala",
+      "Zipcode" : "815355"
+    }, {
+      "Locality" : "Amba",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Babupur",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Bagdehri",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Charakmara",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Khajuree",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Kundahit",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Laykapur",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Nagri",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Palajuri",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Satki",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Sudrakshipur",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Tilabad",
+      "Zipcode" : "815359"
+    }, {
+      "Locality" : "Jamtara",
+      "Zipcode" : "825106"
+    } ]
+  }, {
+    "city" : "Jhumri Tilaiya",
+    "localities" : [ ]
+  }, {
+    "city" : "Khunti",
+    "localities" : [ {
+      "Locality" : "Khunti Bujurg",
+      "Zipcode" : "261505"
+    }, {
+      "Locality" : "Rarikhunti",
+      "Zipcode" : "262529"
+    }, {
+      "Locality" : "Tetalkhunti",
+      "Zipcode" : "493890"
+    }, {
+      "Locality" : "Piparkhunti",
+      "Zipcode" : "495117"
+    }, {
+      "Locality" : "Khunti",
+      "Zipcode" : "733202"
+    }, {
+      "Locality" : "Gahamkhunti",
+      "Zipcode" : "759027"
+    }, {
+      "Locality" : "Khuntiapada",
+      "Zipcode" : "762026"
+    }, {
+      "Locality" : "Khuntipadar",
+      "Zipcode" : "764070"
+    }, {
+      "Locality" : "Tentulikhunti",
+      "Zipcode" : "764070"
+    }, {
+      "Locality" : "Ghodakhuntia",
+      "Zipcode" : "764072"
+    }, {
+      "Locality" : "Khuntia",
+      "Zipcode" : "766103"
+    }, {
+      "Locality" : "Tentulikhunti",
+      "Zipcode" : "767037"
+    }, {
+      "Locality" : "Khunti",
+      "Zipcode" : "832404"
+    }, {
+      "Locality" : "Khunti",
+      "Zipcode" : "835210"
+    }, {
+      "Locality" : "Khuntitoli",
+      "Zipcode" : "835223"
+    }, {
+      "Locality" : "Kjijra",
+      "Zipcode" : "835235"
+    }, {
+      "Locality" : "Simardih",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Khunti",
+      "Zipcode" : "852137"
+    } ]
+  }, {
+    "city" : "Lohardaga",
+    "localities" : [ {
+      "Locality" : "Tiril",
+      "Zipcode" : "834004"
+    }, {
+      "Locality" : "Lame Baragaon",
+      "Zipcode" : "834009"
+    }, {
+      "Locality" : "Champijaria",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Chandujima",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Chiri",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Henjla",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Jingi",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Kurse",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Kuru",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Landupsenha",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Lowagain",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Opa",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Pandri",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Salgi",
+      "Zipcode" : "835213"
+    }, {
+      "Locality" : "Jobhipath",
+      "Zipcode" : "835218"
+    }, {
+      "Locality" : "Netarhat",
+      "Zipcode" : "835218"
+    }, {
+      "Locality" : "Arkosa",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Arru",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Arya",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Badla",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Bagha",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Bagru Hills",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Bagru Mines",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Bhatkhijri",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Butisenha",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Charhu",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Daru",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Dundru",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Gageya",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Harmu",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Hasapiri",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Hesway",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Hirhi",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Hisri",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Irga R.S.",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Jorisaheda",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Juria",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Kisko",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Koarambe",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Kujra",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Larango",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Lohardaga Baza R",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Lohardaga Court",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Lohardaga",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Masmano",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Mungo",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Nagni",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Narinawadih",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Pesrar",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Puso",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Senha",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Sithio",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Tisiya",
+      "Zipcode" : "835302"
+    }, {
+      "Locality" : "Kharta",
+      "Zipcode" : "835325"
+    }, {
+      "Locality" : "Sinjo",
+      "Zipcode" : "835325"
+    } ]
+  }, {
+    "city" : "Madhupur",
+    "localities" : [ {
+      "Locality" : "Madhupuri",
+      "Zipcode" : "206301"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "222202"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "224125"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "230403"
+    }, {
+      "Locality" : "Madhupura",
+      "Zipcode" : "231216"
+    }, {
+      "Locality" : "Madhupuri",
+      "Zipcode" : "262203"
+    }, {
+      "Locality" : "Madhupur Jambur",
+      "Zipcode" : "362150"
+    }, {
+      "Locality" : "Madhupura Market",
+      "Zipcode" : "380004"
+    }, {
+      "Locality" : "Madhupuri",
+      "Zipcode" : "481661"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "721516"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "721516"
+    }, {
+      "Locality" : "Madhupur Barduari",
+      "Zipcode" : "733134"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "736165"
+    }, {
+      "Locality" : "Madhupur Colony",
+      "Zipcode" : "742101"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "742121"
+    }, {
+      "Locality" : "Bajupur Madhupur",
+      "Zipcode" : "742148"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "754204"
+    }, {
+      "Locality" : "Garhmadhupur",
+      "Zipcode" : "755023"
+    }, {
+      "Locality" : "Madhupura",
+      "Zipcode" : "756035"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "756132"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "766110"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "782003"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "785104"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "787033"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "799100"
+    }, {
+      "Locality" : "Madhupur Bazar",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "815353"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "832401"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "833220"
+    }, {
+      "Locality" : "Madhupur",
+      "Zipcode" : "847306"
+    } ]
+  }, {
+    "city" : "Mihijam",
+    "localities" : [ {
+      "Locality" : "Mihijam",
+      "Zipcode" : "815354"
+    } ]
+  }, {
+    "city" : "Musabani",
+    "localities" : [ ]
+  }, {
+    "city" : "Pakaur",
+    "localities" : [ {
+      "Locality" : "Behta Pakauri",
+      "Zipcode" : "261208"
+    } ]
+  }, {
+    "city" : "Patratu",
+    "localities" : [ {
+      "Locality" : "Patratu Diesel Colony ND",
+      "Zipcode" : "829118"
+    }, {
+      "Locality" : "Patratu",
+      "Zipcode" : "829118"
+    }, {
+      "Locality" : "Patratu TPS",
+      "Zipcode" : "829119"
+    }, {
+      "Locality" : "Patratu",
+      "Zipcode" : "835214"
+    } ]
+  }, {
+    "city" : "Phusro",
+    "localities" : [ {
+      "Locality" : "Phusro Bazar",
+      "Zipcode" : "829144"
+    } ]
+  } ]
+}

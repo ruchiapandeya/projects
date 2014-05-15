@@ -1,0 +1,333 @@
+{
+  "ID" : "30",
+  "Name" : "Nagaland",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Dimapur",
+    "localities" : [ {
+      "Locality" : "Chumukedima",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Khopoanaula",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Moaikam",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Nihekhu",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "P C College",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Pimla",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Tenyiphe",
+      "Zipcode" : "797103"
+    }, {
+      "Locality" : "Agri College",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Jharnapani",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Khaibung",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Maova",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Medziphema",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Molvom",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Pherima",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Piphima",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Punglwa",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Sirhima",
+      "Zipcode" : "797106"
+    }, {
+      "Locality" : "Dimapur",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Doyapur",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Hening Kunglwa",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Jalukiekam",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Khermahal",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Kuda",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Nuiland",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Phaipijan",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Ralan",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Razaphima",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Singrijan",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Yampha",
+      "Zipcode" : "797112"
+    }, {
+      "Locality" : "Duncan Basti",
+      "Zipcode" : "797113"
+    }, {
+      "Locality" : "Industrial Estate",
+      "Zipcode" : "797113"
+    }, {
+      "Locality" : "Lengrijan",
+      "Zipcode" : "797113"
+    }, {
+      "Locality" : "New Nepaligaon",
+      "Zipcode" : "797113"
+    }, {
+      "Locality" : "Nst Colony",
+      "Zipcode" : "797113"
+    }, {
+      "Locality" : "Aoyimti",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Artc",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Daroga Pathar",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Diphupar",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Eralibill",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Showba Old",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Suger Mill",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Sukhovi",
+      "Zipcode" : "797115"
+    }, {
+      "Locality" : "Dimapur Bazar",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Khehekhu",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Kuhuboto",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Kushiabill",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Padampukhuri",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Vihokhu",
+      "Zipcode" : "797116"
+    }, {
+      "Locality" : "Circular Road",
+      "Zipcode" : "797117"
+    }, {
+      "Locality" : "Pwd Colony",
+      "Zipcode" : "797117"
+    }, {
+      "Locality" : "Rangapahar",
+      "Zipcode" : "797117"
+    }, {
+      "Locality" : "Singal Village",
+      "Zipcode" : "797117"
+    }, {
+      "Locality" : "Thahekhu",
+      "Zipcode" : "797117"
+    }, {
+      "Locality" : "Zeliangrong",
+      "Zipcode" : "797117"
+    } ]
+  }, {
+    "city" : "Kohima*",
+    "localities" : [ ]
+  }, {
+    "city" : "Mokokchung",
+    "localities" : [ {
+      "Locality" : "Alichen",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Aolijen",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Arree Old",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Changki",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Chare",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Chungtia",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Fazl Ali College",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Kubza",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Longkhum",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Longmisa",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Longsa",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Mangmentong",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Mokokchung",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Nst Colony",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "S. E. Colony",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Tronger",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Ungma",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "V. K. Town",
+      "Zipcode" : "798601"
+    }, {
+      "Locality" : "Alungkima",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Alungtaki",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Chungtia Yimsen",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Khari",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Longchem",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Longnak",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Mongchen",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Mongkholemba",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Waromung",
+      "Zipcode" : "798604"
+    }, {
+      "Locality" : "Chantongia",
+      "Zipcode" : "798613"
+    }, {
+      "Locality" : "Merangkong",
+      "Zipcode" : "798613"
+    }, {
+      "Locality" : "Phangsang",
+      "Zipcode" : "798613"
+    }, {
+      "Locality" : "Yaongyimsen",
+      "Zipcode" : "798613"
+    }, {
+      "Locality" : "Chuchuyimlang",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Longkong",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Mongsenyimti",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Salulamang",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Ungar",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Yisemyong",
+      "Zipcode" : "798614"
+    }, {
+      "Locality" : "Impur",
+      "Zipcode" : "798615"
+    }, {
+      "Locality" : "Kubulong",
+      "Zipcode" : "798615"
+    }, {
+      "Locality" : "Longchang",
+      "Zipcode" : "798615"
+    }, {
+      "Locality" : "Sungratsu",
+      "Zipcode" : "798615"
+    }, {
+      "Locality" : "Khensa",
+      "Zipcode" : "798617"
+    }, {
+      "Locality" : "Opangkong",
+      "Zipcode" : "798617"
+    }, {
+      "Locality" : "Asangma",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Barakangtsung",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Luyang Valley",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Molungkhimong",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Molungyimsen",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Tamlu",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Tuli",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Wamaken",
+      "Zipcode" : "798618"
+    }, {
+      "Locality" : "Paper Nagar",
+      "Zipcode" : "798623"
+    } ]
+  } ]
+}

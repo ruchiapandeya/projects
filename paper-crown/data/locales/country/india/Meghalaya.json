@@ -1,0 +1,18 @@
+{
+  "ID" : "33",
+  "Name" : "Meghalaya",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Jowai",
+    "localities" : [ {
+      "Locality" : "Jowai",
+      "Zipcode" : "793150"
+    } ]
+  }, {
+    "city" : "Nongstoin",
+    "localities" : [ {
+      "Locality" : "Nongstoin",
+      "Zipcode" : "793119"
+    } ]
+  } ]
+}

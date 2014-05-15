@@ -1,0 +1,96 @@
+{
+  "ID" : "15",
+  "Name" : "Goa",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Aldona",
+    "localities" : [ {
+      "Locality" : "Aldona",
+      "Zipcode" : "403508"
+    } ]
+  }, {
+    "city" : "Curchorem Cacora",
+    "localities" : [ ]
+  }, {
+    "city" : "Goa Velha",
+    "localities" : [ {
+      "Locality" : "Goa -velha",
+      "Zipcode" : "403108"
+    }, {
+      "Locality" : "Velha-goa",
+      "Zipcode" : "403402"
+    } ]
+  }, {
+    "city" : "Madgaon",
+    "localities" : [ {
+      "Locality" : "Madgaon",
+      "Zipcode" : "343025"
+    } ]
+  }, {
+    "city" : "Mapusa",
+    "localities" : [ {
+      "Locality" : "Mapusa I.E.",
+      "Zipcode" : "403507"
+    }, {
+      "Locality" : "Mapusa",
+      "Zipcode" : "403507"
+    } ]
+  }, {
+    "city" : "Margao",
+    "localities" : [ {
+      "Locality" : "Kumargaon",
+      "Zipcode" : "243601"
+    }, {
+      "Locality" : "Margaon",
+      "Zipcode" : "249196"
+    }, {
+      "Locality" : "Gandhi Market Complex Margao",
+      "Zipcode" : "403601"
+    }, {
+      "Locality" : "Margao",
+      "Zipcode" : "403601"
+    }, {
+      "Locality" : "Kamargaon",
+      "Zipcode" : "414005"
+    }, {
+      "Locality" : "Kamargaon (Washim)",
+      "Zipcode" : "444110"
+    }, {
+      "Locality" : "Margaon",
+      "Zipcode" : "481778"
+    }, {
+      "Locality" : "Dubeumargaon",
+      "Zipcode" : "494223"
+    }, {
+      "Locality" : "Umargaon",
+      "Zipcode" : "494226"
+    }, {
+      "Locality" : "Umargaon",
+      "Zipcode" : "494226"
+    }, {
+      "Locality" : "Kamargaon",
+      "Zipcode" : "781317"
+    }, {
+      "Locality" : "Kumargaon",
+      "Zipcode" : "782125"
+    }, {
+      "Locality" : "Kamargaonchariali",
+      "Zipcode" : "785614"
+    }, {
+      "Locality" : "Kamargaon (Golaghat)",
+      "Zipcode" : "785619"
+    }, {
+      "Locality" : "Napamuakamargaon",
+      "Zipcode" : "785625"
+    }, {
+      "Locality" : "Kamargaon",
+      "Zipcode" : "786614"
+    } ]
+  }, {
+    "city" : "Marmagao",
+    "localities" : [ ]
+  }, {
+    "city" : "Panaji*",
+    "localities" : [ ]
+  } ]
+}

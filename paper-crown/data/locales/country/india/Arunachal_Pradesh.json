@@ -1,0 +1,60 @@
+{
+  "ID" : "17",
+  "Name" : "Arunachal Pradesh",
+  "Type" : "state",
+  "cities" : [ {
+    "city" : "Along",
+    "localities" : [ {
+      "Locality" : "Balongi",
+      "Zipcode" : "140301"
+    }, {
+      "Locality" : "Kalongpar Halowagaon",
+      "Zipcode" : "782141"
+    }, {
+      "Locality" : "Dalong Ghat",
+      "Zipcode" : "784528"
+    }, {
+      "Locality" : "Palonghat",
+      "Zipcode" : "788116"
+    }, {
+      "Locality" : "Along",
+      "Zipcode" : "791001"
+    }, {
+      "Locality" : "Mukhialong",
+      "Zipcode" : "793160"
+    }, {
+      "Locality" : "Phalonger",
+      "Zipcode" : "798611"
+    }, {
+      "Locality" : "Lawalong",
+      "Zipcode" : "825103"
+    }, {
+      "Locality" : "Hesalong",
+      "Zipcode" : "829101"
+    }, {
+      "Locality" : "Balalong",
+      "Zipcode" : "834004"
+    } ]
+  }, {
+    "city" : "Bomdila",
+    "localities" : [ {
+      "Locality" : "Bomdila",
+      "Zipcode" : "790001"
+    } ]
+  }, {
+    "city" : "Itanagar*",
+    "localities" : [ ]
+  }, {
+    "city" : "Naharlagun",
+    "localities" : [ {
+      "Locality" : "Naharlagun",
+      "Zipcode" : "791110"
+    } ]
+  }, {
+    "city" : "Pasighat",
+    "localities" : [ {
+      "Locality" : "Pasighat",
+      "Zipcode" : "791102"
+    } ]
+  } ]
+}

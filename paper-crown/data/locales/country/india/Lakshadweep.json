@@ -1,0 +1,45 @@
+{
+  "ID" : "19",
+  "Name" : "Lakshadweep",
+  "Type" : "Union Territory",
+  "cities" : [ {
+    "city" : "Amini",
+    "localities" : [ {
+      "Locality" : "Dudholi Bamini",
+      "Zipcode" : "442701"
+    }, {
+      "Locality" : "Bhamini",
+      "Zipcode" : "532456"
+    }, {
+      "Locality" : "Kamini",
+      "Zipcode" : "533216"
+    }, {
+      "Locality" : "Amini",
+      "Zipcode" : "682552"
+    }, {
+      "Locality" : "Bhaminiput",
+      "Zipcode" : "764005"
+    }, {
+      "Locality" : "Bhamini",
+      "Zipcode" : "764061"
+    }, {
+      "Locality" : "Bhamini",
+      "Zipcode" : "764073"
+    }, {
+      "Locality" : "Bhamini",
+      "Zipcode" : "765024"
+    }, {
+      "Locality" : "S.Dhamini",
+      "Zipcode" : "765029"
+    }, {
+      "Locality" : "Kamini Tea Estate",
+      "Zipcode" : "786191"
+    }, {
+      "Locality" : "Jaminipaharpur",
+      "Zipcode" : "814133"
+    } ]
+  }, {
+    "city" : "Kavaratti*",
+    "localities" : [ ]
+  } ]
+}
